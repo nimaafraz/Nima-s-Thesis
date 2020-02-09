@@ -1,0 +1,13 @@
+\onehalfspacing% set 1.5 line spacing
+% \doublespacing
+
+% redefine standard page styles
+\fancypagestyle{empty}{\pagestyle{twosidemine}}%
+\fancypagestyle{plain}{\pagestyle{twosidemine}} %
+\pagestyle{twosidemine}
+
+% set chapter marks (has to be done here, since the thesis.cls redefines them)
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.~\uppercase{#1}}{\thechapter.~\uppercase{#1}}}
+\renewcommand{\sectionmark}[1]{%
+\markright{\thesection~\uppercase{#1}}}

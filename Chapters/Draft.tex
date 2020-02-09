@@ -1,0 +1,26 @@
+
+% \subsection{\ac{PON} Multi-Tenancy}
+
+% In the rest of this section, we will look into the possible topologies and options for the sharable optical access networks, discussing their advantages and disadvantages. To further clarify, a shared \ac{PON} is meant to carry the traffic of multiple service providers, e.g., broadband, TV or mobile operators as its tenants. Each tenant is striving to meet the service specific requirements in different network layers, and they expect the \ac{PON} to also respect the demanded service differentiation.
+
+
+
+
+
+
+
+% \subsection{\ac{PON} Virtualisation}
+% In this section, We will introduce \ac{PON} virtualization as an enabler tool for multi-tenancy as it can provide the required flexibility for operator/service diversity in the network. As mentioned in the previous section, 
+
+\subsubsection{OpenCord}
+
+In addition to CORD, other researchers have also conducted some experimental work on the feasibility of network function virtualization in the context of converged wireless-optical networks.
+
+
+
+
+Chengjun et al. \cite{7744444,7876161} have proposed slice scheduling scheme capable of assigning bandwidth slices to different tenants. Each slice of a \ac{PON} bandwidth resource is defined as an upstream XG-PON frame. The Slice Scheduler is an interface located between the network operators and the \ac{PON} transmission convergence layer to enable several operators to control their share of bandwidth resources in a time division multiplexing (TDM) manner. The second stage is the frame scheduling stage which lets each operator employ their customized \ac{DBA} to serve the \acp{ONU}. As mentioned by the authors there is a trade-off between the isolation and efficiency of bandwidth allocation, i.e. a completely isolated scheduling - referred to as static bandwidth resource sharing (static BRS) - would waste the excess bandwidth of the light loaded Operators. While another operator may need extra bandwidth and an efficient bandwidth allocation - referred to as Dynamic BRS - requires some interaction between two operators. The reported simulation results show that dynamic BRS, the sharing weights of operators will adapt to the real-time requirements of the operators and achieves high bandwidth efficiency.
+However, The proposed frame-by-frame sharing of the \ac{PON} bandwidth will impose a minimum latency of a number of operators times frame duration for each operator's upstream transmission.
+
+In \cite{6381701} three different unbundling strategies for realizing multi-operator \ac{GPON} were analyzed to choose the most suitable option for ease of market entrance for new network operators comparing their deployment costs. The first approach is moving back the \ac{PON} splitter to mimic an architecture similar to a P2P in which a single fiber is dedicated to each customer. The second strategy is replicating the access network, i.e. replicating the fiber deployment in the drop segment (the branches of the \ac{PON} tree) by dedicating a splitter to each operator. Moreover, the last option studied is upgrading the current TDM \ac{PON} to WDM PON. The cost analysis was done for scenarios with low to high density of customers in a square kilometer, and the conclusion is that upgrading to WDM is the most efficient strategy to perform LLU using \ac{GPON}.
+

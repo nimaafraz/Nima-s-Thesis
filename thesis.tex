@@ -1,0 +1,117 @@
+\documentclass[11pt,a4paper,twoside,openright]{report}
+
+\input{src/setup_and_packages}
+
+\begin{document}
+%
+% required for IEEEtran bibtex style control (see bstcntrl entry in bib file)
+\bstctlcite{IEEEexample:BSTcontrol}
+
+% ----------- TITLEPAGE ---------
+\input{src/title.tex}
+
+\input{src/after_title_setup}
+
+\cleardoublepage
+\pagenumbering{gobble}% Remove page numbers (and reset to 1
+
+%\include{src/abstract}
+
+% New double page, start on right side with page numbers
+\cleardoublepage \pagenumbering{roman}
+
+\input{src/dedication.tex}
+
+\include{src/summary}
+
+\include{src/acknowledgements}
+
+% --------- LISTS -----------
+\listoftodos[Notes]
+\clearpage
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+
+% ----- START OF MAIN BODY -------
+
+\cleardoublepage%
+\pagenumbering{arabic}%
+\setlength{\parskip}{1ex plus 0.5ex minus 0.2ex} % add extra space between paragraphs
+
+\chapter{Introduction}
+\label{cpt:introduction}\acresetall%
+\input{Chapters/introduction}
+
+\chapter{Background}
+\label{cpt:background}\acresetall%
+\input{Chapters/background}
+
+\chapter{Methodology}
+\label{cpt:methodology}\acresetall%
+\input{Chapters/methodology}
+
+\chapter{DBA Virtualization to Enable PON Multi-Tenancy}
+\label{cpt:chapter_1}\acresetall%
+\input{Chapters/chapter_1}
+
+\chapter{PON Sharing Market Mechanism}
+\label{cpt:chapter_2}\acresetall%
+\input{Chapters/chapter_2}
+
+\chapter{Blockchain-Based Distributed Sharing Market}
+\label{cpt:chapter_3}\acresetall%
+\input{Chapters/chapter_3}
+
+\chapter{Conclusions and Future Work}
+\label{cpt:conclusion}
+\input{src/conclusion}
+
+% ------- APPENDICES ------------------
+
+%\begin{appendices}
+%\appendixtitleon
+\chapstar{Appendix} \label{cpt:appendix}
+%\chapter*{Appendix} \label{cpt:appendix}
+\setcounter{section}{0}
+\renewcommand*{\theHsection}{chY.\the\value{section}}
+\renewcommand{\thesection}{\Alph{section}}
+% \input{src/appendix}
+
+%\end{appendices}
+
+% ------ GLOSSARY OF SYMBOLS AND notation ---------
+\chapstar{Acronyms} \label{cpt:acronyms}\acresetall
+\input{src/acronyms}
+
+%
+%\chapstar{Notation} \label{cpt:notation}\acresetall
+%\input{src/acronyms}
+%-------------- BIBLIOGRAPHY -----------------------
+% hack pagestyle
+\fancypagestyle{empty}{\pagestyle{bibmine}}
+
+\begin{singlespacing}
+    \cleardoublepage\pagestyle{bibmine}%
+    \phantomsection%
+    \addcontentsline{toc}{chapter}{Bibliography}%
+    %\bibliographystyle{IEEEtranmineS} %abbrvnat}%siam, ifac  %acm, ieeetr, phjcp
+    \bibliographystyle{IEEEtran}
+    \bibliography{bib/thesis}
+\end{singlespacing}
+
+% ----- INDEX -------------------
+
+\cleardoublepage%
+\pagestyle{mine}%
+\fancypagestyle{empty}{\pagestyle{mine}}
+
+\begin{singlespacing}
+\small
+\printindex
+\end{singlespacing}
+
+
+\end{document}

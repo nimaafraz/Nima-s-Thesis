@@ -1,0 +1,551 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% PACKAGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% REQUIRED PACKAGES
+\usepackage[british]{babel}  % for American English
+\usepackage{setspace}         % for double and onehalf spacing
+
+\usepackage{soul,color} %for using hl to highlight thing in the thesis
+% \usepackage{subfig}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+%%% LISTS AND TABLES
+\usepackage{paralist}         % to have more compact lists
+%\usepackage{expdlist}         % to adjust layout of description environment
+%\usepackage{array}           % for enhancing tables
+%\usepackage{multirow}        % for centering over rows in tables
+\usepackage{colortbl}         % for colored rows or columns in tables
+\usepackage[table]{xcolor}
+
+\definecolor{LightCyan}{rgb}{0.88,1,1}
+\definecolor{Red}{rgb}{1,0,0}
+\definecolor{Green}{rgb}{0,1,0}
+
+\definecolor{DarkGreen}{rgb}{0,0.6,0}
+
+\definecolor{Blue}{rgb}{0,0,1}
+\definecolor{Orange}{rgb}{1,0.45,0}
+
+
+\definecolor{White}{rgb}{1,1,1}
+
+\newcolumntype{w}{>{\columncolor{White}}c}
+
+%%% MATH
+\usepackage{amsmath}          % enhance mathematics
+\usepackage{amsfonts}         % some further mathematic symbols
+\usepackage{amsthm}           % for designing theorems
+\usepackage{bm}               % provides bold math \bm{} command (vectors)
+%\usepackage{mathrsfs}          % provides math script font \mathscr{}
+
+
+%%% GRAPHICS, FIGURES, FLOATS
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{../figures/}{./figures/}{./figures/stochastic/}{../figures/stochastic/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.png,.eps,.jpg}
+        % for graphics
+%\usepackage{psfrag}           % replace text in eps graphics
+\usepackage{placeins}         % to place all pending floats before a new section begins
+% \usepackage{subfigure}        % multiple figures in one figure
+
+% \usepackage[font=small]{caption}
+
+%%% FONTS, FONTENCODING, COLOUR
+%\usepackage{textcomp}         % many useful symbols, including copyright and trademark
+%\usepackage{times}           % Times Font
+%\usepackage{palatino}        % Palatino Font
+\usepackage[T1]{fontenc}      % two use only nice Type 1 fonts (vector fonts)
+% \usepackage[latin1]{inputenc} % use non-ASCII characters in text directly
+\usepackage[utf8]{inputenc}
+\usepackage{color}			  % for coloured text
+\usepackage{eurosym}					% For euro symbols
+
+%%% PDF STUFF
+\usepackage[
+pdfpagelabels,                % uncomment this line for real page numbers in PDF
+breaklinks,
+plainpages=false,
+pdfstartview=FitH,
+hyperfootnotes=false,
+hidelinks]{hyperref}         % best with pdf output (links, bookmarks)
+% \usepackage{breakurl}         % for nice URLs with hyperref
+\usepackage{url}             % for nice URLs without hyperref
+
+\usepackage{pdfpages}
+%%% SECTIONING, BIBLIOGRAPHY, INDEX, LAYOUT
+\usepackage[printonlyused,nohyperlinks]{acronym}  					% nice list of acronyms
+%There is a problem with the implemenatation of the acronym package,
+%whenever a parameter is given the font is changed.
+
+\usepackage[acronym,nomain]{glossaries}
+\usepackage[numbers,sort&compress]{natbib}    % for natural Bibliographies
+% \usepackage[resetlabels,labeled]{multibib}
+% \usepackage{biblatex}
+
+%% The new list's label is "New" and will be titled "The other list".
+%% To put cites into this list, use \citeNew.
+% \newcites{New}{My Publications}
+% \usepackage{usebib}
+
+
+
+
+\usepackage[notbib]{tocbibind}        				% lists, indexes, bib in contents
+\usepackage[titletoc,page,header]{appendix}   % for a nicer appendix
+\usepackage{makeidx}         									% for creating indexes
+\usepackage{fancyhdr}            							% for nice headers and footers
+\usepackage[sf,bf]{titlesec}         % formating headings
+%\usepackage{titletoc}             % formating table of contents
+\usepackage{tocloft}      %% Control the formatting for TOC
+
+\usepackage{cleveref} %provides command cref for clever referencing
+
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{pifont}
+\usepackage{dsfont}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{stfloats,psfrag}
+% \usepackage[algoruled,medskip,dontprintsemicolon,linesnumbered,Algorithm]{algorithm}
+% \usepackage[noend]{algpseudocode}
+\usepackage[percent]{overpic}
+\usepackage[export]{adjustbox}
+
+\usepackage{enumitem}
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\usepackage{comment}
+% page layout
+\usepackage[a4paper,
+%hdivide={ ,16cm,1.8cm},
+bindingoffset=1.8cm,
+%scale=0.8,
+%hmarginratio=1:1,
+%right=2cm,
+left=2cm,
+top=1.8cm,
+headheight=15pt,
+%headsep=16pt,
+%footskip=28pt,
+%textheight=22.6cm,
+hcentering,
+vcentering,
+includeheadfoot]{geometry}
+
+% for better lists of citations (dont use cite package if the citations
+% numbers in the
+% text should be links to the bibliography - with hyperref)
+% \usepackage[noadjust]{cite}       % sorted and compressed list of num cites [3-6]
+%\usepackage[export]{splitbib}      % for sections in bibliography (AFTER HYPERREF!)
+% \usepackage[numbers,sort&compress]{natbib} % Natbib bibliography
+% \usepackage{hypernat}
+\usepackage{bibentry}
+% \nobibliography*
+
+
+%\usepackage{IEEEtrantools}   % for IEEE bib control entry
+\usepackage[redeflists]{IEEEtrantools}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% PERSONAL SETTINGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\authorname}{Nima~Afraz}   % Author
+
+% adjust colors for links to your liking (dark colors are better for S/W print)
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\definecolor{darkred}{rgb}{0.5,0,0}
+\hypersetup{
+   pdftitle={Nima-Afraz-PhD-Thesis},
+   pdfauthor={Nima~Afraz, Supervisor: Prof. Marco Ruffini},
+   pdfsubject={PhD Thesis},
+   pdfkeywords={},
+   pdfview=FitH,
+   pdfstartview=FitH,
+   bookmarksnumbered  
+   % uncomment this line if you want to print in copyshop!!!
+   % the links (biblinks, acronyms, ..) will not be coloured then
+   %,colorlinks,linkcolor=darkred,citecolor=darkgreen,urlcolor=darkblue
+}
+
+\usepackage{etex} %we need this package to resolve problems if too many packages are used
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{chronology} %we have to use our customized package due to problems with the used version of tikz, and conflict with units package
+\usepackage{units}            % for nicely typset units \unit[10]{kHz}
+\usepackage{footnote}
+\usepackage{hhline}
+%\usepackage{subcaption}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+
+\newcommand{\Mc}{\mathcal{M}}
+\newcommand{\Lc}{\mathcal{L}}
+\newcommand{\Fc}{\mathcal{F}}
+\newcommand{\Tc}{\mathcal{T}}
+\newcommand{\Pc}{\mathcal{P}}
+\newcommand{\Sc}{\mathcal{S}}
+\newcommand{\Cc}{\mathcal{C}}
+\newcommand{\Nc}{\mathcal{N}}
+\newcommand{\Dc}{\mathcal{D}}
+\newcommand{\Wc}{\mathcal{W}}
+\newcommand{\Bc}{\mathcal{B}}
+\newcommand{\Qc}{\mathcal{Q}}
+\newcommand{\Ac}{\mathcal{A}}
+\newcommand{\Pb}{\mathbb{P}}
+\newcommand{\Eb}{\mathbb{E}}
+\newcommand{\Rb}{\mathbb{R}}
+\newcommand{\sinr}{\mathrm{SINR}}
+\newcommand{\sir}{\mathrm{SIR}}
+\newcommand{\Rs}{\mathbb{R}^2}
+\newcommand{\Rp}{\mathbb{R}_+}
+\newcommand{\Nb}{\mathbb{N}}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\newcommand{\mcmint}{\int^{r_{max}}_{r_{min}}}
+\newcommand{\Phio}{\Phi\setminus \{o\}}
+\newcommand{\Phiib}{\Phi_i^\prime\setminus b(o,r)}
+\newcommand{\hPhi}{\hat{\Phi}}
+\newcommand{\Gxo}{G^{[x]}_0[v]}
+\newcommand{\tl}{\tilde{l}}
+\newcommand{\Bf}{\mathfrak{B}}
+\newcommand{\Ic}{\mathcal{I}}
+\newcommand{\Xc}{\mathcal{X}}
+\newcommand{\Pd}{\mathbb{P}}
+\newcommand{\hSc}{\hat{\Sc}}
+\newcommand{\hScr}{\hat{\Sc}_{\texttt{res}}}
+\newcommand{\dt}{R}
+\newcommand{\rev}{Q}
+
+\newcommand*{\myprime}{^{\prime}\mkern-1.2mu}
+\newcommand*{\mydprime}{^{\prime\prime}\mkern-1.2mu}
+\newcommand*{\mytrprime}{^{\prime\prime\prime}\mkern-1.2mu}
+
+\newcommand{\tp}{\theta\myprime}
+\newcommand{\bp}{\beta\myprime}
+
+\newcommand{\nash}{\text{NE}}
+\newcommand{\nbs}{\text{NBS}}
+\newcommand{\kss}{\text{KSS}}
+\newcommand{\ubs}{\text{UBS}}
+\newcommand{\tne}{\theta_\nash}
+\newcommand{\bne}{\beta_\nash}
+\newcommand{\tnbs}{\theta_\nbs}
+\newcommand{\bnbs}{\beta_\nbs}
+\newcommand{\hbne}{\hb_\nash}
+\newcommand{\hb}{\hat{\beta}}
+%\newcommand{\bp}{\beta^\prime}
+%\newcommand{\hpm}{\hat{p}_\mno}
+\newcommand{\hpm}{c_m}
+
+\newcommand{\yale}[1]{``#1''}
+
+\newcommand{\Phin}{\Phi_n}
+\newcommand{\hPhin}{\hat{\Phi}_n}
+\newcommand{\Phim}{\Phi_m}
+\newcommand{\Rss}{R_{n}}
+\newcommand{\rs}{d^\star}
+\newcommand{\xs}{x^\star}
+\newcommand{\lambdap}{\lambda^\prime}
+
+%\newcommand{\Cc}{\mathcal{C}}
+\newcommand{\Zp}{\mathbb{Z}_+}
+\newcommand{\Ed}{\mathds{E}}
+\newcommand{\mno}{\text{MNO}}
+\newcommand{\ott}{\text{OTT}}
+
+\newcommand{\Vbf}{\mathbf{V}}
+\newcommand{\Wbf}{\mathbf{W}}
+\newcommand{\Abf}{\mathbf{A}}
+
+\newcommand{\Zf}{\mathfrak{Z}}
+\newcommand{\Af}{\mathfrak{A}}
+\newcommand{\Cf}{\mathfrak{C}}
+
+%% This is to make a diagonal line in a cell using multirow and multicolumn
+\usepackage{diagbox}
+\usepackage{rotating}
+
+%Checkmark and Xmark
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+% footnote asterisk
+\newcommand{\footstar}[1]{$^*$ \footnotetext{$^*$#1}}
+% footnote double asterisk
+\newcommand{\footdoublestar}[1]{$^{**}$ \footnotetext{$^{**}$#1}}
+% footnote triple asterisk
+\newcommand{\foottriplestar}[1]{$^{***}$ \footnotetext{$^{***}$#1}}
+
+\newcommand{\indicator}[1]{\mathds{1}_{\left[ {#1} \right] }}
+% \newcommand{\Fig}[1]{Fig.~\ref{fig:#1}}
+% \newcommand{\cFig}[1]{\Cref{fig:#1}}
+%\newcommand{\cFigrange}[1]{\Crefrange{fig:#1}}
+\newcommand{\Sec}[1]{Sec.~\ref{sec:#1}}
+% \newcommand{\Eq}[1]{Eq.~(\ref{eq:#1})}
+\newcommand{\Alg}[1]{Alg.~\ref{alg:#1}}
+% \newcommand{\Lemma}[1]{Lemma~\ref{lem:#1}}
+% \newcommand{\Theorem}[1]{Theorem~\ref{thm:#1}}
+% \newcommand{\Corollary}[1]{Corollary~\ref{cor:#1}}
+\newcommand{\App}[1]{Appendix~\ref{app:#1}}
+\newcommand{\LineAlg}[1]{Line~\ref{line:#1}}
+\newcommand{\Cpt}[1]{Chapter~\ref{cpt:#1}}
+\newcommand{\Prop}[1]{Property~\ref{prop:#1}}
+\newcommand{\Tab}[1]{Tab.~\ref{tab:#1}}
+
+\newtheorem{property}{Property}
+% \newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+% \newtheorem{theorem}{Theorem}
+% \newtheorem{corollary}{Corollary}
+
+\newcommand{\chapquote}[3]{\begin{quotation} \textit{#1} \end{quotation} \begin{flushright} - #2, \textit{#3}\end{flushright} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% HEADERS AND FOOTERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Has been used previously for one-sided layout
+% probably doesnt work properly anymore
+% \fancypagestyle{onesidedmine}{%
+% \fancyhf{} % clear all header and footer fields
+% \fancyhead[L]{\textsf{\uppercase{\leftmark}}}%
+% \fancyhead[R]{\thepage}%
+% \fancyfoot[L]{\scriptsize \invnummer}%
+% \fancyfoot[R]{\scriptsize Diplomarbeit \authorname}
+% \renewcommand{\headrulewidth}{0.4pt} %
+% \renewcommand{\footrulewidth}{0.4pt} %
+% }
+
+\fancypagestyle{twosidemine}{
+\fancyhf{} % clear all header and footer fields
+%\fancyhead[RE]{\textsf{\uppercase{\leftmark}}}%
+%\fancyhead[LO]{\textsf{\uppercase{\rightmark}}}%
+\fancyhead[RE]{\textsf{\nouppercase{\leftmark}}}%updated to make lower case section headings
+\fancyhead[LO]{\textsf{\nouppercase{\rightmark}}}%
+\fancyhead[LE,RO]{\thepage}%
+\fancyfoot[RE,LO]{\scriptsize Nima Afraz}%
+\fancyfoot[LE,RO]{\scriptsize PhD Thesis}
+\renewcommand{\headrulewidth}{0.4pt} %
+\renewcommand{\footrulewidth}{0.4pt} %
+}
+
+\fancypagestyle{bibmine}{\fancyhf{} % clear all header and footer fields
+\fancyhead[LO,RE]{\textsf{\uppercase{BIBLIOGRAPHY}}}%
+\fancyhead[LE,RO]{\thepage}%
+\fancyfoot[RE,LO]{\scriptsize Nima Afraz}%
+\fancyfoot[LE,RO]{\scriptsize PhD Thesis}
+\renewcommand{\headrulewidth}{0.4pt} %
+\renewcommand{\footrulewidth}{0.4pt} %
+}
+
+\fancypagestyle{blank}{\fancyhf{}
+\renewcommand{\headrulewidth}{0pt} %
+\renewcommand{\footrulewidth}{0pt} %
+}
+
+% Clear Header Style on the Last Empty Odd pages (for two-sided printing}
+\makeatletter
+\def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
+   \hbox{}%
+   \thispagestyle{blank}%              % Empty header styles
+   \newpage%
+   \pagestyle{mine}
+   \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+%\fancypagestyle{mine}{\pagestyle{onesidemine}} % one-sided
+\fancypagestyle{mine}{\pagestyle{twosidemine}}  % two-sided
+
+
+% redefine appendixpage to have a blank page followed by another blank page (called by \begin{appendices})
+% (without that there will be a header and footer on an even side... strange)
+\renewcommand{\appendixpage}{%
+    \cleardoublepage%
+    \thispagestyle{blank}%
+    \vspace*{0.4\textheight}%
+    \centerline{\huge%
+       \textbf{\textsf{Appendices}}}%
+    \cleardoublepage%
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% THEOREMS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}[section]    % for theorems (Lehr- od. Grundsatze)
+\newtheorem{cor}[thm]{Corollary}      % folgesatz, konsequenz, ...
+\newtheorem{lem}[thm]{Lemma}          % hilfssatz, meist im beweis eines wichtigeren
+\newtheorem{prop}[thm]{Proposition}   % Satz
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definition}    % Definition
+\theoremstyle{remark}
+\newtheorem{rem}[thm]{Remark}         % Kommentar
+
+%\newcommand{\Definition}[1]{Definition~\ref{def:#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% MATH DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}   % double vertical barred
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}    % single vertical line
+\newcommand{\set}[1]{\left\{#1\right\}}            % in curly braces
+\newcommand{\seq}[1]{\left<#1\right>}              % in less-than and greater-than
+\newcommand{\field}[1]{\mathbb #1}                 % for number spaces
+\newcommand{\Real}{\mathbb R}                      % real numbers
+\newcommand{\Complex}{\mathbb C}                   % complex numbers
+\newcommand{\Int}{\mathbb Z}                       % integer numbers
+\newcommand{\Nat}{\mathbb N}                       % natural numbers
+\newcommand{\eps}{\varepsilon}                     % always use \varepsilon
+\newcommand{\RE}[1]{\Re\left\{#1\right\}}          % \RE{x} is real part of x
+\newcommand{\IM}[1]{\Im\left\{#1\right\}}          % \IM{x}
+\newcommand{\To}{\longrightarrow}                  % shortcut for long arrow
+\newcommand{\E}[1]{\operatorname{E}\left\{#1\right\}} % \E{x} expected value of x
+\newcommand{\e}[1]{\operatorname{e}^{#1}}          % \e{x} is exp(x)
+\newcommand{\herm}{^{\mathrm{H}}}                  % hermitian transpose
+\newcommand{\tran}{^{\mathrm{T}}}                  % transpose
+\renewcommand{\Gamma}{\varGamma}                   % always use italic capital Gamma
+\newcommand{\pdv}[1]{\frac{\partial}{\partial #1}} % partial derivative
+\newcommand{\dv}{\operatorname{d}\!}               % for derivative notation (dx => \dv x)
+\renewcommand{\hat}[1]{\widehat{#1}}               % make \hat wider
+
+%  MACROS FOR EASIER ACCESS (define your own here)
+\newcommand{\sigfs}{\stackrel{\mathcal{FS}}{\longrightarrow}}   % Fourier series sign
+\newcommand{\sigifs}{\stackrel{\mathcal{FS}}{\longleftarrow}}   % inverse
+% vertical Fourier series signs
+\newcommand{\sigfsud}{\raisebox{2.5ex}{\rotatebox{270}{$\longrightarrow$}}\,\mathcal{FS}}
+\newcommand{\sigifsud}{\raisebox{2.5ex}{\rotatebox{270}{$\longleftarrow$}}\,\mathcal{FS}}
+% different notation of FS and DFT
+\newcommand{\fs}[1]{\mathcal{FS}\left\{#1\right\}}
+\newcommand{\dft}[1]{\mathcal{DFT}\left\{#1\right\}}
+% add whatever you need here
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% FLOAT PLACEMENT POLICY %%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand\floatpagefraction{.8}  % fraction of page allowed to be covered by floats
+\renewcommand\topfraction{0.8}       % fraction of page allowed to be covered by topfloats
+\renewcommand\bottomfraction{0.8}    % fraction of page allowed to be covered by bottomfloats
+\renewcommand\textfraction{.2}       % min fraction of text per page
+\setcounter{totalnumber}{50}         % max number of floats per page
+\setcounter{topnumber}{50}           % max number of topfloats per page
+\setcounter{bottomnumber}{50}        % max number of bottomfloats per page
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% MISCELLANEOUS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vfuzz2pt % Don't report over-full v-boxes if over-edge is small (2pt)
+\hfuzz2pt % Don't report over-full h-boxes if over-edge is small
+
+\titleformat{\chapter}
+{\sffamily\huge\bfseries}{\thechapter}{1em}{}
+
+%% Aesthetic spacing redefines that look nicer to me than the defaults.
+\setlength{\cftbeforechapskip}{2ex}
+\setlength{\cftbeforesecskip}{0.5ex}
+
+%% Use Helvetica-Narrow Bold for Chapter entries
+\renewcommand{\cftchapfont}{\sffamily\bfseries}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftsubsecfont}{\sffamily}
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecpagefont}{\sffamily}
+\renewcommand{\cftsubsecpagefont}{\sffamily}
+
+%% Because of the font change, the page number becomes too large for the
+%% horizontal space LaTeX reserves for it by default. Without the following
+%% redefines to fix it, this would cause the Chapter entry page numbers
+%% to extend a few points into the right margin. The horror!
+\makeatletter
+\renewcommand{\@pnumwidth}{1.75em}
+\renewcommand{\@tocrmarg}{2.75em}
+\makeatother
+
+%% set figures path to figures/ and ../figures (for subdirectories)
+\graphicspath{
+{./}
+{figures/}
+{../figures/}
+}
+
+
+\makeindex   % build an index (use \index{index expression} in text)
+
+% to notify stuff to be fixed later (use \todo{fix this} in text)
+% \newcommand{\todo}[1]{\textcolor{red}{\textbf{**#1**}}}
+
+\newcommand{\ie}{\emph{i.e.}}
+\newcommand{\eg}{\emph{e.g.}}
+\newcommand{\etal}{\emph{et al.}}
+\newcommand{\corr}[2]{{\color{red}[\MakeTextUppercase{#1}]}{\color{green} #2}}
+
+% create an unnumbered chapter with entry to contents and headers/footers
+\newcommand{\chapstar}[1]{%
+\cleardoublepage \phantomsection%
+\addcontentsline{toc}{chapter}{#1}%
+ \chapter*{#1}%
+\markboth{\uppercase{#1}}{\uppercase{#1}}%
+\acresetall}
+
+
+
+
+% NIMA's PACKAGES
+
+\usepackage{tikz-qtree}
+\newtheorem{Definition}{Definition}
+\newtheorem{Lemma}{Lemma}
+\newtheorem{Theorem}{Theorem}
+\newtheorem{Corollary}{Corollary}
+
+% \usepackage{multirow}
+\usepackage{ifpdf}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
+% \usepackage{amssymb}
+% \usepackage{array,booktabs}
+\usepackage{bbm}
+% \usepackage{amsthm}
+\usepackage{cancel}
+\usepackage{calrsfs}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\usepackage{xargs}                      % Use more than one optional parameter in a new commands
+
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+% \usepackage[final]{pdfpages}
+% \usepackage[printonlyused]{acronym}
+
+% \usepackage{todonotes}
+\usepackage[colorinlistoftodos,prependcaption]{todonotes}
+\newcommandx{\towrite}[2][1=]{\todo[inline,linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\tochange}[2][1=]{\todo[inline,linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\torephrase}[2][1=]{\todo[inline,linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\toimprove}[2][1=]{\todo[inline,linecolor=violet,backgroundcolor=violet!25,bordercolor=violet,#1]{#2}}
+
+
+\usepackage[most]{tcolorbox}
+\newtcolorbox{boxbox}[2][]{%
+  attach boxed title to top center
+               = {yshift=-8pt},
+  colback      = blue!5!white,
+  colframe     = blue!75!black,
+  fonttitle    = \bfseries,
+  colbacktitle = blue!85!black,
+  title        = #2,#1,
+  enhanced,
+}

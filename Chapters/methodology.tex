@@ -1,0 +1,155 @@
+\chapter*{Methodology}
+In this chapter we introduce and elaborate on the scientific methodology and experiment design used to evaluate and illustrate the contributions of this thesis.
+
+To address the research questions raised in this research we have conducted a series of experimental studies. This includes the steps undertaken to evaluate and verify the claims made throughout this thesis. 
+
+\section{Research questions}
+\begin{itemize}
+\item What are the implication and motivations for optical access sharing?
+
+\item How to meet the technical requirements to enable fine-grained and dynamic optical network sharing?
+%Addressed by  
+
+\item Could a monetization market for excess resources incentivize the operators to share their excess resources with competitors?
+
+\item Could a economic robust double auction mechanism provide a market participation incentives for inter-operator network sharing?
+
+\item Could the blockchain technology be leveraged to address the lack of trust in centralized network sharing markets?
+
+
+% \item What are the technical enablers for optical access sharing?
+% \item What are the economic incentives for optical access sharing?
+
+\end{itemize}
+
+\section{Market Evaluation Methodology}
+In this section we first define the criteria for economic robustness that is achieved by fulfilling a number of economic properties. Next we introduce the methods used to confirm the economic robustness of the proposed market mechanism including theoretical proof and game trees. Second using market simulations we illustrate the performance of the proposed model in terms of bandwidth utilization and market social welfare.
+
+
+\subsection {Economic Properties (Economic-Robustness)}
+The four essential principles of a desirable auction mechanism design includes optimal allocative efficiency (AE), incentive compatibility (IC), (ex-post) individual rationality (IR) and (ex-post weak) budget balance (BB) \cite{Krishna02}.
+
+\begin{enumerate}
+\item \textbf{Optimal Allocative Efficiency (AE):} The outcome allocation of the items maximizes the social welfare (i.e. the aggregate of all participants' utilities).
+\item \textbf{Incentive Compatibility (IC):} An auction mechanism is IC when reporting the true valuation is a dominant strategy for all the traders, i.e. no trader can improve its utility gain from the market by reporting an untruthful value. This is also referred to as by "Truthfulness" and "Strategyproofness" in the literature.
+\begin{Definition}
+Dominant strategy: In game theory, a strategy is dominant if regardless of what other players do there is no alternative strategy to be played that will bring more utility to the player.
+\end{Definition}
+IC provides strong participation incentives for the traders by reducing the participation cost. The reasons to eliminate strategic behavior from the market are as follows:
+\begin{enumerate}
+\item Strategic behavior of the traders makes the market very complicated to analyze. Especially for a market such as double-auction multi-item market in which there is competition both between the same type of the traders (i.e. seller/seller or buyer/buyer) and opposing type of traders (i.e. seller/buyer) and there is an incentive for them to strategize through untruthful value/quantity reporting to achieve a higher utility.
+
+\item Strategic behavior can impose a substantial social cost on the market as it promotes competitive strategizing. The traders would spend resources to acquire more information about the market and their competitors' preferences, and this consequently will negatively affect their market power, i.e. asks/bids.
+\end{enumerate}
+\item \textbf{Ex-post Individual Rationality (IR):} All traders have non-negative utility if they participate in the market.
+\item \textbf{Ex-post weak Budget Balance (BB):} The auctioneer does not run at a negative utility. The mechanism is referred to as weakly budget-balanced if the auctioneer does not get a negative utility but it may have a positive utility, and strongly budget-balanced, i.e. the auctioneer's is exactly zero. Our desired mechanism is weakly budget-balanced as the auctioneer will get the market surplus as its operation fee.
+\end{enumerate}
+\subsection{Theoretical Proofs}
+
+Considering that the number of cases are finite and limited we have used \textit{Proof by Exhaustion} method to illustrate the satisfaction of the desired economic properties. We conduct a case analysis to study every possible outcome of the market players' strategic behavior. This is to assure that none of the market players could use manipulative techniques to undermine the market and achieve higher profits from it. Such manipulative techniques might include artificial intelligence assisted bidding strategies that could lead to further challenges. 
+
+\subsection{Game Trees}
+For further clarification we use game trees to visually represent the theoretical proofs. Game trees offer a visual alternative to illustrate the case by case outcome of the players' strategy in the game. 
+\subsection{Market Simulation}
+While theoretical proofs can be used to assure satisfying \ac{IC}, \ac{BB}, and \ac{IR}. However, to test and evaluate \acl{AE} it is necessary to observe the market and gather information on certain parameters. This information is then used to compare the efficiency of the market mechanism proposed in this thesis with the state-of-the-art.
+Therefore we have developed a market simulation tool that gathers relevant parameters that are necessary in investigating the market performance. The market simulator can support various auction mechanisms and generate reproducible results on the following factors:
+\begin{itemize}
+    \item Market Utility Distribution: The share of sellers/buyers from the market.
+    \item Social welfare: The aggregate utility of all the market participants.
+    \item Network utilization: Bandwidth utilization of the \ac{PON}.
+\end{itemize}
+
+All of the above 
+allow comparitive analysis
+
+is capable of conducting various 
+
+
+limitations
+
+\textbf{
+}
+
+
+Name
+connect01
+Login
+connect01.tchpc.tcd.ie
+Nodes
+1
+Processors
+44
+Processors per node
+44
+Architecture
+64-bit
+OS
+Scientific Linux 6x
+
+\section{Blockchain Benchmark}
+
+
+\subsubsection{Blockchain Performance Evaluation}
+A blockchain application operates over an underlying network of different components. In \cite{10.1007/978-3-030-16946-6_5,10.1007/978-3-662-58820-8_18} the authors have proposed different distributed auction mechanisms over an Ethereum network and analyzed the performance/cost of their implementation in terms of estimated gas costs and time efficiency. 
+The main objective of a blockchain application is to handle a number of transactions that are submitted by the participants and proceed to the verification and ordering process, leading to the generation of a block and the transaction outcome being written on the ledger.
+In the context of Hyperledger blockchain frameworks the performance of the application is closely tied to the performance of each component (e.g., peers, orderers, containers, etc.) and the network that interconnects them. The performance of a blockchain application/network can be measured using the following metrics:
+
+
+\begin{itemize}
+    \item Transaction Throughput, measured in transactions per second (TPS):
+    The number of transactions that are processed by the blockchain and written on the ledger in a given second.
+    
+    \begin{equation} \label{eq1}
+    \begin{split}
+    Transaction\,Throughput = \frac{Total\,Transactions}{Total\,time\,in\,seconds}
+    \end{split}
+    \end{equation}
+
+    \item Transaction Latency:
+    The amount of time taken from the moment when a transaction is submitted until the moment when it is confirmed and available on the blockchain. This includes the propagation time and the processing time due to the consensus/ordering mechanism.
+    
+    \begin{equation} \label{eq2}
+    \begin{split}
+    Transaction\,Latency = t_{Confirmation} - t_{Submission}
+    \end{split}
+    \end{equation}
+
+
+    \item Computing Intensity:
+    The amount of computing resources consumed by the blockchain throughout the operating time, including the processing power, memory, storage, I/O and network. This metric is of great importance as it could determine the cost efficiency of a blockchain application. Furthermore, besides the capital expenditure for providing the computing capacity, blockchain networks could require huge amounts of energy to operate. Therefore, the computing intensity would also affect the operation costs of the blockchain.
+    
+
+\end{itemize}
+
+
+The performance of three major blockchain frameworks is compared in Table. \ref{tab:bc-perform}.
+A more in-depth study of the performance metrics and evaluation methods is presented by the Hyperledger Performance and Scale Working Group  \cite{hgperf,pswg}.
+
+\begin{table}[htbp]
+  \caption{Performance of Blockchain Frameworks} 
+  \label{tab:bc-perform}
+  \small % text size of table content
+  \centering % center the table
+  \begin{tabular}{lcccccccr} % alignment of each column data
+  \toprule[\heavyrulewidth]\toprule[\heavyrulewidth]
+  Platform/Metric & Bitcoin    & Ethereum     &  Fabric \\ \hline
+  \midrule
+    Average Latency  & $\approx 10\, Min$ & $\approx 12.5\, Sec$ & $\approx MilliSec$      \\
+    Throughput (TPS) & 7   & 10 - 30    & 20,000 \cite{Gorenflo_2019}          \\
+  \bottomrule[\heavyrulewidth] 
+  \end{tabular}
+\end{table}
+
+
+
+\subsection{Deployment}
+Container technology
+Docker Swarm Container orchestration
+Google Cloud
+Maybe snapshots of the code
+
+
+\subsection{Caliper}
+
+The model of caliper
+
