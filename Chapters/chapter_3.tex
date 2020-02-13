@@ -1,65 +1,65 @@
-\chapter*{Chapter 3}
+\chapter*{Chapter 6}
+% \textbf{In this chapter we study distributed market model for resources sharing with two use cases PON and slicing.
+% }
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Distributed Market Model}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Blockchain Deployment}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \section{Results}
-
-% \subsection{Performance Evaluation Method}
-% \subsubsection{Performance Metrics}
+In \autoref{cpt:chapter_2} we proposed a market model which in a sharing scenario incentivized network tenants to trade their excess capacity with others in return for monetary compensation. However, the model in \autoref{cpt:chapter_2}, relies on a central market mediator who is in charge of conducting the market and record-keeping. In this chapter we identify the problems associated with such a centralized market. In \autoref{BC:sec:model} we propose a distributed resource sharing market model to address the challenges of a relying on a central broker. We study the application of the distributed market model in two separate use cases. The first use-case discussed in \autoref{BC:sec:pon}, is the inter-operator \ac{PON} capacity sharing and the second use case is \ac{5G} network slice brokering in \autoref{BC:sec:slicing}.
 
 
 
+\section{Distributed Resource Sharing Market}
+\label{BC:sec:model}
+The traditional roles of the \ac{InP} and \acp{VNO} are being challenged with new market players such as \acp{OTT} and vertical market services (e.g., automotive, e-health, etc.) which are considered to be the major revenue generation sources for future \ac{5G} networks.
+These are typical scenarios where network investment and \ac{5G} deployment would be very costly or unattractive for legacy operators, but verticals expect significant advantage instead (i.e., there is a large private value for specific applications that require \ac{5G} type of connectivity).
 
-\section{ICBC Paper}
+Moving from conventional static sharing towards on-demand/on-the-fly dynamic multi-tenancy \cite{7514161} requires a network sharing management architecture that enables capacity brokering. To understand the importance of automating such bilateral market business processes, it is necessary to know how the current process works. 
+A bilateral trade market is a business environment where multiple traders in both seller and buyer roles can exchange commodities (e.g., network resources). Furthermore, in this work, we will allow the traders to change their role in the market (i.e., seller or buyer) depending on their current excess/demand for resources.
+A typical bilateral market trade can involve: 
+\begin{itemize}
+    \item The manual negotiation of the terms of trade between the \acp{VNO}. This includes the price setting, which, if happens manually, will not allow dynamic high-frequency trading of the resources.
+    \item Different interpretations of the negotiated terms. In such a case, a third-party authority (e.g., regulator, \ac{InP}, etc.) could be summoned to solve the dispute; however, this implies additional delays and costs for the \acp{VNO}.
+    \item Lack of trust among the \acp{VNO} and absence of a trusted central authority holding the market by enforcing the terms. 
+\end{itemize}
 
-\subsection{Introduction}
-Conventional telecommunications infrastructure ownership models are being challenged as new market players are rising through the 5G evolution. This evolution involves the need for higher capacity and, therefore, higher investments in network infrastructure and, in particular, the access network which provides the last-mile connectivity to the end-users \cite{Nima-5g-evol}.
-In the fixed access network domain, \acp{PON} are at the core of this ownership evolution, as \ac{PON} sharing (across services and tenants) is a main enabler of high-density, high-capacity data-transport in 5G networks \cite{8412589}. \acp{PON} are fiber-optical telecommunications access network solutions that owe their popularity to high split rates, the passive nature of their optical distribution network, which does not require any active component and their wide coverage (typically 20 kilometers and higher in Long-reach \ac{PON} \cite{7592399}). 
+These issues mean that \acp{VNO} have little incentive to participate in a dynamic resource trading market.
 
-\acp{PON} are one of the most widely deployed access solutions that traditionally provide broadband access using \ac{FTTH} and \ac{FTTC} architectures. 
-% \textcolor{red}{[Need reference]}. 
-
-%{Marco: I don't really get this part. Before privatisation there was only one public operator, so privatisation did enable, slowly, a level of competition}.
-%This goes along with the trend of privatizing the communications infrastructure both in developed and developing countries where the public authority's control over the infrastructure management has shrank to some high-level regulatory efforts. Regardless of the benefits brought to the telecomms sector by privatization (e.g., infrastructure investment growth) it has also made the market entrance more sophisticated for smaller operators. A Virtual Network Operator (VNO) for instance does not have a negotiation advantage as it solely relies on the private infrastructure provider for acquiring the necessary resources to reach their customers. Therefore, the power dynamics in these scenarios known as infrastructure sharing is experiencing considerable shifts and if not addressed adequately could become a bottleneck for innovative use of the infrastructure.
-
-
-% \textcolor{red}{Make tyhe analogy with bitcoin. The same way bitcoin used blockchain to remove any central bank authority, we now use make use of blcochain through Hyperledger Fabri to eliminate the need for a trusted third party, which has been knowingly difficult in incumbent-driven telecomms markets (apologies for my english.. just writing very quickly)}
-
-% \textcolor{red}{Also, most people don;t have a clue in what's new in blockchain, so make sure to say something like.. this is the first time that ... also make a hint to it in the abstract.}
+% For instance, in \cite{8368442}, the authors propose a decentralized power market framework based on blockchain and smart contracts that can offer independent maintenance and management of the transactions along with the automatic transfer of funds between the market players.
 
 
-% \textcolor{red}{I think this section can be merged with the introduction. Then you can have a section on explaining the use case,  why it's needed and how is it modelled with blockchain.}
+Many resource/infrastructure sharing problems in the communications sector are modeled as bilateral trade markets as these markets are capable of supporting multiple participants on both sides of the market. The majority rely on solutions based on game theory, in order to match supply and demand \cite{8542782,8665886,8664672,8395445,8488596}. One of the most prominent solutions is the double auction, which focuses on allocating commodities (i.e., resources) to the participants with the highest demand. The end goal is to achieve the highest Social Welfare (i.e., maximizing the aggregate of all participants' utilities) in the market. 
+
+In \autoref{cpt:chapter_2}, We proposed an implementation of the double auction, which was originally designed for resource sharing in multi-tenant \acp{PON}. The auction mechanism is capable of providing an allocation scheme for the resources while assuring trust among the participants (i.e., providing positive incentives to avoid manipulative market behavior). However, in our previous work, we made the assumption that this market model depends solely on a central third-party authority (the \ac{InP}), which is trusted by all of the market participants. This central authority is thus in charge of both record-keeping of the market data and conducting the auction on behalf of all participants.
+
+Considering, however, that it is quite typical for an \ac{InP} that shares its network to also offer services to customers, in competition with other \acp{VNO}, it is unrealistic to assume that \acp{VNO} will trust the \ac{InP}. Being in competition with other \acp{VNO}, the \ac{InP} could benefit from manipulating the market data or the process of the auction mechanism. 
+
+Therefore, we propose a new distributed model for bilateral trade markets, which eliminates the reliance on an impartial central authority. This is achieved making use of the two following features of blockchain:
+
+\begin{itemize}
+    \item Distributed record keeping of all the transactions and participants' data using the distributed ledger technology.
+    \item Conducting the auction in a distributed fashion rather than centralized, enabled by the smart contract technology.
+\end{itemize}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.99\textwidth]{Figures/figil.eps}
+    \caption{Distributed Market Model}
+    \label{fig:flow}
+\end{figure*}
+
+
+The transaction flow of the proposed distributed market model is illustrated in \autoref{fig:flow}. The application sends the transaction proposal to the orderer, to be broadcast to the peers in the channel. These peers are distributed across the \acp{VNO} servers and are all part of the blockchain network. A transaction in the context of this market model is the process of receiving the bids/asks from the traders and conducting the double auction, matching eligible sellers and buyers, and issuing the results of the resource allocation. The peers proceed with the endorsement of the transactions (i.e., the auction) based on the predefined endorsement policy. The endorsed transaction is then returned to the application and sent to the orderer to finalize the ordering of the transactions into a block (using one of the consensus protocols available, e.g., Solo, Kafka, Raft).
+
+Distributed markets have been previously studied in contexts such as advertisement marketplaces \cite{Ranganthan2018ADM}. In \cite{FOTI2019113604}, the authors propose a decentralized uniform-price double auction for the real-time energy market. Their solution is implemented using an Ethereum blockchain. They evaluate their model using metrics such as efficiency and the overall blockchain overhead cost. 
+
+
+
+
+\section{Distributed Verification Model for \ac{PON} Sharing Market}
+\label{BC:sec:pon}
+
+Conventional telecommunications infrastructure ownership models are being challenged as new market players are rising through the \ac{5G} evolution. This evolution involves the need for higher capacity and, therefore, higher investments in network infrastructure and, in particular, the access network which provides the last-mile connectivity to the end-users \cite{Nima-5g-evol}.
+In the fixed access network domain, \acp{PON} are at the core of this ownership evolution, as \ac{PON} sharing (across services and tenants) is a main enabler of high-density, high-capacity data-transport in \ac{5G} networks \cite{8412589}. \acp{PON} are fiber-optical telecommunications access network solutions that owe their popularity to high split rates, the passive nature of their optical distribution network, which does not require any active component and their wide coverage (typically 20 kilometers and higher in Long-reach \ac{PON} \cite{7592399}). \acp{PON} are one of the most widely deployed access solutions that traditionally provide broadband access using \ac{FTTH} and \ac{FTTC} architectures. 
 
 The ideal situation for network sharing is an open-access model, where multiple competing \acp{VNO} share a network owned by an independent third party (left-hand side of \figureautorefname~\ref{Fig_access}).
-% physical infrastructure is owned by an incumbent operator, which also offers services on the network. The main concern about current private/sole ownership (see \figureautorefname~\ref{Fig_access}) and sharing scheme is the situation where the current Optical Infrastructure Provider (OInP) is a private entity who is also utilizing the same infrastructure to serve its customers. 
-In a highly-dynamic resource-sharing scenario, \acp{VNO} and \acp{InP} need to exchange network capacity using automatic auctioning mechanisms. For example, the \ac{InP} can act as auctioneer while the VNOs can buy/sell capacity as required, for example, to maintain the capacity and latency performance required for some of their services \cite{8488596}. 
-These conventional ownership models would rely on a central trusted authority (the \ac{InP}) to invest in deployment, oversee, and regulate the operations and provide revenue assurance.  
-Today, however, often the \ac{InP} is a private entity (typically the incumbent operator) that is also an operator, using the same shared infrastructure to serve its own customers (shown in the right-hand side of \figureautorefname~\ref{Fig_access}). In this more typical incumbent-based model, since the \ac{InP} is both auctioneer and \ac{VNO} (thus it is not an independent third party), the other VNOs cannot trust it to operate the market (i.e., the resource redistribution mechanism).
-
-% \textcolor{red}{I would call the network control in the figure just "Network"}
-
-%and a new verification  to satisfy their In this case, the Over-The-TOP  (OTT-VNOs) have no trust incentive towards the OInP to operate the market (i.e., the resource redistribution mechanism) in a centralized manner. 
-%The conventional ownership models typically rely on a central trusted authority to invest in deployment, oversee and regulate the operation and provide revenue assurance.  
-%In other words, a regulated monopoly (perhaps state-owned) is no longer the optimal market structure .
-
-
-
-% \textcolor{red}{Not sure about the figure. 1) The incumbent is always private; 2) every VNO in principle offers multiple service, so I would eliminate the service type from the boxes; 3) I would simplify it maybe with just network and services and only have the open access model and the typical incumbent-driven model (trust-less)}.
 \begin{figure}[htbp]
 %\vspace{-3mm}
   \centering
@@ -69,53 +69,20 @@ Today, however, often the \ac{InP} is a private entity (typically the incumbent 
 \label{Fig_access}
 %\vspace{-5mm}
 \end{figure}
-% \begin{figure*}[htbp]
-% %\vspace{-3mm}
-%   \centering
-%   \includegraphics[width=0.99\textwidth]{ownership.pdf}
-% %\vspace{-4mm}
-% \caption{Access Infrastructure Sharing Models}
-% \label{Fig_access}
-% %\vspace{-5mm}
-% \end{figure*}
+In a highly-dynamic resource-sharing scenario, \acp{VNO} and \acp{InP} need to exchange network capacity using automatic auctioning mechanisms. As previously demonstrated in \autoref{cpt:chapter_2}, the \ac{InP} can act as an auctioneer while the \acp{VNO} can buy/sell capacity as required to maintain the capacity and latency performance required for some of their services. 
+These conventional ownership models would rely on a central trusted authority (the \ac{InP}) to invest in deployment, oversee, and regulate the operations and provide revenue assurance. 
+Today, however, often the \ac{InP} is a private entity (typically the incumbent operator) that is also an operator, using the same shared infrastructure to serve its own customers (shown in the right-hand side of \figureautorefname~\ref{Fig_access}). In this more typical incumbent-based model, since the \ac{InP} is both auctioneer and \ac{VNO} (thus it is not an independent third party), the other \acp{VNO} cannot trust it to operate the market (i.e., the resource redistribution mechanism).
 
-% \textcolor{red}{change trust-less model to incumbent-based trustless model}
 
-The highly heterogeneous nature of the services and applications that 5G and beyond networks are expected to support suggests that telecoms markets will become more diversified, with new players joining. For example, we are already experiencing an increase in the number of private operators that can offer dedicated services to industry (Industrie 4.0 being the main framework for such scenarios).
-On the other hand, especially where public networks are required, network sharing, across services and tenants, becomes a major enabler for increasing capacity, while keeping the total cost of network ownership under control\cite{6035827}.
-% \textcolor{red}{[need strong reference]}.
+On the other hand, the highly heterogeneous nature of the services and applications that \ac{5G} and beyond networks are expected to support suggests that telecoms markets will become more diversified, with new players joining. For example, we are already experiencing an increase in the number of private operators that can offer dedicated services to industry (Industrie 4.0 being the main framework for such scenarios).
+Especially where public networks are required (e.g., in under-served rural areas with low population density), network sharing, across services and tenants, becomes a major enabler for increasing capacity, while keeping the total cost of network ownership under control \cite{6035827}.
 However, as mentioned above, a centralized model is unlikely to suit such an increase in diversity, and new market models are thus required to support this evolution.
 One of the key points of this new market structure is the replacement of the centralized market control with a distributed system that does not rely on any single third-party to provide a trusted environment.
-%new trust-less market environment where the traditional role of the mediator is to be replaced with a mechanism that does not rely on a third-party to provide trust. 
-%However, the market mechanisms introduced in the literature in multi-tenant \ac{PON} infrastructure \cite{8488596} and similar communications infrastructure sharing problems such as spectrum sharing \cite{7194843} and cloud/data-center resources by design rely entirely on a central authority to conduct the market mechanism and make the final decision making process. For instance in \cite{8488596} where multiple VNOs are cohabiting the same\ac{PON}infrastructure, the OInP is relied/trusted upon to conduct periodical\ac{DBA}auctions which enables reallocating the unused capacity of the under-loaded VNOs. However, this does not account for the case where the OInP is a VNO at the same time thus cannot be blindly trusted to conduct the auction. Therefore, we propose enhancing the market model with a verification layer that uses blockchain to keep immutable records of the transaction, run the auction rounds using a smart contract and then automatically penalize any manipulation through triggering penalty transactions pre-defined in the smart contract.
 
-% \textcolor{red}{Here you are a bit general. Make the concrete examples of multi-tenant PONs, where now that VNOs can schedule their own capacity they have no incentive in leaving unallocated capacity in any frame as this will go to their competitors}
-%Blockchain will provide the lacking trust through 
-\begin{figure*}[htbp]
-%\vspace{-3mm}
-  \centering
-  \includegraphics[width=0.99\textwidth]{Figures/ICBC-model.pdf}
-%\vspace{-4mm}
-\caption{The Multi-Tenant \ac{PON} Network Model }
-\label{Fig_model}
-%\vspace{-5mm}
-\end{figure*}
-The use cases of such distributed resource sharing markets are manifold, spanning from sharing wireless spectrum \cite{7194843} to data center cloud resources \cite{7296648}. In this paper, we focus on \acp{PON}, which operators are increasingly considering a suitable option for supporting the high densification scenarios envisaged by 5G and beyond networks \cite{6886953}.
-Precisely, we address the dynamic auctioning of \ac{PON} capacity to incentivize network sharing across competing \acp{VNO} operating over the same physical infrastructure.
+The use cases of such distributed resource sharing markets are manifold, spanning from sharing wireless spectrum \cite{7194843} to data center cloud resources \cite{7296648}. In this section, we focus on \acp{PON}, which operators are increasingly considering as a suitable option for supporting the high densification scenarios envisaged by \ac{5G} and beyond networks \cite{6886953}.
+Precisely, we address the dynamic auctioning of \ac{PON} excess capacity to incentivize network sharing across competing \acp{VNO} operating over the same physical infrastructure.
 
-
-The solution we propose for decentralizing the market is to adopt blockchain as a solution to provide:
-% 1- Reliable and robust transaction flow through Blockchain consensus mechanisms such as RAFT \cite{Ongaro:raft}, 
-%     2- Transparent transactions and record-keeping enabled by the distributed ledger technology, and 
-%     3- Immutable transaction logic enabled by the smart contract technology: one party cannot unilaterally alter the terms of the contract.
-\begin{enumerate}
-    \item Reliable and robust transaction flow provided by Blockchain consensus mechanisms such as RAFT \cite{Ongaro:raft}.
-    \item Transparent transactions and record-keeping enabled by the distributed ledger technology.
-    \item Immutable transaction logic enabled by the smart contract technology: One party cannot unilaterally alter the terms of the contract.
-\end{enumerate}
-% %\vspace{-3mm}
-
-Our approach is thus to run fast auctions between \acp{VNO} and \ac{InP} (originally demonstrated in \cite{7936877}) and then run a parallel verification mechanism using a blockchain implementation on the Hyperledger Fabric \cite{fabric}. This enables all players to verify the previous transactions at any time, through sending queries to the state databases that are synchronized with the distributed ledger. This provides full transparency on the capacity allocation mechanisms, which makes the auction workable also in the absence of a trusted third party.
+Our approach is thus to enhance the market mechanism proposed in \autoref{cpt:chapter_2} with a parallel verification mechanism using a blockchain implementation on the Hyperledger Fabric blockchain framework \cite{fabric}. This enables all players to verify the previous transactions at any time, through sending queries to the state databases that are synchronized with the distributed ledger. This provides full transparency on the capacity allocation mechanisms, which makes the auction workable also in the absence of a trusted third party.
 %In this paper we address a critical issue regarding the market power imbalance in optical network sharing which is usually handled through introducing a intermediate authority. We propose a novel blockchain-based solution to 
 % \sout{remove the expensive intermediaries or} 
 %alleviate the intermediaries' power in operating the market through introducing a verification layer powered by blockchain technology.
@@ -124,51 +91,54 @@ Our approach is thus to run fast auctions between \acp{VNO} and \ac{InP} (origin
 %\vspace{-2mm}
 
 
-\subsection{Blockchain and Smart Contracts}
-Blockchain technology at its early days was introduced to address a particular problem regarding financial transactions where the robustness and operation of an entire ecosystem rely on the absolute trust placed upon a central authority (e.g., banking system). In other words, early use cases of blockchain technology were limited to utilizing the distributed ledger technology to replace central databases. However, after the introduction of smart contract technology, a much wider range of industries showed interest in using this novel technology to solve their problems. The smart contract technology makes use of the distributed network of the blockchain nodes and the consensus protocol to assure manipulation-proof execution of the application logic. The smart contract is an immutable piece of code that sits on top of the blockchain and invokes certain transactions that are pre-negotiated among the participants. In this paper, we use Hyperledger Fabric \cite{fabric}, a Linux Foundation Open Source permissionless blockchain framework, which is among the most adopted in both academic and industrial applications. 
-The popularity of the Hyperledger Fabric is mainly due to its modular design, which allows the developers to customize each component of the blockchain network and also plug-in very critical parts of the platform such as the \textit{Consensus Mechanism}. 
-An Hyperledger Fabric application consists of Organizations, Certificate Authorities  (CAs in charge of authorization and enrollment of new members), peer nodes (responsible for endorsing the transactions invoked by the Smart Contract), and Orderers that assure correct ordering of the transaction records and packing them into blocks. The fault tolerance in the ordering process is guaranteed using the RAFT \cite{Ongaro:raft} consensus protocol. 
-\subsubsection{Performance Evaluation and Metrics}
-A Hyperledger Fabric blockchain application consists of various components (e.g., peers and orderers) that communicate with each other over a peer-to-peer network. These components are mainly implemented as micro-services hosted inside Docker containers. Therefore, the performance of a blockchain application relies on a number of various design parameters such as block size, block timeout, and state database \cite{8526892} that are outside the scope of this paper. However, in this paper we focus on the main performance determining parameter that is the transaction send rate (i.e., the rate in which the transaction proposals are sent to the blockchain application) and study how this will affect the two main following performance evaluation metrics:
-
+blockchain technology offers the following advantages:
 \begin{enumerate}
-    \item Transaction Throughput: The number of transactions that the blockchain application is able to process in a given time (a second).
-    \item Transaction Latency: The amount of time it takes for a transaction to be processed by the blockchain from the time it was proposed/submitted by the application until its result/s are written on the ledger.
+    \item Reliable and robust transaction flow provided by blockchain consensus mechanisms such as RAFT \cite{Ongaro:raft}.
+    \item Transparent transactions and record-keeping enabled by the distributed ledger technology.
+    \item Immutable transaction logic enabled by the smart contract technology: One party cannot unilaterally alter the terms of the contract.
 \end{enumerate}
+% %\vspace{-3mm}
 
-Hyperledger Caliper \cite{caliper} is one of the sub-projects under the Linux Foundation's blockchain initiative, which is designed to provide a benchmarking and performance evaluation tool for various blockchain frameworks (e.g., Sawtooth, Fabric, Etherium and more.). In this paper, we use Hyperledger Caliper to evaluate the performance of our proposed distributed \ac{PON} sharing market, and the results of these experiments are reported in section \ref{sec:results}.
+% \subsection{Decentralizing the \ac{PON} Market Mechanism}
+
+\begin{figure*}[htbp]
+%\vspace{-3mm}
+  \centering
+  \includegraphics[width=0.99\textwidth]{Figures/ICBC-model.pdf}
+%\vspace{-4mm}
+\caption{The blockchain-Enhanced \ac{PON} Sharing Model }
+\label{Fig_pon_bc_model}
+%\vspace{-5mm}
+\end{figure*}
+\figureautorefname~\ref{Fig_pon_bc_model} shows the proposed blockchain-based verification model enhancing trust in \ac{DBA} auctions. 
+In this model, the \ac{InP} conducts the auctions that enable \acp{VNO} to exchange excess capacity among each other.
+Since we aim to apply this approach also to low-latency \ac{5G} and beyond services, we decouple the \ac{DBA} auctioning mechanism (which occurs every \ac{PON} frame, as demonstrated in \autoref{cpt:chapter_2}) from the blockchain-based verification step. The upstream scheduling of the \ac{PON} (i.e., the scheduling layer in \figureautorefname~\ref{Fig_pon_bc_model}) will thus continue uninterruptedly while the verification layer assures correct conduct of the auction using distributed Smart Contracts. %This approach is, to some extent, similar to the Bitcoin cryptocurrency, which was introduced to replace the intermediary banking system by enabling peer-to-peer financial transactions in a trust-less ecosystem.
+% However, our proposed model. %goes beyond financial transactions and defines transactions to a broader extent, which includes financial contracts/agreements known as Smart Contracts. This will eliminate the unconditional trust on a third-party, which has been knowingly difficult in incumbent-driven telecoms markets. To the best of our knowledge, this is the first time that the blockchain technology is being considered for solving resource allocation problems in the context of optical networks.
+%\vspace{-3mm}
+\subsubsection{The Scheduling Layer}
+The scheduling of the \ac{PON} upstream transmission opportunities is executed in the scheduling layer. The \acp{VNO} send their capacity availability/demand for the next upstream frame to the scheduling layer, where the auction mechanism \cite{8488596} matches the highest bidders with the cheapest sellers to release the final Bandwidth Map. The auction mechanism assures economic robustness in the resource allocation process or, in other words, guarantees that no participant could manipulate the market to their own benefit.
+This \ac{BMap} then is broadcasted to the \acp{ONU} to grant them slots in the next upstream frame.
+%\vspace{-3mm}
+\subsubsection{The Verification Layer}
+%\vspace{-1mm}
+The proposed distributed verification layer is hosted in \acp{VNO}' servers and validates every single transaction (including the auction). At the same time, an append-only copy of the records is kept on a ledger hosted on \acp{VNO}' servers. This is possible thanks to the Smart Contract technology, which enables automatic enforcement of certain pre-negotiated terms of business among stakeholders of an enterprise ecosystem.
+We use a private/permissioned blockchain to deploy the verification layer. Contrary to public blockchains (e.g., Bitcoin), private blockchains support high transaction throughput and considerably lower latency. 
+
+\subsection{Experiments and Results} \label{bc:pon:sec:results}
 
 \begin{figure*}[htbp]
 % %\vspace{-6mm}
   \centering
   \includegraphics[width=\textwidth]{Figures/ICBC-net.pdf}
 %\vspace{-8mm}
-\caption{The Multi-Tenant \ac{PON} Network Model }
-\label{Fig_bc}
+\caption{The Experiment Setup for \ac{PON} Market Verification}
+\label{Fig_bc_pon_VMs}
 %\vspace{-5mm}
 \end{figure*}
 
-\subsection{Decentralizing the \ac{PON} Market Mechanism}
-\figureautorefname~\ref{Fig_model} shows the proposed blockchain-based verification model enhancing trust in \ac{DBA} auctions. 
-In our model, the \ac{InP} runs auction that enables \acp{VNO} to exchange excess capacity among each other, so that they can provide enhanced performance to their customers. As mentioned in \cite{8386208}, auctions are necessary in order to enable capacity sharing in virtualized \ac{PON} environments that give \acp{VNO} full control over their capacity scheduling.
-Since we aim to apply this approach also to low-latency 5G and beyond services, we decouple the \ac{DBA} auctioning mechanism (which occurs every \ac{PON} frame, as demonstrated in \cite{8488596}) from the blockchain-based verification step.
-The upstream scheduling of the \ac{PON} (i.e., the scheduling layer in \figureautorefname~\ref{Fig_model}) will thus continue uninterruptedly while the verification layer assures correct conduct of the auction using distributed Smart Contracts. This approach is, to some extent, similar to the Bitcoin cryptocurrency, which was introduced to replace the intermediary banking system by enabling peer-to-peer financial transactions in a trust-less ecosystem.
-% However, our proposed model. %goes beyond financial transactions and defines transactions to a broader extent, which includes financial contracts/agreements known as Smart Contracts. This will eliminate the unconditional trust on a third-party, which has been knowingly difficult in incumbent-driven telecoms markets. To the best of our knowledge, this is the first time that the blockchain technology is being considered for solving resource allocation problems in the context of optical networks.
-%\vspace{-3mm}
-\subsubsection{The Scheduling Layer}
-%\vspace{-1mm}
-The scheduling of the \ac{PON} upstream transmission opportunities is executed in the scheduling layer. The \acp{VNO} send their capacity availability/demand for the next upstream frame to the scheduling layer, and the auction mechanism \cite{8488596} matches the highest bidders with the cheapest sellers to release the final Bandwidth Map. The auction mechanism assures economic robustness in the resource allocation process or, in other words, guarantees that no participant could manipulate the market to their own benefit.
-This Bandwidth Map then is broadcasted to the \acp{ONU} to grant them slots in the next upstream frame.
-%\vspace{-3mm}
-\subsubsection{The Verification Layer}
-%\vspace{-1mm}
-In this paper, we propose a distributed verification layer which is hosted in \acp{VNO}' servers and validates every single transaction (including the auction). At the same time, an append-only copy of the records is kept on a ledger hosted on \acp{VNO}' servers. This is possible thanks to the Smart Contract technology, which enables automatic enforcement of certain pre-negotiated terms of business among stakeholders of an enterprise ecosystem.
-We use a private/permissioned blockchain to deploy the verification layer. Contrary to public blockchains (e.g., Bitcoin), private blockchains support high transaction throughput and considerably lower latency. 
-% \textcolor{red}{Try to match the description you give above to Figure 3., also adding some more details if needed}
 
-
-
-% GPON allows very fine-grained transmission scheduling (125 microseconds) however typical killer applications of \ac{PON} do not necessarily require such frequent scheduling (e.g. fronthaul over \ac{PON} where variable CPRI rates would only vary on an hourly/daily/monthly... basis). Thus, we make use of the Scheduling interval feature of the GPON networks which allows scheduling over multiples of frames.
+To develop the verification layer functionality, we have used Hyperledger Fabric version 1.4.1 with Raft consensus, and \ac{TLS} enabled. The system under test (\figureautorefname~\ref{Fig_bc_pon_VMs}) includes four \ac{VM} instances hosted by Google Cloud computing engine. We emphasize that this distributed cloud-based implementation, where each market player (i.e., the \acp{VNO} and the \ac{InP}) operates its own independent \ac{VM}, makes our system implementation highly realistic, as transactions are transmitted across different \acp{VM}, owned by the different players, and enables us to test its performance on a real cloud environment. Since the blockchain network components are deployed as Docker containers in Hyperledger Fabric, we use Docker Swarm to orchestrate the containers and manage the overlay network that connects the cloud nodes.
+VM1 (64 vCPUs, 240 GB Memory) is the Docker Swarm manager and is hosting the Hyperledger Caliper benchmarking tool (and the workload generator). \acp{VM} 2, 3 and 4 (8vCPUs, 30 GB Memory) each host one organization (i.e., a \ac{VNO} and/or \ac{InP} and their related components). In total, we simulate 10 different bidders, as each \ac{VNO} can bid on behalf of multiple different services. The Fabric network containers are orchestrated using Docker Swarm and clustered based on the organization they belong to. 
 
 \begin{figure*}[htbp]
 %\vspace{-2mm}
@@ -176,24 +146,18 @@ We use a private/permissioned blockchain to deploy the verification layer. Contr
 \begin{subfigure}{0.7\columnwidth}
 \includegraphics[width=\columnwidth]{Figures/ICBC-latency.eps}%
 \caption{Send Rate V. Latency}%
-\label{fig_latency}%
+\label{fig_latency_bc_pon}%
 \end{subfigure}\hfill%
 \begin{subfigure}{0.7\columnwidth}
 \includegraphics[width=\columnwidth]{Figures/ICBC-tps.eps}%
 \caption{Send Rate V. Transaction Throughput}
-\label{fig_TPS}
+\label{fig_TPS_bc_pon}
 \end{subfigure}\hfill%
 %\vspace{-4mm}
 \caption{Benchmark Results: Send Rate V. Latency and Transaction Throughput}
-\label{fig_results}%
+\label{fig_results_bc_pon}%
 %\vspace{-5mm}
 \end{figure*}
-\subsubsection{Experiments and Results} \label{sec:results}
-% \columnwidth\textcolor{red}{If you have a section before on the model, then this is OK. Put emphasis on the fact that this is one of the first work where blockchain transactions occur across multiple machines, rather than just simulated in one}
-To develop the verification layer functionality, we have used Hyperledger Fabric version 1.4.1 with Raft consensus, and \ac{TLS} enabled. The system under test (\figureautorefname~\ref{Fig_bc}) includes four \ac{VM} instances hosted by Google Cloud computing engine. We emphasize that this distributed cloud-based implementation, where each market player (i.e., the \acp{VNO} and the \ac{InP}) operates its own independent \ac{VM}, makes our system implementation highly realistic, as transactions are transmitted across different \acp{VM}, owned by the different players, and enables us to test its performance on a real cloud environment. Since the blockchain network components are deployed as Docker containers in Hyperledger Fabric, we use Docker Swarm to orchestrate the containers and manage the overlay network that connects the cloud nodes.
-VM1 (64 vCPUs, 240 GB Memory) is the Docker Swarm manager and is hosting the Hyperledger Caliper benchmarking tool (and the workload generator). \acp{VM} 2, 3 and 4 (8vCPUs, 30 GB Memory) each host one organization (i.e., a \ac{VNO} and/or \ac{InP} and their related components). In total, we simulate 10 different bidders, as each \ac{VNO} can bid on behalf of multiple different services. The Fabric network containers are orchestrated using Docker Swarm and clustered based on the organization they belong to. 
-
-
 % \textcolor{red}{Without more explanation the results don't say much to me. For OFC the CPU/memory/network usage might not be of interest. 
 % The transaction latency could be but you first have to say why it is important that latency is low and relate it to some other performance. e.g., if latency is above a certain value, then you loose a certain efficiency. In short you use the first part of the paper to say what the issue is first in general and then specifically to the use case you consider. The second part described ion detail the issue with the use case and how it is modelled. The third part describes the experiment and results, and the result should relate back to the issue . you mentioned before and show how you improve the state of the art to solve that issue.}
 
@@ -201,26 +165,26 @@ VM1 (64 vCPUs, 240 GB Memory) is the Docker Swarm manager and is hosting the Hyp
 
 % \textcolor{red}{In Fig. 4.b, the Throughput \% should have its own y axis on the right hand side. This way you can also spread it better across the full size of the figure}
 
-We run the experiments for 20,000 transactions with gradually increasing send rates from 50 to 400 \ac{TPS}. \figureautorefname~\ref{fig_results} illustrates the benchmark results of the auction application deployed on the Hyperledger Fabric network. The maximum, average, and minimum transaction latency under different send rates are shown in \figureautorefname~\ref{fig_latency}. As the transactions are sent to the network with a higher rate, the latency increases considerably. The system under test has been set up with adequate resources in order to minimize the computing power dependency of the results. Thus the radical increase in average latency for scenarios with more than 300 transactions per second means we are reaching the current scalability performance of the Hyperledger Fabric framework. %This is also confirmed by the big drop in transaction throughput in \figureautorefname~\ref{fig_TPS} when going beyond 300 tps where the throughput drops from 95\% to 84\% and then to 69\% when the send rate reaches 400 tps.
+We run the experiments for 20,000 transactions with gradually increasing send rates from 50 to 400 \ac{TPS}. \figureautorefname~\ref{fig_results_bc_pon} illustrates the benchmark results of the auction application deployed on the Hyperledger Fabric network. The maximum, average, and minimum transaction latency under different send rates are shown in \figureautorefname~\ref{fig_latency_bc_pon}. As the transactions are sent to the network with a higher rate, the latency increases considerably. The system under test has been set up with adequate resources in order to minimize the computing power dependency of the results. Thus the radical increase in average latency for scenarios with more than 300 transactions per second means we are reaching the current scalability performance of the Hyperledger Fabric framework. %This is also confirmed by the big drop in transaction throughput in \figureautorefname~\ref{fig_TPS_bc_pon} when going beyond 300 tps where the throughput drops from 95\% to 84\% and then to 69\% when the send rate reaches 400 tps.
 
-It should be noted that for our application, the latency is not a limiting factor, since the blockchain is used to verify the auctions after they have occurred, to disincentive any market manipulation by the \ac{InP}. The number of transactions per second is instead important to determine the aggregation factor of each auction. 
+% It should be noted that for our application, the latency is not a limiting factor, since the blockchain is used to verify the auctions after they have occurred, to disincentive any market manipulation by the \ac{InP}. The number of transactions per second is instead important to determine the aggregation factor of each auction. 
 
-\subsection{Conclusions}
-In this paper, we proposed a distributed market mechanism for \ac{PON} sharing where reliance on a central intermediary is mitigated and replace by a blockchain-based smart contract. The smart contract assures reliable conduct of the market by holding the \acp{VNO} accountable by verifying the outcome of the auction mechanism using an endorsement policy.
-In conclusion, our current result of achieving 300 transactions per second, before the performance drop (shown in \figureautorefname~\ref{fig_TPS}), provides the ability to verify upstream capacity blocks, each aggregating 25 upstream frames (i.e., every ~3 milliseconds), demonstrating the ability to prevent and promptly detect market manipulations.
+% \subsection{Conclusions}
+In this section, we proposed a distributed market mechanism for \ac{PON} sharing where reliance on a central intermediary is mitigated and replace by a blockchain-based smart contract. The smart contract assures reliable conduct of the market by holding the \acp{VNO} accountable by verifying the outcome of the auction mechanism using an endorsement policy.
+In conclusion, our current result of achieving 300 transactions per second, before the performance drop (shown in \figureautorefname~\ref{fig_TPS_bc_pon}), provides the ability to verify upstream capacity blocks, each aggregating 25 upstream frames (i.e., every ~3 milliseconds), demonstrating the ability to prevent and promptly detect market manipulations.
 In parallel, improving the throughput capacity of Hyperledger Fabric is also being pursued by researchers \cite{Gorenflo_2019}. In the future, we plan to make use of the smart contract technology to enhance the mechanism introduced in this paper with automatically enforceable quality assurance and \ac{SLA} management.
 
 
 
 
 
+\section{Distributed \ac{5G} Network Slicing Marketplace}
+\label{BC:sec:slicing}
 
-\section{ICC Paper: 5G Network Slicing}
+% \subsection{Introduction}
+% \label{sec:intro}
 
-\subsection{Introduction}
-\label{sec:intro}
-
-What differentiates 5G from its predecessor generations of wireless communication is that it goes beyond merely multiplying the network capacity and speed and promises an ambitious vision where various services with very different functional requirements are seamlessly hosted over the same physical infrastructure without affecting each others' performance \cite{7980666}. This vision, in addition to the many technical and standardization challenges that need to be addressed, demands a new approach to business and ownership models of network infrastructure \cite{Afraz2019}, where automated resource orchestration mechanisms handle on-demand resource needs of the operators. The most prominent model of resource allocation for 5G networks is slicing, which allows allocating a subset of the resources to different operators. Thanks to the virtualization technologies, it is now possible to allocate virtual instances of the physical infrastructure while assuring seamless functionality using slice isolation techniques.
+What differentiates \ac{5G} from its predecessor generations of wireless communication is that it goes beyond merely multiplying the network capacity and speed and promises an ambitious vision where various services with very different functional requirements are seamlessly hosted over the same physical infrastructure without affecting each others' performance \cite{7980666}. This vision, in addition to the many technical and standardization challenges that need to be addressed, demands a new approach to business and ownership models of network infrastructure \cite{Nima-5g-evol}, where automated resource orchestration mechanisms handle on-demand resource needs of the operators. The most prominent model of resource allocation for \ac{5G} networks is slicing, which allows allocating a subset of the resources to different operators. Thanks to the virtualization technologies, it is now possible to allocate virtual instances of the physical infrastructure while assuring seamless functionality using slice isolation techniques.
 
 
 This vision could see the adoption of a new market where multiple players run highly frequent transactions involving the exchange of resources, financial commitments and post-deal operations. In other words, the conventional manual processing of these business transactions is not feasible; therefore, novel automated process management methods have to replace them. These new business processes come with their own challenges such as economic robustness, efficiency and regulations. 
@@ -228,44 +192,36 @@ The new automated process management has to enable flexible service provisioning
 
 The typical business process management mechanisms used in the communications industry include economic models that aim to solve resource management problems using pricing and allocation mechanisms \cite{8480631}. The main objective of these mechanisms is to efficiently allocate the available resources to the parties with the most severe demand while assuring the manipulation-proofness of the scheme. Nonetheless, the common assumption in these studies is the existence of an impartial central authority who could be trusted to conduct the market operations and execute the business processes without manipulating the outcome to its or another party's benefit. 
 
-We will challenge this assumption throughout this study and will illustrate how blockchain technology, along with smart contracts, could provide a distributed alternative for the conventional centralized approach. Blockchain technology has already proven to provide solutions for similar problems in various trust-less industrial ecosystems such as healthcare \cite{mettler2016blockchain}, manufacturing \cite{abeyratne2016blockchain}, banking \cite{guo2016blockchain}, etc.
+We will challenge this assumption throughout this study and will illustrate how blockchain technology, along with smart contracts, could provide a distributed alternative for the conventional centralized approach. blockchain technology has already proven to provide solutions for similar problems in various trust-less industrial ecosystems such as healthcare \cite{mettler2016blockchain}, manufacturing \cite{abeyratne2016blockchain}, banking \cite{guo2016blockchain}, etc.
 
-In this paper, %we will not endeavour to identify the optimal market mechanism as already a large body of literature has addressed this \cite{8480631}; rather, 
-we will focus on design and development of an inclusive distributed market platform which could accommodate a wide range of market mechanisms \cite{8480631}.% simply by replacing the logic.
-
-
-The rest of this paper is structured as follows. In section \ref{sec:slicing}, we describe the concept of slice brokering as a business process. A brief introduction to the blockchain and smart contracts technology and their associated performance metrics is provided in section \ref{sec:blockchain}. Then we discuss the challenge of the trust in the existing centralized slicing platforms in section \ref{sec:bc-slicing} while introducing the proposed distributed blockchain-based solution. The results of the experiments powered by a realistic deployment of Hyperledger Fabric platform is then provided in section \ref{sec:results}. Finally, we conclude the paper in section \ref{sec:Conclusions}.
+% In this paper, %we will not endeavour to identify the optimal market mechanism as already a large body of literature has addressed this \cite{8480631}; rather, 
+% we will focus on design and development of an inclusive distributed market platform which could accommodate a wide range of market mechanisms \cite{8480631}.% simply by replacing the logic.
 
 
-\subsection{5G Slice Brokering}
-\label{sec:slicing}
+% The rest of this paper is structured as follows. In section \ref{sec:slicing}, we describe the concept of slice brokering as a business process. A brief introduction to the blockchain and smart contracts technology and their associated performance metrics is provided in section \ref{sec:blockchain}. Then we discuss the challenge of the trust in the existing centralized slicing platforms in section \ref{sec:bc-slicing} while introducing the proposed distributed blockchain-based solution. The results of the experiments powered by a realistic deployment of Hyperledger Fabric platform is then provided in section \ref{sec:results}. Finally, we conclude the paper in section \ref{sec:Conclusions}.
+
+
+% \subsection{5G Slice Brokering}
+% \label{sec:slicing}
 
 Network slicing provides a solution to the diverse infrastructure/resource requirements of modern telecommunication networks. This is done through generating on-demand virtual instances of an end-to-end network on a physical infrastructure. This enables \acp{MVNO} to serve their end-users with utmost flexibility. 
 
-In \cite{7514161}, the authors have reviewed the business requirements and standards in the context of multi-tenant mobile networks. They have introduced in detail the architecture of the 5G Network Slice Broker. The idea of the on-demand capacity broker is to enable the sharing of a portion of network capacity for a certain time slot to a secondary resource user (MVNO, OTT provider, etc.). They define a network slice as follow:
+In \cite{7514161}, the authors have reviewed the business requirements and standards in the context of multi-tenant mobile networks. They have introduced in detail the architecture of the \ac{5G} Network Slice Broker. The idea of the on-demand capacity broker is to enable the sharing of a portion of network capacity for a certain time slot to a secondary resource user (MVNO, OTT provider, etc.). They define a network slice as follow:
 \begin{quote}
     "A network slice refers to an isolated amount of network capacity customized to best suit specific service requirements \cite{7514161}."
 \end{quote}
-In other words, a network slice can be defined as a complex commodity (comprised of multiple various commodities) that is traded in a market in the form of leasing (temporary ownership) for a particular time-slot with pre-negotiated quantitative measures. The key factors in defining a network slice are:
+In other words, a network slice can be defined as a complex commodity (comprised of multiple various components) that is traded in a market in the form of leasing (temporary ownership) for a particular time-slot with pre-negotiated quantitative measures. The key factors in defining a network slice are:
 \begin{itemize}
     \item The composition of the slice (quantitative description of the slice components, e.g., computing, bandwidth, etc.)
     \item The time duration of the leasing.
     \item The metrics defining the expected performance of the slice (e.g, availability, \ac{QoS} usually in the form of a \ac{SLA}).
 \end{itemize}
 
-% Auction mechanism have been widely used to address a wide range of issues related to 5G network \cite{8306104} including resource allocation.
+In the rest of this section, we will elaborate on the definition of a network slice as a commodity and provide a short review on its common market mechanisms. Furthermore, we discuss the need for quality assurance and the tools for enforcing the terms of the trade. 
 
+Considering the above definition, a network slice can be treated as a commodity with a typical supply-chain which has to be sourced from multiple suppliers (the \acp{InP} or other \acp{MVNO} who are willing to share parts of their unused resources) and be delivered to an intermediary business customer who then would serve its end-users using this network slice.
 
-
-
-% A wireless infrastructure business ecosystem consists of the following players:
-
-% \begin{enumerate}
-%     \item Infrastructure Providers (InPs):
-%     \item MVNOs:
-% \end{enumerate}
-
-In the rest of this section, we will elaborate more on the definition of a network slice as a commodity and provide a short review on its common market mechanisms. Furthermore, we discuss the need for quality assurance and the tools for enforcing the terms of the trade. 
+Therefore the first function of the network slicing supply chain is the sourcing of the slice, i.e., acquiring the required resources for creating a slice with a particular configuration. From the slice user's perspective, the aim is to acquire the slice with the necessary configuration for the lowest price from the market. On the other hand, from the suppliers' (the \ac{InP} or \acp{MVNO} with excess resources) point of view, the optimal outcome is for the slice to be sold for the highest possible price. Game theory has been widely used for similar markets in communications research where multiple players are involved on both sides of the market \cite{CHARILAS20103421}. Among the game theory-based solutions, auctions, in particular, are very popular as market resolution tools \cite{8480631}. The resources that are traded in these resource markets range from Spatial streams \cite{7842378} to Spectrum/antennas \cite{7600959}, and resource blocks \cite{resource_blocks_auction}.
 \begin{figure}[htbp]
             % \vspace{-4mm}
     \centering
@@ -274,40 +230,21 @@ In the rest of this section, we will elaborate more on the definition of a netwo
     \label{fig:Slice_broker}
             % \vspace{-2mm}
 \end{figure}
-Considering the above definition, a network slice can be treated as a commodity with a typical supply-chain which has to be sourced from multiple suppliers (the \acp{InP} or other \acp{MVNO} who are willing to share parts of their unused resources) and be delivered to an intermediary business customer who then would serve its end-users using this network slice.
-
-Therefore the first function of the network slicing supply chain is the sourcing of the slice, i.e., acquiring the required resources for creating a slice with a particular configuration. From the slice requester's perspective, the aim is to acquire the slice with the necessary configuration for the lowest price from the market. On the other hand, from the suppliers' (the \ac{InP} or \acp{MVNO} with excess resources) point of view, the optimal outcome is for the slice to be sold for the highest possible price. Game theory has been widely used for similar markets in communications research where multiple players are involved on both sides of the market \cite{CHARILAS20103421}. Among the game theory-based solutions, Auctions, in particular, are very popular as market resolution tools \cite{8480631}. The resources that are traded in these resource markets range from Spatial streams \cite{7842378} to Spectrum/antennas \cite{7600959}, and resource blocks \cite{resource_blocks_auction}.
 More specifically, we are interested in auction mechanisms that are capable of handling multiple traders in both the selling and buying sides of the market (depicted in \figureautorefname~\ref{fig:Slice_broker}). Such two-sided auctions are referred to as double auctions in the literature.
 In \cite{7794896} the authors have proposed a flow-level slicing using an iterative double auction with a transaction cost. In their SDN-based architecture, the SDN controller acts as a broker and arranges the double-sided auction. 
 A truthful double auction mechanism for spectrum slicing in virtualized wireless networks is proposed in \cite{ei2017game} where multiple base stations hold an amount of spectrum resources and multiple \acp{ISP} compete to lease them. The efficiency of their proposed system is evaluated in terms of utilities of the market players and the auctioneer's profit. 
-In \cite{8542782}, a double auction algorithm is proposed to address the problems of service function chain routing and NFV price adjustment. The NFV broker acts as the central auctioneer who received the bids and ask prices from the customers/suppliers and decides on the allocation and pricing of the resources.
+In \cite{8542782}, a double auction algorithm is proposed to address the problems of service function chain routing and \ac{NFV} price adjustment. The \ac{NFV} broker acts as the central auctioneer who received the bids and ask prices from the customers/suppliers and decides on the allocation and pricing of the resources.
 
-\subsubsection{Quality Assurance and Enforcement}
-A slice of the network comes with certain qualitative guarantees, often in the form of a pre-negotiated \ac{SLA}. The \ac{SLA} has to provide a detailed description of the expected reliability, availability and other performance metrics of the service and the actions to be taken in case of one of the parties breaching the agreement (i.e., the supplier not meeting the terms of SLA). The authors in \cite{SLA-Slicing} have introduced a number of metrics regarding the slice-based network \acp{SLA} including throughput, penalty, cost, revenue, profit, and QoS related metrics. However, the enforcement of these \acp{SLA} remains an open issue as no automated process has been proposed to address the problem. In the next section, we will discuss how smart contract technology can provide an automatic approach towards enforcement of \acp{SLA}.
-% Majority of the slice brokering platforms rely on the economic robustness of their designed mechanisms. Therefore the aspect of 
-
-
-
-% \begin{figure*}[htbp]
-%     \centering
-%     \includegraphics[width=0.89\textwidth]{figs-copy/layers.png}
-%     \caption{The overall Schematic}
-%     \label{fig:flow}
-% \end{figure*}
-
-
-\textbf{In the previous section}, we described the 5G slice brokering and defined the structure of the market.
+% \textbf{In the previous section}, we described the \ac{5G} slice brokering and defined the structure of the market.
 The brokering mechanisms have multiple placement options (e.g., in the SDN controller \cite{7794896} or the orchestrator \cite{7514161}). However, what is common with most of these proposals is the fact that the broker mechanism is hosted by a single entity who is not necessarily impartial and might have incentives to manipulate the outcomes of the mechanism.
-
-
-
-In \cite{8368983}, the authors present a feasibility analysis of a blockchain network slice broker that enables dynamic slice acquisition for automated industrial processes. Their results show that the analyzed industrial micro-processes can benefit from adopting the 5G network slice broker and ledger technology. However, the authors have not endeavored to implement the use case on the Blockchain and have settled for theoretical analysis.
-
-
-The authors in \cite{8707070} have proposed a Blockchain-based network slice broker for 5G services. The main aim of their proposed mechanism is to secure and ensure anonymous transactions using Blockchain. They have developed a proof of concept to evaluate the performance of their proposed slice broker. Their proposed blockchain platform is based on a consensus mechanism called Hashcash \cite{hashcash}, which is a \ac{PoW} mechanism. Their performance evaluation is, however, only limited to comparing the average time of sub-slice contract creation and slice deployment. They conclude that the additional security and privacy provided by Blockchain does not have a significant impact on the performance of the slice broker. Hashcash is a public blockchain that uses a \ac{PoW} based consensus protocol which relies on the network nodes solving computationally complex problems to reach consensus \cite{8716424}. Although \ac{PoW} consensus due to its pseudo-anonymous nature could be the most robust and secure option for particular applications (e.g., crypto-currencies), in enterprise ecosystems such as telecoms, they appear to be unnecessary as the parties involved in the Blockchain are already known to each other. Therefore, permissioned blockchains that are designed for enterprise ecosystems use simpler and less resource consuming consensus protocols such as Raft. 
+In \cite{8368983}, the authors present a feasibility analysis of a network slice broker using blockchain that enables dynamic slice acquisition for automated industrial processes. Their results show that the analyzed industrial micro-processes can benefit from adopting a blockchain-based \ac{5G} network slice broker and ledger technology. However, the authors have not endeavored to implement the use case on the blockchain and have settled for theoretical analysis. 
+The authors in \cite{8707070} have proposed a blockchain-based network slice broker for \ac{5G} services. The main aim of their proposed mechanism is to secure and ensure anonymous transactions using blockchain. They have developed a proof of concept to evaluate the performance of their proposed slice broker. Their proposed blockchain platform is based on a consensus mechanism called Hashcash \cite{hashcash}, which is a \ac{PoW} mechanism. Their performance evaluation is, however, only limited to comparing the average time of sub-slice contract creation and slice deployment. They conclude that the additional security and privacy provided by blockchain does not have a significant impact on the performance of the slice broker. Hashcash is a public blockchain that uses a \ac{PoW} based consensus protocol which relies on the network nodes solving computationally complex problems to reach consensus \cite{8716424}. \ac{PoW}-based consensus protocols could be the most robust and secure options for particular applications (e.g., crypto-currencies) due to their pseudo-anonymous nature. However, in enterprise ecosystems such as telecoms, they appear to be unnecessary as the parties involved in the blockchain are already known to each other. Therefore, permissioned blockchains that are designed for enterprise ecosystems use simpler and less resource consuming consensus protocols such as Raft-based consensus. 
 
 To address this, we propose a distributed market model which allows two-sided trade of the resources required to create a slice of the network. The traded commodity in this market is either a unit-bundle of different resource types (computing, network or memory) or a single type multi-unit of each resource type. 
-In this paper, we use an implementation of the double auction mechanism \cite{8488596,8386208} which enables multiple traders in both sides (seller/buyer) of the market to trade their resources (multiple items simultaneously). The double auction mechanism assures manipulation-proofness of the market by decoupling the ask/bid value proposed by the traders from the final price paid; therefore, the traders cannot manipulate the market by strategizing over their proposed ask/bid value. The steps of the auction transaction are further explained in section \ref{sec:results}.
+
+\towrite{Maybe add a figure with slice combinations}
+
+In this section, we use an implementation of the double auction mechanism introduced in \autoref{cpt:chapter_2} which enables multiple traders in both sides (seller/buyer) of the market to trade their resources (multiple items simultaneously). The double auction mechanism assures manipulation-proofness of the market by decoupling the ask/bid value proposed by the traders from the final price paid; therefore, the traders cannot manipulate the market by strategizing over their proposed ask/bid value. %The steps of the auction transaction are further explained in section \ref{sec:results}.
 
 We deploy the market on a realistic distributed implementation of Hyperledger Fabric to be able to evaluate the performance of the market with the reflection of real-world network latency and processing. 
 
@@ -324,32 +261,12 @@ We deploy the market on a realistic distributed implementation of Hyperledger Fa
 % \vspace{-2mm}
     \centering
     \includegraphics[width=0.99\textwidth]{Figures/ICC-vms1.pdf}
-    \caption{The Blockchain Network Architecture}
+    \caption{The blockchain Network Architecture}
     \label{fig:Arcitecture}
                 % \vspace{-5mm}
 \end{figure*}
 
 
-%  \begin{figure}[tb]
-% \begin{subfigure}[t]{0.5\hsize}
-%     \includegraphics[width=0.9\linewidth]{figs-copy/cpu.pdf}
-%     \caption{}
-% \end{subfigure}   
-% \begin{subfigure}[t]{0.5\hsize}
-%     \includegraphics[width=0.9\linewidth]{figs-copy/mem.pdf}
-%     \caption{}
-% \end{subfigure}
-%     \caption{first part of my figure}
-%     \end{figure}
-% \clearpage   
-%     \begin{figure}[tb]\ContinuedFloat
-% \begin{subfigure}[t]{0.5\hsize}
-%     \includegraphics[width=0.9\linewidth]{figs-copy/net.pdf}
-%     \caption{}
-% \end{subfigure}
-
-%     \caption{second part of my figure}
-%     \end{figure}
 We use the Hyperledger Fabric (version 1.4.1) framework to implement our blockchain application. To achieve realistic results, we deploy an under-laying network of nodes similar to a real-world production environment. The \ac{SUT} shown in \figureautorefname~\ref{fig:Arcitecture} consists of 6 \ac{VM} instances. \ac{VM}1 (8 \acp{vCPU} Intel(R) Xeon(R) @ 2.30GHz and 32 GB memory) hosts Hyperledger Caliper \cite{caliper} which is a benchmark tool designed to measure the performance of multiple blockchain solutions. The blockchain network consists of 5 organizations, each hosting one instance of a peer, orderer, chaincode and certificate authority. These blockchain components are each deployed as a Docker container, and Docker Swarm is used to orchestrating the containers that are distributed across the network of \acp{VM}. \ac{VM}1 is the Docker Swarm manager and is in charge of composing and deploying the containers at the beginning of the benchmark. \ac{VM}2 - \ac{VM}6 (4 \acp{vCPU} and 15 GB memory) each host an organization and their containers. This provides a realistic implementation, where different organizations run their processing in different and independent virtual machines. The benchmark begins with the Hyperledger Caliper generating the transaction proposals and sending them to the peers at a fixed-rate. The transaction information consists of a table of ask/bid values proposed by each trader along with the proposed (unverified) outcome of the double auction allocation of the resources. This process is initiated inside the client application and then broadcast to the peers of each blockchain organization. Once the peers receive the transactions, they begin the endorsement process by executing the chaincode, which contains an implementation of the auction mechanism. If the resource allocation outcome resulting from the peer-run auction matches the proposed outcome, they endorse the transaction by returning a signed transaction. When enough number of endorsements are reached (this number depends on the endorsement policy that in our case is N-out-of-N i.e., all the peers have to endorse), the transactions are sent to the Ordering Service, where the consensus is reached (i.e., Raft in our case). The final block is then created and committed to the ledger.
 
 
@@ -425,11 +342,31 @@ The memory consumption is illustrated in \figureautorefname~\ref{fig:mem}, where
 
 \subsection{Conclusions}
 \label{sec:Conclusions}
-In this paper, we proposed a distributed market design for 5G network slicing based on blockchain technology. We implemented a variant of the double auction mechanism as a smart contract to assure trust in a telcom business ecosystem, where no trusted authority could control the resource sharing market mechanism. We have deployed a pragmatic network of blockchain nodes over six cloud-hosted \acp{VM} to achieve realistic performance measurements. Using the deployed blockchain application, which is powered by the Hyperledger Fabric framework, we conducted an analysis of the blockchain network performance in therms of latency and transaction throughput. These metrics are essential in designing blockchain-based markets as they determine the feasibility and frequency of resource trades over blockchain. Our experiments showed that our blockchain slicing market application is able to process up to 40 auction transactions per second while maintaining a 100\% transaction throughput and an average latency of 500 milliseconds, with a maximum of 100 TPS, with throughout very close to 100 \%.
-Meanwhile, as mentioned in \cite{valcarenghireliable} the time-scale envisioned for a 5G network slice provisioning and deployment is in the order of minuets. Therefore, our proposed market could support the simultaneous and real-time provisioning of multiple 5G slices without imposing any considerable latency to the process. However, the performance of a blockchain system highly relies of the \ac{SUT} and other properties of the blockchain such as block size, authorization methods and consensus protocol. Therefore, further research is needed to asses the effect of these design choices on the 5G slicing market performance.
+In this paper, we proposed a distributed market design for \ac{5G} network slicing based on blockchain technology. We implemented a variant of the double auction mechanism as a smart contract to assure trust in a telcom business ecosystem, where no trusted authority could control the resource sharing market mechanism. We have deployed a pragmatic network of blockchain nodes over six cloud-hosted \acp{VM} to achieve realistic performance measurements. Using the deployed blockchain application, which is powered by the Hyperledger Fabric framework, we conducted an analysis of the blockchain network performance in therms of latency and transaction throughput. These metrics are essential in designing blockchain-based markets as they determine the feasibility and frequency of resource trades over blockchain. Our experiments showed that our blockchain slicing market application is able to process up to 40 auction transactions per second while maintaining a 100\% transaction throughput and an average latency of 500 milliseconds, with a maximum of 100 TPS, with throughout very close to 100 \%.
+Meanwhile, as mentioned in \cite{valcarenghireliable} the time-scale envisioned for a \ac{5G} network slice provisioning and deployment is in the order of minuets. Therefore, our proposed market could support the simultaneous and real-time provisioning of multiple \ac{5G} slices without imposing any considerable latency to the process. However, the performance of a blockchain system highly relies of the \ac{SUT} and other properties of the blockchain such as block size, authorization methods and consensus protocol. Therefore, further research is needed to asses the effect of these design choices on the \ac{5G} slicing market performance.
 % Here is the reference for the order of minuets: Within the research community, the 5G-Transformer project 14 envisions three functional layers for providing verticals with slices: a Vertical Slicer as the logical entry point for verticals to support the creation of their respective transport slices in a short time-scale (in the order of minutes), Page 5 of \cite{valcarenghireliable}
 % and also another reference here: https://ieeexplore.ieee.org/document/8696471   This demo will show how a novel software framework based on the 5GT architecture can deploy a mobile network slice in few minutes.
 
 
-% In this paper we  a practical implementation of a market mechanism to address the slicing problem in 5G networks. However, the proposed platform could be used for other smart contracts with different logic covering interference etc.
+% In this paper we  a practical implementation of a market mechanism to address the slicing problem in \ac{5G} networks. However, the proposed platform could be used for other smart contracts with different logic covering interference etc.
 
+
+\subsection{Dissemination}
+\subsubsection{Peer-Reviewed}
+
+ \begin{enumerate}
+   
+    \item  \textbf{\underline{N. {Afraz}}} and M.~{Ruffini}, ``A Distributed Bilateral Resource Market Mechanism for Future Telecommunications Networks,'' in \emph{2019 IEEE Global Communications Conference (GLOBECOM)}, December 2019.
+
+    \item H.~Ahmadi, I.~Macaluso, M.~{Ruffini}, \textbf{\underline{N. {Afraz}}}, ``blockchain Technology and Smart Contracts in \ac{5G} and Beyond Networks [Tutorial Talk],'' 2019, European Conferences on Networks and Communications (EUCNC).
+
+
+ \end{enumerate}
+ \subsection{Non Peer-Reviewed}
+ \begin{enumerate}
+
+    \item \textbf{\underline{N. {Afraz}}}, V.~Chaudhary \emph{et~al.}, ``Optimizing Wholesale Intercarrier Settlement with Hyperledger Fabric blockchain,'' in \emph{Solution Brief}.\hskip 1em plus 0.5em minus 0.4em\relax Telecom Special Interest Group, 2019.
+
+    % \item \bibentry{Nima-telecom-sig}
+    % \item \bibentry{Nima-osa}
+ \end{enumerate}

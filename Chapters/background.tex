@@ -239,7 +239,10 @@ The telecom operators have anticipated the increment in the costs as the number 
 % The large transmission capacity of optical access networks makes them a strong candidate for the operators to reduce their costs by exploiting the efficiency of scale that can be achieved by sharing.
 % The network operators could reduce their costs by exploiting the efficiency of scale 
 % This is especially important to facilitate new entrants and promote competition. 
-On the other hand, the advantages of network sharing come at the cost of incentivizing operators to share their infrastructure and resources. In some countries, the regulator may attempt to enforce sharing, but this has been met with limited success as operators try to circumvent regulations by using legal loopholes, for instance, by not providing the required interfaces. As the cost for \ac{5G} network deployment soars, the potential reduction in the \ac{TCO} achievable through new models of infrastructure sharing will provide a better driving force than the legacy regulatory enforcement.
+On the other hand, the advantages of network sharing come at the cost of incentivizing operators to share their infrastructure and resources. In some countries, the regulator may attempt to enforce sharing \cite{nepal_sharing}, but this has been met with limited success as operators try to circumvent regulations by using legal loopholes, for instance, by not providing the required interfaces. As the cost for \ac{5G} network deployment soars, the potential reduction in the \ac{TCO} achievable through new models of infrastructure sharing will provide a better driving force than the legacy regulatory enforcement.
+
+% Telstra was mandated to allow wholesale access of its copper network to other providers at regulated prices. nepal_sharing
+
 
 %The advantages offered by the efficiency of scale in the new network ownership models make adopting these new models inevitable. 
 %On the other hand, the government and regulators have historically pushed for infrastructure and resource sharing between operators to break monopolies. 
@@ -580,50 +583,18 @@ Channels in Hyperledger Fabric allow the participant organizations in the networ
 
 
 
-\subsection{Distributed Resource Market}
-Distributed markets have been previously studied in contexts such as advertisement marketplaces \cite{Ranganthan2018ADM}. In \cite{FOTI2019113604}, the authors propose a decentralized uniform-price double auction for the real-time energy market. Their solution is implemented using an Ethereum blockchain. They evaluate their model using metrics such as efficiency and the overall blockchain overhead cost.
 
-In this thesis, we focus on a market model for network resources concerning network sharing, which lowers the cost of network roll-out by preventing the costly duplication of network infrastructure. The traditional roles of the infrastructure provider and \acp{VNO} are being challenged with new market players such as \acp{OTT} and vertical market services (e.g., automotive, e-health, etc.) which are considered to be the major revenue generation sources for future \ac{5G} networks.
-These are typical scenarios where network investment and \ac{5G} deployment would be very costly or unattractive for legacy operators, but verticals expect significant advantage instead (i.e., there is a large private value for specific applications that require \ac{5G} type of connectivity).
+\subsection{Peer-Reviewed Dissemination}
 
-Moving from conventional static sharing towards on-demand/on-the-fly dynamic multi-tenancy \cite{7514161} requires a network sharing management architecture that enables capacity brokering. To understand the importance of automating such bilateral market business processes, it is necessary to know how the current process works. 
-A bilateral trade market is a business environment where multiple traders in both seller and buyer roles can exchange commodities (e.g., network resources). Furthermore, in this work, we will allow the traders to change their role in the market (i.e., seller or buyer) depending on their current excess/demand for resources.
-A typical bilateral market trade can involve: 
-\begin{itemize}
-    \item The manual negotiation of the terms of trade between the \acp{VNO}. This includes the price setting, which, if happens manually, will not allow dynamic high-frequency trading of the resources.
-    \item Different interpretations of the negotiated terms. In such a case, a third-party authority (e.g., regulator, infrastructure provider, etc.) could be summoned to solve the dispute; however, this implies additional delays and costs for the \acp{VNO}.
-    \item Lack of trust among the \acp{VNO} and absence of a trusted central authority holding the market by enforcing the terms. 
-\end{itemize}
+% \subsubsection{}
 
-These issues mean that \acp{VNO} have little incentive to participate in a dynamic resource trading market.
+ \begin{enumerate}
+    
+    \item \textbf{\underline{N. {Afraz}}}, F.~Slyne \emph{et~al.}, ``Evolution of Access Network Sharing and Its Role in 5G Networks,'' \emph{Applied Sciences}, vol.~9, no.~21, p. 4566, oct 2019.
 
-% For instance, in \cite{8368442}, the authors propose a decentralized power market framework based on blockchain and smart contracts that can offer independent maintenance and management of the transactions along with the automatic transfer of funds between the market players.
+    \item H.~Ahmadi, I.~Macaluso, M.~{Ruffini}, \textbf{\underline{N. {Afraz}}}, ``Blockchain Technology and Smart Contracts in 5G and Beyond Networks [Tutorial Talk],'' 2019, European Conferences on Networks and Communications (EUCNC).
 
-
-Many resource/infrastructure sharing problems in the communications sector are modeled as bilateral trade markets as these markets are capable of supporting multiple participants on both sides of the market. The majority rely on solutions based on game theory, in order to match supply and demand \cite{8542782,8665886,8664672,8395445,8488596}. One of the most prominent solutions is the double auction, which focuses on allocating commodities (i.e., resources) to the participants with the highest demand. The end goal is to achieve the highest Social Welfare (i.e., maximizing the aggregate of all participants' utilities) in the market. 
-
-In this thesis, we use an implementation of the double auction, which was originally designed for resource sharing in multi-tenant passive optical networks (details of the auction mechanism can be found in \cite{8488596}). The auction mechanism is capable of providing an allocation scheme for the resources while assuring ''Truthfulness'' among the participants (i.e., providing positive incentives to avoid manipulative market behavior). However, in our previous work, we made the assumption that this market model depends solely on a central third-party authority (the infrastructure provider), which is trusted by all of the market participants. This central authority is thus in charge of both record-keeping of the market data and conducting the auction on behalf of all participants. 
-
-Considering, however, that it is quite typical for an infrastructure provider that shares its network to also offer services, in competition with other \acp{VNO}, it is unrealistic to assume that \acp{VNO} will trust the infrastructure provider. Being in competition with other \acp{VNO}, the infrastructure provider could benefit from manipulating the market data or the process of the auction mechanism. 
-
-Therefore, we propose a new distributed model for bilateral trade markets, which eliminates the reliance on an impartial central authority. This is achieved making use of the two following features of blockchain:
-
-\begin{itemize}
-    \item Distributed record keeping of all the transactions and participants' data using the distributed ledger technology.
-    \item Conducting the auction in a distributed fashion rather than centralized, enabled by the smart contract technology.
-\end{itemize}
-
-\begin{figure*}
-    \centering
-    \includegraphics[width=0.99\textwidth]{Figures/figil.eps}
-    \caption{Distributed Market Model}
-    \label{fig:flow}
-\end{figure*}
-
-
-The transaction flow is illustrated in Fig.~\ref{fig:flow}. The application sends the transaction proposal to the orderer, to be broadcast to the peers in the channel. A transaction in the context of this paper is the process of receiving the bids/asks from the traders and conducting the double auction, matching eligible sellers and buyers, and issuing the results of the resource allocation. The peers proceed with the endorsement of the transactions (i.e., the auction) based on the predefined endorsement policy. The endorsed transaction is then returned to the application and sent to the orderer to finalize the ordering of the transactions into a block (using one of the consensus protocols available, e.g., Solo, Kafka, Raft).
-
-
+    \end{enumerate}
 % We first describe the manual cycle of these business processes and the challenges associated with it. Then, we model the bilateral trade of network resources in the context of smart contracts and blockchain transactions. Finally, we report and discuss the results of our experiments using Hyperledger Fabric \cite{fabric}, a permissioned blockchain framework.
 
 
