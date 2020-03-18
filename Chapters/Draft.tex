@@ -5,6 +5,18 @@
 
 
 
+\subsection{Blockchain and Smart Contracts}
+Blockchain technology at its early days was introduced to address a particular problem regarding financial transactions where the robustness and operation of an entire ecosystem rely on the absolute trust placed upon a central authority (e.g., banking system). In other words, early use cases of blockchain technology were limited to utilizing the distributed ledger technology to replace central databases. However, after the introduction of smart contract technology, a much wider range of industries showed interest in using this novel technology to solve their problems. The smart contract technology makes use of the distributed network of the blockchain nodes and the consensus protocol to assure manipulation-proof execution of the application logic. The smart contract is an immutable piece of code that sits on top of the blockchain and invokes certain transactions that are pre-negotiated among the participants. In this paper, we use Hyperledger Fabric \cite{fabric}, a Linux Foundation Open Source permissionless blockchain framework, which is among the most adopted in both academic and industrial applications. 
+The popularity of the Hyperledger Fabric is mainly due to its modular design, which allows the developers to customize each component of the blockchain network and also plug-in very critical parts of the platform such as the \textit{Consensus Mechanism}. 
+An Hyperledger Fabric application consists of Organizations, Certificate Authorities  (CAs in charge of authorization and enrollment of new members), peer nodes (responsible for endorsing the transactions invoked by the Smart Contract), and orderers that assure correct ordering of the transaction records and packing them into blocks. The fault tolerance in the ordering process is guaranteed using the RAFT \cite{Ongaro:raft} consensus protocol. 
+\subsubsection{Performance Evaluation and Metrics}
+A Hyperledger Fabric blockchain application consists of various components (e.g., peers and orderers) that communicate with each other over a peer-to-peer network. These components are mainly implemented as micro-services hosted inside Docker containers. Therefore, the performance of a blockchain application relies on a number of various design parameters such as block size, block timeout, and state database \cite{8526892} that are outside the scope of this paper. However, in this paper we focus on the main performance determining parameter that is the transaction send rate (i.e., the rate in which the transaction proposals are sent to the blockchain application) and study how this will affect the two main following performance evaluation metrics:
+
+\begin{enumerate}
+    \item Transaction Throughput: The number of transactions that the blockchain application is able to process in a given time (a second).
+    \item Transaction Latency: The amount of time it takes for a transaction to be processed by the blockchain from the time it was proposed/submitted by the application until its result/s are written on the ledger.
+\end{enumerate}
+
 
 
 

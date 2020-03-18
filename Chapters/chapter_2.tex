@@ -1,7 +1,8 @@
-\chapter*{Chapter 5}
+\chapter*{PON Sharing Market Mechanism}
+% \toimprove{You have too many blank pages there should be none text should start straight after the title}
 
 
-In \autoref{cpt:chapter_1} we have introduced a new approach where multiple \acfp{VNO}, each providing a different service, can coexist on the same \acp{PON} network while running a virtual instance of the \ac{DBA} algorithm of their choice and aggregating these scheduling decisions into a final \ac{BMap}. Two methods for dealing with the excess bandwidth of the \acp{VNO} namely \textit{Sharing} and \textit{Non-Sharing} were analyzed with the conclusion that the sharing method considerably improves the utilization of the network. Nevertheless, \autoref{cpt:chapter_1} overlooks the incentives of the \acp{VNO} to share their excess bandwidth with other \ac{VNO}'s while it can blindly allocate the bandwidth to its own users' unpredictable demand surge.
+In \autoref{cpt:chapter_1} we introduced a new \ac{PON} sharing approach where multiple \acfp{VNO}, each providing a different service, can coexist on the same \acp{PON} network while running a virtual instance of the \ac{DBA} algorithm of their choice and aggregating these scheduling decisions into a final \ac{BMap}. Two methods for dealing with the excess bandwidth of the \acp{VNO} namely \textit{Sharing} and \textit{Non-Sharing} were analyzed with the conclusion that the sharing method considerably improves the utilization of the network. Nevertheless, \autoref{cpt:chapter_1} overlooks the incentives of the \acp{VNO} to share their excess bandwidth with other \ac{VNO}'s while it can blindly allocate the bandwidth to its own users' unpredictable demand surge.
 
 In situations that the participants lack incentives for sharing a resource, \textit{monetization} (i.e., monetary compensation) comes to the help as a manifest tool to incentivize self-interested agents to engage in sharing (e.g., ride-sharing and Airbnb). The same tool can be used to address the incentive problem in multi-tenant \acp{PON}. Where the \acp{VNO} are compensated by money/credit in return for sharing their excess capacity with others. The \acp{VNO} in demand of extra capacity will report their valuations while on the other side the \acp{VNO} who own this extra capacity will announce their valuation and then simply, the demander with the highest valuation gets the capacity from the supplier with the lowest. Though, this is an unrealistic over-simplification of the allocation as this solution will in many ways allow the \acp{VNO} to strategize and take advantage of this design flaw and improve their payoff by damaging the others'. In this chapter, we will study the potential design flaws associated with such a market and will try to build a mechanism to minimize or entirely solve them. In the following section we propose a network model for the inter-operator excess capacity sharing in \acp{PON} and introduce the market players and elements along with the monetary interactions among them.
 
@@ -13,12 +14,12 @@ In situations that the participants lack incentives for sharing a resource, \tex
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Market Model}
 \label{sec:market-model}
-In this section, we present a market model (depicted in \figureautorefname~\ref{Fig_model}) for the multi-tenant \acp{PON} excess capacity market. We first introduce the market players and the preliminaries while defining the essential parameters and features of the market. Next, we point out the desired economic properties of the market and define the utility function of the market players.
+In this section, we present a market model (depicted in \autoref{Fig_model}) for the multi-tenant \acp{PON}' excess capacity market. We first introduce the market players and the preliminaries while defining the essential parameters and features of the market. Next, we point out the desired economic properties of the market and define the utility function of the market players.
 
 \begin{figure*}[htbp]
 % \vspace{-3mm}
   \centering
-  \includegraphics[width=0.9\columnwidth]{Figures/pon.pdf}
+  \includegraphics[width=0.99\columnwidth]{Figures/pon.pdf}
 % \vspace{-4mm}
 \caption{The Multi-Tenant \acp{PON} Network Model}
 \label{Fig_model}
@@ -28,12 +29,12 @@ In this section, we present a market model (depicted in \figureautorefname~\ref{
 \subsection{Preliminaries}
 The market consists of a set of $M$ sellers $\mathbb{S}=\{s_{1}, s_{2}, ...,s_{i}\}, \ i \in M$ and a set of $N$ buyers $\mathbb{B}=\{b_{1}, b_{2}, ...,b_{j}\}, \ j \in N$ and one auctioneer. This constructs a two-sided market in which a number of traders are competing to trade identical items in a way that it will maximize their payoff. There is also an auction maker (broker) present that is responsible for operating the auction. In our market, the \ac{InP} plays the role of the auctioneer.
 
-The auctioneer initiates the auction. Each seller announces the quantity of the items offered $q^S_{i}$ along with the per-item ask value $v^S_{i}$ to the auctioneer. Simultaneously the buyers will send their pair of the number of items required $q^B_{j}$ and the bid value $v^B_{j}$ to the auctioneer. The ask and bid values ($v^S_{i}, v^B_{j}$) are $\in$ (0, 1). The auction mechanism is common knowledge.
+The auctioneer initiates the auction. Each seller announces the quantity of the items offered $q^S_{i}$ along with the per-item ask value $v^S_{i}$ to the auctioneer. Simultaneously the buyers will send their pair of the number of items required $q^B_{j}$ and the bid value $v^B_{j}$ to the auctioneer. The ask and bid values ($v^S_{i}, v^B_{j}$) are $\in$ [0, 1]. The auction mechanism is common knowledge.
 
 \begin{Definition}
 \textbf{\acp{VNO}' Per-Item Valuation}
 
-The valuation of a \ac{VNO} for an item is driven by its probability of being able to utilize it. This valuation thus ranges between [0,1], $p=0$ for definitely not having any user asking for any bandwidth. $p \in (0,1)$ for having a probability between $0$ and $1$ that a new upstream burst arrives in one of the users' buffer since the last time that the buffer occupancy was reported (this might be predicted using machine learning or traffic history monitoring techniques). And $p=1$ for definite demand from the users that in \acp{PON} is referred to as \textit{"buffer occupancy reports"}. For instance, if a \ac{VNO} reports a quantity of 1000 items and its preassigned provisioned share is 900 items, it means that it will certainly utilize the 900 items with the probability of 1 and is demanding for 100 extra items and there is a probability of $v_j$ that it will utilize this item.
+The valuation of a \ac{VNO} for an item is driven by its probability of being able to utilize it. This valuation thus ranges between [0,1], $p=0$ for definitely not having any user asking for any bandwidth. $p \in (0,1)$ for having a probability between $0$ and $1$ that a new upstream burst arrives in one of the users' buffer since the last time that the buffer occupancy was reported (this might be predicted using machine learning or traffic history monitoring techniques). And $p=1$ for definite demand from the users that in \acp{PON} is referred to as \textit{"buffer occupancy reports"}. For instance, if a \ac{VNO} reports a quantity of 1000 items and its preassigned provisioned share is 900 items, it means that it will certainly utilize the 900 items with the probability of 1 and is demanding for 100 extra items and there is a probability of $v_j$ that it will utilize the excess items.
 \end{Definition}
 \begin{table}
     \caption{Market Model Parameters}
@@ -78,7 +79,7 @@ The valuation of a \ac{VNO} for an item is driven by its probability of being ab
 
 The market model parameters are summarized in Table. \ref{tbl:params}. Each seller $S_{i}(i \in I)$ is willing to supply $q^S_{i}$ items for the minimum price of ${v^S_{i}}$. On the other side of the market each buyer $B_{j} (j \in J)$ is willing to buy $q^B_{j}$ items and is willing to pay $v^B_{j}$ for each item at most.
 
-When the auction has ended, the winning sellers will each receive $p^{\textsc{s}} \times \theta_{i}^\textsc{s}$ and the winning buyers will pay $p^{\textsc{b}} \times \theta_{j}^\textsc{b}$ with the $p^{\textsc{s}}$ and $p^{\textsc{b}}$ as the buyers' and the sellers' trade price and $\theta_{i}^\textsc{s}$ and $\theta_{j}^\textsc{b}$ as the quantity of the items traded for the buyers and the sellers respectively. By our design the traders can be partially satisfied that is they can buy/sell $\theta_i^S \leq q_i^S$ or $\theta_j^B \leq q_j^B$.
+When the auction has ended, the winning sellers will each receive $p^{\textsc{s}} \times \theta_{i}^\textsc{s}$ and the winning buyers will pay $p^{\textsc{b}} \times \theta_{j}^\textsc{b}$ where the $p^{\textsc{s}}$ and $p^{\textsc{b}}$ are the buyers' and the sellers' trade price and $\theta_{i}^\textsc{s}$ and $\theta_{j}^\textsc{b}$ are the quantity of the items traded for the buyers and the sellers respectively. By our design the traders can be partially satisfied that is they can sell/buy $\theta_i^S \leq q_i^S$ or $\theta_j^B \leq q_j^B$.
 % The auctioneer forms a vector of Seller's values (asks) ${V}^S=\{{v^S_1}, {v^S_2}, ..., {v^S_n}\}$ and a vector of buyer's values (bids) ${V}^B=\{{v^B_1}, {v^B_2}, ..., {v^B_m}\}$.
 
 \begin{Definition}
@@ -96,7 +97,7 @@ The quantity of items sold/bought by each seller/buyer is shown as $\theta_i^S, 
 \end{equation}
 Where $M$ and $N$ are the number of Sellers and buyers respectively.
 
-\subsection{Utility (Payoff)}
+\subsubsection{Utility (Payoff)}
 % If the mechanism is \ac{IC} it means that we have access to the true valuation of the traders thus it is possible to elicit the amount of utility they gain in the auction. 
 The utility of a seller ($u_{i}^\textsc{s}$) is the difference between the total amount paid to them in return for the sold items and their true valuation times the number of items sold ($\Theta_{i}^\textsc{s}$):
 \begin{equation}
@@ -304,12 +305,12 @@ In the next section we propose an auction mechanism that determines the quantity
 % % \vspace{-8mm}
 % \end{figure}
 
-% The simulation results are illustrated in Fig.~\ref{PIMRC-fig2} and have been separated into three sub-figures based on the buyers', sellers' and \ac{InP}'s utility. In all sub-figures, the X-axis denotes the difference between the supply and demand ($Supply-Demand$). Each point in the X axis is a bin that contains the result of 100 auctions with a ($Supply-Demand$) difference falling within the range of $x\pm\epsilon$ when $\epsilon = 4$.
+% The simulation results are illustrated in ~\ref{PIMRC-fig2} and have been separated into three sub-figures based on the buyers', sellers' and \ac{InP}'s utility. In all sub-figures, the X-axis denotes the difference between the supply and demand ($Supply-Demand$). Each point in the X axis is a bin that contains the result of 100 auctions with a ($Supply-Demand$) difference falling within the range of $x\pm\epsilon$ when $\epsilon = 4$.
 
 % To analyze the results statistically, we used \textit{box plots} for our numerical results. In a box plot, the quartiles of the data are shown graphically. The red line in the middle of the box is the median, and the lower and higher horizontal edges of the box denote the first and third quartile of the data, respectively. The dashed lines are the whiskers, and the red pluses are the outliers.
 
 
-% Fig.~\ref{PIMRC-fig2-b} shows the box plots of the per FU utility of the buyers and the sellers. As expected in Fig.~\ref{PIMRC-fig2-a} we see that significantly lower supply than demand leads to a very low utility for buyers because the bid values are becoming very close to each other. So, the winner will pay a price which is very close to its valuation. The utility increases as the supply increases. While more supply than demand leads to higher average utility, it also means that all the bidders will pay the reserved price. This leads to a wide range of positive utilities for buyers; some will have high utility and others will have very low. This effect is visible on the right end of Fig.~\ref{PIMRC-fig2}.a. In Fig.~\ref{PIMRC-fig2}.b we see a similar effect on the left side where demand is much higher than supply. In Fig.~\ref{PIMRC-fig2}.c we present the utility of \ac{InP} which is non-zero only when the demand is higher than supply. For \ac{InP} $Supply-Demand\geq 0$ means that the buyers pay the reserved price which is equal to the procurement price from sellers. Thus, there is no revenue in these scenarios. On the other hand, \ac{InP} utility is positive when the demand is higher than supply.
+% ~\ref{PIMRC-fig2-b} shows the box plots of the per FU utility of the buyers and the sellers. As expected in ~\ref{PIMRC-fig2-a} we see that significantly lower supply than demand leads to a very low utility for buyers because the bid values are becoming very close to each other. So, the winner will pay a price which is very close to its valuation. The utility increases as the supply increases. While more supply than demand leads to higher average utility, it also means that all the bidders will pay the reserved price. This leads to a wide range of positive utilities for buyers; some will have high utility and others will have very low. This effect is visible on the right end of Fig.~\ref{PIMRC-fig2}.a. In Fig.~\ref{PIMRC-fig2}.b we see a similar effect on the left side where demand is much higher than supply. In Fig.~\ref{PIMRC-fig2}.c we present the utility of \ac{InP} which is non-zero only when the demand is higher than supply. For \ac{InP} $Supply-Demand\geq 0$ means that the buyers pay the reserved price which is equal to the procurement price from sellers. Thus, there is no revenue in these scenarios. On the other hand, \ac{InP} utility is positive when the demand is higher than supply.
 
 % Finally, Fig.~\ref{PIMRC-fig3} represents the outcome of the auction throughout the whole duration of the simulation. Fig.~\ref{PIMRC-fig3} suggests that the system satisfies both \textit{individual rationality} and \textit{weak budget balance}, since the sellers', buyers', and \ac{InP}'s utility is never negative. Therefore, none of the \acp{VNO} nor the \ac{InP} will ever regret participating in the auction.
 % \subsection{Conclusion}
@@ -353,10 +354,10 @@ In the next section we propose an auction mechanism that determines the quantity
 %   \label{ofc18}
 % % \vspace{-9mm}
 % \end{figure}
-% Our results are reported in \figureautorefname~\ref{ofc18}, comparing the three sharing mechanisms described above. \figureautorefname~\ref{ofc18-2} shows the network utilization for an unbalanced load scenario (i.e., the mean of the traffic generated by the ONUs is assigned according to a random uniform distribution), confirms that our proposed economic-robust mechanism outperforms the Non-Sharing by achieving higher utilization across all offered loads. The Upper-Bound scenario reflects the case that with no trade reduction and, as a result, it increases the number of trades, leading to higher utilization. It is important to note though that the upper-bound is idealistic since without incentivizing \acp{VNO} to report their truthful value, they will likely manipulate their bids to achieve higher utility: the buyer \acp{VNO} shading their bids, and the sellers reporting higher untruthful values. This leads to a higher price per item from the sellers and lower offer per item from buyers leading to a natural reduction of trades. However, our results do not account for the manipulative bidding behavior of the VNOs.
-% In \figureautorefname~\ref{ofc18-3} we report, for completeness, the scenario with the balanced load across the ONUs, although this is less realistic. As expected, although the trend is confirmed, the difference between the three mechanisms is much less remarked, as the number and value of the trades are far less when \acp{VNO} all have similar traffic. \figureautorefname~\ref{ofc18-4} compares, for the unbalanced load scenario, the average VNOs' and \ac{InP}'s utility against the average number of trades conducted during each frame using the proposed mechanism.
+% Our results are reported in \autoref{ofc18}, comparing the three sharing mechanisms described above. \autoref{ofc18-2} shows the network utilization for an unbalanced load scenario (i.e., the mean of the traffic generated by the ONUs is assigned according to a random uniform distribution), confirms that our proposed economic-robust mechanism outperforms the Non-Sharing by achieving higher utilization across all offered loads. The Upper-Bound scenario reflects the case that with no trade reduction and, as a result, it increases the number of trades, leading to higher utilization. It is important to note though that the upper-bound is idealistic since without incentivizing \acp{VNO} to report their truthful value, they will likely manipulate their bids to achieve higher utility: the buyer \acp{VNO} shading their bids, and the sellers reporting higher untruthful values. This leads to a higher price per item from the sellers and lower offer per item from buyers leading to a natural reduction of trades. However, our results do not account for the manipulative bidding behavior of the VNOs.
+% In \autoref{ofc18-3} we report, for completeness, the scenario with the balanced load across the ONUs, although this is less realistic. As expected, although the trend is confirmed, the difference between the three mechanisms is much less remarked, as the number and value of the trades are far less when \acp{VNO} all have similar traffic. \autoref{ofc18-4} compares, for the unbalanced load scenario, the average VNOs' and \ac{InP}'s utility against the average number of trades conducted during each frame using the proposed mechanism.
 % We define the VNOs' utility as the difference between their trading price and their valuation for the FU, .i.e., this determines how close is their final payment to their perceived value. The \ac{InP}'s utility is the difference between the trading price of the seller and buyer VNOs, i.e., this reflects the price gap occurred due to the supply and demand ratio.
-% Both \figureautorefname~\ref{ofc18-4} and \figureautorefname~\ref{ofc18-5} show that as we move to the right along the X-axis, the ratio of the demand to supply increases and, as a natural reaction, the market adapts by raising the price. As the number of trades increases, \acp{VNO} and the \ac{InP} gain more utility. Once the overloading ratio exceeds the factor of 2, the \acp{VNO} become more demanding. At the same time, the supply declines and leads to fewer trades and eventually almost no trade when it reaches saturation as all the \acp{VNO} are asking for more than their negotiated share. By design, while the supply is higher than the demand the trading price is equal to the base price thus the utility of the \ac{InP} remains zero. Once the demand grows over the supply, the price rises and the \ac{InP}'s utility starts to grow. The \ac{InP}'s utility is at its highest when the number of trades is maximum, and the average price of an FU is high.
+% Both \autoref{ofc18-4} and \autoref{ofc18-5} show that as we move to the right along the X-axis, the ratio of the demand to supply increases and, as a natural reaction, the market adapts by raising the price. As the number of trades increases, \acp{VNO} and the \ac{InP} gain more utility. Once the overloading ratio exceeds the factor of 2, the \acp{VNO} become more demanding. At the same time, the supply declines and leads to fewer trades and eventually almost no trade when it reaches saturation as all the \acp{VNO} are asking for more than their negotiated share. By design, while the supply is higher than the demand the trading price is equal to the base price thus the utility of the \ac{InP} remains zero. Once the demand grows over the supply, the price rises and the \ac{InP}'s utility starts to grow. The \ac{InP}'s utility is at its highest when the number of trades is maximum, and the average price of an FU is high.
 
 % To conclude, our work has shown that economic sharing incentives are indispensable in fully virtualized multi-tenant PONs to increase the overall utilization. Our proposed market mechanism significantly improves the utilization of the \acp{PON} compared to the Non-Sharing scenario while achieving the desired economic robustness.
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -366,13 +367,13 @@ In the next section we propose an auction mechanism that determines the quantity
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{McAfee-Based Double Auction Mechanism}
 \label{sec:auction_mechanism}
-We propose a sealed-bid homogeneous item double auction mechanism. In a sealed-bid auction all traders simultaneously submit sealed asks/bids to the auctioneer, and no trader is aware of the ask/bid of any other participant. An auction is a homogeneous item when the trading items are identical; thus the traders have no preferences over any of the items.
+We propose a sealed-bid homogeneous item double auction mechanism to determine the winners and setting the trading prices. In a sealed-bid auction all traders simultaneously submit sealed asks/bids to the auctioneer, and no trader is aware of the ask/bid of any other participant. An auction is a homogeneous item when the trading items are identical; thus the traders have no preferences over any of the items.
 
 
 The mechanism provides a matching service to multiple buyers and sellers in a bilateral trade environment. We assume rational traders whose effort is focused on maximizing their payoff by trading the identical items. A market maker, or the auctioneer, is responsible for operating this market and conducting the auctions while having no or incomplete information about the true valuations of the traders. There is a finite number of alternative resource allocation combinations. Each combination would bring a different individual and social payoff for each trader and the entire market.
 We chose a sealed-bid auction due to the latency constraints in \ac{PON} networks and the fact that we need to run the auction in microseconds time scales, we cannot afford multiple rounds of communication among the sellers, auctioneer and the buyers. Therefore, we have to minimize these communications. Using the sealed-bid version of auction helps us to eliminate the need for any additional round of communication among the agents as the traders only send the ask/bid values once along with their \ac{BMap} (the suggested allocation schedule). The algorithmic representation of the proposed double auction mechanism is given in \autoref{alg:MC_algorithm}.
 
-\begin{algorithm}[htbp]
+\begin{algorithm}%[htbp]
 \DontPrintSemicolon
 \SetAlgoLined
 % \KwResult{Write here the result}
@@ -407,7 +408,7 @@ We chose a sealed-bid auction due to the latency constraints in \ac{PON} network
 \label{alg:MC_algorithm}
 \end{algorithm}
 
-We assume that there are no restrictions on the sets of buyers and sellers that may trade with one another nor any preferences over trade between any of the traders. The steps of the proposed auction mechanism are as follows:
+We assume that there are no restrictions on the sets of buyers and sellers that may trade with one another nor any preferences over trade between any of the traders. The steps of the proposed auction mechanism are as follow:
 \begin{enumerate}
 \item The auctioneer sorts all the buyers (based on their ask/bid value) so that:
 \begin{equation}
@@ -427,6 +428,7 @@ and
 \begin{subfigure}{0.85\columnwidth}
 \includegraphics[width=\columnwidth]{Figures/sd_XU.pdf}%
 \caption{\textit{Xu et al. \cite{5462277}} Double Auction}%
+% \vspace{3mm}
 \label{sd_xu}%
 \end{subfigure}\hfill%
 \begin{subfigure}{0.85\columnwidth}
@@ -439,7 +441,7 @@ and
 % \vspace{-6mm}
 \end{figure}
 
-\item The auctioneer discovers the Walrasian equilibrium quantity as shown in \figureautorefname~\ref{sd} as $\Theta_\textsc{w}$. \figureautorefname~\ref{sd_proposed} depicts the discrete supply and demand graph for one instance of the proposed auction (one round of the auction for one frame of the \ac{PON}) representing the trades' valuation and quantity. In \figureautorefname~\ref{sd} each step in the red line represents a seller, and each step in the blue line a buyer. In this example there are five sellers and five buyers in the market and $\gamma \in [{v^{}_L} , {v^{}_K}]$. As shown in \figureautorefname~\ref{sd_xu}, the gray area, representing the trading utility, is sacrificed to achieve truthfulness. In contrast, our proposed trade reduction technique depicted in \figureautorefname~\ref{sd_proposed} saves this amount of wasted utility while maintaining the truthfulness. In \figureautorefname~\ref{sd_xu}, the blue, green and red area represent buyers', auctioneer's and the sellers' utility from the auction. As it can be seen in \figureautorefname~\ref{sd_proposed}, for this particular instance of the market our proposed mechanism brings zero utility for the auctioneer. In general however, the auctioneer's overall utility will be the surplus between buyers' payment and the sellers' receivables goes to the auctioneer (zero when $\gamma \in [{v^{}_L} , {v^{}_K}]$ and $(p^\textsc{b} - p^\textsc{s}) \times \Theta$ when $\gamma \notin [{v^{}_L} , {v^{}_K}]$).
+\item The auctioneer discovers the Walrasian equilibrium quantity as shown in \autoref{sd} as $\Theta_\textsc{w}$. \autoref{sd_proposed} depicts the discrete supply and demand graph for one instance of the proposed auction (one round of the auction for one frame of the \ac{PON} upstream transmission) representing the trades' valuation and quantity. In \autoref{sd} each step in the red line represents a seller, and each step in the blue line represents a buyer. In this example there are five sellers and five buyers in the market and $\gamma \in [{v^{}_L} , {v^{}_K}]$. As shown in \autoref{sd_xu}, the gray area, representing the trading utility, is sacrificed to achieve truthfulness. In contrast, our proposed trade reduction technique depicted in \autoref{sd_proposed} saves this amount of wasted utility while maintaining the truthfulness. In \autoref{sd_xu}, the blue, green and red area represent buyers', auctioneer's and the sellers' utility from the auction, respectively. As it can be seen in \autoref{sd_proposed}, for this particular instance of the market our proposed mechanism brings zero utility for the auctioneer. In general however, the auctioneer's overall utility will be the surplus between the buyers' payment and the sellers' receivables goes to the auctioneer (zero when $\gamma \in [{v^{}_L} , {v^{}_K}]$ and $(p^\textsc{b} - p^\textsc{s}) \times \Theta$ when $\gamma \notin [{v^{}_L} , {v^{}_K}]$).
 
 
 
@@ -448,10 +450,10 @@ and
 \begin{Definition}
 \textbf{Walrasian (Competitive) Equilibrium}
 
-In the context of our double auction market, the ``Walrasian Equilibrium'' is the point in the supply-demand plot in which the supply equals the demand. This point specifies the maximum quantity of feasible trades in which the sellers' price is less than the buyers' price. In other words, this is the \textit{upper-bound} utilization of the market.
+In the context of our double auction market, the \textit{ Walrasian Equilibrium} is the point in the supply-demand plot (\autoref{sd}) in which the supply equals the demand. This point specifies the maximum quantity of feasible trades in which the sellers' price is less than the buyers' price. In other words, this is the \textit{upper-bound} of market allocation efficiency.
 \end{Definition}
 
-The Walrasian equilibrium defines another important factor, the ``Walrasian Price'' which, if the trade is conducted brings positive payoff for both the supplier and the demander and also balances the budget. i.e., it finds the biggest $(L, K)$ in which:
+The Walrasian equilibrium defines another important factor, the \textit{Walrasian Price} in which if the trade is conducted brings positive payoff for both the supplier and the demander and also balances the budget. i.e., it determines the biggest $(L, K)$ in which:
 % \begin{equation}
 % v_\textsc{l+1}\geq v^{}_K \geq v^{}_L, \textnormal{and} \sum_{1}^{K-1} q_{j}^B \leq \sum_{1}^\textsc{l} q_{i}^S \leq \sum_{1}^\textsc{k} q_{j}^B
 % \end{equation}
@@ -469,7 +471,7 @@ and
 \begin{equation}
 \sum_{j=1}^\textsc{k} q_{j}^B \leq \sum_{i=1}^\textsc{l} q_{i}^S.
 \end{equation}
-Thus the last trading seller and buyer in the walrasian equilibrium are called $S_L , B_K$ respectively.
+We refer to the last trading seller and buyer in the walrasian equilibrium as $S_L , B_K$, respectively.
 The Walrasian equilibrium realizes the \textit{Pareto efficiency}. A resource allocation decision is referred to as Pareto efficient if it is impossible to reallocate the resources in a way that makes one of the agents better off without making others worse. This quality makes the Walrasian allocation a suitable benchmark of efficiency in economic analysis.
 
 
@@ -480,9 +482,9 @@ The Walrasian equilibrium realizes the \textit{Pareto efficiency}. A resource al
 
 A technique in which the least efficient trade in the market is sacrificed so the other traders can trade on their reported value, thus their reported valuation does not affect their payments, i.e., they have no incentive to report untruthful values (leading to \ac{IC}).
 \end{Definition}
-Thus, $q_{r}$ trades will be removed from the market. In \figureautorefname~\ref{sd_xu} the reduced area is shown in gray. Obviously, it is possible that by removing $q_{r}$ trades from the market we may have to eliminate more than two traders (completely or partially) from the market.
+Thus, $q_{r}$ trades will be removed from the market. In \autoref{sd_xu} the reduced area is shown in gray. Obviously, it is possible that by removing $q_{r}$ trades from the market we may have to eliminate more than two traders (completely or partially) from the market.
 
-In our proposed mechanism, the total number of items sold by the sellers, which is equal to the total number of items bought, by the buyers is represented as $\Theta^{}_{Pr}$. The value of $\Theta^{}_{Pr}$ directly affects the utilization of the \acp{PON} link.
+In our proposed mechanism, the total number of items sold by the sellers, which is equal to the total number of items bought, by the buyers is represented as $\Theta^{}_{Pr}$. The value of $\Theta^{}_{Pr}$ directly affects the link utilization of the \acp{PON}.
 \vspace{-2mm}
 \begin{equation}
 \Theta^{}_{Pr} = \min (\sum_{i=1}^{L}{q_{i}}, \sum_{j=1}^{K}{q_{j}})
@@ -492,14 +494,14 @@ The quantity of reduced trades is defined as $q^{}_R$:
 \begin{equation}
 q^{}_R = \Theta^{}_W - \Theta^{}_{Pr}
 \end{equation}
-The amount of efficiency (utility) sacrificed in market due to this trade reduction is:
+The amount of efficiency (utility) sacrificed in the market due to this trade reduction is:
 \begin{equation}
 \textit{Efficiency loss} = q^{}_R \times (v^{}_K-v^{}_L)
 \end{equation}
 
 % \textcolor{red}{MIDA and Hong \cite{5462277} stop here.
 % }
-\autoref{tbl:sd:RAW} presents the numerical information (the traders' preferences) used in \figureautorefname~\ref{sd_xu} and the different market results using the auction mechanism introduced by \textit{Xu et al.} \cite{5462277} (in \autoref{tbl:sd:XU}) and the results from the proposed mechanism in\autoref{tbl:sd:PROPOSED}.
+\autoref{tbl:sd:RAW} presents the numerical information (the traders' preferences) used in \autoref{sd_xu} and the different market results using the auction mechanism introduced by \textit{Xu et al.} \cite{5462277} (in \autoref{tbl:sd:XU}) and the results from the proposed mechanism in \autoref{tbl:sd:PROPOSED}.
 
 \begingroup
 \setlength{\tabcolsep}{2pt} % Default value: 6pt
@@ -567,7 +569,7 @@ Buyers  & 1200@0.595 & 800@0.595 & 700@0.595 & 600@0.595 & 0 \\ \hline
 \endgroup
 % \vspace{-4mm}
 
-Our contribution in this chapter is to try and minimize $q^{}_R$ without loosing the economic properties. We use the technique used in \cite{MCAFEE1992434} which uses the values of $S_{L+1}$ (the strongest non-trading seller) and $B_{K+1}$ (the strongest non-trading buyer) to determine the traders payment only and only if:
+Our contribution in this chapter is to propose a trade reduction technique that minimizes $q^{}_R$ without loosing the economic properties. We improve the technique used in \cite{MCAFEE1992434} which uses the values of $S_{L+1}$ (the strongest non-trading seller) and $B_{K+1}$ (the strongest non-trading buyer) to determine the traders' payment only and only if:
 \begin{equation}
 \gamma = {\frac{1}{2}}\times({v_{{L+1}}^{S}+v_{{K+1}}^B}) \in [v_{i}^{S},v_{j}^{{B}}]
 \end{equation}
@@ -582,10 +584,10 @@ In the context of market power, the weakest traders are the seller with the high
 \end{Definition}
 
 % \item If NOT 4 then we reduce the trades by removing  $S_L$ , $B_K$ from the trade and let other sellers and buyer trade in $P_\textsc{l}$ , $P_\textsc{k}$ respectively. (obviously, sometimes we need to, e.g.,remove multiple sellers in return for a single buyer vice-versa).
-In Fig.\ref{sd_xu} the blue area is the sellers' utility, the green area is the auctioneer's and the red is the buyers'. The gray area is the amount of lost efficiency, e.g., when the trade reduction is applied.
+In \autoref{sd_xu} the blue area is the sellers' utility, the green area is the auctioneer's and the red is the buyers'. The gray area is the amount of lost efficiency, e.g., when the trade reduction is applied.
 \end{enumerate}
 
-In the next section, we will provide the theoretical proofs for the economic robustness (see \autoref{Method:subsec:Economic-Robustness}) of the proposed auction mechanism.
+% In the next section, we will provide the theoretical proofs for the economic robustness (see \autoref{Method:subsec:Economic-Robustness}) of the proposed auction mechanism.
 % We consider an XGS-PON \cite{G.9807.1} with 10-Gbit/s symmetrical capacity in both upstream and downstream. We define the item to be traded in the auction as the most granular frame unit FU in an XGS-PON. This means for an upstream line rate of 9.953,28-Gbit/s each FU is one block (16 bytes) according to the XGS-PON standard. Thus, each XGS-PON frame (125 microseconds) can at most contain 9720 allocation structures. i.e., 9,720 FUs per frame.
 % We consider a set of traders
 % We consider a double auction in which allow for selling and buying excess frame units.
@@ -601,13 +603,65 @@ In the next section, we will provide the theoretical proofs for the economic rob
 % \caption{Truthful Reporting dominant strategy proof}
 %   \label{truth-proof}
 % \end{figure*}
+
+\section{Market Evaluation Methodology}
+\label{sec:Auc:methodology}
+In this section, we first define the criteria for economic robustness that is achieved by fulfilling a number of economic properties. Next, we introduce the methods used to confirm the economic robustness of the proposed market mechanism, including theoretical proof and game trees. Finally, using market simulations, we illustrate the performance of the proposed model in terms of bandwidth utilization and market social welfare.
+
+
+\subsection {Economic Properties (Economic-Robustness)}
+\label{Method:subsec:Economic-Robustness}
+The four essential principles of a desirable auction mechanism design includes optimal \ac{AE}, \ac{IC}, \ac{IR} and \ac{BB} \cite{Krishna02}.
+
+\begin{enumerate}
+\item \textbf{Optimal \acf{AE}:} The outcome allocation of the items maximizes the social welfare (i.e., the aggregate of all participants' utilities).
+\item \textbf{\acf{IC}:} An auction mechanism is IC when reporting the true valuation is a dominant strategy for all the traders, i.e., no trader can improve its utility gain from the market by reporting an untruthful value. This is also referred to as \textit{Truthfulness} and \textit{Strategyproofness} in the literature.
+\begin{Definition}
+Dominant strategy: In game theory, a strategy is dominant for a player if regardless of what other players do, there is no alternative strategy to be played that will bring more utility to the player.
+\end{Definition}
+IC provides strong participation incentives for the traders by reducing the participation cost. The reasons to eliminate strategic behavior from the market are as follows:
+\begin{enumerate}
+\item Strategic behavior of the traders makes the market very complicated to analyze. Especially for a market such as double-auction multi-item market in which there is competition both between the same type of the traders (i.e., seller/seller or buyer/buyer) and opposing type of traders (i.e., seller/buyer) and there is an incentive for them to strategize through untruthful value/quantity reporting to achieve a higher utility.
+
+\item Strategic behavior can impose a substantial social cost on the market as it promotes competitive strategizing. The traders would spend resources to acquire more information about the market and their competitors' preferences, and this consequently will negatively affect their market power, i.e., asks/bids.
+\end{enumerate}
+\item \textbf{\acf{IR}:} All traders have non-negative utility if they participate in the market.
+\item \textbf{Weak \acf{BB}:} The auctioneer does not run at a negative utility. A mechanism is referred to as weakly budget-balanced if the auctioneer does not get a negative utility. Still, it may have a positive utility.  %and strongly budget-balanced, i.e., the auctioneer's is exactly zero. 
+Our desired mechanism is weakly budget-balanced as the auctioneer will get the market surplus as its operation fee.
+\end{enumerate}
+\subsection{Theoretical Proofs}
+
+Considering that the number of cases is finite and limited, we have used the \textit{Proof by Exhaustion} method to confirm the satisfaction of the desired economic properties. We conduct a case analysis to study every possible outcome of the market players' strategic behavior. This is to assure that none of the market players could use manipulative techniques to undermine the market and achieve higher profits from it. Such manipulative techniques might include artificial intelligence assisted bidding strategies that could lead to further challenges. 
+% \subsection{Game Trees}
+For further clarification, we use game trees to represent the theoretical proofs visually. Game trees offer a visual alternative to illustrate the case by case outcome of the players' strategy in the game. 
+\subsection{Market Simulation}
+\label{Method:subsec:simul}
+% \toimprove{Maybe add arrows to the \autoref{sim_UML}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{Figures/UML.pdf}
+\caption{High Level Class Diagram of the Market Simulator}
+\label{sim_UML}
+\end{figure}
+
+While theoretical proofs can be used to assure satisfying \ac{IC}, \ac{BB}, and \ac{IR}, however, to test and evaluate \acl{AE}, it is necessary to observe the market and gather information on specific parameters. This information is then used to compare the efficiency of the market mechanism proposed in this dissertation with the state-of-the-art.
+Therefore we have developed a market simulation tool that gathers relevant parameters that are necessary for investigating the market performance. The market simulator can support various auction mechanisms and generate results on the following factors:
+\begin{itemize}
+    \item Market Utility Distribution: The share of sellers/buyers from the market.
+    \item Social welfare: The aggregate utility of all the market participants.
+    \item Network utilization: Bandwidth utilization of the \ac{PON}.
+\end{itemize}
+
+The above factors (further introduced in \autoref{cpt:auc:sec:results}) extracted from the market simulations will allow comparative analysis between different market mechanisms (i.e., auctions). The market simulator is written in Python \cite{van1995python} programming language. A high-level class diagram of the market simulator is depicted in \autoref{sim_UML}. At the beginning of the simulation, the market simulator invokes a request from the \textit{\ac{VNO} generator} to generate the \acp{VNO} with the given number of \acp{VNO}, the load distribution. The generated \acp{VNO} are then categorized into sellers and buyers depending on their demand/excess, and the bid/asks are sent to the auction mechanism (see \autoref{sec:auction_mechanism}). Finally, the \textit{Report Generator} produces the results and returns them to the simulator. The simulations were undertaken using the CONNECT01 server available to Trinity College Dublin researchers. CONNECT01 is equipped with 44 processors with 64-bit architecture and uses Scientific Linux 6x \cite{scientific_linux} as its operating system. Further network-level simulation details are available in \autoref{cpt:auc:sec:results}.
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Theoretical Proofs} \label{proofs}
-\subsubsection{\acf{IC} or Truthfulness}
+\subsection{Incentive Compatibility}
 We have to prove that no trader can achieve higher utility by reporting a manipulated value which can be determined by market monitoring techniques and prediction tools such as machine learning etc.
 
 % To prove this we have to prove that there is no ${v^\prime}^B_{j} < v^B_{j}$ which $B_{j}$ can report and by doing so gain more utility given that all the other bids and asks remain unchanged.
@@ -712,7 +766,7 @@ The dominant strategy truthfulness for the sellers can be proven in the same way
 \label{Corollary-sellers-truth}
 \end{Corollary}
 
-\subsection{Individual Rationality (IC)}
+\subsection{Individual Rationality}
 \begin{Theorem}
 The proposed mechanism satisfies all traders' individual rationality.
 \end{Theorem}
@@ -720,9 +774,9 @@ The proposed mechanism satisfies all traders' individual rationality.
 The proposed mechanism is \ac{IC} since by design it will not sell (buy) any item unless the trade price is higher (lower) than the seller's (buyer's) reported value. We consider that the \acp{VNO} are rational entities and would not report smaller values than their true value if they are sellers or bigger values than their true value if they are buyers.
 \end{proof}
 
-\subsection{Weak Budget Balance (BB)}
+\subsection{Weak Budget Balance}
 \begin{Theorem}
-The proposed mechanism is BB.
+The proposed mechanism is \acf{BB}.
 \end{Theorem}
 \begin{proof}
 The suggested theorem is invalid when it is possible for the auctioneer to run a budget deficit. We will show that our mechanism does not allow that to happen.
@@ -770,10 +824,10 @@ According to our proposed mechanism, the buyers' trade price is always higher th
 %%%%%%%%%%%%%%%%%%%%%%%%%SECTION%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Experimental Results} \label{results}
+\section{Experimental Results} \label{cpt:auc:sec:results}
 This section is dedicated to evaluating and analyzing the \ac{AE} of the proposed mechanism and comparing it to prior work. We measure the \ac{AE} by two factors:
 \begin{enumerate}
-\item The total number of items traded in one round of the auction (\autoref{Thetha}). This factor directly determines the proportion of the \acp{PON} bandwidth that is being shared among the VNOs. Thus it can clearly reflect the effect of auctioning the capacity on PON's efficiency.
+\item The total number of items traded in one round of the auction (\autoref{Thetha}). This factor directly determines the proportion of the \acp{PON} bandwidth that is being shared among the VNOs. Thus it can clearly reflect the effect of auctioning the capacity on the \acp{PON}'s efficiency.
 
 To compare the results of different mechanisms we use the Walrasian equilibrium trade quantity as a baseline (upper-bound) since this is the maximum number of rational trades in the market. The closest the results are to the upper-bound the better. A rational trade is a trade in which the buyer's bid is strictly higher than the sellers, and the supply quantity is larger or smaller than the demand quantity.
 
@@ -786,8 +840,8 @@ SW = \sum_{i=1}^{i=L} u^S_i + \sum_{j=1}^{j=K} u^B_j + u_{Auc}
 In which the SW is the social welfare of the system in each round of the auction.
 \end{enumerate}
 
-
-\subsection{Simulation Setup}
+% \subsection{Simulation Results}
+% \subsection{Simulation Setup}
 % In each second 9953280000 bits, in each second 8000 frames of 125 $\mu s$ and in each frame 9720 blocks each 16 bytes.
 We consider an XGS-PON \cite{G.9807.1} with 10 Gbit/s (nominal line rate of 9.95328 Gbit/s symmetrical capacity). We simulate a market with ten \acp{VNO} each with an equal share of the upstream bandwidth, i.e., 995.328 Mbit/s$\approx$1-Gbit/s. This translates to 972 blocks (one block is 16 bytes as defined in the standard \cite{G.9807.1} as the finest granularity for upstream allocation) or blocks per frame (125 $\mu s$) per VNO.
 Each \ac{VNO} will ask for a number of blocks depending on its users' instantaneous demand. This number determines that if the \ac{VNO} is a seller (if asking for a lower than the pre-defined share), a buyer (if asking for higher) or a non-trader (if asking for the exact same amount).
@@ -795,8 +849,7 @@ Each \ac{VNO} will ask for a number of blocks depending on its users' instantane
 % The valuation for each FU reflects the probability of the \ac{VNO} to have a demand from its users for a FU. This valuation is done by the \ac{VNO}, and it is either based on the methods specified in the standard, i.e., traffic monitoring, and the queue occupancy reports from the ONUs or new methods such as traffic forecasting \cite{7495169}. The valuation (demand probability) is between $[0, 1]$ for both the seller and buyer VNOs.
 
 
-\subsection{Simulation Results}
-In this section, we report the market simulation results regarding Market Utility Distribution, Network utilization, and the Social welfare (see \autoref{Method:subsec:simul}). 
+In the rest of this section, we report the market simulation results regarding Market Utility Distribution, Network utilization, and the Social welfare (see \autoref{Method:subsec:simul}). 
 
 
 \subsubsection{Network Utilization}
@@ -819,11 +872,11 @@ In this section, we report the market simulation results regarding Market Utilit
 % \vspace{-9mm}
 \end{figure}
 
-\figureautorefname~\ref{Utilization} illustrates the performance comparison of the proposed mechanism with non-sharing and \textit{Xu et al.} \cite{5462277} mechanism. The \textit{"Upper-Bound"} is the maximum reachable utilization while overlooking the economic properties. As we mentioned in the previous sections "\textit{Xu et al.}" is a mechanism that works similar to our proposed mechanism with a difference that its trade reduction mechanism always removes $S_L , B_K$. The \textit{"Non-sharing"} represents the approach where \acp{VNO} do not share their excess capacity with others (i.e., no auction happens, and all the excess capacity is wasted).
+\autoref{Utilization} illustrates the performance comparison of the proposed mechanism with non-sharing and \textit{Xu et al.} \cite{5462277} mechanism. The \textit{"Upper-Bound"} is the maximum reachable utilization while overlooking the economic properties. As we mentioned in the previous sections "\textit{Xu et al.}" is a mechanism that works similar to our proposed mechanism with a difference that its trade reduction mechanism always removes $S_L , B_K$. The \textit{"Non-sharing"} represents the approach where \acp{VNO} do not share their excess capacity with others (i.e., no auction happens, and all the excess capacity is wasted).
 
-Figures \ref{Unbalanced_Utilization} and \ref{Balanced_Utilization} depict the utilization (averaged over the simulation time) of each mechanism in the unbalanced (randomly weighted load) and balanced (equally weighted load) network loads respectively. Intuitively, the \textit{"Upper-Bound"} achieves the highest utilization as it ignores the truthfulness and puts a naive trust on the \acp{VNO} to report their values truthfully, thus does not remove any trades from the market. However, this is not acceptable since in such conditions the traders do not have any incentive to report true values and will potentially try to manipulate the market by reporting untrue values. This may lead to a situation where no trader gets to trade since they all are greedily trying to maximize their own utility without considering the others' welfare, e.g., ask prices are too high and bids are too low, so no trade happens. The horizontal axis in \autoref{Utilization} represents the average incoming load of each \ac{VNO}, and the vertical axis shows the utilization of each mechanism in a given load.
+\autoref{Unbalanced_Utilization} and \autoref{Balanced_Utilization} depict the utilization (averaged over the simulation time) of each mechanism in the unbalanced (randomly weighted load) and balanced (equally weighted load) network loads respectively. Intuitively, the \textit{"Upper-Bound"} achieves the highest utilization as it ignores the truthfulness and puts a naive trust on the \acp{VNO} to report their values truthfully, thus does not remove any trades from the market. However, this is not acceptable since in such conditions the traders do not have any incentive to report true values and will potentially try to manipulate the market by reporting untrue values. This may lead to a situation where no trader gets to trade since they all are greedily trying to maximize their own utility without considering the others' welfare, e.g., ask prices are too high and bids are too low, so no trade happens. The horizontal axis in \autoref{Utilization} represents the average incoming load of each \ac{VNO}, and the vertical axis shows the utilization of each mechanism in a given load.
 
-\begin{table}[htbp]
+\begin{table}%[htbp]
    \caption{Unbalanced Load Utilization}
    \label{tab:util:unbal}
    \small % text size of table content
@@ -842,7 +895,7 @@ Figures \ref{Unbalanced_Utilization} and \ref{Balanced_Utilization} depict the u
    \end{tabular}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}%[htbp]
    \caption{Balanced Load Utilization}
    \label{tab:util:bal}
    \small % text size of table content
@@ -894,7 +947,7 @@ u^{Auc} = (p^\textsc{b} - p^\textsc{s}) \times \Theta
 \end{eqnarray}
  Where $\theta_{i}^\textsc{s}$ is the items sold by the $i^{th}$ seller for the price of $p^\textsc{s}$, ${\theta_{j}^\textsc{b}}$ is the items won by the $j^{th}$ buyer with the price of $p^\textsc{b}$, and $\Theta$ is the total number of items traded.
 
-\begin{figure}[htbp]
+\begin{figure}%[htbp]
 % \vspace{-7mm}
 \centering
 \begin{subfigure}{0.7\columnwidth}
@@ -911,7 +964,7 @@ u^{Auc} = (p^\textsc{b} - p^\textsc{s}) \times \Theta
 \label{fig:utility}%
 % \vspace{-3mm}
 \end{figure}
-\figureautorefname~\ref{fig:utility} shows the utility distribution between the trades and the InP. The utility of all the traders decline as the load saturates the network and the volume of offered capacity drops. Consequently, the total number of trades experiences reduction.
+\autoref{fig:utility} shows the utility distribution between the trades and the InP. The utility of all the traders decline as the load saturates the network and the volume of offered capacity drops. Consequently, the total number of trades experiences reduction.
 
 
 % % % % % % % % % % % % % % % % % % % % 
@@ -922,7 +975,7 @@ u^{Auc} = (p^\textsc{b} - p^\textsc{s}) \times \Theta
 
 
 \subsubsection{Social Welfare}
-\begin{figure}[htbp]%
+\begin{figure}%[htbp]%
 % \vspace{-7mm}
 \centering
 \begin{subfigure}{0.7\columnwidth}
@@ -941,7 +994,7 @@ u^{Auc} = (p^\textsc{b} - p^\textsc{s}) \times \Theta
 \end{figure}
 
 
-\figureautorefname~\ref{Utility} provides an insight into the social welfare (aggregate market utility averaged over the simulation time) generated by auctioning the excess capacity of the PON. The unit for utility is one block (XGS-PON frame block), e.g., the utility of 1000 in the \figureautorefname~\ref{sw:Unbalanced_Utility} means that on average over 10 seconds of simulation time $\approx1000$ additional frame blocks worth of utility is gained when using the proposed mechanism. The results in \figureautorefname~\ref{Utility} provides further support for the hypothesis that the proposed mechanism achieves higher social welfare compared to that of the Xu et al. \cite{5462277}. The explanation for this difference lays in our trade reduction technique that reduces fewer trades compared to the Xu et al. \cite{5462277}. We recognize that the significant improvements in \figureautorefname~\ref{sw:Unbalanced_Utility} that reaches up to $\approx 40\%$ may seem unrealistic at first glance. To explain this, it is important to note that as the network load increases, the number of eligible traders is reduced since it becomes less likely for a \ac{VNO} to have any excess resources to share. Therefore, it is likely that the trade eliminated by the trade reduction algorithm might be the only efficient trade, i.e., the trade reduction technique might ban the only feasible trade thus leaving the market with no additional social welfare.
+\autoref{Utility} provides an insight into the social welfare (aggregate market utility averaged over the simulation time) generated by auctioning the excess capacity of the PON. The unit for utility is one block (XGS-PON frame block), e.g., the utility of 1000 in the \autoref{sw:Unbalanced_Utility} means that on average over 10 seconds of simulation time $\approx1000$ additional frame blocks worth of utility is gained when using the proposed mechanism. The results in \autoref{Utility} provides further support for the hypothesis that the proposed mechanism achieves higher social welfare compared to that of the Xu et al. \cite{5462277}. The explanation for this difference lays in our trade reduction technique that reduces fewer trades compared to the Xu et al. \cite{5462277}. We recognize that the significant improvements in \autoref{sw:Unbalanced_Utility} that reaches up to $\approx 40\%$ may seem unrealistic at first glance. To explain this, it is important to note that as the network load increases, the number of eligible traders is reduced since it becomes less likely for a \ac{VNO} to have any excess resources to share. Therefore, it is likely that the trade eliminated by the trade reduction algorithm might be the only efficient trade, i.e., the Xu et al. trade reduction technique might ban the only feasible trade thus leaving the market with no additional social welfare.
 % of zero. Therefore, our trade reduction will partly solve this problem by eliminating less efficient trades.
 
 % \textcolor{brown}{To be mentioned in results analysis:
@@ -961,30 +1014,30 @@ u^{Auc} = (p^\textsc{b} - p^\textsc{s}) \times \Theta
 In this chapter, We addressed one of the economic challenges facing the realization of \ac{PON} sharing. We provided an answer to the following research questions: 
 
 \begin{itemize}
-    \item \textit{\RQc}: We designed a market model for \ac{PON} excess capacity sharing, where multiple \acp{VNO} can engage in the trade of excess resources and receive monetary compensation for sharing their resources with other \acp{VNO}. The following will benefit from the proposed marketplace:
+    \item \textit{\RQc}\\We designed a market model for \ac{PON} excess capacity sharing, where multiple \acp{VNO} can engage in the trade of excess resources and receive monetary compensation for sharing their resources with other \acp{VNO}. The following will benefit from the proposed marketplace:
     \begin{itemize}
     \item The \acp{VNO} will be able to monetize their idle resources and also provide higher peak information rate (PIR) for their customers while reducing the risk of over-provisioning. %and for lower cost.
     \item The \ac{InP} can more efficiently utilize its infrastructure, allowing it to support more operators with no extra \ac{CapEx}.
     \item The end-users can enjoy more realistic information rates offered by the operators and reach a better quality of experience (QoE).
     \end{itemize} 
     
-     \item \textit{\RQd}: We proposed a new sealed-bid, multi-item, double auction mechanism to efficiently allocate the resources while maximizing the social welfare of the market. The auction is designed in a way to minimize any communication delay that could affect the \ac{PON} scheduling operation, which typically occur every 125 $\mu s$. For this purpose, \acp{VNO} send all the required information for conducting the auction at once, along with the \ac{BMap}. We have proven that our proposed algorithm is compatible with the \acp{VNO}' incentives and guarantees positive a budget for the \ac{InP}. The results from the market simulation show that the proposed mechanism outperforms the state-of-the-art double auction mechanism proposed by Xu et al. \cite{5462277}, as our trade reduction mechanism scarifies fewer trades to achieve the crucial economic properties. Finally, these achievements are reached while the mechanism adds no additional communication overhead to the system due to its single-rounded nature.
+     \item \textit{\RQd}\\We proposed a new sealed-bid, multi-item, double auction mechanism to efficiently allocate the resources while maximizing the social welfare of the market. The auction is designed to minimize any communication delay that could affect the \ac{PON} scheduling operation, which typically occur every 125 $\mu s$. For this purpose, \acp{VNO} send all the required information for conducting the auction at once, along with the \ac{BMap}. We have proven that our proposed algorithm is compatible with the \acp{VNO}' incentives and guarantees a positive budget for the \ac{InP}. The results from the market simulation show that the proposed mechanism outperforms the state-of-the-art double auction mechanism proposed by Xu et al. \cite{5462277}, as our trade reduction mechanism scarifies fewer trades to achieve the crucial economic properties. Finally, these achievements are reached while the mechanism adds no additional communication overhead to the system due to its single-rounded nature.
 \end{itemize}
 
 
 
 
 
-\subsection{Peer-Reviewed Dissemination}
+% \subsection{Peer-Reviewed Dissemination}
 
- \begin{enumerate}
+%  \begin{enumerate}
    
-    \item \textbf{\underline{N. {Afraz}}} and M.~{Ruffini}, ``A Sharing Platform for Multi-Tenant PONs,'' \emph{Journal of Lightwave Technology}, vol.~36, no.~23, pp. 5413--5423, Dec 2018.
+%     \item \textbf{\underline{N. {Afraz}}} and M.~{Ruffini}, ``A Sharing Platform for Multi-Tenant PONs,'' \emph{Journal of Lightwave Technology}, vol.~36, no.~23, pp. 5413--5423, Dec 2018.
 
-    \item \textbf{\underline{N. {Afraz}}} and M.~{Ruffini}, ``A Marketplace for Real-Time Virtual PON Sharing,'' in \emph{2018 Asia Communications and Photonics Conference (ACP)}, Oct 2018, pp. 1--3.
+%     \item \textbf{\underline{N. {Afraz}}} and M.~{Ruffini}, ``A Marketplace for Real-Time Virtual PON Sharing,'' in \emph{2018 Asia Communications and Photonics Conference (ACP)}, Oct 2018, pp. 1--3.
 
-    \item \textbf{\underline{N. {Afraz}}}, A.~{Elrasad}, M.~{Ruffini}, ``DBA Capacity Auctions to Enhance Resource Sharing Across Virtual Network Operators in Multi-Tenant PONs,'' in \emph{2018 Optical Fiber Communications Conference and Exposition (OFC)}, March 2018.
+%     \item \textbf{\underline{N. {Afraz}}}, A.~{Elrasad}, M.~{Ruffini}, ``DBA Capacity Auctions to Enhance Resource Sharing Across Virtual Network Operators in Multi-Tenant PONs,'' in \emph{2018 Optical Fiber Communications Conference and Exposition (OFC)}, March 2018.
    
-    \item \textbf{\underline{N. {Afraz}}}, A.~{Elrasad}, H.~Ahmadi,  M.~{Ruffini}, ``Inter-Operator Dynamic Capacity Sharing for Multi-Tenant Virtualized PON,'' in \emph{2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)}, Oct 2017, pp. 1--6.
+%     \item \textbf{\underline{N. {Afraz}}}, A.~{Elrasad}, H.~Ahmadi,  M.~{Ruffini}, ``Inter-Operator Dynamic Capacity Sharing for Multi-Tenant Virtualized PON,'' in \emph{2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)}, Oct 2017, pp. 1--6.
 
- \end{enumerate}
+%  \end{enumerate}

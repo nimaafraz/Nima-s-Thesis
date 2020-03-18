@@ -1,0 +1,6470 @@
+
+@InProceedings{Zhu2016,
+  author    = {{H. Zhu and Z. Zhang and J. Wu and D. Guo and S. Tang}},
+  title     = {{Scheduling Algorithm Design for Virtualized Hardware Accelerator in C-RAN}},
+  booktitle = {{Proc. Int. Conf. Cloud Computing Research and Innovations (ICCCRI)}},
+  year      = {2016},
+  pages     = {{25--29}},
+  month     = may,
+  doi       = {10.1109/ICCCRI.2016.13},
+}
+
+@Article{Zhou:18,
+  author    = {{Siyu Zhou and Xiang Liu and Frank Effenberger and Jonathan Chao}},
+  title     = {{Low-Latency High-Efficiency Mobile Fronthaul With {TDM-PON} (Mobile-{PON})}},
+  journal   = {{J. Opt. Commun. Netw.}},
+  year      = {2018},
+  volume    = {{10}},
+  number    = {1},
+  pages     = {{A20--A26}},
+  month     = jan,
+  doi       = {10.1364/JOCN.10.000A20},
+  publisher = {{OSA}},
+}
+
+@InProceedings{Zhou:17,
+  author    = {{Siyu Zhou and Xiang Liu and Frank Effenberger and Jonathan Chao}},
+  title     = {{Mobile-{PON}: A High-Efficiency Low-Latency Mobile Fronthaul Based on Functional Split and {TDM-PON} with a Unified Scheduler}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2017},
+  pages     = {{Th3A.3}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2017.Th3A.3},
+  journal   = {{Optical Fiber Communication Conference}},
+}
+
+@InProceedings{ZhigangGuo2014,
+  author    = {{Zhigang Guo} and {Xinrui Meng} and {Yihong Hu} and {Guochu Shou}},
+  title     = {{Efficient load balancing multipath algorithm for fiber-wireless network virtualization}},
+  booktitle = {{2014 International Conference on Information and Communications Technologies (ICT 2014)}},
+  year      = {2014},
+  pages     = {{1023--1023}},
+  publisher = {{Institution of Engineering and Technology}},
+  doi       = {10.1049/cp.2014.0579},
+  isbn      = {978-1-84919-843-1},
+}
+
+@InProceedings{zheng2014future,
+  author       = {{Zheng, Ruobin and Yang, Wenle and Zhou, Jun}},
+  title        = {{Future access architecture: Software-defined access networking}},
+  booktitle    = {{Consumer Communications and Networking Conference (CCNC), 2014 IEEE 11th}},
+  year         = {2014},
+  pages        = {{881--886}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{zheng2014future,
+  author       = {{Zheng, Ruobin and Yang, Wenle and Zhou, Jun}},
+  title        = {{Future access architecture: Software-defined access networking}},
+  booktitle    = {{Consumer Communications and Networking Conference (CCNC), 2014 IEEE 11th}},
+  year         = {2014},
+  organization = {{IEEE}},
+}
+
+@Article{ZHENG2009151,
+  author   = {{Jun Zheng and Hussein T. Mouftah}},
+  title    = {{A survey of dynamic bandwidth allocation algorithms for Ethernet Passive Optical Networks}},
+  journal  = {{Optical Switching and Networking}},
+  year     = {2009},
+  volume   = {6},
+  number   = {3},
+  pages    = {{151--162}},
+  issn     = {1573-4277},
+  note     = {{PONs: Technologies, Architectures, and Deployment Strategies}},
+  abstract = {{Ethernet Passive Optical Network (EPON) has been widely considered as a promising technology for implementing the FTTx solutions to the “last mile” bandwidth bottleneck problem. Bandwidth allocation is one of the critical issues in the design of EPON systems. In an EPON system, multiple optical network units (ONUs) share a common upstream channel for data transmission. To efficiently utilize the limited bandwidth of the upstream channel, an EPON system must dynamically allocate the upstream bandwidth among multiple ONUs based on the instantaneous bandwidth demands and quality of service requirements of end users. This paper introduces the fundamental concepts on EPONs, discusses the major issues related to bandwidth allocation in EPON systems, and presents a survey of the state-of-the-art dynamic bandwidth allocation (DBA) algorithms for EPONs.}},
+  doi      = {10.1016/j.osn.2009.03.003},
+  keywords = {{Dynamic bandwidth allocation, Ethernet, Passive Optical Network}},
+  url      = {http://www.sciencedirect.com/science/article/pii/S1573427709000113},
+}
+
+@InProceedings{ZhangWangXuEtAl2016,
+  author    = {{J. Zhang and J. Wang and M. Xu and F. Lu and L. Cheng and J. Yu and G. K. Chang}},
+  title     = {{Full-Duplex Mobile Backhaul Transportation based on Fiber-Wireless Integrated FSO and MMW Hybrid Links with Adaptive Signal Processing to Combat}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@InProceedings{ZhangShenLiu2014,
+  author    = {{X. Zhang and D. Shen and T. Liu}},
+  title     = {{Review of linearization techniques for fiber-wireless systems}},
+  booktitle = {{2014 IEEE International Wireless Symposium (IWS 2014)}},
+  year      = {2014},
+  pages     = {{1--4}},
+  month     = mar,
+  doi       = {10.1109/IEEE-IWS.2014.6864277},
+}
+
+@Article{ZhangSahaZhuEtAl2016,
+  author  = {{X. Zhang and S. Saha and R. Zhu and T. Liu and D. Shen}},
+  title   = {{Analog Pre-Distortion Circuit for Radio Over Fiber Transmission}},
+  journal = {{IEEE Photonics Technology Letters}},
+  year    = {2016},
+  volume  = {{28}},
+  number  = {{22}},
+  pages   = {{2541--2544}},
+  month   = nov,
+  issn    = {1041-1135},
+  doi     = {10.1109/LPT.2016.2603460},
+}
+
+@Proceedings{yu2015adaptive,
+  title     = {{Adaptive routing for video streaming with {QoS} support over SDN networks}},
+  year      = {Jan, 2015},
+  author    = {{Tsung-Feng Yu, Kuochen Wang, Yi-Huai Hsu}},
+  booktitle = {{International Conference on Information Networking (ICOIN)}},
+}
+
+@Proceedings{yu2015adaptive,
+  title     = {{Adaptive routing for video streaming with {QoS} support over SDN networks}},
+  year      = {Jan, 2015},
+  author    = {{Tsung-Feng Yu, Kuochen Wang, Yi-Huai Hsu}},
+  booktitle = {{International Conference on Information Networking (ICOIN)}},
+}
+
+@Article{yu2008rethinking,
+  author    = {{Yu, Minlan and Yi, Yung and Rexford, Jennifer and Chiang, Mung}},
+  title     = {{Rethinking virtual network embedding: substrate support for path splitting and migration}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2008},
+  volume    = {{38}},
+  number    = {2},
+  pages     = {{17--29}},
+  publisher = {{ACM}},
+}
+
+@Article{yu2008rethinking,
+  author    = {{Yu, Minlan and Yi, Yung and Rexford, Jennifer and Chiang, Mung}},
+  title     = {{Rethinking virtual network embedding: substrate support for path splitting and migration}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2008},
+  volume    = {{38}},
+  number    = {2},
+  publisher = {{ACM}},
+}
+
+@Proceedings{yilmaz2015video,
+  title     = {{Video streaming over software defined networks with server load balancing}},
+  year      = {Feb, 2015},
+  author    = {{Selin Yilmaz, A. Murat Tekalp, Bige D. Unluturk}},
+  booktitle = {{International Conference on Computing, Networking and Communications (ICNC)}},
+}
+
+@Proceedings{yilmaz2015video,
+  title     = {{Video streaming over software defined networks with server load balancing}},
+  year      = {Feb, 2015},
+  author    = {{Selin Yilmaz, A. Murat Tekalp, Bige D. Unluturk}},
+  booktitle = {{International Conference on Computing, Networking and Communications (ICNC)}},
+}
+
+@Article{YangLimNirmalathas2014,
+  author  = {{Y. Yang and C. Lim and A. (. Nirmalathas}},
+  title   = {{Investigation on Transport Schemes for Efficient High-Frequency Broadband {OFDM} Transmission in Fibre-Wireless Links}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2014},
+  volume  = {{32}},
+  number  = {2},
+  pages   = {{267--274}},
+  month   = jan,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2013.2290295},
+}
+
+@InProceedings{YangBaiTanEtAl2016,
+  author    = {{H. Yang and W. Bai and Y. Tan and A. Yu and J. Zhang and Y. Lee and Y. Ji}},
+  title     = {{Multi-Dimensional Resources Integration for Service Provisioning in 5G Cloud Radio over Fiber Network}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@InProceedings{Yang2016b,
+  author    = {{H. Yang and W. Bai and Y. Tan and Y. Zhao and J. Zhang and Y. Ji and Y. Lee}},
+  title     = {{Multi-stratum resources optimization for cloud-based radio over fiber networks}},
+  booktitle = {{Proc. Conf. Lasers and Electro-Optics (CLEO)}},
+  year      = {2016},
+  pages     = {{1--2}},
+  month     = jun,
+}
+
+@InProceedings{Yang2016a,
+  author    = {{H. Yang and J. Zhang and Y. Zhao and Y. Ji and Y. Lee}},
+  title     = {{Multi-stratum resources optimization for cloud-based radio over optical fiber networks}},
+  booktitle = {{Proc. IEEE Int. Conf. Communications (ICC)}},
+  year      = {2016},
+  pages     = {{1--5}},
+  month     = may,
+  doi       = {10.1109/ICC.2016.7511478},
+}
+
+@Article{Yang2016,
+  author  = {{H. Yang and J. Zhang and Y. Ji and Y. Lee}},
+  title   = {{C-RoFN: multi-stratum resources optimization for cloud-based radio over optical fiber networks}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2016},
+  volume  = {{54}},
+  number  = {8},
+  pages   = {{118--125}},
+  month   = aug,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2016.7537186},
+}
+
+@Misc{XOSUnle92:online,
+  title        = {{XOS – Unleash the Power of OpenStack}},
+  howpublished = {\url{http://xosproject.org/}},
+  note         = {{(Accessed on 02/14/2017)}},
+}
+
+@Article{WuRoBa14,
+  author  = {{D. Wubben and P. Rost and J. S. Bartelt and M. Lalam and V. Savin and M. Gorgoglione and A. Dekorsy and G. Fettweis}},
+  title   = {{Benefits and Impact of Cloud Computing on 5G Signal Processing: Flexible centralization through cloud-RAN}},
+  journal = {{IEEE Signal Processing Magazine}},
+  year    = {2014},
+  volume  = {{31}},
+  number  = {6},
+  pages   = {{35--44}},
+}
+
+@Article{WubbenRostBarteltEtAl2014,
+  author  = {{D. Wubben and P. Rost and J. S. Bartelt and M. Lalam and V. Savin and M. Gorgoglione and A. Dekorsy and G. Fettweis}},
+  title   = {{Benefits and Impact of Cloud Computing on 5G Signal Processing: Flexible centralization through cloud-RAN}},
+  journal = {{IEEE Signal Processing Magazine}},
+  year    = {2014},
+  volume  = {{31}},
+  number  = {6},
+  pages   = {{35--44}},
+  month   = nov,
+  issn    = {1053-5888},
+  doi     = {10.1109/MSP.2014.2334952},
+}
+
+@InProceedings{Wubben2016,
+  author    = {{Wubben, Dirk and Paul, Henning}},
+  title     = {{Analysis of virtualized Turbo-Decemberoder implementation for Cloud-RAN systems}},
+  booktitle = {{2016 9th International Symposium on Turbo Codes and Iterative Information Processing (ISTC)}},
+  year      = {2016},
+  pages     = {{385--389}},
+  month     = sep,
+  publisher = {{IEEE}},
+  doi       = {10.1109/ISTC.2016.7593142},
+  isbn      = {978-1-5090-3401-7},
+  url       = {http://ieeexplore.ieee.org/document/7593142/},
+}
+
+@Article{ware2010wholesale,
+  author    = {{Ware, Harold and Dippon, Christian M}},
+  title     = {{Wholesale unbundling and intermodal competition}},
+  journal   = {{Telecommunications Policy}},
+  year      = {2010},
+  volume    = {{34}},
+  number    = {1},
+  pages     = {{54--64}},
+  publisher = {{Elsevier}},
+}
+
+@Article{ware2010wholesale,
+  author    = {{Ware, Harold and Dippon, Christian M}},
+  title     = {{Wholesale unbundling and intermodal competition}},
+  journal   = {{Telecommunications Policy}},
+  year      = {2010},
+  volume    = {{34}},
+  number    = {1},
+  publisher = {{Elsevier}},
+}
+
+@Article{wang2015the,
+  author    = {{Wendong Wang, Ye Tian, Xiangyang Gong, Qinglei Qi, Yannan Hu}},
+  title     = {{Software defined autonomic {QoS} model for future Internet}},
+  year      = {2015},
+  pages     = {{122--135}},
+  booktitle = {{The Journal OF System and Software}},
+  publisher = {{Elsevier}},
+}
+
+@Article{wang2015the,
+  author     = {{Wang, Wendong and Tian, Ye and Gong, Xiangyang and Qi, Qinglei and Hu, Yannan}},
+  title      = {{Software Defined Autonomic QoS Model for Future Internet}},
+  journal    = {{J. Syst. Softw.}},
+  year       = {2015},
+  volume     = {{110}},
+  number     = {C},
+  pages      = {{122--135}},
+  month      = dec,
+  issn       = {0164-1212},
+  acmid      = {{2839859}},
+  address    = {{New York, NY, USA}},
+  doi        = {10.1016/j.jss.2015.08.016},
+  issue_date = {{December 2015}},
+  keywords   = {{Packet-marking, QoS, Software defined technology}},
+  numpages   = {{14}},
+  publisher  = {{Elsevier Science Inc.}},
+}
+
+@InProceedings{Wang:16,
+  author    = {{Jing Wang and Zhenhua Yu and Kai Ying and Junwen Zhang and Feng Lu and Mu Xu and Gee-Kung Chang}},
+  title     = {{Delta-Sigma Modulation for Digital Mobile Fronthaul Enabling Carrier Aggregation of 32 {4G-LTE} / 30 5G-FBMC Signals in a Single-$\lambda 10$\mbox{-}{Gb}/s IM-DD Channel}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2016},
+  pages     = {{W1H.2}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2016.W1H.2},
+  journal   = {{Optical Fiber Communication Conference}},
+  url       = {http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-W1H.2},
+}
+
+@InProceedings{WanAshwood-Smith2015,
+  author    = {{T. Wan and P. Ashwood-Smith}},
+  title     = {{A Performance Study of {CP}RI over Ethernet with {IEEE} 802.1Qbu and 802.1Qbv Enhancements}},
+  booktitle = {{2015 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2015},
+  pages     = {{1--6}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2015.7417599},
+}
+
+@Book{Walras1874,
+  title     = {{{\'{E}}l{\'{e}}ments d'{\'{e}}conomie politique pure ou th{\'{e}}orie de la richesse sociale.}},
+  year      = {1874},
+  author    = {{Walras, L{\'{e}}on}},
+  isbn      = {9780415313407},
+  booktitle = {{R Pichon et R DurandAuzias Lausanne F Rouge}},
+  pages     = {{407}},
+  pmid      = {{609709500}},
+}
+
+@Article{wallner2013sdn,
+  author  = {{Wallner, Ryan and Cannistra, Robert}},
+  title   = {{An SDN Approach: Quality of Service Using Big Switch’s Floodlight Open-source Controller}},
+  journal = {{Proceedings of the Asia-Pacific Advanced Network}},
+  year    = {2013},
+  volume  = {{35}},
+  pages   = {{14--19}},
+}
+
+@Article{wallner2013sdn,
+  author  = {{Wallner, Ryan and Cannistra, Robert}},
+  title   = {{An SDN Approach: Quality of Service Using Big Switch’s Floodlight Open-source Controller}},
+  journal = {{Proceedings of the Asia-Pacific Advanced Network}},
+  year    = {2013},
+  volume  = {{35}},
+}
+
+@Article{Vlachos2016,
+  author        = {{Vlachos, Christoforos and Friderikos, Vasilis and Dohler, Mischa}},
+  title         = {{Optimal Virtualized Inter-Tenant Resource Sharing for Device-to-Device Communications in 5G Networks}},
+  year          = {2016},
+  month         = jun,
+  archiveprefix = {{arXiv}},
+  arxivid       = {{1606.01849}},
+  eprint        = {{1606.01849}},
+  url           = {http://arxiv.org/abs/1606.01849},
+}
+
+@Article{vilalta2016multitenant,
+  author    = {{Vilalta, Ricard and Mayoral, Arturo and Munoz, Raul and Casellas, Ramon and Mart{\'\i}nez, Ricardo}},
+  title     = {{Multitenant transport networks with SDN/NFV}},
+  journal   = {{Journal of Lightwave Technology}},
+  year      = {2016},
+  volume    = {{34}},
+  number    = {6},
+  pages     = {{1509--1515}},
+  publisher = {{IEEE}},
+}
+
+@Article{vilalta2016multitenant,
+  author    = {{Vilalta, Ricard and Mayoral, Arturo and Munoz, Raul and Casellas, Ramon and Mart{\'\i}nez, Ricardo}},
+  title     = {{Multitenant transport networks with SDN/NFV}},
+  journal   = {{Journal of Lightwave Technology}},
+  year      = {2016},
+  volume    = {{34}},
+  number    = {6},
+  publisher = {{IEEE}},
+}
+
+@Article{Vickrey,
+  author  = {{Vickrey, William}},
+  title   = {{Counterspeculation Auctions and Competitive Sealed Tenders}},
+  journal = {{Journal of Finance}},
+  year    = {1961},
+  volume  = {{16}},
+  number  = {1},
+  pages   = {{8--37}},
+}
+
+@Article{valcarenghireliable,
+  author = {{Valcarenghi, Luca and Giorgetti, Alessio and Martini, Barbara and Kondepu, Koteswararao and Gharbaoui, Molka and Castoldi, Piero}},
+  title  = {{Reliable Slicing in 5G Networks}},
+  year   = {2019},
+}
+
+@InProceedings{V2V1,
+  author    = {H. {Reumerman} and M. {Ruffini}},
+  title     = {{Distributed power control for reliable broadcast in inter-vehicle communication systems}},
+  booktitle = {{2005. 2nd International Workshop on Intelligent Transportation}},
+  year      = {2005},
+}
+
+
+
+@InProceedings{trivisonno2013virtual,
+  author       = {{Trivisonno, Riccardo and Vaishnavi, Ishan and Guerzoni, Riccardo and Despotovic, Zoran and Hecker, Artur and Beker, Sergio and Soldani, David}},
+  title        = {{Virtual links mapping in future sdn-enabled networks}},
+  booktitle    = {{Future Networks and Services (SDN4FNS), 2013 IEEE SDN for}},
+  year         = {2013},
+  organization = {{IEEE}},
+}
+
+
+@Proceedings{tomovic2015performance,
+  title     = {{Performance comparison of {QoS} routing algorithms applicable to large-scale SDN networks}},
+  year      = {Sept, 2015},
+  author    = {{Slavica Tomovic, Igor Radusinovic, Neeli Prasad}},
+  booktitle = {{IEEE EUROCON - International Conference on Computer as a Tool (EUROCON)}},
+}
+
+@Proceedings{tomovic2014sdn,
+  title     = {{SDN control framework for {QoS} provisioning}},
+  year      = {Nov, 2014},
+  volume    = {{22}},
+  author    = {{Slavica Tomovic, Neeli Prasad, Igor Radusinovic}},
+  booktitle = {{Telecommunications Forum Telfor (TELFOR)}},
+}
+
+@article{Munoz:15,
+author = {Raul Mu\~{n}oz and Ricard Vilalta and Ramon Casellas and Ricardo Martinez and Thomas Szyrkowiec and Achim Autenrieth and V\'{i}ctor L\'{o}pez and Diego L\'{o}pez},
+journal = {J. Opt. Commun. Netw.},
+keywords = {Networks; All-optical networks; Circuit switching; Dense wavelength division multiplexing; Image storage; Network topology; Optical networks; Statistics},
+number = {11},
+pages = {B62--B70},
+publisher = {OSA},
+title = {Integrated SDN/NFV Management and Orchestration Architecture for Dynamic Deployment of Virtual SDN Control Instances for Virtual Tenant Networks [Invited]},
+volume = {7},
+month = {Nov},
+year = {2015},
+doi = {10.1364/JOCN.7.000B62}
+}
+
+
+
+@Article{tomonori2013introduction,
+  author  = {{Tomonori, FUJITA}},
+  title   = {{Introduction to RYU SDN framework}},
+  journal = {{Open Networking Summit}},
+  year    = {2013},
+}
+
+@Article{tomonori2013introduction,
+  author  = {{Tomonori, FUJITA}},
+  title   = {{Introduction to RYU SDN framework}},
+  journal = {{Open Networking Summit}},
+  year    = {2013},
+}
+
+@Article{Thomas2015b,
+  author     = {{V. A. Thomas and M. El-Hajjar and L. Hanzo}},
+  title      = {{Performance Improvement and Cost Reduction Techniques for Radio Over Fiber Communications}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2015},
+  volume     = {{17}},
+  number     = {2},
+  pages      = {{627--670}},
+  month      = sec,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2015.2394911}},
+  doi        = {10.1109/COMST.2015.2394911},
+}
+
+@Article{thermal_shift,
+  author    = {{H\'{e}l\`{e}ne Debr\'{e}geas and Robert Borkowski and Rene Bonk and Romain Brenot and Jean-Guy Provost and Sophie Barbet and Thomas Pfeiffer}},
+  title     = {{TWDM-PON Burst Mode Lasers With Reduced Thermal Frequency Shift}},
+  journal   = {{J. Lightwave Technol.}},
+  year      = {2018},
+  volume    = {{36}},
+  number    = {1},
+  pages     = {{128--134}},
+  month     = jan,
+  keywords  = {{Emission; Wavelength division multiplexing}},
+  publisher = {{OSA}},
+}
+
+@InProceedings{TayqGuyaderChanclouEtAl2016,
+  author    = {{Z. Tayq and B. Le Guyader and P. Chanclou and S. Gosselin and D. Abdourahmane and D. P. Venmani and C. Aupetit-Berthelemot and S. Pachnicke and M. Eiselt and A. Autenrieth and J. Elbers}},
+  title     = {{Fronthaul performance demonstration in a {WDM-PON}-based convergent network}},
+  booktitle = {{2016 European Conference on Networks and Communications (EuCNC)}},
+  year      = {2016},
+  pages     = {{250--254}},
+  month     = jun,
+  doi       = {10.1109/EuCNC.2016.7561042},
+}
+
+@Article{TaVeWi2014,
+  author        = {{M. Tahon and S. Verbrugge and P. J. Willis and P. Botham and D. Colle and M. Pickavet and P. Demeester}},
+  title         = {{Real Options in Telecom Infrastructure Projects #x2014; A Tutorial}},
+  journal       = {{IEEE Communications Surveys Tutorials}},
+  year          = {2014},
+  volume        = {{16}},
+  number        = {2},
+  pages         = {{1157--1173}},
+  month         = {Second},
+  issn          = {1553-877X},
+  date-added    = {{2016-11-22 09:52:29 +0000}},
+  date-modified = {{2016-11-22 09:52:57 +0000}},
+  doi           = {10.1109/SURV.2013.062613.00126},
+}
+
+@InProceedings{Tashiro2014,
+  author    = {{T. Tashiro and S. Kuwano and J. Terada and T. Kawamura and N. Tanaka and S. Shigematsu and N. Yoshimoto}},
+  title     = {{A novel DBA scheme for {TDM-PON} based mobile fronthaul}},
+  booktitle = {{OFC 2014}},
+  year      = {2014},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2014.Tu3F.3},
+}
+
+@Article{Sung:16,
+  author    = {{Jiun-Yu Sung and Chi-Wai Chow and Chien-Hung Yeh and Gee-Kung Chang}},
+  title     = {{Two-level modulation scheme to reduce latency for optical mobile fronthaul networks}},
+  journal   = {{Opt. Express}},
+  year      = {2016},
+  volume    = {{24}},
+  number    = {{22}},
+  pages     = {{25767--25773}},
+  month     = oct,
+  publisher = {{OSA}},
+}
+
+@Article{Sung:14,
+  author    = {{J. Y. Sung and K. T. Cheng and C. W. Chow and C. H. Yeh and C.-L. Pan}},
+  title     = {{A scalable and continuous-upgradable optical wireless and wired convergent access network}},
+  journal   = {{Opt. Express}},
+  year      = {2014},
+  volume    = {{22}},
+  number    = {{11}},
+  pages     = {{12779--12784}},
+  month     = jun,
+  publisher = {{OSA}},
+}
+
+@Article{SundaresanArslanSinghEtAl2016,
+  author  = {{K. Sundaresan and M. Y. Arslan and S. Singh and S. Rangarajan and S. V. Krishnamurthy}},
+  title   = {{FluidNet: A Flexible Cloud-Based Radio Access Network for Small Cells}},
+  journal = {{IEEE/ACM Transactions on Networking}},
+  year    = {2016},
+  volume  = {{24}},
+  number  = {2},
+  pages   = {{915--928}},
+  month   = apr,
+  issn    = {1063-6692},
+  doi     = {10.1109/TNET.2015.2419979},
+}
+
+@Article{Sun2014,
+  author   = {{Sun, Yu-e and Huang, He and Xing, Kai and Chen, Zhili and Zheng, Jianying and Xu, Hongli and Huang, Liusheng}},
+  title    = {{SPRITE: a novel strategy-proof multi-unit double auction scheme for spectrum allocation in ubiquitous communications}},
+  journal  = {{Personal and Ubiquitous Computing}},
+  year     = {2014},
+  volume   = {{18}},
+  number   = {4},
+  pages    = {{939--950}},
+  month    = apr,
+  issn     = {1617-4917},
+  abstract = {{With the increasing number of handheld and mobile devices, the demand for available spectrum resource is experiencing a rapid growth. Auction has been widely used for spectrum resource allocation in ubiquitous communications due to its fairness. However, many existing spectrum auction schemes inherently limit users' ability to fully utilize the spectrum due to the assumption that the spectrum resource is single unit and indivisible. Besides, most of them fail to take into account of buyer/seller's distinctive demands in auction and consider spectrum allocation as single-sided auction. In this paper, we consider the multi-unit double auction problem under the context that multiple buyers/sellers have different demands to buy/sell. Particularly, we present a novel strategy-proof multi-unit double auction scheme (SPRITE). SPRITE establishes a series of bid-related buyer group construction and winner determination strategies. It improves the spectrum reusability and achieves sound spectrum utilization, fairness, and essential economic properties. In the theoretical analysis, we have shown the correctness, effectiveness, and economic properties of SPRITE and prove that SPRITE is strategy-proof. In the evaluation study, we further show that SPRITE can achieve multi-unit spectrum auction with better auction efficiency compared with existing double auction mechanisms. To the best of our knowledge, SPRITE is the first multi-unit double auction approach that guarantees the competitive fairness among buyers while remaining strategy-proof for spectrum allocation. Furthermore, the multi-unit double auction mechanism proposed in this work helps increasing flexibility of the ubiquitous devices for spectrum usage.}},
+  day      = {{01}},
+  doi      = {10.1007/s00779-013-0709-4},
+}
+
+@Misc{Stack,
+  title        = {{OpenStack}},
+  howpublished = {\url{https://www.openstack.org/}},
+  note         = {{Accessed: 2017-01-4}},
+}
+
+@Misc{Stack,
+  title        = {{OpenStack}},
+  howpublished = {\url{https://www.openstack.org/}},
+  note         = {{Accessed: 2017-01-4}},
+}
+
+@InProceedings{slyne2018experimental,
+  author       = {{Slyne, Frank and Giller, Robin and Singh, Jasvinder and Ruffini, Marco}},
+  title        = {{Experimental Demonstration of DPDK Optimised VNF Implementation of Virtual DBA in a Multi-Tenant PON}},
+  booktitle    = {{2018 European Conference on Optical Communication (ECOC)}},
+  year         = {2018},
+  pages        = {{1--3}},
+  organization = {{IEEE}},
+}
+
+@Article{SLA-Slicing,
+  author        = {{Mohammad Asif Habibi and Bin Han and Meysam Nasimi and Hans D. Schotten}},
+  title         = {{The Structure of Service Level Agreement of Slice-based 5G Network}},
+  journal       = {{CoRR}},
+  year          = {2018},
+  volume        = {{abs/1806.10426}},
+  archiveprefix = {{arXiv}},
+  bibsource     = {{dblp computer science bibliography, https://dblp.org}},
+  biburl        = {{https://dblp.org/rec/bib/journals/corr/abs-1806-10426}},
+  eprint        = {{1806.10426}},
+  timestamp     = {{Mon, 13 Aug 2018 16:48:31 +0200}},
+}
+
+@Article{Skubic:2009:CDB:1669975.1669987,
+  author     = {{Skubic, Bj\"{o}rn and Chen, Jiajia and Ahmed, Jawwad and Wosinska, Lena and Mukherjee, Biswanath}},
+  title      = {A Comparison of Dynamic Bandwidth Allocation for EPON, GPON, and Next-generation {TDM PON}},
+  journal    = {{Comm. Mag.}},
+  year       = {2009},
+  volume     = {{47}},
+  number     = {3},
+  pages      = {{40--48}},
+  month      = mar,
+  issn       = {0163-6804},
+  acmid      = {{1669987}},
+  doi        = {10.1109/MCOM.2009.4804388},
+  issue_date = {{March 2009}},
+  numpages   = {9},
+  publisher  = {{IEEE Press}},
+}
+
+@InProceedings{single-stage_downstream,
+  author    = {F. {Slyne} and B. {Cornaglia} and M. {Boselli} and M. {Ruffini}},
+  title     = {{Single-stage scheduler for accurate QoS delivery in virtualised multi-tenant Passive Optical Networks}},
+  booktitle = {{2019, European Conference on Optical Communications - (ECOC)}},
+  year      = {2019},
+  month     = sep,
+}
+
+@Article{singh2011comparison,
+  author    = {{Singh, Simar Preet and Maini, Raman}},
+  title     = {{Comparison of data encryption algorithms}},
+  journal   = {{International Journal of Computer Science and Communication}},
+  year      = {2011},
+  volume    = {2},
+  number    = {1},
+  pages     = {{125--127}},
+  publisher = {{Univecity}},
+}
+
+@Article{ShShAn15,
+  author        = {{T. Shao and H. Shams and P. M. Anandarajah and M. J. Fice and C. C. Renaud and F. van Dijk and A. J. Seeds and L. P. Barry}},
+  title         = {{Phase Noise Investigation of Multicarrier Sub-{THz} Wireless Transmission System Based on an Injection-Locked Gain-Switched Laser}},
+  journal       = {{IEEE Transactions on Terahertz Science and Technology}},
+  year          = {2015},
+  volume        = {5},
+  number        = {4},
+  pages         = {{590--597}},
+  month         = jul,
+  issn          = {2156-342X},
+  bdsk-url-1    = {{http://dx.doi.org/10.1109/TTHZ.2015.2418996}},
+  date-added    = {{2016-11-10 12:49:44 +0000}},
+  date-modified = {{2016-11-10 12:50:17 +0000}},
+  doi           = {10.1109/TTHZ.2015.2418996},
+}
+
+@Article{ShMaAnBa15,
+  author        = {{T. Shao and E. P. Martin and P. M. Anandarajah and L. P. Barry}},
+  title         = {{60\mbox{-}{GHz} Direct Modulation-Direct Detection {OFDM}-RoF System Using Gain-Switched Laser}},
+  journal       = {{IEEE Photonics Technology Letters}},
+  year          = {2015},
+  volume        = {{27}},
+  number        = {2},
+  pages         = {{193--196}},
+  month         = jan,
+  issn          = {1041-1135},
+  bdsk-url-1    = {{http://dx.doi.org/10.1109/LPT.2014.2364714}},
+  date-added    = {{2016-11-08 16:12:56 +0000}},
+  date-modified = {{2016-11-08 16:13:21 +0000}},
+  doi           = {10.1109/LPT.2014.2364714},
+}
+
+@InProceedings{shin2014study,
+  author       = {{Shin, YY and Kang, SH and Kwak, JY and Lee, BY and Hyang, S}},
+  title        = {{The study on configuration of multi-tenant networks in SDN controller}},
+  booktitle    = {{Advanced Communication Technology (ICACT), 2014 16th International Conference on}},
+  year         = {2014},
+  pages        = {{1223--1226}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{shin2014study,
+  author       = {{Shin, YY and Kang, SH and Kwak, JY and Lee, BY and Hyang, S}},
+  title        = {{The study on configuration of multi-tenant networks in SDN controller}},
+  booktitle    = {{Advanced Communication Technology (ICACT), 2014 16th International Conference on}},
+  year         = {2014},
+  organization = {{IEEE}},
+}
+
+@Article{ShibataTashiroKuwanoEtAl2015,
+  author  = {{N. Shibata and T. Tashiro and S. Kuwano and N. Yuki and Y. Fukada and J. Terada and A. Otaka}},
+  title   = {{Performance evaluation of mobile front-haul employing ethernet- based {TDM-PON} with {IQ} data compression [Invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2015},
+  volume  = {7},
+  number  = {{11}},
+  pages   = {{B16--B22}},
+  month   = nov,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.7.000B16},
+}
+
+@Article{ShibataKuwanoTeradaEtAl2015,
+  author  = {{N. Shibata and S. Kuwano and J. Terada and H. Kimura}},
+  title   = {{Dynamic {IQ} data compression using wireless resource allocation for mobile front-haul with {TDM-PON} [invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2015},
+  volume  = {7},
+  number  = {3},
+  pages   = {{A372--A378}},
+  month   = mar,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.7.00A372},
+}
+
+@InProceedings{Shibata:14,
+  author    = {{N. Shibata and S. Kuwano and J. Terada and N. Yoshimoto}},
+  title     = {{Dynamic compression method using wireless resource allocation for digitized radio over {TDM-PON} system}},
+  booktitle = {{OFC 2014}},
+  year      = {2014},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2014.Tu3F.4},
+}
+
+@Article{sherwood2009flowvisor,
+  author  = {{Sherwood, Rob and Gibb, Glen and Yap, Kok-Kiong and Appenzeller, Guido and Casado, Martin and McKeown, Nick and Parulkar, Guru}},
+  title   = {{Flowvisor: A network virtualization layer}},
+  journal = {{OpenFlow Switch Consortium, Tech. Rep}},
+  year    = {2009},
+  pages   = {{1--13}},
+}
+
+@Article{sherwood2009flowvisor,
+  author  = {{Sherwood, Rob and Gibb, Glen and Yap, Kok-Kiong and Appenzeller, Guido and Casado, Martin and McKeown, Nick and Parulkar, Guru}},
+  title   = {{Flowvisor: A network virtualization layer}},
+  journal = {{OpenFlow Switch Consortium, Tech. Rep: Berlin, Germany}},
+  year    = {2009},
+}
+
+@Proceedings{sharma2014implementingeltit,
+  title     = {{Implementing Quality of Service for the Software Defined Networking Enabled Future Internet}},
+  year      = {2014},
+  author    = {{Sachin Sharma, Dimitri Staessens, Didier Colle, David Palma, Joao Goncalves, Ricardo Figueiredo, Donal Morris, Mario Pickavet, and Piet Demeester}},
+  booktitle = {{Third European Workshop on Software-Defined Networks}},
+}
+
+@Proceedings{sharma2014implementing,
+  title     = {{Implementing Quality of Service for the Software Defined Networking Enabled Future Internet}},
+  year      = {2014},
+  author    = {{Sachin Sharma, Dimitri Staessens, Didier Colle, David Palma, Joao Goncalves, Ricardo Figueiredo, Donal Morris, Mario Pickavet, and Piet Demeester}},
+  booktitle = {{Third European Workshop on Software-Defined Networks}},
+}
+
+@Article{seddiki2015flowqos,
+  author = {{M. Said Seddiki, Muhammad Shahbaz, Sean Donovan,Sarthak Grover,Miseon Park,Nick Feamster,Ye-Qiong Song}},
+  title  = {{FlowQoS: Per-Flow Quality of Service for Broadband Access Networks}},
+  year   = {2015},
+}
+
+@TechReport{seddiki2015flowqos,
+  author      = {{Seddiki, M Said and Shahbaz, Muhammad and Donovan, Sean and Grover, Sarthak and Park, Miseon and Feamster, Nick and Song, Ye-Qiong}},
+  title       = {{Flowqos: Per-flow quality of service for broadband access networks}},
+  institution = {{Georgia Institute of Technology}},
+  year        = {2015},
+}
+
+@InProceedings{SchrenkZemen2016,
+  author    = {{B. Schrenk and T. Zemen}},
+  title     = {{Real-Time Demonstration of an Optically Powered Radio Head for Low-Power Small Cells with 94~{dB} End-to-End Budget}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@InBook{SBBA,
+  pages     = {{260--272}},
+  title     = {{SBBA: A Strongly-Budget-Balanced Double-Auction Mechanism}},
+  publisher = {{Springer Berlin Heidelberg}},
+  year      = {2016},
+  author    = {{Segal-Halevi, Erel and Hassidim, Avinatan and Aumann, Yonatan}},
+  editor    = {{Gairing, Martin and Savani, Rahul}},
+  booktitle = {{Algorithmic Game Theory: 9th International Symposium, SAGT 2016, Liverpool, UK, Septemberember 19--21, 2016, Proceedings}},
+}
+
+@Article{Sarigiannidis2015,
+  author     = {{A. G. Sarigiannidis and M. Iloridou and P. Nicopolitidis and G. Papadimitriou and F. N. Pavlidou and P. G. Sarigiannidis and M. D. Louta and V. Vitsas}},
+  title      = {{Architectures and Bandwidth Allocation Schemes for Hybrid Wireless-Optical Networks}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2015},
+  volume     = {{17}},
+  number     = {1},
+  pages      = {{427--468}},
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2014.2356640}},
+  doi        = {10.1109/COMST.2014.2356640},
+}
+
+@Article{SamardzijaPastalanMacDonaldEtAl2012,
+  author  = {{D. Samardzija and J. Pastalan and M. MacDonald and S. Walker and R. Valenzuela}},
+  title   = {{Compressed Transport of Baseband Signals in Radio Access Networks}},
+  journal = {{IEEE Transactions on Wireless Communications}},
+  year    = {2012},
+  volume  = {{11}},
+  number  = {9},
+  pages   = {{3216--3225}},
+  month   = sep,
+  issn    = {1536-1276},
+  doi     = {10.1109/TWC.2012.062012.111359},
+}
+
+@InProceedings{Saljoghei:14,
+  author        = {{A. Saljoghei and C. Browning and L. P. Barry}},
+  title         = {{Spectral shaping for hybrid wired/wireless {PON} with {DC} balanced encoding}},
+  booktitle     = {{Microwave Photonics (MWP) and the 2014 9th Asia-Pacific Microwave Photonics Conference (APMP), 2014 International Topical Meeting on}},
+  year          = {2014},
+  pages         = {{307--310}},
+  month         = oct,
+  bdsk-url-1    = {{http://dx.doi.org/10.1109/MWP.2014.6994560}},
+  date-added    = {{2016-11-08 16:11:14 +0000}},
+  date-modified = {{2016-11-08 16:11:44 +0000}},
+  doi           = {10.1109/MWP.2014.6994560},
+}
+
+@InProceedings{Saljoghei:13,
+  author        = {{A. Saljoghei and C. Browning and L. Barry}},
+  title         = {{Hybrid wired/wireless {OFDM-PON} with direct modulation of integrated lasers employing optical injection}},
+  booktitle     = {{Microwave Photonics (MWP), 2013 International Topical Meeting on}},
+  year          = {2013},
+  pages         = {{309--312}},
+  month         = oct,
+  bdsk-url-1    = {{http://dx.doi.org/10.1109/MWP.2013.6724083}},
+  date-added    = {{2016-11-08 16:09:37 +0000}},
+  date-modified = {{2016-11-08 16:10:28 +0000}},
+  doi           = {10.1109/MWP.2013.6724083},
+}
+
+@Article{ruffini2015software,
+  author  = {{Ruffini, M and Slyne, F and Bluemm, C and Kitsuwan, N and McGettrick, S}},
+  title   = {{Software Defined Networking for Next Generation Converged Metro-access Networks}},
+  journal = {{Optical Fiber Technology}},
+  year    = {2015},
+  volume  = {{26}},
+  pages   = {{31--41}},
+  month   = dec,
+}
+
+@Article{ruffini2015software,
+  author  = {{Ruffini, M and Slyne, F and Bluemm, C and Kitsuwan, N and McGettrick, S}},
+  title   = {{Software Defined Networking for Next Generation Converged Metro-access Networks}},
+  journal = {{Optical Fiber Technology}},
+  year    = {2015},
+  volume  = {{26}},
+  month   = dec,
+}
+
+@Article{Rost2015,
+  author  = {{Rost, Peter and Berberana, Ignacio and Maeder, Andreas and Paul, Henning and Suryaprakash, Vinay and Valenti, Matthew and W{\"{u}}bben, Dirk and Dekorsy, Armin and Fettweis, Gerhard}},
+  title   = {{Benefits and challenges of virtualization in 5G radio access networks}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2015},
+  volume  = {{53}},
+  number  = {{12}},
+  pages   = {{75--82}},
+  month   = dec,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2015.7355588},
+  url     = {http://ieeexplore.ieee.org/document/7355588/},
+}
+
+@Article{RN584,
+  author = {{King, D and Fernandez-Palacios, JP and Dios, OG De and Lopez, V}},
+  title  = {{using the path computation element to enhance sdn for elastic optical networks (eon)}},
+  year   = {2013},
+  type   = {{Journal Article}},
+}
+
+@InProceedings{Riscado2015,
+  author    = {{D. Riscado and J. Santos and D. Dinis and G. Anjos and D. Belo and N. B. Carvalho and A. S. R. Oliveira}},
+  title     = {{A Flexible Research Testbed for C-RAN}},
+  booktitle = {{Proc. Euromicro Conf. Digital System Design}},
+  year      = {2015},
+  pages     = {{131--138}},
+  month     = aug,
+  doi       = {10.1109/DSD.2015.72},
+}
+
+@Proceedings{riera2013opennaas,
+  title     = {{An OpenNaaS based SDN Framework for Dynamic QoS control}},
+  year      = {Nov, 2013},
+  address   = {{Trento}},
+  author    = {{Iris Bueno, José I. Aznar, Eduard Escalona, Joan A. García-Espín, and Jordi Ferrer Riera}},
+  booktitle = {{SDN for future network services}},
+}
+
+@Article{resource_blocks_auction,
+  author  = {{Chen, Xin and Xing, Lei and Qiu, Tie and Li, Zhuo}},
+  title   = {{An Auction-Based Spectrum Leasing Mechanism for Mobile Macro-Femtocell Networks of IoT}},
+  journal = {{Sensors}},
+  year    = {2017},
+  volume  = {{17}},
+  month   = feb,
+  doi     = {10.3390/s17020380},
+}
+
+@TechReport{RegulatoryChallenge,
+  author      = {{S. Beardsley, L. Enriquez, M. Guvendi, S. Sandoval}},
+  title       = {{Creating a Fiber Future: The Regulatory Challenge}},
+  institution = {{McKinsey \& Company Inc.: New York, United States}},
+  year        = {2011},
+}
+
+@Book{rec2008g,
+  title     = {{Gigabit-capable passive optical networks (G-PON): Transmission convergence layer specification Recommendation G.984.3}},
+  publisher = {{Study Group: Geneva, Switzerland}},
+  year      = {2014},
+  author    = {{International Telecommunication Union (ITU)}},
+}
+
+@InProceedings{RazaFioraniRostamiEtAl2016,
+  author    = {{M. R. Raza and M. Fiorani and A. Rostami and B. Skubic and P. Oehlen and L. Wosinska and P. Monti}},
+  title     = {{Dynamic Resource Sharing for C-RANs with Joint Orchestration of Radio and Transport}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@Article{Raza2016,
+  author  = {{M. R. Raza and M. Fiorani and A. Rostami and P. Öhlen and L. Wosinska and P. Monti}},
+  title   = {{Demonstration of dynamic resource sharing benefits in an optical C-RAN}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2016},
+  volume  = {8},
+  number  = {8},
+  pages   = {{621--632}},
+  month   = aug,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.8.000621},
+}
+
+@Article{Ranganthan2018ADM,
+  author  = {{Vishnu Prasad Ranganthan and Ram Dantu and Aditya Paul and Paula Mears and Kirill Morozov}},
+  title   = {{A Decentralized Marketplace Application on the Ethereum Blockchain}},
+  journal = {{2018 IEEE 4th International Conference on Collaboration and Internet Computing (CIC)}},
+  year    = {2018},
+  pages   = {{90--97}},
+}
+
+@InProceedings{raft,
+  author    = {{Diego Ongaro and John Ousterhout}},
+  title     = {{In Search of an Understandable Consensus Algorithm}},
+  booktitle = {{2014 {USENIX} Annual Technical Conference ({USENIX} {ATC} 14)}},
+  year      = {2014},
+  pages     = {{305--319}},
+  address   = {{Philadelphia, PA}},
+  month     = jun,
+  publisher = {{USENIX} Association},
+  isbn      = {978-1-931971-10-2},
+  url       = {https://www.usenix.org/conference/atc14/technical-sessions/presentation/ongaro},
+}
+
+@InProceedings{QinglongDai2013,
+  author    = {{Qinglong Dai} and {Guochu Shou} and {Yihong Hu} and {Zhigang Guo}},
+  title     = {{A general model for hybrid fiber-wireless (FiWi) access network virtualization}},
+  booktitle = {{2013 IEEE International Conference on Communications Workshops (ICC)}},
+  year      = {2013},
+  pages     = {{858--862}},
+  month     = jun,
+  publisher = {{IEEE}},
+  doi       = {10.1109/ICCW.2013.6649354},
+  isbn      = {978-1-4673-5753-1},
+  url       = {http://ieeexplore.ieee.org/document/6649354/},
+}
+
+@Misc{pswg,
+  title        = {{Performance and Scale Working Group}},
+  howpublished = {\url{https://wiki.hyperledger.org/x/ToIk}},
+  journal      = {{Hyperledger Confluence}},
+}
+
+@Misc{prometheus,
+  title        = {{Prometheus - {Monitoring} system \& time series database}},
+  howpublished = {\url{https://prometheus.io/}},
+  abstract     = {{An open-source monitoring system with a dimensional data model, flexible query language, efficient time series database and modern alerting approach.}},
+  urldate      = {{2019-10-23}},
+}
+
+@Article{pluckebaum2014vdsl,
+  author    = {{Pl{\"u}ckebaum, Thomas and Jay, Stephan and Neumann, Karl-Heinz}},
+  title     = {{VDSL} and G. fast Vectoring and the impact on VULA},
+  year      = {2014},
+  publisher = {{Rio de Janeiro: International Telecommunications Society (ITS)}},
+}
+
+@Misc{pluckebaum2014vdsl,
+  author    = {{Pl{\"u}ckebaum, Thomas and Jay, Stephan and Neumann, Karl-Heinz}},
+  title     = {{VDSL} and G. fast Vectoring and the impact on VULA},
+  year      = {2014},
+  publisher = {{Rio de Janeiro: International Telecommunications Society (ITS)}},
+}
+
+@Article{PizzinatChanclouSaliouEtAl2015,
+  author  = {{A. Pizzinat and P. Chanclou and F. Saliou and T. Diallo}},
+  title   = {{Things You Should Know About Fronthaul}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2015},
+  volume  = {{33}},
+  number  = {5},
+  pages   = {{1077--1083}},
+  month   = mar,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2014.2382872},
+}
+
+@Article{Pfeiffer:15,
+  author    = {{Thomas Pfeiffer}},
+  title     = {{Next Generation Mobile Fronthaul and Midhaul Architectures \[Invited\]}},
+  journal   = {{J. Opt. Commun. Netw.}},
+  year      = {2015},
+  volume    = {7},
+  number    = {{11}},
+  pages     = {{B38--B45}},
+  month     = nov,
+  doi       = {10.1364/JOCN.7.000B38},
+  publisher = {{OSA}},
+  url       = {http://jocn.osa.org/abstract.cfm?URI=jocn-7-11-B38},
+}
+
+@Article{PengWangLauEtAl2015,
+  author  = {{M. Peng and C. Wang and V. Lau and H. V. Poor}},
+  title   = {{Fronthaul-constrained cloud radio access networks: insights and challenges}},
+  journal = {{IEEE Wireless Communications}},
+  year    = {2015},
+  volume  = {{22}},
+  number  = {2},
+  pages   = {{152--160}},
+  month   = apr,
+  issn    = {1536-1284},
+  doi     = {10.1109/MWC.2015.7096298},
+}
+
+@Article{PengSunLiEtAl2016,
+  author     = {{M. Peng and Y. Sun and X. Li and Z. Mao and C. Wang}},
+  title      = {{Recent Advances in Cloud Radio Access Networks: System Architectures, Key Techniques, and Open Issues}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2016},
+  volume     = {{18}},
+  number     = {3},
+  pages      = {{2282--2308}},
+  month      = thi,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2016.2548658}},
+  doi        = {10.1109/COMST.2016.2548658},
+}
+
+@InProceedings{PawarNiuPapathanassiou2015,
+  author    = {{S. Pawar and H. Niu and A. Papathanassiou}},
+  title     = {{Front-Haul Compression Using Scheduling Side Information for Cloud Radio Access Networks}},
+  booktitle = {{2015 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2015},
+  pages     = {{1--6}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2015.7417540},
+}
+
+@InProceedings{PauloFreireSousaEtAl2016,
+  author    = {{J. Paulo and I. Freire and I. Sousa and Chenguang Lu and M. Berg and I. Almeida and A. Klautau}},
+  title     = {{FPGA}-based testbed for synchronization on Ethernet fronthaul with phase noise measurements},
+  booktitle = {{2016 1st International Symposium on Instrumentation Systems, Circuits and Transducers (INSCIT)}},
+  year      = {2016},
+  pages     = {{132--136}},
+  month     = aug,
+  doi       = {10.1109/INSCIT.2016.7598202},
+}
+
+@InProceedings{PatilYu2014,
+  author    = {{P. Patil and W. Yu}},
+  title     = {{Hybrid compression and message-sharing strategy for the downlink cloud radio-access network}},
+  booktitle = {{2014 Information Theory and Applications Workshop (ITA)}},
+  year      = {2014},
+  pages     = {{1--6}},
+  month     = feb,
+  doi       = {10.1109/ITA.2014.6804240},
+}
+
+@Article{Parsons:2011:ABG:1883612.1883617,
+  author     = {{Parsons, Simon and Rodriguez-Aguilar, Juan A. and Klein, Mark}},
+  title      = {{Auctions and Bidding: A Guide for Computer Scientists}},
+  journal    = {{ACM Comput. Surv.}},
+  year       = {2011},
+  volume     = {{43}},
+  number     = {2},
+  pages      = {{101--1059}},
+  month      = feb,
+  issn       = {0360-0300},
+  acmid      = {{1883617}},
+  articleno  = {{10}},
+  doi        = {10.1145/1883612.1883617},
+  issue_date = {{January 2011}},
+  numpages   = {{59}},
+  publisher  = {{ACM}},
+}
+
+@Article{ParkSimeoneSahinEtAl2014,
+  author  = {{S. H. Park and O. Simeone and O. Sahin and S. Shamai Shitz}},
+  title   = {{Fronthaul Compression for Cloud Radio Access Networks: Signal processing advances inspired by network information theory}},
+  journal = {{IEEE Signal Processing Magazine}},
+  year    = {2014},
+  volume  = {{31}},
+  number  = {6},
+  pages   = {{69--79}},
+  month   = nov,
+  issn    = {1053-5888},
+  doi     = {10.1109/MSP.2014.2330031},
+}
+
+@Article{paradigms,
+  title = {{New paradigms for NGA regulation: Next-Generation Bitstream, Virtual Unbundling, Sub- Loop Unbundling}},
+  year  = {2012},
+}
+
+@Article{paradigms,
+  title = {{New paradigms for NGA regulation: Next-Generation Bitstream, Virtual Unbundling, Sub- Loop Unbundling}},
+  year  = {2012},
+}
+
+@Article{PangBeltrA¡nSA¡nchezEtAl2014,
+  author  = {{X. Pang and M. BeltrÃ¡n and J. SÃ¡nchez and E. Pellicer and J. J. V. Olmos and R. Llorente and I. T. Monroy}},
+  title   = {{Centralized optical-frequency-comb-based {RF} carrier generator for DWDM fiber-wireless access systems}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2014},
+  volume  = {6},
+  number  = {1},
+  pages   = {{1--4}},
+  month   = jan,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.6.000001},
+}
+
+@Article{Pang_14,
+  author    = {{Xiaodan Pang and Marta Beltr\'{a}n and Jos\'{e} S\'{a}nchez and Eloy Pellicer and J. J. Vegas Olmos and Roberto Llorente and Idelfonso Tafur Monroy}},
+  title     = {{Centralized Optical-Frequency-Comb-Based {RF} Carrier Generator for DWDM Fiber-Wireless Access Systems}},
+  journal   = {{J. Opt. Commun. Netw.}},
+  year      = {2014},
+  volume    = {6},
+  number    = {1},
+  pages     = {{1--7}},
+  month     = jan,
+  doi       = {10.1364/JOCN.6.000001},
+  publisher = {{OSA}},
+  url       = {http://jocn.osa.org/abstract.cfm?URI=jocn-6-1-1},
+}
+
+@Article{pan2011survey,
+  author    = {{Pan, Jianli and Paul, Subharthi and Jain, Raj}},
+  title     = {{A survey of the research on future internet architectures}},
+  journal   = {{IEEE Communications Magazine}},
+  year      = {2011},
+  volume    = {{49}},
+  number    = {7},
+  publisher = {{IEEE}},
+}
+
+@Article{P.Ohlen2015,
+  author  = {{P. Ohlen, B. Skubic, A. Rostami, K. Laraqui, F. Cavaliere, B. Varga, N. F. Lindqvist}},
+  title   = {{Flexibility in 5G Transport Networks: The Key to Meeting Demand for Connectivity}},
+  journal = {{Ericsson Technology Review (white paper)}},
+  year    = {2015},
+  volume  = {{92}},
+  number  = {8},
+  pages   = {{1--15}},
+  month   = sec,
+  issn    = {0014-0171},
+}
+
+@InProceedings{Ozimkiewicz:2010:DBA:1807993.1808031,
+  author    = {{Ozimkiewicz, Joanna and Ruepp, Sarah and Dittmann, Lars and Wessing, Henrik and Smolorz, Sylvia}},
+  title     = {{Dynamic Bandwidth Allocation in GPON Networks}},
+  booktitle = {{Proceedings of the 4th WSEAS International Conference on Circuits, Systems, Signal and Telecommunications}},
+  year      = {2009},
+  series    = {{CISST'10}},
+  pages     = {{182--187}},
+  publisher = {{World Scientific and Engineering Academy and Society (WSEAS)}},
+  acmid     = {{1808031}},
+  isbn      = {978-960-474-152-6},
+  location  = {{Cambridge, USA}},
+  numpages  = {6},
+}
+
+@InProceedings{Ou:16,
+  author    = {{H. Ou and T. Kobayashi and T. Shimada and D. Hisano and J. Terada and A. Otaka}},
+  title     = {{Passive optical network range applicable to cost-effective mobile fronthaul}},
+  booktitle = {{2016 IEEE International Conference on Communications (ICC)}},
+  year      = {2016},
+  pages     = {{1--6}},
+  month     = may,
+  doi       = {10.1109/ICC.2016.7511482},
+}
+
+@Article{osa,
+  author = {{Valcarenghi, L. and Yoshida, Y. and Maruta, A. and Castoldi, P. and Kitayama, K.}},
+  title  = {{Impact of Energy Efficient Schemes on Virtualized TWDM PONs}},
+  year   = {2013},
+}
+
+@Article{osa,
+  author = {{Valcarenghi, L. and Yoshida, Y. and Maruta, A. and Castoldi, P. and Kitayama, K.}},
+  title  = {{Impact of Energy Efficient Schemes on Virtualized TWDM PONs}},
+  year   = {2013},
+}
+
+@Misc{OpenStack:online,
+  title        = {{Home » OpenStack Open Source Cloud Computing Software}},
+  howpublished = {\url{https://www.openstack.org/}},
+  note         = {{(Accessed on 02/14/2017)}},
+}
+
+@Misc{OPenFlow,
+  title        = {{OpenFlow}},
+  howpublished = {\url{https://www.opennetworking.org/sdn-resources/openflow}},
+  note         = {{Accessed: 2017-01-30}},
+}
+
+@Misc{OPenFlow,
+  title        = {{OpenFlow}},
+  howpublished = {\url{https://www.opennetworking.org/sdn-resources/openflow}},
+  note         = {{Accessed: 2017-01-30}},
+}
+
+@Misc{OpenDaylight,
+  title        = {{OpenDaylight (ODL): a modular open platform for customizing and automating networks of any size and scale.}},
+  howpublished = {\url{https://www.opendaylight.org/}},
+  note         = {{Accessed: 2019-05-3}},
+}
+
+@Misc{openaas,
+  title        = {{Open platform for Network as a Service resources}},
+  howpublished = {\url{https://github.com/dana-i2cat/opennaas}},
+  month        = apr,
+  year         = {2015},
+}
+
+@Misc{Open,
+  title        = {{OpenDaylight}},
+  howpublished = {\url{https://www.opendaylight.org/}},
+  note         = {{Accessed: 2017-01-3}},
+}
+
+@InProceedings{Ongaro:raft,
+  author    = {{Ongaro, Diego and Ousterhout, John}},
+  title     = {{In Search of an Understandable Consensus Algorithm}},
+  booktitle = {{USENIX Conference}},
+  year      = {2014},
+  pages     = {{305--320}},
+  acmid     = {{2643666}},
+  isbn      = {978-1-931971-10-2},
+  numpages  = {{16}},
+}
+
+@Misc{ONF:online,
+  title        = {{Open Network Foundation}},
+  howpublished = {\url{https://www.opennetworking.org/}},
+  note         = {{(Accessed on 02/10/2017)}},
+}
+
+@Article{OlmosRodesMonroy2012,
+  author  = {{J. J. V. Olmos and G. Rodes and I. T. Monroy}},
+  title   = {{Optical switching for dynamic distribution of wireless-over-fiber signals in active optical networks}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2012},
+  volume  = {4},
+  number  = {8},
+  pages   = {{622--627}},
+  month   = aug,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.4.000622},
+}
+
+@InProceedings{OliveiraPessoaCoelhoEtAl2014,
+  author    = {{J. M. B. Oliveira and L. M. Pessoa and D. Coelho and J. S. Tavares and H. M. Salgado}},
+  title     = {{Digitised radio techniques for fibre-wireless applications}},
+  booktitle = {{2014 16th International Conference on Transparent Optical Networks (ICTON)}},
+  year      = {2014},
+  pages     = {{1--4}},
+  month     = jul,
+  doi       = {10.1109/ICTON.2014.6876582},
+  issn      = {2162-7339},
+}
+
+@Article{OlHeLa16,
+  author  = {{A. de la Oliva and J. A. Hernandez and D. Larrabeiti and A. Azcorra}},
+  title   = {{An overview of the CPRI specification and its application to C-RAN-based {LTE} scenarios}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2016},
+  volume  = {{54}},
+  number  = {2},
+  pages   = {{152--159}},
+}
+
+@Article{OECD_spectrum,
+  title        = {{Secondary Markets for Spectrum}},
+  journal      = {{OECD Digital Economy Papers: Paris,France}},
+  year         = {2005},
+  number       = {{95}},
+  doi          = {10.1787/232354100386},
+  howpublished = {\url{https://www.oecd-ilibrary.org/content/paper/232354100386}},
+}
+
+@TechReport{OBSAI16,
+  author = {{OBSAI Special Interest Group}},
+  title  = {{The Open Base Station Architecture Initiative}},
+  year   = {2016},
+  type   = {{BTS System Reference Document}},
+  number = {{v2.0}},
+}
+
+@Article{Novak:16,
+  author  = {{D. Novak and R. B. Waterhouse and A. Nirmalathas and C. Lim and P. A. Gamage and T. R. Clark and M. L. Dennis and J. A. Nanzer}},
+  title   = {{Radio-Over-Fiber Technologies for Emerging Wireless Systems}},
+  journal = {{IEEE Journal of Quantum Electronics}},
+  year    = {2016},
+  volume  = {{52}},
+  number  = {1},
+  pages   = {{1--11}},
+  month   = jan,
+  issn    = {0018-9197},
+  doi     = {10.1109/JQE.2015.2504107},
+}
+
+@Book{nokia_trial,
+  title        = {{Ogero trials {Nokia} {Fixed} {Access} {Network} {Slicing} virtualization solution to enhance its wholesale capabilities}},
+  publisher    = {{Yahoo Finance; New York, United States}},
+  abstract     = {{Nokia solution enables Ogero to securely partition its fiber network into several autonomous slices that can be independently run by other service providers June 4, 2019.}},
+  howpublished = {\url{https://finance.yahoo.com/news/ogero-trials-nokia-fixed-access-150105830.html}},
+  language     = {{en-US}},
+  urldate      = {{2019-10-23}},
+}
+
+@Article{niu,
+  author  = {{Niu, Zhisheng and Wu, Yiqun and Gong, Jie and Yang, Zexi}},
+  title   = {{Cell zooming for cost-efficient green cellular networks}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2010},
+  volume  = {{48}},
+  number  = {{11}},
+  pages   = {{74--79}},
+}
+
+@InProceedings{NishiharaKuwanoMiyamotoEtAl2016,
+  author    = {{S. Nishihara and S. Kuwano and K. Miyamoto and J. Terada and A. Ootaka}},
+  title     = {{Study on protocol and required bandwidth for 5G mobile fronthaul in C-RAN architecture with {MAC-PHY} split}},
+  booktitle = {{2016 22nd Asia-Pacific Conference on Communications (APCC)}},
+  year      = {2016},
+  pages     = {{1--5}},
+  month     = aug,
+  doi       = {10.1109/APCC.2016.7581423},
+}
+
+@InProceedings{Nirmalathas15,
+  author    = {{A. Nirmalathas and C. Ranaweera and Ke Wang and Yizhuo Yang and I. Akhter and C. Lim and E. Wong and E. Skafidas}},
+  title     = {{Photonics for gigabit wireless networks}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@Article{Nirmalathas:10,
+  author  = {{A. Nirmalathas and P. A. Gamage and C. Lim and D. Novak and R. Waterhouse}},
+  title   = {{Digitized Radio-Over-Fiber Technologies for Converged Optical Wireless Access Network}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2010},
+  volume  = {{28}},
+  number  = {{16}},
+  pages   = {{2366--2375}},
+  month   = aug,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2010.2051017},
+}
+
+@Patent{Nima-vDBA-patent,
+  number   = {{WO/2018/167318}},
+  year     = {2018},
+  author   = {Ruffini, Marco and Elrasad, Amr and \textbf{N. {Afraz}}},
+  title    = {System and {Method} for {Dynamic} {Bandwidth} {Assignment} (dba) {Virtualization} in a {Multi}-{Tenant} {Passive} {Optical} {Network}},
+  assignee = {{THE PROVOST, FELLOWS, SCHOLARS AND OTHER MEMBERS OF BOARD OF TRINITY COLLEGE DUBLIN}},
+  month    = sep,
+  abstract = {{The invention provides a method and system for Dynamic Bandwidth Assignment (DBA) Virtualization in a Passive Optical Network, comprising an Optical Line Termination (OLT) point and a plurality of Optical Network Units (ONU) and a plurality of Virtual Network Units (VNO), wherein each VNO is configured with a virtual Dynamic Bandwidth Assignment module to schedule a bandwidth assignment independently of the other VNOs and using a merging engine to implement a detailed bandwidth scheduling allocation over the Passive Optical Network.}},
+  keywords = {{System and Method for Dynamic Bandwidth Assignment (dba) Virtualization in a Multi-Tenant Passive Optical Network}},
+  urldate  = {{2019-12-19}},
+}
+
+@InCollection{Nima-telecom-sig,
+  author    = {{\textbf{N. {Afraz}} and Vinay Chaudhary and Sunay Zelawat and others}},
+  title     = {{Optimizing Wholesale Intercarrier Settlement with Hyperledger Fabric Blockchain}},
+  booktitle = {{Solution Brief}},
+  publisher = {{Telecom Special Interest Group}},
+  year      = {2019},
+}
+
+@InProceedings{Nima-PIMRC17,
+  author    = {\textbf{N. {Afraz}} and A. {Elrasad} and H. {Ahmadi} and M. {Ruffini}},
+  title     = {{Inter-operator dynamic capacity sharing for multi-tenant virtualized PON}},
+  booktitle = {{2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)}},
+  year      = {2017},
+  pages     = {{1--6}},
+  month     = oct,
+  doi       = {10.1109/PIMRC.2017.8292715},
+  issn      = {2166-9589},
+  keywords  = {{electronic commerce;incentive schemes;passive optical networks;pricing;resource allocation;telecommunication computing;virtualisation;sharing ecosystem;network virtualization technologies;virtual operators;infrastructure provider;auction mechanism;network operators;market design;inter-operator dynamic capacity;operating expenditure savings;infrastructure customization;sharing mechanism;optical access networks;capital expenditure savings;resource efficiency;sealed-bid VCG auction;homogeneous multi-item goods;reserve price;multi-tenant virtualized PON;Indium phosphide;III-V semiconductor materials;Passive optical networks;Optical network units;Bandwidth;Cost accounting}},
+}
+
+@InProceedings{Nima-osa,
+  author    = {{\textbf{N. {Afraz}} and Frank Slyne and Marco Ruffini}},
+  title     = {{Full PON Virtulisation Supporting Multi-Tenancy Beyond 5G}},
+  booktitle = {{OSA Advanced Photonics Congress (AP) 2019 (IPR, Networks, NOMA, SPPCom, PVLED)}},
+  year      = {2019},
+  pages     = {{NeT2D.2}},
+  publisher = {{Optical Society of America}},
+  abstract  = {{In this paper, we introduce a virtualization technique to enable fully customizable resource sharing for Passive Optical Networks. We provide a summary of the concept, economic challenges and implementation.}},
+  doi       = {10.1364/NETWORKS.2019.NeT2D.2},
+  journal   = {{OSA Advanced Photonics Congress (AP) 2019 (IPR, Networks, NOMA, SPPCom, PVLED)}},
+  keywords  = {{Algorithms; Field programmable gate arrays; Passive optical networks; Virtual reality}},
+}
+
+@InProceedings{Nima-OFC18,
+  author    = {\textbf{N. {Afraz}} and A. {Elrasad} and M. {Ruffini}},
+  title     = {{DBA Capacity Auctions to Enhance Resource Sharing across Virtual Network Operators in Multi-Tenant PONs}},
+  booktitle = {{2018 Optical Fiber Communications Conference and Exposition (OFC)}},
+  year      = {2018},
+  month     = mar,
+  keywords  = {{passive optical networks;resource allocation;virtualisation;resource sharing;DBA capacity auctions;economic sharing incentives;PON utilization;DBA process;multitenant PON's capacity;economic-robust auction mechanism;virtual network operators;Indium phosphide;III-V semiconductor materials;Economics;Passive optical networks;Resource management;Optical network units;Bandwidth}},
+}
+
+@InProceedings{Nima-OFC17,
+  author    = {A. {Elrasad} and \textbf{N. {Afraz}} and M. {Ruffini}},
+  title     = {{Virtual dynamic bandwidth allocation enabling true PON multi-tenancy}},
+  booktitle = {{2017 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2017},
+  pages     = {{1--3}},
+  month     = mar,
+  issn      = {null},
+  keywords  = {{optical communication equipment;optical fibre networks;passive optical networks;virtual dynamic bandwidth allocation;true PON multitenancy;virtual-DBA architecture;virtual network operators;capacity assignment algorithms}},
+}
+
+@Article{Nima-JLT1,
+  author   = {\textbf{N. {Afraz}} and M. {Ruffini}},
+  title    = {{A Sharing Platform for Multi-Tenant PONs}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2018},
+  volume   = {{36}},
+  number   = {{23}},
+  pages    = {{5413--5423}},
+  month    = dec,
+  issn     = {1558-2213},
+  doi      = {10.1109/JLT.2018.2875188},
+  keywords = {{investment;passive optical networks;quality of service;resource allocation;virtual network operators;infrastructure provider;efficient resource allocation;economic robustness;multitenant passive optical networks;economic-robust sharing platform;efficient sharing platform;service providers;network utilization;resource efficiency;incentive compatibility;multitenant PON networks;inter-operator network sharing monetization;quality of service;latency requirements;nitial investment reduction;utility functions;double auction mechanism;excess resource trading;weak budget balance;market players;extensive market simulations;reference baseline mechanism;Resource management;Optical network units;Bandwidth;Cost accounting;Passive optical networks;Indium phosphide;III-V semiconductor materials;Auction;infrastructure sharing;network sharing;PON}},
+}
+
+@InProceedings{Nima-globecom,
+  author    = {\textbf{N. {Afraz}} and M. {Ruffini}},
+  title     = {{A Distributed Bilateral Resource Market Mechanism for Future Telecommunications Networks}},
+  booktitle = {{2019 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2019},
+  month     = dec,
+}
+
+@Unpublished{Nima-EUCNC-BC-Talk,
+  author = {H. Ahmadi and I. Macaluso and M. Ruffini and \textbf{N. {Afraz}}},
+  title  = {{Blockchain Technology and Smart Contracts in 5G and Beyond Networks [Tutorial Talk]}},
+  note   = {{European Conferences on Networks and Communications (EUCNC)}},
+  year   = {2019},
+}
+
+@InProceedings{Nima-ACP,
+  author    = {\textbf{N. {Afraz}} and M. {Ruffini}},
+  title     = {{A Marketplace for Real-time Virtual PON Sharing}},
+  booktitle = {{2018 Asia Communications and Photonics Conference (ACP)}},
+  year      = {2018},
+  pages     = {{1--3}},
+  month     = oct,
+  doi       = {10.1109/ACP.2018.8596221},
+  issn      = {null},
+  keywords  = {{passive optical networks;double auction;excess capacity;passive optical network infrastructure;multiple network operators;real-time virtual PON sharing;marketplace;optical access capacity;Resource management;Passive optical networks;Bandwidth;Economics;Optical network units;Internet;Indium phosphide;Passive Optical Networks;Network sharing;Infrastructure sharing;Auction}},
+  notes     = {{Winner of Best Student Paper Award}},
+}
+
+
+@INPROCEEDINGS{7937022,
+author={S. {Zhou} and X. {Liu} and F. {Effenberger} and J. {Chao}},
+booktitle={2017 Optical Fiber Communications Conference and Exhibition (OFC)},
+title={Mobile-PON: A high-efficiency low-latency mobile fronthaul based on functional split and TDM-PON with a unified scheduler},
+year={2017},
+volume={},
+number={},
+pages={1-3},
+keywords={optical communication equipment;optical fibre communication;passive optical networks;time division multiplexing;high-efficiency low-latency mobile fronthaul based functional split;high-efficiency low-latency mobile fronthaul based TDM-PON;mobile fronthaul architecture;unified mobile-PON scheduler;bandwidth efficiency;Mobile communication;Passive optical networks;Delays;Dynamic scheduling;Wireless communication;Bandwidth;Load modeling},
+doi={},
+ISSN={null},
+month={March},}
+
+@phdthesis{tayq_fronthaul_2017,
+	type = {phdthesis},
+	title = {Fronthaul integration and monitoring in 5G networks},
+	url = {https://tel.archives-ouvertes.fr/tel-01708493},
+	language = {en},
+	urldate = {2020-03-02},
+	school = {Université de Limoges},
+	author = {Tayq, Zakaria},
+	month = dec,
+	year = {2017}
+}
+
+@TechReport{FCC_slicing,
+  title       = {{5G {Network} {Slicing}}},
+  institution = {{FCC Technological Advisory Council (TAC)}},
+  year        = {2018},
+  type        = {{Whitepaper}},
+  url         = {https://www.fcc.gov/general/tac-reports-and-papers},
+}
+
+@Article{santos2018orchestration,
+  author = {Santos, Joao F and others},
+  title  = {{Orchestration next-generation services through end-to-end networks slicing}},
+  year   = {2018},
+}
+
+@Article{Nima-5g-evol,
+  author  = {\textbf{N. {Afraz}} and F. Slyne and H. Gill and M. {Ruffini}},
+  title   = {{Evolution of Access Network Sharing and Its Role in 5G Networks}},
+  journal = {{Applied Sciences}},
+  year    = {2019},
+  volume  = {9},
+  number  = {{21}},
+  pages   = {{4566}},
+  month   = oct,
+  issn    = {2076-3417},
+  doi     = {10.3390/app9214566},
+  urldate = {{2019-12-18}},
+}
+
+@InProceedings{NiKnGau15,
+  author    = {{Nikaein, Navid and Knopp, Raymond and Gauthier, Lionel and Schiller, Eryk and Braun, Torsten and Pichon, Dominique and Bonnet, Christian and Kaltenberger, Florian and Nussbaum, Dominique}},
+  title     = {{Demo: Closer to Cloud-RAN: RAN As a Service}},
+  booktitle = {{Proceedings of the 21st Annual International Conference on Mobile Computing and Networking}},
+  year      = {2015},
+  series    = {{MobiCom '15}},
+  pages     = {{193--195}},
+  publisher = {{ACM}},
+  acmid     = {{2789178}},
+  doi       = {10.1145/2789168.2789178},
+  isbn      = {978-1-4503-3619-2},
+  location  = {{Paris, France}},
+  numpages  = {3},
+}
+
+@InProceedings{NiemanEvans2013,
+  author    = {{K. F. Nieman and B. L. Evans}},
+  title     = {{Time-domain compression of complex-baseband {LTE} signals for cloud radio access networks}},
+  booktitle = {{2013 IEEE Global Conference on Signal and Information Processing}},
+  year      = {2013},
+  pages     = {{1198--1201}},
+  month     = dec,
+  doi       = {10.1109/GlobalSIP.2013.6737122},
+}
+
+@Article{NGPON_issue2,
+  author  = {{R. Bonk and W. Poehlmann and D. van Veen and J. Galaro and R. Farah and H. Schmuck and Th. Pfeiffer}},
+  title   = {{The underestimated challenges of burst-mode WDM transmission in TWDM-PON}},
+  journal = {{Optical Fiber Technology}},
+  year    = {2015},
+  volume  = {{26}},
+  pages   = {{59--70}},
+  issn    = {1068-5200},
+  note    = {{Next Generation Access Networks}},
+  doi     = {10.1016/j.yofte.2015.07.004},
+}
+
+@InProceedings{NGPON_issue1,
+  author    = {R. {Bonk} and W. {Poehlmann} and H. {Schmuck} and T. {Pfeiffer}},
+  title     = {{Cross-talk in TWDM-PON beyond NG-PON2}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2015.Tu3E.2},
+  keywords  = {{crosstalk;optical fibre networks;passive optical networks;wavelength division multiplexing;cross-talk;TWDM-PON;NG-PON2;wavelength channels;optical network units;passive optical network;Optical network units;Erbium;Power generation;Passive optical networks;Optical noise;Optical filters;Signal to noise ratio}},
+}
+
+@Article{nextgeneration,
+  author    = {{Reichl, Wolfgang and Ruhle, Ernst-Wolfgang and Lundborg, Martin and Ehrler, Matthias}},
+  title     = {{Virtual unbundling: The basis for competition in next generation access networks?}},
+  year      = {2012},
+  publisher = {{Wien: ITS}},
+}
+
+@Misc{nextgeneration,
+  author = {{Reichl, Wolfgang and Ruhle, Ernst-Olav and Lundborg, Martin and Ehrler, Matthias}},
+  title  = {{Virtual unbundling: The basis for competition in next generation access networks?}},
+  month  = jan,
+  year   = {2012},
+}
+
+@InProceedings{NetoChanclouTayqEtAl2016,
+  author    = {{L. Anet Neto and P. Chanclou and Z. Tayq and B. C. Zabada and F. Saliou and G. Simon}},
+  title     = {{Experimental Investigation of Compression with Fixed-length Code Quantization for Convergent Access-Mobile Networks}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@TechReport{nepal_sharing,
+  author      = {{Raj Kanel , Bhesh}},
+  title       = {{CONSULTATION} {PAPER} {ON} {INFRASTRUCTURE} {SHARING}},
+  institution = {{Nepal Telecommunications Authority (NTA)}},
+  year        = {2010},
+  address     = {{Nepal}},
+}
+
+@Article{Nakayama:16,
+  author    = {{Yu Nakayama and Kazuki Maruta and Tatsuya Shimada and Tomoaki Yoshida and Jun Terada and Akihiro Otaka}},
+  title     = {{Utilization Comparison of Small-Cell Accommodation With {PON}-Based Mobile Fronthaul}},
+  journal   = {{J. Opt. Commun. Netw.}},
+  year      = {2016},
+  volume    = {8},
+  number    = {{12}},
+  pages     = {{919--927}},
+  month     = dec,
+  publisher = {{OSA}},
+}
+
+@Article{MYERSON1983265,
+  author  = {{Roger B Myerson and Mark A Satterthwaite}},
+  title   = {{Efficient mechanisms for bilateral trading}},
+  journal = {{Journal of Economic Theory}},
+  year    = {1983},
+  volume  = {{29}},
+  number  = {2},
+  pages   = {{265--281}},
+  issn    = {0022-0531},
+  doi     = {10.1016/0022-0531(83)90048-0},
+}
+
+@Article{Mu-xia,
+  author  = {{Mu Xia and Jan Stallaert and Andrew B. Whinston}},
+  title   = {{Solving the combinatorial double auction problem}},
+  journal = {{European Journal of Operational Research}},
+  year    = {2005},
+  volume  = {{164}},
+  number  = {1},
+  pages   = {{239--251}},
+  issn    = {0377-2217},
+  doi     = {10.1016/j.ejor.2003.11.018},
+}
+
+@InProceedings{munoz2015sdn,
+  author       = {{Mu{\~n}oz, Raul and Vilalta, Ricard and Casellas, Ramon and Mart{\'\i}nez, Ricardo and Szyrkowiec, Thomas and Autenrieth, Achim and L{\'o}pez, Victor and L{\'o}pez, Diego}},
+  title        = {{SDN/NFV orchestration for dynamic deployment of virtual SDN controllers as VNF for multi-tenant optical networks}},
+  booktitle    = {{Optical Fiber Communications Conference and Exhibition (OFC), 2015}},
+  year         = {2015},
+  pages        = {{1--3}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{munoz2015sdn,
+  author       = {{Mu{\~n}oz, Raul and Vilalta, Ricard and Casellas, Ramon and Mart{\'\i}nez, Ricardo and Szyrkowiec, Thomas and Autenrieth, Achim and L{\'o}pez, Victor and L{\'o}pez, Diego}},
+  title        = {{SDN/NFV orchestration for dynamic deployment of virtual SDN controllers as VNF for multi-tenant optical networks}},
+  booktitle    = {{Optical Fiber Communications Conference and Exhibition (OFC), 2015}},
+  year         = {2015},
+  organization = {{IEEE}},
+}
+
+@Article{muda,
+  author        = {{Segal-Halevi}, E. and {Hassidim}, A. and {Aumann}, Y.},
+  title         = {{MUDA: A Truthful Multi-Unit Double-Auction Mechanism}},
+  journal       = {{ArXiv e-prints}},
+  year          = {2017},
+  month         = dec,
+  adsnote       = {{Provided by the SAO/NASA Astrophysics Data System}},
+  adsurl        = {{http://adsabs.harvard.edu/abs/2017arXiv171206848S}},
+  archiveprefix = {{arXiv}},
+  eprint        = {{1712.06848}},
+  primaryclass  = {{cs.GT}},
+}
+
+@InProceedings{MiyamotoKuwanoTeradaEtAl2016,
+  author    = {{K. Miyamoto and S. Kuwano and J. Terada and A. Otaka}},
+  title     = {{Performance evaluation of mobile fronthaul optical bandwidth reduction and wireless transmission in Split-{PHY} processing architecture}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{MiyamotoKuwanoTeradaEtAl2015b,
+  author    = {{K. Miyamoto and S. Kuwano and J. Terada and A. Otaka}},
+  title     = {{Split-{PHY} processing architecture to realize base station coordination and transmission bandwidth reduction in mobile fronthaul}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2015.M2J.4},
+}
+
+@InProceedings{MiyamotoKuwanoTeradaEtAl2015,
+  author    = {{K. Miyamoto and S. Kuwano and J. Terada and A. Otaka}},
+  title     = {{Uplink Joint Reception with {LLR} Forwarding for Optical Transmission Bandwidth Reduction in Mobile Fronthaul}},
+  booktitle = {{2015 IEEE 81st Vehicular Technology Conference (VTC Spring)}},
+  year      = {2015},
+  pages     = {{1--5}},
+  month     = may,
+  doi       = {10.1109/VTCSpring.2015.7146147},
+  issn      = {1550-2252},
+}
+
+@Book{mishra2016qos,
+  title     = {{QoS and Energy Management in Cognitive Radio Network: Case Study Approach}},
+  publisher = {{Springer}},
+  year      = {2016},
+  author    = {{Mishra, Vishram and Mathew, Jimson and Lau, Chiew-Tong}},
+}
+
+@Article{mirchev2015surveyeltit,
+  author    = {{Atanas Mirchev}},
+  title     = {{Survey of Concepts for {QoS} improvements via SDN}},
+  year      = {2015},
+  booktitle = {{Network Architectures and Services}},
+}
+
+@Article{mirchev2015surveyeltit,
+  author  = {{Mirchev, Atanas}},
+  title   = {{Survey of Concepts for QoS improvements via SDN}},
+  journal = {{Future Internet (FI) and Innovative Internet Technologies and Mobile Communications (IITM)}},
+  year    = {2015},
+  volume  = {{33}},
+  number  = {1},
+}
+
+@Misc{Mininet,
+  title        = {{Mininet: An Instant Virtual Network on your Laptop (or other PC)}},
+  howpublished = {\url{http://mininet.org/}},
+  note         = {{Accessed: 2019-05-3}},
+}
+
+@Article{milani2016blockchain,
+  author  = {{Milani, Fredrik and Garc{\'\i}a-Ba{\~n}uelos, Luciano and Dumas, Marlon}},
+  title   = {{Blockchain and business process improvement}},
+  journal = {{BPTrends newsletter (October 2016)}},
+  year    = {2016},
+}
+
+@Article{MijumbiSerratGorrichoEtAl2016,
+  author     = {{R. Mijumbi and J. Serrat and J. L. Gorricho and N. Bouten and F. De Turck and R. Boutaba}},
+  title      = {{Network Function Virtualization: State-of-the-Art and Research Challenges}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2016},
+  volume     = {{18}},
+  number     = {1},
+  pages      = {{236--262}},
+  month      = fir,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2015.2477041}},
+  doi        = {10.1109/COMST.2015.2477041},
+}
+
+@Article{MIDA,
+  author        = {{Erel Segal{-}Halevi and Avinatan Hassidim and Yonatan Aumann}},
+  title         = {{A Random-Sampling Double-Auction Mechanism}},
+  journal       = {{CoRR}},
+  year          = {2016},
+  volume        = {{abs/1604.06210}},
+  archiveprefix = {{arXiv}},
+  bibsource     = {{dblp computer science bibliography, http://dblp.org}},
+  biburl        = {{http://dblp.org/rec/bib/journals/corr/Segal-HaleviHA16}},
+  eprint        = {{1604.06210}},
+  timestamp     = {{Wed, 07 Jun 2017 14:40:05 +0200}},
+  url           = {http://arxiv.org/abs/1604.06210},
+}
+
+@InProceedings{mettler2016blockchain,
+  author       = {{Mettler, Matthias}},
+  title        = {{Blockchain technology in healthcare: The revolution starts here}},
+  booktitle    = {{Healthcom}},
+  year         = {2016},
+  pages        = {{1--3}},
+  organization = {{IEEE}},
+}
+
+@Article{MEDDOUR20111576,
+  author   = {{Djamal-Eddine Meddour and Tinku Rasheed and Yvon Gourhant}},
+  title    = {{On the role of infrastructure sharing for mobile network operators in emerging markets}},
+  journal  = {{Computer Networks}},
+  year     = {2011},
+  volume   = {{55}},
+  number   = {7},
+  pages    = {{1576--1591}},
+  issn     = {1389-1286},
+  note     = {{Recent Advances in Network Convergence}},
+  abstract = {{The traditional model of single ownership of all the physical network elements and network layers by mobile network operators is beginning to be challenged. This has been attributed to the rapid and complex technology migration compounded with rigorous regulatory requirements and ever increasing capital expenditures. These trends, combined together with the increasing competition, rapid commoditization of telecommunication equipments and rising separation of network and service provisioning are pushing the operators to adopt multiple strategies, with network infrastructure sharing in the core and radio access networks emerging as a more radical mechanism to substantially and sustainably improve network costs. Through infrastructure sharing, developing countries and other emerging economies can harness the technological, market and regulatory developments that have fostered affordable access to mobile and broadband services. Similarly, the network operators entering or consolidating in the emerging markets can aim for substantial savings on capital and operating expenses. The present paper aims to investigate the current technological solutions and regulatory and the technical–economical dimensions in connection with the sharing of mobile telecommunication networks in emerging countries. We analyze the estimated savings on capital and operating expenses, while assessing the technical constraints, applicability and benefits of the network sharing solutions in an emerging market context.}},
+  doi      = {10.1016/j.comnet.2011.01.023},
+  keywords = {{Infrastructure sharing, Mobile network sharing, RAN sharing, Passive sharing, Active sharing, Network management, Emerging markets}},
+}
+
+@Book{mckinsey,
+  title        = {{Network sharing and 5G: A turning point for lone riders}},
+  publisher    = {{McKinsey \& Company: New York, United States}},
+  year         = {2018},
+  author       = {{Grijpink, Ferry and Ménard, Alexandre and Sigurdsson, Halldor and Vucevic, Nemanja}},
+  month        = feb,
+  howpublished = {\url{https://www.mckinsey.com/industries/telecommunications/our-insights/network-sharing-and-5g-a-turning-point-for-lone-riders}},
+}
+
+@Article{mckeown2008openflow,
+  author    = {{McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar, Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott and Turner, Jonathan}},
+  title     = {{OpenFlow: enabling innovation in campus networks}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2008},
+  volume    = {{38}},
+  number    = {2},
+  pages     = {{69--74}},
+  publisher = {{ACM}},
+}
+
+@Article{mckeown2008openflow,
+  author    = {{McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar, Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott and Turner, Jonathan}},
+  title     = {{OpenFlow: enabling innovation in campus networks}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2008},
+  volume    = {{38}},
+  number    = {2},
+  publisher = {{ACM}},
+}
+
+@Article{McGarry:06,
+  author    = {{Michael P. McGarry and Martin Reisslein and Martin Maier and Ahmet Keha}},
+  title     = {{Bandwidth management for {WDM} EPONs}},
+  journal   = {{J. Opt. Netw.}},
+  year      = {2006},
+  volume    = {5},
+  number    = {9},
+  pages     = {{637--654}},
+  month     = sep,
+  doi       = {10.1364/JON.5.000637},
+  publisher = {{OSA}},
+  url       = {http://jon.osa.org/abstract.cfm?URI=jon-5-9-637},
+}
+
+@Misc{mccauley2014pox,
+  author = {{Mccauley, James}},
+  title  = {{Pox: A Python-based Openflow Controller}},
+  year   = {2014},
+}
+
+@Misc{mccauley2014pox,
+  author = {{Mccauley, James}},
+  title  = {{Pox: A Python-based Openflow Controller}},
+  year   = {2014},
+}
+
+@Article{MCAFEE1992434,
+  author  = {{R.Preston McAfee}},
+  title   = {{A dominant strategy double auction}},
+  journal = {{Journal of Economic Theory}},
+  year    = {1992},
+  volume  = {{56}},
+  number  = {2},
+  pages   = {{434--450}},
+  issn    = {0022-0531},
+  doi     = {10.1016/0022-0531(92)90091-U},
+}
+
+@InProceedings{mayoral2014integrated,
+  author       = {{Mayoral, A and Vilalta, Ricard and Mu{\~n}oz, Raul and Casellas, Ramon and Mart{\'\i}nez, Ricardo and Vilchez, J}},
+  title        = {{Integrated IT and network orchestration using OpenStack, OpenDaylight and active stateful PCE for intra and inter data center connectivity}},
+  booktitle    = {{Optical Communication (ECOC), 2014 European Conference on}},
+  year         = {2014},
+  pages        = {{1--3}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{mayoral2014integrated,
+  author    = {{Mayoral, A and Vilalta, Ricard and Mu{\~n}oz, Raul and Casellas, Ramon and Mart{\'\i}nez, Ricardo and Vilchez, J}},
+  title     = {{Integrated IT and Network Orchestration Using OpenStack, OpenDaylight and Active Stateful PCE for Intra and Inter Data Center Connectivity}},
+  booktitle = {{European Conference on Optical Communication (ECOC)}},
+  year      = {2014},
+  pages     = {{1--3}},
+  month     = nov,
+}
+
+@InProceedings{mayoral2014integrated,
+  author    = {{Mayoral, A and Vilalta, Ricard and Mu{\~n}oz, Raul and Casellas, Ramon and Mart{\'\i}nez, Ricardo and Vilchez, J}},
+  title     = {{Integrated IT and Network Orchestration Using OpenStack, OpenDaylight and Active Stateful PCE for Intra and Inter Data Center Connectivity}},
+  booktitle = {{European Conference on Optical Communication (ECOC)}},
+  year      = {2014},
+  month     = nov,
+}
+
+@Article{MaShVu15,
+  author        = {{E. P. Martin and T. Shao and V. Vujicic and P. M. Anandarajah and C. Browning and R. Llorente and L. P. Barry}},
+  title         = {{25\mbox{-}{Gb}/s {OFDM} 60\mbox{-}{GHz} Radio Over Fiber System Based on a Gain Switched Laser}},
+  journal       = {{Journal of Lightwave Technology}},
+  year          = {2015},
+  volume        = {{33}},
+  number        = {8},
+  pages         = {{1635--1643}},
+  month         = apr,
+  issn          = {0733-8724},
+  bdsk-url-1    = {{http://dx.doi.org/10.1109/JLT.2015.2391994}},
+  date-added    = {{2016-11-08 16:16:13 +0000}},
+  date-modified = {{2016-11-08 16:17:19 +0000}},
+  doi           = {10.1109/JLT.2015.2391994},
+}
+
+@InProceedings{MartA­nezMayoralVilaltaEtAl2016,
+  author    = {{R. MartÃ­nez and A. Mayoral and R. Vilalta and R. Casellas and R. MuÃ±oz and S. Pachnicke and T. Szyrkowiec and A. Autenrieth}},
+  title     = {{Integrated SDN/{NF}V orchestration for the dynamic deployment of mobile virtual backhaul networks over a multi-layer (Packet/Optical) aggregation infrastructure}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{Markendahl666147,
+  author      = {{Markendahl, Jan and Ghanbari, amirhossein and M{\"o}lleryd, Bengt G.}},
+  title       = {{Network cooperation between mobile operators : why and how competitors cooperate?}},
+  booktitle   = {{IMP Conference 2103 :}},
+  year        = {2013},
+  note        = {{QC 20140325}},
+  abstract    = {{After year 2000 with the introduction of third generation (3G) mobile networks a new type ofcooperation between competitors emerged, network sharing. Cost reduction is often mentionedas the main driver for network sharing. However, cost aspects are only part of the story “why”operators cooperate. In this paper we discuss multiple aspects of “why” operators cooperate andalso “how” competing mobile operators cooperate.Besides cost the “why” aspect is discussed in terms of market position, market entry andexploitation of the resources and skills of the sharing partner but also drawbacks of sharing. Thepatterns of cooperation are illustrated by analyzing how roles, responsibilities and resources canbe distributed among the mobile operators. The findings are based on case studies where wemake comparison in three different domains. In the time domain we compare network sharing inSweden the years 2000 and 2010. From a cost perspective the drivers to share networks havedecrease since many base station sites can be re-used. Anyway, new network sharing companiesare formed in order to make the network operation more efficient.We also compare cooperation between operators at the Swedish and Indian mobile markets. Inboth countries the competition is very strong. Network sharing is used but in India thecooperation is organized through tower companies, hence the operator cooperation is weak.Finally we look into network sharing principles for indoor network deployment in Sweden. Thecooperation between operators is strong but not as strong as for the network sharing jointventures. The tie between two operators can be said to be weaker since several mobile operators,the facility owner and also enterprises may be included in cooperation. In addition theinvestment risk is lower.}},
+  institution = {{KTH, Radio Systems Laboratory (RS Lab)}},
+  keywords    = {{Actors and markets, business models, competition & cooperation, mobile broadband network deployment, network sharing, outdoor & indoor deployment, techno-economic analysis}},
+}
+
+@InProceedings{manthena2015sdn,
+  author       = {{Manthena, Mani Prashanth Varma and van Adrichem, Niels LM and van den Broek, Casper and Kuipers, Fernando}},
+  title        = {{An SDN-based Architecture for Network-as-a-Service}},
+  booktitle    = {{Network Softwarization (NetSoft), 2015 1st IEEE Conference on}},
+  year         = {2015},
+  pages        = {{1--5}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{manthena2015sdn,
+  author       = {{Manthena, Mani Prashanth Varma and van Adrichem, Niels LM and van den Broek, Casper and Kuipers, Fernando}},
+  title        = {{An SDN-based Architecture for Network-as-a-Service}},
+  booktitle    = {{Network Softwarization (NetSoft), 2015 1st IEEE Conference on}},
+  year         = {2015},
+  organization = {{IEEE}},
+}
+
+@Article{maes2015the,
+  author    = {{Jochen Maes and Carl J. Nuzman}},
+  title     = {{The past, present and future of copper access}},
+  year      = {2015},
+  volume    = {{20}},
+  booktitle = {{Bell Labs Technical Journal}},
+}
+
+@Article{maes2015the,
+  author   = {J. {Maes} and C. J. {Nuzman}},
+  title    = {{The Past, Present, and Future of Copper Access}},
+  journal  = {{Bell Labs Technical Journal}},
+  year     = {2015},
+  volume   = {{20}},
+  pages    = {{1--10}},
+  issn     = {1538-7305},
+  doi      = {10.15325/BLTJ.2015.2397851},
+  keywords = {{broadband networks;digital subscriber lines;high definition video;home networks;optical fibre networks;copper access;digital subscriber line technology;broadband access;plain old telephone service;copper loop plant;high definition video;hybrid fiber copper networks;revolutionary copper technology;hybrid networks;ultrabroadband technology;distances 100m;numerous telecom operators;Bell Labs XG-FAST technology;copper drop cable;homes passed fiber network;bit rate 1 Gbit/s;bit rate 10 Gbit/s;distance 30 m;Copper;Optical fiber networks;Crosstalk;Optical fiber subscriber loops;History;Optical fiber cables;DSL;Broadband communication;Telecommunication services;Standards}},
+}
+
+@InProceedings{MaederLalamDomenicoEtAl2014,
+  author    = {{A. Maeder and M. Lalam and A. De Domenico and E. Pateromichelakis and D. WÃ¼bben and J. Bartelt and R. Fritzsche and P. Rost}},
+  title     = {{Towards a flexible functional split for cloud-RAN networks}},
+  booktitle = {{2014 European Conference on Networks and Communications (EuCNC)}},
+  year      = {2014},
+  pages     = {{1--5}},
+  month     = jun,
+  doi       = {10.1109/EuCNC.2014.6882691},
+}
+
+@Article{Macedo2015,
+  author     = {{D. F. Macedo and D. Guedes and L. F. M. Vieira and M. A. M. Vieira and M. Nogueira}},
+  title      = {{Programmable Networks ---From Software-Defined Radio to Software-Defined Networking}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2015},
+  volume     = {{17}},
+  number     = {2},
+  pages      = {{1102--1125}},
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2015.2402617}},
+  doi        = {10.1109/COMST.2015.2402617},
+}
+
+@Article{LuXuChengEtAl2016,
+  author  = {{F. Lu and M. Xu and L. Cheng and J. Wang and S. Shen and J. Zhang and G. K. Chang}},
+  title   = {{Sub-Band Pre-Distortion for {PAPR} Reduction in Spectral Efficient 5G Mobile Fronthaul}},
+  journal = {{IEEE Photonics Technology Letters}},
+  year    = {2016},
+  volume  = {{PP}},
+  number  = {{99}},
+  pages   = {1},
+  issn    = {1041-1135},
+  doi     = {10.1109/LPT.2016.2628804},
+}
+
+@Misc{Loertscher14amulti-unit,
+  author = {{Simon Loertscher and Claudio Mezzetti and Jel-classification C}},
+  title  = {{A Multi-Unit Dominant Strategy Double Auction}},
+  year   = {2014},
+}
+
+@InProceedings{LiuZengEffenberger2015,
+  author    = {{X. Liu and H. Zeng and F. Effenberger}},
+  title     = {{Bandwidth-Efficient Synchronous Transmission of {I/Q} Waveforms and Control Words via Frequency-Division Multiplexing for Mobile Fronthaul}},
+  booktitle = {{2015 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2015},
+  pages     = {{1--6}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2015.7417702},
+}
+
+@Article{LiuZengChandEtAl2016,
+  author  = {{X. Liu and H. Zeng and N. Chand and F. Effenberger}},
+  title   = {{Efficient Mobile Fronthaul via {DSP}-Based Channel Aggregation}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2016},
+  volume  = {{34}},
+  number  = {6},
+  pages   = {{1556--1564}},
+  month   = mar,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2015.2508451},
+}
+
+@InProceedings{LiuZengChandEtAl2015,
+  author    = {{X. Liu and H. Zeng and N. Chand and F. Effenberger}},
+  title     = {{Experimental demonstration of high-throughput low-latency mobile fronthaul supporting 48 20\mbox{-}{MHz LTE} signals with 59\mbox{-}{Gb}/s {CP}RI-equivalent rate and $2- \mu$s processing latency}},
+  booktitle = {{2015 European Conference on Optical Communication (ECOC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = sep,
+  doi       = {10.1109/ECOC.2015.7342015},
+}
+
+@Article{LiuXuZhouEtAl2015,
+  author  = {{J. Liu and S. Xu and S. Zhou and Z. Niu}},
+  title   = {{Redesigning fronthaul for next-generation networks: beyond baseband samples and point-to-point links}},
+  journal = {{IEEE Wireless Communications}},
+  year    = {2015},
+  volume  = {{22}},
+  number  = {5},
+  pages   = {{90--97}},
+  month   = oct,
+  issn    = {1536-1284},
+  doi     = {10.1109/MWC.2015.7306542},
+}
+
+@Article{LiuWangChenEtAl2016,
+  author     = {{D. Liu and L. Wang and Y. Chen and M. Elkashlan and K. K. Wong and R. Schober and L. Hanzo}},
+  title      = {{User Association in 5G Networks: A Survey and an Outlook}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2016},
+  volume     = {{18}},
+  number     = {2},
+  pages      = {{1018--1044}},
+  month      = sec,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2016.2516538}},
+  doi        = {10.1109/COMST.2016.2516538},
+}
+
+@InProceedings{LiuEffenbergerChandEtAl2015,
+  author    = {{X. Liu and F. Effenberger and N. Chand and Lei Zhou and Huafeng Lin}},
+  title     = {{Demonstration of bandwidth-efficient mobile fronthaul enabling seamless aggregation of 36 E-UTRA-like wireless signals in a single 1.1\mbox{-}{GHz} wavelength channel}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@Book{lindeberg2019coordinating,
+  title     = {{Coordinating the Internet}},
+  publisher = {{Linköping University Electronic Press}},
+  year      = {2019},
+  author    = {{Lindeberg, Fredrik}},
+  address   = {{Linköping}},
+  isbn      = {9789179299354},
+}
+
+@InProceedings{LiLiXi12,
+  author    = {{Lei Li and Jinhua Liu and Kaihang Xiong and P. Butovitsch}},
+  title     = {{Field test of uplink CoMP joint processing with C-RAN testbed}},
+  booktitle = {{7th International Conference on Communications and Networking in China}},
+  year      = {2012},
+  pages     = {{753--757}},
+  month     = aug,
+  doi       = {10.1109/ChinaCom.2012.6417584},
+}
+
+@Article{Liang:17,
+  author    = {{Lipei Liang and Wei Lu and Massimo Tornatore and Zuqing Zhu}},
+  title     = {{Game-Assisted Distributed Decision Making to Build Virtual TDM-PONs in C-RANs Adaptively}},
+  journal   = {{J. Opt. Commun. Netw.}},
+  year      = {2017},
+  volume    = {9},
+  number    = {7},
+  pages     = {{546--554}},
+  month     = jul,
+  abstract  = {{Although a promising solution for next-generation radio access networks (RANs), cloud RAN (C-RAN) still faces technical challenges due to the separate locations of the cloud-based baseband unit (BBU) pool and remote radio heads (RRHs). Fortunately, time- and wavelength-division multiplexing passive optical networks (TWDM-PONs) can efficiently bridge the communications between the BBU pool and RRHs. In this work, we address the problem of formulating virtual time division multiplexing PONs (vTDM-PONs) adaptively in a TWDM-PON-based C-RAN. However, instead of relying on a centralized approach, we develop algorithms that can work in a distributed manner. Specifically, we consider a scenario in which the optical network unit (ONU) of each RRH has the initiative to choose a proper vTDM-PON to register to based on its knowledge on the C-RAN. We formulate game theoretic models for the vTDM-PON formation for both static and dynamic operation of a C-RAN, then transform the games into weighted potential games and therefore prove the existence of Nash equilibrium (NE) points in the games. Moreover, we propose a distributed algorithm that can converge to the NE point(s) to enable each ONU to choose its vTDM-PON intelligently. As a comparison, we formulate a centralized mixed-integer linear programming model to provide the optimum vTDM-PON formation solution. Simulation results confirm the effectiveness of the design of the proposed game models and distributed algorithm.}},
+  doi       = {10.1364/JOCN.9.000546},
+  keywords  = {{Networks; Networks, combinatorial network design; Algorithms; Optical signals; Passive optical networks; Signal processing; Time division multiplexing; Wavelength division multiplexing}},
+  publisher = {{OSA}},
+  url       = {http://jocn.osa.org/abstract.cfm?URI=jocn-9-7-546},
+}
+
+@InProceedings{Li2016,
+  author    = {{Xinying Li and Yuming Xu and Jiangnan Xiao and Jianjun Yu}},
+  title     = {{A 2x2 {MIMO} Optical Wireless System at D-Band}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2016},
+  pages     = {{Th4A.7}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2016.Th4A.7},
+  journal   = {{Optical Fiber Communication Conference}},
+  url       = {http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-Th4A.7},
+}
+
+@InProceedings{Levin:2012:LCS:2342441.2342443,
+  author    = {{Levin, Dan and Wundsam, Andreas and Heller, Brandon and Handigol, Nikhil and Feldmann, Anja}},
+  title     = {{Logically Centralized?: State Distribution Trade-offs in Software Defined Networks}},
+  booktitle = {{Proceedings of the First Workshop on Hot Topics in Software Defined Networks}},
+  year      = {2012},
+  series    = {{HotSDN '12}},
+  pages     = {{1--6}},
+  publisher = {{ACM}},
+  acmid     = {{2342443}},
+  doi       = {10.1145/2342441.2342443},
+  isbn      = {978-1-4503-1477-0},
+  location  = {{Helsinki, Finland}},
+  numpages  = {6},
+}
+
+@InProceedings{Leisching2009Energy,
+  author    = {{P. Leisching and M. Pickavet}},
+  title     = {{Energy footprint of {ICT}: Forecasts and network solutions}},
+  booktitle = {{OFC/NFOEC 09, Workshop on Energy Footprint of ICT: Forecast and Network Solutions}},
+  year      = {2009},
+  month     = mar,
+}
+
+@Book{LeHaGr10,
+  title     = {{The innovation journey of Wi-Fi: The road to global success}},
+  publisher = {{Cambridge University Press}},
+  year      = {2010},
+  author    = {{Lemstra, W. and Hayes, V. and Groenewegen, J.}},
+}
+
+@InProceedings{LeeParkSong2014,
+  author    = {{H. Lee and Y. O. Park and S. S. Song}},
+  title     = {{A traffic-efficient fronthaul for the cloud-RAN}},
+  booktitle = {{2014 International Conference on Information and Communication Technology Convergence (ICTC)}},
+  year      = {2014},
+  pages     = {{675--678}},
+  month     = oct,
+  doi       = {10.1109/ICTC.2014.6983252},
+  issn      = {2162-1233},
+}
+
+@Article{lee2008development,
+  author  = {{Lee, Seung-Kun and Jang, Jong-Wook and Jang, Sung-Jin and Shin, Ju-Young}},
+  title   = {{Development And Performance Analysis of A BR-DBA algorithm for Improve Network Performance}},
+  journal = {{International Journal of Future Generation Communication and Networking}},
+  year    = {2008},
+  volume  = {1},
+  number  = {1},
+  pages   = {{1--6}},
+}
+
+@Article{lee_comcasts_2014,
+  author       = {{Lee, Timothy B.}},
+  title        = {{Comcast’s deal with {Netflix} makes network neutrality obsolete}},
+  journal      = {{Washington Post}},
+  year         = {2014},
+  month        = feb,
+  issn         = {0190-8286},
+  abstract     = {{Netflix has agreed to pay Comcast to deliver traffic to Comcast subscribers.}},
+  chapter      = {{The Switch}},
+  howpublished = {\url{https://www.washingtonpost.com/news/the-switch/wp/2014/02/23/comcasts-deal-with-netflix-makes-network-neutrality-obsolete/}},
+  language     = {{en-US}},
+  urldate      = {{2020-01-02}},
+}
+
+@Book{law,
+  title  = {{European Competition Law Annual 1998, Regulating Communications Markets}},
+  year   = {1998},
+  author = {{Ehlermann, Claus-Dieter and Gosling, Louisa}},
+}
+
+@Book{law,
+  title  = {{European Competition Law Annual 1998, Regulating Communications Markets}},
+  year   = {1998},
+  author = {{Ehlermann, Claus-Dieter and Gosling, Louisa}},
+}
+
+@Book{Krishna02,
+  title       = {{Auction Theory}},
+  publisher   = {{Academic Press}},
+  year        = {2002},
+  author      = {{Krishna, Vijay}},
+  added-at    = {{2006-09-13T17:44:28.000+0200}},
+  biburl      = {{https://www.bibsonomy.org/bibtex/2588b6744a0709105070e9a99e983b5d0/jmm}},
+  description = {{JMM master bibtex}},
+  interhash   = {{0d37a45c6fc59e1a6226ff19f82f0c57}},
+  intrahash   = {{588b6744a0709105070e9a99e983b5d0}},
+  timestamp   = {{2006-09-13T17:44:28.000+0200}},
+}
+
+@InProceedings{Kobayashi2016,
+  author    = {{T. Kobayashi and H. Ou and D. Hisano and T. Shimada and J. Terada and A. Otaka}},
+  title     = {{Bandwidth allocation scheme based on simple statistical traffic analysis for {TDM-PON} based mobile fronthaul}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{KimChungKim2016,
+  author    = {{S. H. Kim and H. S. Chung and S. M. Kim}},
+  title     = {{Experimental demonstration of {CP}RI data compression based on partial bit sampling for mobile front-haul link in C-RAN}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{Kim2016,
+  author    = {{S. H. Kim and H. S. Chung and S. M. Kim}},
+  title     = {{Experimental demonstration of {CPRI} data compression based on partial bit sampling for mobile front-haul link in C-RAN}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{khattak2014performance,
+  author       = {{Khattak, Zuhran Khan and Awais, Muhammad and Iqbal, Adnan}},
+  title        = {{Performance evaluation of OpenDaylight SDN controller}},
+  booktitle    = {{Parallel and Distributed Systems (ICPADS), 2014 20th IEEE International Conference on}},
+  year         = {2014},
+  pages        = {{671--676}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{khattak2014performance,
+  author    = {{Khattak, Zuhran Khan and Awais, Muhammad and Iqbal, Adnan}},
+  title     = {{Performance Evaluation of OpenDaylight SDN Controller}},
+  booktitle = {{IEEE International Conference on Parallel and Distributed Systems (ICPADS)}},
+  year      = {2014},
+  pages     = {{671--676}},
+  month     = dec,
+}
+
+@InProceedings{khattak2014performance,
+  author    = {{Khattak, Zuhran Khan and Awais, Muhammad and Iqbal, Adnan}},
+  title     = {{Performance Evaluation of OpenDaylight SDN Controller}},
+  booktitle = {{IEEE International Conference on Parallel and Distributed Systems (ICPADS)}},
+  year      = {2014},
+  month     = dec,
+}
+
+@Article{Khatibi2015,
+  author    = {{Khatibi, Sina and Correia, Luis M}},
+  title     = {{A model for virtual radio resource management in virtual RANs}},
+  journal   = {{EURASIP Journal on Wireless Communications and Networking}},
+  year      = {2015},
+  volume    = {{2015}},
+  number    = {1},
+  pages     = {{68}},
+  issn      = {1687-1499},
+  doi       = {10.1186/s13638-015-0292-7},
+  publisher = {{Springer International Publishing}},
+  url       = {http://jwcn.eurasipjournals.com/content/2015/1/68},
+}
+
+@Article{kerpez2014software,
+  author    = {{Kerpez, Kenneth J and Cioffi, John M and Ginis, George and Goldburg, Marc and Galli, Stefano and Silverman, Peter}},
+  title     = {{Software-defined access networks}},
+  journal   = {{IEEE Communications magazine}},
+  year      = {2014},
+  volume    = {{52}},
+  number    = {9},
+  pages     = {{152--159}},
+  publisher = {{IEEE}},
+}
+
+@Article{kerpez2014software,
+  author    = {{Kerpez, Kenneth J and Cioffi, John M and Ginis, George and Goldburg, Marc and Galli, Stefano and Silverman, Peter}},
+  title     = {{Software-defined access networks}},
+  journal   = {{IEEE Communications magazine}},
+  year      = {2014},
+  volume    = {{52}},
+  number    = {9},
+  publisher = {{IEEE}},
+}
+
+@Article{KaniTeradaSuzukiEtAl2016,
+  author  = {{J. i. Kani and J. Terada and K. I. Suzuki and A. Otaka}},
+  title   = {{Solutions for future mobile fronthaul and access-network convergence}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2016},
+  volume  = {{PP}},
+  number  = {{99}},
+  pages   = {1},
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2016.2608389},
+}
+
+@InProceedings{Kani:16,
+  author    = {{Jun-ichi Kani}},
+  title     = {{Solutions for Future Mobile Fronthaul and Access-network Convergence}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2016},
+  pages     = {{W1H.1}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2016.W1H.1},
+  journal   = {{Optical Fiber Communication Conference}},
+  url       = {http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-W1H.1},
+}
+
+@Article{KangSimeoneKangEtAl2016,
+  author  = {{J. Kang and O. Simeone and J. Kang and S. Shamai}},
+  title   = {{Fronthaul Compression and Precoding Design for C-RANs Over Ergodic Fading Channels}},
+  journal = {{IEEE Transactions on Vehicular Technology}},
+  year    = {2016},
+  volume  = {{65}},
+  number  = {7},
+  pages   = {{5022--5032}},
+  month   = jul,
+  issn    = {0018-9545},
+  doi     = {10.1109/TVT.2015.2466619},
+}
+
+@Article{Kang2016,
+  author  = {{J. Kang and O. Simeone and J. Kang and S. Shamai}},
+  title   = {{Fronthaul Compression and Precoding Design for C-RANs Over Ergodic Fading Channels}},
+  journal = {{IEEE Transactions on Vehicular Technology}},
+  year    = {2016},
+  volume  = {{65}},
+  number  = {7},
+  pages   = {{5022--5032}},
+  month   = jul,
+  issn    = {0018-9545},
+  doi     = {10.1109/TVT.2015.2466619},
+}
+
+@InProceedings{johnson2014real,
+  author       = {{Johnson, Stanley and Mo, Weiyang and Cvijetic, Milorad and He, Jun and Wissinger, John and Willner, Alan E}},
+  title        = {{Real-time software-defined dynamic resource allocation using OpenFlow for next-generation {OFDM}-based optical access networks}},
+  booktitle    = {{Optical Fiber Communications Conference and Exhibition (OFC), 2014}},
+  year         = {2014},
+  pages        = {{1--3}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{johnson2014real,
+  author       = {{Johnson, Stanley and Mo, Weiyang and Cvijetic, Milorad and He, Jun and Wissinger, John and Willner, Alan E}},
+  title        = {{Real-time software-defined dynamic resource allocation using OpenFlow for next-generation {OFDM}-based optical access networks}},
+  booktitle    = {{Optical Fiber Communications Conference and Exhibition (OFC), 2014}},
+  year         = {2014},
+  organization = {{IEEE}},
+}
+
+@Article{jinyao2015hiqos,
+  author    = {{YAN Jinyao, ZHANG Hailong2, SHUAI Qianjun, LIU Bo, GUO Xiao}},
+  title     = {{HiQoS: An SDN-Based Multipath {QoS} Solution}},
+  year      = {May,2015},
+  booktitle = {{China communications}},
+}
+
+@Article{jinyao2015hiqos,
+  author   = {J. {Yan} and H. {Zhang} and Q. {Shuai} and B. {Liu} and X. {Guo}},
+  title    = {{HiQoS: An SDN-based multipath QoS solution}},
+  journal  = {{China Communications}},
+  year     = {2015},
+  volume   = {{12}},
+  number   = {5},
+  pages    = {{123--133}},
+  month    = may,
+  issn     = {1673-5447},
+  doi      = {10.1109/CC.2015.7112035},
+  keywords = {{Internet;quality of service;queueing theory;software defined networking;SDN based multipath QoS solution;HiQoS;Internet architecture;quality of service;software defined network;SDN;computer networking;forwarding planes;control plane;queuing mechanisms;Quality of service;Bandwidth;Routing;Control systems;Delays;IP networks;Computer architecture;SDN;QoS;multipath;OpenFlow}},
+}
+
+@InProceedings{jiang2016secure,
+  author       = {{Jiang, Hao and Bouabdallah, Ahmed and Aflatoonian, Amin and Bonnin, Jean-Marie and Guillouard, Karine}},
+  title        = {{A Secure Multi-Tenant Framework for SDN}},
+  booktitle    = {{Proceedings of the 9th International Conference on Security of Information and Networks}},
+  year         = {2016},
+  pages        = {{40--44}},
+  organization = {{ACM}},
+}
+
+@InProceedings{jiang2016secure,
+  author       = {{Jiang, Hao and Bouabdallah, Ahmed and Aflatoonian, Amin and Bonnin, Jean-Marie and Guillouard, Karine}},
+  title        = {{A Secure Multi-Tenant Framework for SDN}},
+  booktitle    = {{Proceedings of the 9th International Conference on Security of Information and Networks}},
+  year         = {2016},
+  organization = {{ACM}},
+}
+
+@Article{Jiang2009,
+  author  = {{Jiang, Jin and Senior, John M.}},
+  title   = {{A New efficient dynamic {MAC} protocol for the delivery of multiple services over GPON}},
+  journal = {{Photonic Network Communications}},
+  year    = {2009},
+  volume  = {{18}},
+  number  = {2},
+  pages   = {{227--236}},
+  issn    = {1572-8188},
+  doi     = {10.1007/s11107-009-0186-x},
+}
+
+@Misc{jain2013b4,
+  author    = {{Sushant Jain, Alok Kumar, Subhasree Mandal, Joon Ong, Leon Poutievski, Arjun Singh, Subbaiah Venkata, Jim Wanderer, Junlan Zhou, Min Zhu, Jonathan Zolla, Urs Hölzle, Stephen Stuart and Amin Vahdat}},
+  title     = {{B4: Experience with a Globally-Deployed Software Defined WAN}},
+  year      = {2013},
+  address   = {{NY, USA}},
+  booktitle = {{ACM SIGCOMM 2013 Conference on SIGCOMM}},
+  issue     = {4},
+  publisher = {{ACM}},
+  volume    = {{43}},
+}
+
+@Article{IYuanHuangEtAl2015,
+  author  = {{C. l. I and Y. Yuan and J. Huang and S. Ma and C. Cui and R. Duan}},
+  title   = {{Rethink fronthaul for soft RAN}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2015},
+  volume  = {{53}},
+  number  = {9},
+  pages   = {{82--88}},
+  month   = sep,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2015.7263350},
+}
+
+@TechReport{ituG.992.5,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G.992.5, Asymmetric Digital Subscriber Line}},
+  institution = {{International Telecommunication Union}},
+  year        = {2009},
+  type        = {{Recommendation}},
+  number      = {{992.5}},
+}
+
+@TechReport{ituG.front,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G series – Supplement 66, 5G Wireless Fronthaul Requirements in a Passive Optical Network Context}},
+  institution = {{International Telecommunication Union}},
+  year        = {2019},
+  type        = {{Recommendation}},
+}
+
+@TechReport{ituG.9700,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G.9700, Fast access to subscriber terminals (G.fast) – Power spectral density specification}},
+  institution = {{International Telecommunication Union}},
+  year        = {2014},
+  type        = {{Recommendation}},
+  number      = {{9700}},
+}
+
+@TechReport{itu989,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G.989, 40-Gigabit-capable passive optical networks (NG-{PON}2): Definitions, abbreviations and acronyms}},
+  institution = {{International Telecommunication Union}},
+  year        = {2016},
+  type        = {{Recommendation}},
+  number      = {{9.989}},
+}
+
+@TechReport{itu987,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G.987, 10-Gigabit-capable passive optical network (XG-{PON}) systems: Definitions, abbreviations and acronyms}},
+  institution = {{International Telecommunication Union}},
+  year        = {2013},
+  type        = {{Recommendation}},
+  number      = {{9.987}},
+}
+
+@TechReport{itu984,
+  author      = {{ITU-T}},
+  title       = {{ITU-T G.984.1, Gigabit-capable passive optical networks (GPON): General characteristics}},
+  institution = {{International Telecommunication Union}},
+  year        = {2019},
+  type        = {{Recommendation}},
+  number      = {{9.984}},
+}
+
+@Misc{ITU_g.989.3_nodate,
+  author       = {{ITU}},
+  title        = {{G.989.3:40-{Gigabit}-capable passive optical networks ({NG}-{PON}2): {Transmission} convergence layer specification}},
+  howpublished = {\url{https://www.itu.int/rec/T-REC-G.989.3/}},
+  urldate      = {{2020-01-29}},
+}
+
+@Misc{ITU_g.983.4_nodate,
+  author       = {{ITU}},
+  title        = {{G.983.4:{A} broadband optical access system with increased service capability using dynamic bandwidth assignment}},
+  howpublished = {\url{https://www.itu.int/rec/T-REC-G.983.4-200111-I/en}},
+  urldate      = {{2020-01-29}},
+}
+
+@Misc{ITU_g.983.1_nodate,
+  author       = {{ITU}},
+  title        = {{G.983.1:{Broadband} optical access systems based on {Passive} {Optical} {Networks} ({PON})}},
+  howpublished = {\url{https://www.itu.int/rec/T-REC-G.983.1-200501-I/}},
+  urldate      = {{2020-01-29}},
+}
+
+@Proceedings{ishimori2013control,
+  title     = {{Control of Multiple Packet Schedulers for Improving {QoS} on OpenFlow/SDN Networking}},
+  year      = {October, 2013},
+  author    = {{Airton Ishimori, Fernando Farias, Eduardo Cerqueira}},
+  booktitle = {{Second European Workshop on Software Defined Networks}},
+}
+
+@Proceedings{ishimori2013control,
+  title     = {{Control of Multiple Packet Schedulers for Improving {QoS} on OpenFlow/SDN Networking}},
+  year      = {Oct, 2013},
+  author    = {{Airton Ishimori, Fernando Farias, Eduardo Cerqueira}},
+  booktitle = {{Second European Workshop on Software Defined Networks}},
+}
+
+@Article{Iida:13,
+  author    = {{Daisuke Iida and Shigeru Kuwano and Jun-ichi Kani and Jun Terada}},
+  title     = {{Dynamic TWDM-PON for Mobile Radio Access Networks}},
+  journal   = {{Opt. Express}},
+  year      = {2013},
+  volume    = {{21}},
+  number    = {{22}},
+  pages     = {{26209--26218}},
+  month     = nov,
+  abstract  = {{In recent years, the diffusion of mobile terminals has brought about an explosive increase in communication traffic of mobile RANs. The number of radio base stations and optical fiber lines between them is becoming larger. For this reason, we studied effective optical network technologies for mobile RANs and propose the use of TWDM-PON as a means of enabling RANs to be operated flexibly and have wideband communication capability. We confirmed the feasibility of TWDM-PON for this application by numerical simulation. The results show that TWDM-PON can accommodate the bandwidth more than TDM-PON and completely eliminate unused bandwidth in TDM-PON.}},
+  doi       = {10.1364/OE.21.026209},
+  keywords  = {{Fiber optics and optical communications; Networks; Optical networks; Optical signals; Packet switched networks; Passive optical networks; Tunable filters; Wavelength assignment}},
+  publisher = {{OSA}},
+  url       = {http://www.opticsexpress.org/abstract.cfm?URI=oe-21-22-26209},
+}
+
+@Article{IHuangDuanEtAl2014,
+  author  = {{C. L. I and J. Huang and R. Duan and C. Cui and J. (. Jiang and L. Li}},
+  title   = {{Recent Progress on C-RAN Centralization and Cloudification}},
+  journal = {{IEEE Access}},
+  year    = {2014},
+  volume  = {2},
+  pages   = {{1030--1039}},
+  issn    = {2169-3536},
+  doi     = {10.1109/ACCESS.2014.2351411},
+}
+
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  ctluse_forced_etal       = {{yes}},
+  ctlmax_names_forced_etal = {2},
+  ctlnames_show_etal       = {2},
+}
+
+@Article{hwang2011bipartitional,
+  author    = {{Hwang, I-Shyan and Lee, Jhong-Yue and Liang, Yung-Shiuan and Shyu, Zen-Der}},
+  title     = {{A bipartitional dynamic bandwidth allocation mechanism for differentiated services to support state report ONUs in GPON}},
+  journal   = {{Proc. Int. Multiconf. Eng. Comput. Sci}},
+  year      = {2011},
+  pages     = {{1--5}},
+  publisher = {{Citeseer}},
+}
+
+@Misc{Huawei-vectoring,
+  title        = {{Vectoring Technology White Paper}},
+  howpublished = {\url{https://www.huawei.com/us/static/HW-278064.pdf}},
+  month        = mar,
+  year         = {2012},
+}
+
+@Book{huawei_trial,
+  title        = {{Huawei and Vodafone team up for trial of Fixed Access Network Slicing}},
+  publisher    = {{Telegeography: Washington, D.C., United States}},
+  year         = {2018},
+  howpublished = {{"\url{https://www.telegeography.com/products/commsupdate/articles/2018/01/19/huawei-and-vodafone-team-up-for-trial-of-fixed-access-network-slicing/}"}},
+}
+
+@InProceedings{Hu:16,
+  author    = {{X. Hu and C. Ye and K. Zhang}},
+  title     = {{Converged mobile fronthaul and passive optical network based on hybrid analog-digital transmission scheme}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@Article{Hossen2015148,
+  author  = {{Monir Hossen and Masanori Hanawa}},
+  title   = {{Multi-OLT and multi-wavelength {PON}-based open access network for improving the throughput and quality of services}},
+  journal = {{Optical Switching and Networking}},
+  year    = {2015},
+  volume  = {{15}},
+  pages   = {{148--159}},
+  issn    = {1573-4277},
+  doi     = {10.1016/j.osn.2014.09.001},
+  url     = {http://www.sciencedirect.com/science/article/pii/S1573427714001106},
+}
+
+@Article{Hossen2015148,
+  author  = {{Monir Hossen and Masanori Hanawa}},
+  title   = {{Multi-OLT and multi-wavelength {PON}-based open access network for improving the throughput and quality of services}},
+  journal = {{Optical Switching and Networking}},
+  year    = {2015},
+  volume  = {{15}},
+  issn    = {1573-4277},
+  doi     = {10.1016/j.osn.2014.09.001},
+}
+
+@InProceedings{Hisano2016icc,
+  author    = {{D. Hisano and T. Shimada and H. Ou and T. Kobayashi and S. Kuwano and J. Terada and A. Otaka}},
+  title     = {{Efficient accommodation of mobile fronthaul and secondary services in a {TDM-PON} system with wireless TDD frame monitor}},
+  booktitle = {{2016 IEEE International Conference on Communications (ICC)}},
+  year      = {2016},
+  pages     = {{1--6}},
+  month     = may,
+  doi       = {10.1109/ICC.2016.7510716},
+}
+
+@InProceedings{Hisano2016ecoc,
+  author    = {{D. Hisano and T. Kobayashi and H. Ou and T. Shimada and J. Terada and A. Otaka}},
+  title     = {Experimental Demonstration of Accommodation of TDD-based Mobile Fronthaul and Secondary Services in a {TDM-PON}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@Article{hgperf,
+  author       = {{Linux Foundation}},
+  title        = {{Hyperledger Blockchain Performance Metrics}},
+  journal      = {{Whitepaper}},
+  year         = {2018},
+  howpublished = {\url{https://www.hyperledger.org/wp-content/uploads/2018/10/HL_Whitepaper_Metrics_PDF_V1.01.pdf}},
+}
+
+@InProceedings{HeHuPengEtAl2014,
+  author    = {{Z. He and C. Hu and T. Peng and C. Ma}},
+  title     = {{A compression scheme for {LTE} baseband signal in C-RAN}},
+  booktitle = {{9th International Conference on Communications and Networking in China}},
+  year      = {2014},
+  pages     = {{202--207}},
+  month     = aug,
+  doi       = {10.1109/CHINACOM.2014.7054286},
+}
+
+@InProceedings{He2014,
+  author    = {{Z. He and C. Hu and T. Peng and C. Ma}},
+  title     = {{A compression scheme for {LTE} baseband signal in C-RAN}},
+  booktitle = {{9th International Conference on Communications and Networking in China}},
+  year      = {2014},
+  pages     = {{202--207}},
+  month     = aug,
+}
+
+@InProceedings{He2013a,
+  author    = {{He, Shan and Shou, Guochu and Hu, Yihong and Guo, Zhigang}},
+  title     = {{Performance of Multipath in Fiber-Wireless (FiWi) Access Network with Network Virtualization}},
+  booktitle = {{MILCOM 2013 - 2013 IEEE Military Communications Conference}},
+  year      = {2013},
+  pages     = {{928--932}},
+  month     = nov,
+  publisher = {{IEEE}},
+  doi       = {10.1109/MILCOM.2013.161},
+  isbn      = {978-0-7695-5124-1},
+  url       = {http://ieeexplore.ieee.org/document/6735742/},
+}
+
+@Article{He2013,
+  author    = {{He, Shan and Shou, Guochu and Hu, Yihong and Guo, Zhigang}},
+  title     = {{Intelligent Multipath Access in Fiber-Wireless (FiWi) Network with Network Virtualization}},
+  journal   = {{Asia Communications and Photonics Conference 2013 (2013), paper AF2G.38}},
+  year      = {2013},
+  pages     = {{AF2G.38}},
+  doi       = {10.1364/ACPC.2013.AF2G.38},
+  publisher = {{Optical Society of America}},
+}
+
+@InProceedings{hashcash,
+  author = {{Adam Back}},
+  title  = {{Hashcash A Denial of Service Counter-Measure}},
+  year   = {2002},
+}
+
+@Article{haran2008importance,
+  author  = {{Haran, Onn and Sheffer, Amir}},
+  title   = {{The importance of dynamic bandwidth allocation in GPON networks}},
+  journal = {{PMC-Sierra inc., White paper}},
+  year    = {2008},
+  number  = {1},
+}
+
+@Article{HanLiuLau2016,
+  author  = {{W. Han and A. Liu and V. K. N. Lau}},
+  title   = {{PHY}-caching in 5G wireless networks: design and analysis},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2016},
+  volume  = {{54}},
+  number  = {8},
+  pages   = {{30--36}},
+  month   = aug,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2016.7537174},
+}
+
+@InProceedings{Hanaya:18,
+  author    = {{Naoki Hanaya and Yu Nakayama and Manabu Yoshino and Ken-Ichi Suzuki and Ryogo Kubo}},
+  title     = {{Remotely Controlled XG-{PON} DBA with Linear Prediction for Flexible Access System Architecture}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2018},
+  pages     = {{Tu3L.1}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2018.Tu3L.1},
+  journal   = {{Optical Fiber Communication Conference}},
+}
+
+@Article{han2015network,
+  author    = {{Han, Bo and Gopalakrishnan, Vijay and Ji, Lusheng and Lee, Seungjoon}},
+  title     = {{Network function virtualization: Challenges and opportunities for innovations}},
+  journal   = {{IEEE Communications Magazine}},
+  year      = {2015},
+  volume    = {{53}},
+  number    = {2},
+  pages     = {{90--97}},
+  publisher = {{IEEE}},
+}
+
+@Article{han2015network,
+  author    = {{Han, Bo and Gopalakrishnan, Vijay and Ji, Lusheng and Lee, Seungjoon}},
+  title     = {{Network function virtualization: Challenges and opportunities for innovations}},
+  journal   = {{IEEE Communications Magazine}},
+  year      = {2015},
+  volume    = {{53}},
+  number    = {2},
+  publisher = {{IEEE}},
+}
+
+@Article{han2013performance,
+  author    = {{Han, Man Soo}},
+  title     = {Performance Evaluation of Dynamic Bandwidth Allocation Algorithm for TWDM {PON}},
+  journal   = {{Journal of Convergence Information Technology}},
+  year      = {2013},
+  volume    = {8},
+  number    = {{13}},
+  pages     = {{282}},
+  publisher = {{Advanced Institutes of Convergence Information Technology}},
+}
+
+@Article{Han2013,
+  author    = {{Man Soo Han and Hark Yoo and Dong Soo Lee}},
+  title     = {Development of Efficient Dynamic Bandwidth Allocation Algorithm for {XGPON}},
+  journal   = {{ETRI} Journal},
+  year      = {2013},
+  volume    = {{35}},
+  number    = {1},
+  pages     = {{18--26}},
+  month     = feb,
+  doi       = {10.4218/etrij.13.0112.0061},
+  publisher = {{Electronics and Telecommunications Research Institute ({ETRI})}},
+}
+
+@Article{Han:08,
+  author    = {{Man-Soo Han and Hark Yoo and Bin-Young Yoon and Bongtae Kim and Jai-Sang Koh}},
+  title     = {{Efficient dynamic bandwidth allocation for FSAN-compliant GPON}},
+  journal   = {{J. Opt. Netw.}},
+  year      = {2008},
+  volume    = {7},
+  number    = {8},
+  pages     = {{783--795}},
+  month     = aug,
+  doi       = {10.1364/JON.7.000783},
+  publisher = {{OSA}},
+}
+
+@InProceedings{GuoCaoTaoEtAl2012,
+  author    = {{Bin Guo and Wei Cao and An Tao and D. Samardzija}},
+  title     = {{CP}RI compression transport for {LTE} and {LTE-A} signal in C-RAN},
+  booktitle = {{7th International Conference on Communications and Networking in China}},
+  year      = {2012},
+  pages     = {{843--849}},
+  month     = aug,
+  doi       = {10.1109/ChinaCom.2012.6417602},
+}
+
+@Article{guo2016blockchain,
+  author    = {{Guo, Ye and Liang, Chen}},
+  title     = {{Blockchain application and outlook in the banking industry}},
+  journal   = {{Financial Innovation}},
+  year      = {2016},
+  volume    = {2},
+  number    = {1},
+  pages     = {{24}},
+  publisher = {{Springer}},
+}
+
+@InProceedings{Guo2012,
+  author    = {{Bin Guo and Wei Cao and An Tao and D. Samardzija}},
+  title     = {{CPRI} compression transport for {LTE} and {LTE-A} signal in C-RAN},
+  booktitle = {{7th International Conference on Communications and Networking in China}},
+  year      = {2012},
+  pages     = {{843--849}},
+  month     = aug,
+  doi       = {10.1109/ChinaCom.2012.6417602},
+}
+
+@Article{guck2018unicast,
+  author    = {{Jochen W. Guck, Amaury Van Bemten, Martin Reisslein, Wolfgang Kellerer}},
+  title     = {{Unicast {QoS} Routing Algorithms for SDN: A Comprehensive Survey and Performance Evaluation}},
+  year      = {2018},
+  volume    = {{20}},
+  booktitle = {{IEEE Communications Surveys \& Tutorials}},
+}
+
+@Article{guck2018unicast,
+  author   = {J. W. {Guck} and A. {Van Bemten} and M. {Reisslein} and W. {Kellerer}},
+  title    = {{Unicast QoS Routing Algorithms for SDN: A Comprehensive Survey and Performance Evaluation}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2018},
+  volume   = {{20}},
+  number   = {1},
+  pages    = {{388--415}},
+  month    = {Firstquarter},
+  issn     = {1553-877X},
+  doi      = {10.1109/COMST.2017.2749760},
+  keywords = {{computational complexity;delays;optimisation;quality of service;search problems;software defined networking;telecommunication network routing;search space reduction delay-cost-constrained routing;unicast QoS routing algorithms;SDN;routing flows;networking paradigm;centralized QoS routing algorithms;Routing;Quality of service;Delays;Topology;Classification algorithms;Tutorials;Delay-constrained least-cost (DCLC) routing;performance evaluation framework;quality of service (QoS);scalability;software-defined networking (SDN)}},
+}
+
+@Article{Groves,
+  author  = {{Groves, Theodore}},
+  title   = {{Incentives in Teams}},
+  journal = {{Econometrica}},
+  year    = {1973},
+  volume  = {{41}},
+  number  = {4},
+  pages   = {{617--31}},
+}
+
+@Article{greenwade93,
+  author  = {{George D. Greenwade}},
+  title   = {{The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN})}},
+  journal = {{TUGBoat}},
+  year    = {1993},
+  volume  = {{14}},
+  number  = {3},
+  pages   = {{342--351}},
+}
+
+@Misc{grafana,
+  title        = {{Grafana: {The} open observability platform}},
+  howpublished = {\url{https://grafana.com/}},
+  journal      = {{Grafana Labs}},
+  shorttitle   = {{Grafana}},
+  urldate      = {{2019-10-23}},
+}
+
+@InProceedings{Gorenflo_2019,
+  author    = {C. {Gorenflo} and S. {Lee} and L. {Golab} and S. {Keshav}},
+  title     = {{FastFabric: Scaling Hyperledger Fabric to 20,000 Transactions per Second}},
+  booktitle = {{2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC)}},
+  year      = {2019},
+  pages     = {{455--463}},
+  month     = may,
+  doi       = {10.1109/BLOC.2019.8751452},
+  issn      = {null},
+  keywords  = {{distributed databases;security of data;transaction processing;distributed database systems;modern permissioned blockchain system;transaction throughput;FastFabric;blockchain technologies;hyperledger fabric scaling;20,000 transactions per second}},
+}
+
+@Article{Gomes:15,
+  author  = {{Nathan J. Gomes and Philippe Chanclou and Peter Turnbull and Anthony Magee and Volker Jungnickel}},
+  title   = {{Fronthaul evolution: From \{CPRI\} to Ethernet}},
+  journal = {{Optical Fiber Technology}},
+  year    = {2015},
+  volume  = {{26, Part A}},
+  pages   = {{50--58}},
+  issn    = {1068-5200},
+  note    = {{Next Generation Access Networks}},
+  doi     = {10.1016/j.yofte.2015.07.009},
+  url     = {//www.sciencedirect.com/science/article/pii/S1068520015000942},
+}
+
+@Article{GoelWittieClaffyEtAl2016,
+  author     = {{U. Goel and M. P. Wittie and K. C. Claffy and A. Le}},
+  title      = {{Survey of End-to-End Mobile Network Measurement Testbeds, Tools, and Services}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2016},
+  volume     = {{18}},
+  number     = {1},
+  pages      = {{105--123}},
+  month      = fir,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2015.2485979}},
+  doi        = {10.1109/COMST.2015.2485979},
+}
+
+@InProceedings{globecom_n,
+  author    = {{Nima Afraz and Marco Ruffini}},
+  title     = {{A Distributed Bilateral Resource Market Mechanism for Future Telecommunications Networks}},
+  booktitle = {{2019 IEEE Globecom Workshops (GC Wkshps): IEEE GLOBECOM 2019 Workshop on Telecommunications and Blockchain (GC 2019 Workshops - TB)}},
+  year      = {2019},
+  address   = {{Waikoloa, USA}},
+  month     = dec,
+  abstract  = {{In this paper, we propose a distributed market mechanism powered by the
+blockchain technology addressing network ownership models in multiple
+telecommunications networks use cases. The proposed model is based on the
+smart contract technology and enables transparent and trusted bilateral
+trades, where trust among the network operators does not exist, and there
+is no impartial third-party entity who is trusted by all of the
+participants. We use an open source permissioned blockchain framework
+called Hyperledger Fabric to investigate the performance of the distributed
+market mechanism in cloud environments. After running experiments on
+Hyperledger Fabric, we discuss the practical feasibility and possible
+design choices of our blockchain approach based on latency, throughput and
+resource consumption analysis.}},
+  days      = {9},
+  keywords  = {{Blockchain; Market; Double Auction; Smart Contract}},
+}
+
+@Article{gifre2015abno,
+  author    = {{Gifre, Llu{\'\i}s and Tornatore, Massimo and Contreras, Luis M and Mukherjee, Biswanath and Velasco, Luis}},
+  title     = {{ABNO-driven content distribution in the telecom cloud}},
+  journal   = {{Optical Switching and Networking}},
+  year      = {2015},
+  publisher = {{Elsevier}},
+}
+
+@Article{gifre2015abno,
+  author  = {{Llu{\'\i}s, Gifre and Massimo Tornatore and Luis M. Contreras and Biswanath. Mukherjee and Luis Velasco}},
+  title   = {{ABNO-driven Content Distribution in the Telecom Cloud}},
+  journal = {{Optical Switching and Networking}},
+  year    = {2015},
+  volume  = {{in press}},
+}
+
+@Article{gifre2015abno,
+  author  = {{Llu{\'\i}s, Gifre and Massimo Tornatore and Luis M. Contreras and Biswanath. Mukherjee and Luis Velasco}},
+  title   = {{ABNO-driven Content Distribution in the Telecom Cloud}},
+  journal = {{Optical Switching and Networking}},
+  year    = {2015},
+  volume  = {{in press}},
+}
+
+@InProceedings{Ghebretensae2012,
+  author    = {{Z. Ghebretensaé and K. Laraqui and S. Dahlfort and F. Ponzini and L. Giorgi and S. Stracca and J. Chen and Y. Li and J. Hansryd and A. R. Pratt}},
+  title     = {{Transmission solutions and architectures for heterogeneous networks built as C-RANs}},
+  booktitle = {{Proc. 7th Int. Conf. Communications and Networking in China}},
+  year      = {2012},
+  pages     = {{748--752}},
+  month     = aug,
+  doi       = {10.1109/ChinaCom.2012.6417583},
+}
+
+@Article{Gaudino,
+  author = {{Gaudino, Roberto and Giuliano, Romeo and Mazzenga, Franco and Valcarenghi, Luca and Vatalaro, Francesco}},
+  title  = {{Unbundling in Current Broadband and Next-Generation Ultra-Broadband Access Networks}},
+}
+
+@Article{Gaudino,
+  author  = {{Gaudino, R and Giuliano, Romeo and Mazzenga, Franco and Valcarenghi, Luca and Vatalaro, Francesco}},
+  title   = {{Unbundling in Current Broadband and Next-Generation Ultra-Broadband Access Networks}},
+  journal = {{Fiber And Integrated Optics}},
+  year    = {2014},
+  volume  = {{33}},
+  month   = jul,
+  doi     = {10.1080/01468030.2014.892185},
+}
+
+@InProceedings{Gatto:16,
+  author    = {{Alberto Gatto and Pierpaolo Boffi and Lorenzo Combi and Paola Parolari and Umberto Spagnolini and Romain Brenot and Mario Martinelli}},
+  title     = {{LTE-A} Mobile Fronthaul Exploiting Pulse-Width Modulation in a RSOA-based {WDM PON}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2016},
+  pages     = {{W3C.6}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2016.W3C.6},
+  journal   = {{Optical Fiber Communication Conference}},
+  url       = {http://www.osapublishing.org/abstract.cfm?URI=OFC-2016-W3C.6},
+}
+
+@InProceedings{galal2018verifiable,
+  author       = {{Galal, Hisham S and Youssef, Amr M}},
+  title        = {{Verifiable sealed-bid auction on the ethereum blockchain}},
+  booktitle    = {{International Conference on Financial Cryptography and Data Security}},
+  year         = {2018},
+  pages        = {{265--278}},
+  organization = {{Springer}},
+}
+
+@InProceedings{galal2018verifiable,
+  author       = {{Galal, Hisham S and Youssef, Amr M}},
+  title        = {{Verifiable sealed-bid auction on the ethereum blockchain}},
+  booktitle    = {{International Conference on Financial Cryptography and Data Security}},
+  year         = {2018},
+  pages        = {{265--278}},
+  organization = {{Springer}},
+}
+
+@InProceedings{GaFaSh16,
+  author    = {{Garikipati, Krishna C. and Fawaz, Kassem and Shin, Kang G.}},
+  title     = {{RT}-OPEX: Flexible Scheduling for Cloud-RAN Processing},
+  booktitle = {{Proceedings of the 12th International on Conference on Emerging Networking EXperiments and Technologies}},
+  year      = {2016},
+  series    = {{CoNEXT '16}},
+  pages     = {{267--280}},
+  publisher = {{ACM}},
+  acmid     = {{2999591}},
+  doi       = {10.1145/2999572.2999591},
+  isbn      = {978-1-4503-4292-6},
+  location  = {{Irvine, California, USA}},
+  numpages  = {{14}},
+}
+
+@Article{GABRIEL,
+  author  = {{CAROLINE GABRIEL}},
+  title   = {{MOBILE OPERATOR CAPEX SPENDING: WORLDWIDE TRENDS AND FORECASTS 2016–2025}},
+  journal = {{Analysys Mason: New York, USA}},
+  year    = {2017},
+}
+
+@Article{gabelmann2001regulating,
+  author    = {{Gabelmann, Anne}},
+  title     = {{Regulating European telecommunications markets: unbundled access to the local loop outside urban areas}},
+  journal   = {{Telecommunications Policy}},
+  year      = {2001},
+  volume    = {{25}},
+  number    = {{10}},
+  pages     = {{729--741}},
+  publisher = {{Elsevier}},
+}
+
+@Article{gabelmann2001regulating,
+  author    = {{Gabelmann, Anne}},
+  title     = {{Regulating European telecommunications markets: unbundled access to the local loop outside urban areas}},
+  journal   = {{Telecommunications Policy}},
+  year      = {2001},
+  volume    = {{25}},
+  number    = {{10}},
+  publisher = {{Elsevier}},
+}
+
+@TechReport{g.989.2,
+  author      = {{ITU-T}},
+  title       = {{G.989.2 : 40-Gigabit-capable passive optical networks 2 (NG-{PON}2): Physical media dependent (PMD) layer specification}},
+  institution = {{International Telecommunication Union}},
+  year        = {2015},
+  type        = {{Recommendation}},
+  number      = {{989.2}},
+}
+
+@TechReport{G.9807.1,
+  author      = {{ITU-T}},
+  title       = {{G.9807.1 : 10-Gigabit-capable symmetric passive optical network (XGS-{PON})}},
+  institution = {{International Telecommunication Union}},
+  year        = {2016},
+  type        = {{Recommendation}},
+  number      = {{9807.1}},
+}
+
+@Article{fridgen2018cross,
+  author = {{Fridgen, Gilbert and Radszuwill, Sven and Urbach, Nils and Utz, Lena}},
+  title  = {{Cross-organizational workflow management using blockchain technology-towards applicability, auditability, and automation}},
+  year   = {2018},
+}
+
+@Article{FOTI2019113604,
+  author       = {{Magda Foti and Manolis Vavalis}},
+  title        = {{Blockchain based uniform price double auctions for energy markets}},
+  journal      = {{Applied Energy}},
+  year         = {2019},
+  volume       = {{254}},
+  pages        = {{113604}},
+  issn         = {0306-2619},
+  abstract     = {{The energy sector is undergoing a massive transformation that greatly affects and is being affected by its market mechanisms. This paper presents the design, the prototype implementation and the analysis of a decentralized, real-time, uniform-price double auction energy market. The proposed market is a distributed and decentralized application and its rules may be specified through a smart contract. Market participants interact with the smart contract sending their asks and offers and the distributed application clears the market based on a uniform-price economic dispatch model. We propose and analyze three different implementation approaches on an Ethereum blockchain network. A model representing a physical demonstration project conducted in Seattle, USA, is utilized to simulate the power grid and to provide real-life scenarios for our analysis. We systematically evaluate our three implementation approaches and elucidate several blockchain issues regarding the decentralization of next-generation energy markets. In particular, we identify that certain computation modules may be installed on smart consuming devices in order to increase efficiency, security and decentralization and reduce the overall blockchain overhead cost. Furthermore, we show that in order to fulfill the market’s high demand for step timing, we ought to have the block generation time several magnitudes smaller compared to the auction period.}},
+  doi          = {10.1016/j.apenergy.2019.113604},
+  howpublished = {\url{http://www.sciencedirect.com/science/article/pii/S0306261919312784}},
+  keywords     = {{Blockchain, Distributed ledger technology, Smart grid, Double auction, Energy market}},
+}
+
+@InProceedings{FoNiKa16,
+  author    = {{Foukas, Xenofon and Nikaein, Navid and Kassem, Mohamed M. and Marina, Mahesh K. and Kontovasilis, Kimon}},
+  title     = {{FlexRAN: A Flexible and Programmable Platform for Software-Defined Radio Access Networks}},
+  booktitle = {{Proceedings of the 12th International on Conference on Emerging Networking EXperiments and Technologies}},
+  year      = {2016},
+  series    = {{CoNEXT '16}},
+  pages     = {{427--441}},
+  publisher = {{ACM}},
+  acmid     = {{2999599}},
+  doi       = {10.1145/2999572.2999599},
+  isbn      = {978-1-4503-4292-6},
+  location  = {{Irvine, California, USA}},
+  numpages  = {{15}},
+}
+
+@Article{Fiorani2015,
+  author  = {{Fiorani, Matteo and Skubic, Bj{\"o}rn and M{\aa}rtensson, Jonas and Valcarenghi, Luca and Castoldi, Piero and Wosinska, Lena and Monti, Paolo}},
+  title   = {{On the design of 5G transport networks}},
+  journal = {{Photonic Network Communications}},
+  year    = {2015},
+  volume  = {{30}},
+  number  = {3},
+  pages   = {{403--415}},
+  month   = dec,
+  issn    = {1572-8188},
+  day     = {{01}},
+  doi     = {10.1007/s11107-015-0553-8},
+}
+
+@Article{fi11020027,
+  author         = {{Arena, Fabio and Pau, Giovanni}},
+  title          = {{An Overview of Vehicular Communications}},
+  journal        = {{Future Internet}},
+  year           = {2019},
+  volume         = {{11}},
+  number         = {2},
+  issn           = {1999-5903},
+  article-number = {{27}},
+  doi            = {10.3390/fi11020027},
+  url            = {https://www.mdpi.com/1999-5903/11/2/27},
+}
+
+@Article{feamster2014road,
+  author    = {{Feamster, Nick and Rexford, Jennifer and Zegura, Ellen}},
+  title     = {{The road to SDN: an intellectual history of programmable networks}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2014},
+  volume    = {{44}},
+  number    = {2},
+  pages     = {{87--98}},
+  publisher = {{ACM}},
+}
+
+@Article{feamster2014road,
+  author    = {{Feamster, Nick and Rexford, Jennifer and Zegura, Ellen}},
+  title     = {{The road to SDN: an intellectual history of programmable networks}},
+  journal   = {{ACM SIGCOMM Computer Communication Review}},
+  year      = {2014},
+  volume    = {{44}},
+  number    = {2},
+  publisher = {{ACM}},
+}
+
+@Misc{fastfabric,
+  author        = {{Christian Gorenflo and Stephen Lee and Lukasz Golab and S. Keshav}},
+  title         = {{FastFabric: Scaling Hyperledger Fabric to 20,000 Transactions per Second}},
+  year          = {2019},
+  archiveprefix = {{arXiv}},
+  eprint        = {{1901.00910}},
+  primaryclass  = {{cs.DC}},
+}
+
+@TechReport{farrel2006path,
+  author       = {{Farrel, Adrian and Vasseur, J-P and Ash, Jerry}},
+  title        = {{A Path Computation Element (PCE)-based Architecture}},
+  year         = {2006},
+  month        = aug,
+  organization = {{IETF}},
+}
+
+@Misc{farrel2006path,
+  author       = {{Farrel, Adrian and Vasseur, J-P and Ash, Jerry}},
+  title        = {{A Path Computation Element (PCE)-based Architecture}},
+  month        = aug,
+  year         = {2006},
+  organization = {{IETF}},
+}
+
+@Article{FaMaDo16,
+  author     = {{A. Farhang and N. Marchetti and L. E. Doyle}},
+  title      = {Low-Complexity Modem Design for {GFDM}},
+  journal    = {{IEEE Transactions on Signal Processing}},
+  year       = {2016},
+  volume     = {{64}},
+  number     = {6},
+  pages      = {{1507--1518}},
+  month      = mar,
+  issn       = {1053-587X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/TSP.2015.2502546}},
+  doi        = {10.1109/TSP.2015.2502546},
+}
+
+@InProceedings{fabric,
+  author    = {{Androulaki, Elli and Barger, Artem and Bortnikov, Vita and Cachin, Christian and others}},
+  title     = {{Hyperledger fabric: a distributed operating system for permissioned blockchains}},
+  booktitle = {{EuroSys}},
+  year      = {2018},
+}
+
+@Electronic{europacostkwatt,
+  author     = {{eurostat Statistics Explained}},
+  month      = may,
+  year       = {2014},
+  title      = {{Electricity prices for industrial consumers}},
+  url        = {http://ec.europa.eu/eurostat/statistics-explained/index.php/Energy\_price\_statistics},
+  bdsk-url-1 = {{http://ec.europa.eu/eurostat/statistics-explained/index.php/Energy%5C_price%5C_statistics}},
+  urldate    = {{Mar., 2015}},
+}
+
+@Article{ERG,
+  title = {{Bitstream Access, ERG Consultation Document}},
+  year  = {July 14th 2003},
+}
+
+@Book{ERG,
+  title     = {{Bitstream Access, ERG Consultation Document}},
+  publisher = {{Body of European Regulators for Electronic Communications (BEREC)}},
+  year      = {2003},
+  author    = {{European Research Group}},
+  address   = {{Riga, Latvia}},
+}
+
+@InProceedings{Elrasad:17,
+  author    = {{Amr Elrasad and Nima Afraz and Marco Ruffini}},
+  title     = {{Virtual Dynamic Bandwidth Allocation Enabling True {PON} Multi-Tenancy}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2017},
+  pages     = {{M3I.3}},
+  publisher = {{Optical Society of America}},
+  doi       = {10.1364/OFC.2017.M3I.3},
+  journal   = {{Optical Fiber Communication Conference}},
+}
+
+@Article{ei2017game,
+  author  = {{Ei, Nway Nway and Tun, Yan Kyaw and Hong, Choong Seon}},
+  title   = {{A Game-Theoretic Approach for Spectrum Slicing in Virtualized Wireless Network}},
+  journal = {{Korean Data \& Information Science Society}},
+  year    = {2017},
+  pages   = {{1175--1177}},
+}
+
+@Proceedings{egilmez2012openqos,
+  title     = {{OpenQoS: OpenFlow controller design for multimedia delivery with end-to- end Quality of Service over Software Defined Networks}},
+  year      = {December, 2012},
+  author    = {{Hilmi E. Egilmez, S. Tahsin Dane, K. Tolga Bagci and A. Murat Tekalp}},
+  booktitle = {{Proceedings of The 2012 Asia Pacific Signal and Information Processing Association Annual Summit and Conference}},
+}
+
+@Proceedings{egilmez2012openqos,
+  title     = {{OpenQoS: OpenFlow controller design for multimedia delivery with end-to- end Quality of Service over Software Defined Networks}},
+  year      = {Dec, 2012},
+  author    = {{Hilmi E. Egilmez, S. Tahsin Dane, K. Tolga Bagci and A. Murat Tekalp}},
+  booktitle = {{Proceedings of The 2012 Asia Pacific Signal and Information Processing Association Annual Summit and Conference}},
+}
+
+@Article{effenberger2011xg,
+  author    = {{Effenberger, Frank J}},
+  title     = {{The XG-PON system: Cost effective 10 Gb/s access}},
+  journal   = {{Journal of lightwave technology}},
+  year      = {2011},
+  volume    = {{29}},
+  number    = {4},
+  pages     = {{403--409}},
+  publisher = {{IEEE}},
+}
+
+@Article{drutskoy2013scalable,
+  author    = {{Drutskoy, Dmitry and Keller, Eric and Rexford, Jennifer}},
+  title     = {{Scalable network virtualization in software-defined networks}},
+  journal   = {{IEEE Internet Computing}},
+  year      = {2013},
+  volume    = {{17}},
+  number    = {2},
+  pages     = {{20--27}},
+  publisher = {{IEEE}},
+}
+
+@Article{drutskoy2013scalable,
+  author    = {{Drutskoy, Dmitry and Keller, Eric and Rexford, Jennifer}},
+  title     = {{Scalable network virtualization in software-defined networks}},
+  journal   = {{IEEE Internet Computing}},
+  year      = {2013},
+  volume    = {{17}},
+  number    = {2},
+  publisher = {{IEEE}},
+}
+
+@Book{doi:10.1596/0-8213-5070-6,
+  title     = {{Reforming Infrastructure}},
+  publisher = {{The World Bank}},
+  year      = {2004},
+  author    = {{Kessides, Ioannis}},
+  doi       = {10.1596/0-8213-5070-6},
+  eprint    = {{https://elibrary.worldbank.org/doi/pdf/10.1596/0-8213-5070-6}},
+}
+
+@Article{doi:10.1002/cpe.5227,
+  author   = {{Bergman, Sara and Asplund, Mikael and Nadjm-Tehrani, Simin}},
+  title    = {{Permissioned blockchains and distributed databases: A performance study}},
+  journal  = {{Concurrency and Computation: Practice and Experience}},
+  volume   = {0},
+  number   = {0},
+  pages    = {{e5227}},
+  note     = {{e5227 cpe.5227}},
+  abstract = {{Summary Blockchains are increasingly studied in the context of new applications. Permissioned blockchains promise to deal with the issue of complete removal of trust, a notion that is currently the hallmark of the developed society. Before the idea is adopted in contexts where resource efficiency and fast operation is a requirement, one could legitimately ask the question: can permissioned blockchains match the performance of traditional large-scale databases? This paper compares two popular frameworks, Hyperledger Fabric and Apache Cassandra, as representatives of permissioned blockchains and distributed databases, respectively. We compare their latency for varying workloads and network sizes. The results show that, for small systems, blockchains can start to compete with traditional databases, but also that the difference in consistency models and differences in setup can have a large impact on the resulting performance.}},
+  keywords = {{blockchains, Cassandra, databases, Fabric, latency}},
+}
+
+@Article{doi:10.1002/cpe.5227,
+  author   = {{Bergman, Sara and Asplund, Mikael and Nadjm-Tehrani, Simin}},
+  title    = {{Permissioned blockchains and distributed databases: A performance study}},
+  journal  = {{Concurrency and Computation: Practice and Experience}},
+  volume   = {0},
+  number   = {0},
+  pages    = {{e5227}},
+  note     = {{e5227 cpe.5227}},
+  abstract = {{Summary Blockchains are increasingly studied in the context of new applications. Permissioned blockchains promise to deal with the issue of complete removal of trust, a notion that is currently the hallmark of the developed society. Before the idea is adopted in contexts where resource efficiency and fast operation is a requirement, one could legitimately ask the question: can permissioned blockchains match the performance of traditional large-scale databases? This paper compares two popular frameworks, Hyperledger Fabric and Apache Cassandra, as representatives of permissioned blockchains and distributed databases, respectively. We compare their latency for varying workloads and network sizes. The results show that, for small systems, blockchains can start to compete with traditional databases, but also that the difference in consistency models and differences in setup can have a large impact on the resulting performance.}},
+  doi      = {10.1002/cpe.5227},
+  eprint   = {{https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpe.5227}},
+  keywords = {{blockchains, Cassandra, databases, Fabric, latency}},
+}
+
+@Article{Doetsch2013,
+  author  = {{U. Doetsch and M. Doll and H. P. Mayer and F. Schaich and J. Segel and P. Sehier}},
+  title   = {Quantitative analysis of split base station processing and determination of advantageous architectures for {LTE}},
+  journal = {{Bell Labs Technical Journal}},
+  year    = {2013},
+  volume  = {{18}},
+  number  = {1},
+  pages   = {{105--128}},
+  month   = jun,
+  issn    = {1089-7089},
+  doi     = {10.1002/bltj.21595},
+}
+
+@Article{disterer2013iso,
+  author    = {{Georg Disterer}},
+  title     = {{ISO}/{IEC} 27000, 27001 and 27002 for Information Security Management},
+  journal   = {{Journal of Information Security}},
+  year      = {2013},
+  volume    = {{04}},
+  number    = {{02}},
+  pages     = {{92--100}},
+  doi       = {10.4236/jis.2013.42011},
+  publisher = {{Scientific Research Publishing, Inc: Wuhan, China}},
+}
+
+@Article{discus,
+  author = {{Ruffini, Marco and Payne, David and Giglio, Andrea D and Graudszus, Werner and Montalvo, Julio and Wosinska, Lena}},
+  title  = {{Final report on regulation, policy and multi-business model usage}},
+}
+
+@Book{discus,
+  title     = {{Final report on regulation, policy and multi-business model usage}},
+  publisher = {{Community Research and Development Information Service (Cordis)}},
+  year      = {2016},
+  author    = {{Ruffini, Marco and Payne, David and Giglio, Andrea D and Graudszus, Werner and Montalvo, Julio and Wosinska, Lena}},
+  address   = {{Luxembourg, Luxembourg}},
+}
+
+@Book{DISCUS_rep2,
+  title       = {{Local Loop Unbundling regulation: is it a barrier to FTTH deployment?}},
+  publisher   = {{Community Research and Development Information Service (Cordis)}},
+  year        = {2016},
+  author      = {{D.B. Payne, M. Ruffini}},
+  address     = {{Luxembourg, Luxembourg}},
+  institution = {{DISCUS EU project whitepaper}},
+}
+
+@Book{DISCUS_rep1,
+  title       = {{Business and ownership model case studies for next generation FTTH deployment}},
+  publisher   = {{Community Research and Development Information Service (Cordis)}},
+  year        = {2016},
+  author      = {{M. Ruffini, D.B. Payne}},
+  address     = {{Luxembourg, Luxembourg}},
+  institution = {{DISCUS EU project whitepaper}},
+}
+
+@InProceedings{devlic2012use,
+  author       = {{Devlic, Alisa and John, Wolfgang and Sk{\"o}ldstr{\"o}m, Pontus}},
+  title        = {{A use-case based analysis of network management functions in the ONF SDN model}},
+  booktitle    = {{Software Defined Networking (EWSDN), 2012 European Workshop on}},
+  year         = {2012},
+  pages        = {{85--90}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{devlic2012use,
+  author       = {{Devlic, Alisa and John, Wolfgang and Sk{\"o}ldstr{\"o}m, Pontus}},
+  title        = {{A use-case based analysis of network management functions in the ONF SDN model}},
+  booktitle    = {{Software Defined Networking (EWSDN), 2012 European Workshop on}},
+  year         = {2012},
+  organization = {{IEEE}},
+}
+
+@InProceedings{devlic2012carrier,
+  author    = {{Devlic, Alisa and John, Wolfgang and Sk{\"o}ldstr{\"o}m, Pontus}},
+  title     = {{Carrier-grade network management extensions to the SDN framework}},
+  booktitle = {{8th Swedish National Computer Networking Workshop (SNCNW), Stockholm, Sweden}},
+  year      = {2012},
+  pages     = {{7--8}},
+}
+
+@Article{DBLP:journals/corr/abs-1805-11390,
+  author        = {{Parth Thakkar and Senthil Nathan and Balaji Vishwanathan}},
+  title         = {{Performance Benchmarking and Optimizing Hyperledger Fabric Blockchain Platform}},
+  journal       = {{CoRR}},
+  year          = {2018},
+  volume        = {{abs/1805.11390}},
+  archiveprefix = {{arXiv}},
+  bibsource     = {{dblp computer science bibliography, https://dblp.org}},
+  biburl        = {{https://dblp.org/rec/bib/journals/corr/abs-1805-11390}},
+  eprint        = {{1805.11390}},
+  timestamp     = {{Mon, 13 Aug 2018 16:47:11 +0200}},
+  url           = {http://arxiv.org/abs/1805.11390},
+}
+
+@Article{DBLP:journals/corr/abs-1805-11390,
+  author        = {{Parth Thakkar and Senthil Nathan and Balaji Vishwanathan}},
+  title         = {{Performance Benchmarking and Optimizing Hyperledger Fabric Blockchain Platform}},
+  journal       = {{CoRR}},
+  year          = {2018},
+  volume        = {{abs/1805.11390}},
+  archiveprefix = {{arXiv}},
+  bibsource     = {{dblp computer science bibliography, https://dblp.org}},
+  biburl        = {{https://dblp.org/rec/bib/journals/corr/abs-1805-11390}},
+  eprint        = {{1805.11390}},
+  timestamp     = {{Mon, 13 Aug 2018 16:47:11 +0200}},
+  url           = {http://arxiv.org/abs/1805.11390},
+}
+
+@PhdThesis{Dashti2016,
+  author = {{Dashti, Yousef and Reisslein, Martin and Zhang, Yanchao and Fowler, John and Seeling, Patrick}},
+  title  = {{Efficient Routing and Resource Sharing Mechanisms for Hybrid Optical-Wireless Access Networks}},
+  year   = {2016},
+}
+
+@Article{Dai2014a,
+  author    = {{Dai, Qing-long and Shou, Guo-chu and Hu, Yi-hong and Guo, Zhi-gang}},
+  title     = {{Performance improvement for applying network virtualization in fiber-wireless (FiWi) access networks}},
+  journal   = {{Journal of Zhejiang University SCIENCE C}},
+  year      = {2014},
+  volume    = {{15}},
+  number    = {{11}},
+  pages     = {{1058--1070}},
+  month     = nov,
+  issn      = {1869-1951},
+  doi       = {10.1631/jzus.C1400044},
+  publisher = {{Zhejiang University Press}},
+}
+
+@Article{Dai2014,
+  author  = {{Dai, Qinglong and Zou, Jianfeng and Shou, Guochu and Hu, Yihong and Guo, Zhigang}},
+  title   = {{Network virtualization based seamless networking scheme for fiber-wireless (FiWi) networks}},
+  journal = {{China Communications}},
+  year    = {2014},
+  volume  = {{11}},
+  number  = {5},
+  pages   = {{1--16}},
+  month   = may,
+  issn    = {1673-5447},
+  doi     = {10.1109/CC.2014.6880456},
+  url     = {http://ieeexplore.ieee.org/document/6880456/},
+}
+
+@Article{DAC:DAC761,
+  author    = {{Leligou, H. C. and Linardakis, Ch. and Kanonakis, K. and Angelopoulos, J. D. and Orphanoudakis, Th.}},
+  title     = {{Efficient medium arbitration of FSAN-compliant GPONs}},
+  journal   = {{International Journal of Communication Systems}},
+  year      = {2006},
+  volume    = {{19}},
+  number    = {5},
+  pages     = {{603--617}},
+  issn      = {1099-1131},
+  doi       = {10.1002/dac.761},
+  publisher = {{John Wiley \& Sons, Ltd.}},
+}
+
+@Book{D.:2013:SSD:2566940,
+  title     = {{SDN: Software Defined Networks}},
+  publisher = {{O'Reilly Media, Inc.}},
+  year      = {2013},
+  author    = {{D., Thomas Nadeau and Gray, Ken}},
+  edition   = {{1st}},
+  isbn      = {1449342302, 9781449342302},
+}
+
+@InProceedings{cvijetic2014sdn,
+  author       = {{Cvijetic, Neda}},
+  title        = {{SDN for optical access networks}},
+  booktitle    = {{Photonics in Switching}},
+  year         = {2014},
+  pages        = {{PM3C--4}},
+  organization = {{Optical Society of America}},
+}
+
+@InProceedings{cvijetic2014sdn,
+  author       = {{Cvijetic, Neda}},
+  title        = {{SDN for optical access networks}},
+  booktitle    = {{Photonics in Switching}},
+  year         = {2014},
+  organization = {{Optical Society of America}},
+}
+
+@Article{Cvijetic:12,
+  author    = {{Neda Cvijetic and Milorad Cvijetic and Ming-Fang Huang and Ezra Ip and Yue-Kai Huang and Ting Wang}},
+  title     = {Terabit Optical Access Networks Based on {WDM-{OFDMA}-PON}},
+  journal   = {{J. Lightwave Technol.}},
+  year      = {2012},
+  volume    = {{30}},
+  number    = {4},
+  pages     = {{493--503}},
+  month     = feb,
+  publisher = {{OSA}},
+  url       = {http://jlt.osa.org/abstract.cfm?URI=jlt-30-4-493},
+}
+
+@Article{Cvijetic:12,
+  author    = {{Neda Cvijetic and Milorad Cvijetic and Ming-Fang Huang and Ezra Ip and Yue-Kai Huang and Ting Wang}},
+  title     = {Terabit Optical Access Networks Based on {WDM-OFDMA-PON}},
+  journal   = {{J. Lightwave Technol.}},
+  year      = {2012},
+  volume    = {{30}},
+  number    = {4},
+  month     = feb,
+  publisher = {{OSA}},
+  url       = {http://jlt.osa.org/abstract.cfm?URI=jlt-30-4-493},
+}
+
+@Article{Cvijetic:10,
+  author  = {{N. Cvijetic}},
+  title   = {{OFDM} for Next-Generation Optical Access Networks},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2012},
+  volume  = {{30}},
+  number  = {4},
+  pages   = {{384--398}},
+  month   = feb,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2011.2166375},
+}
+
+@TechReport{CPRI15,
+  author = {{Ericsson AB, Huawei Technologies Co. Ltd, NEC Corporation, Alcatel Lucent, and Nokia Siemens Networks GmbH \& Co. KG}},
+  title  = {{Common Public Radio Interface (CPRI)}},
+  year   = {2015},
+  number = {{v7.0}},
+  month  = oct,
+}
+
+@Article{Cornaglia20152,
+  author  = {{Bruno Cornaglia and Gavin Young and Antonio Marchetta}},
+  title   = {{Fixed Access Network Sharing}},
+  journal = {{Optical Fiber Technology}},
+  year    = {2015},
+  volume  = {{26, Part A}},
+  pages   = {{2--11}},
+  issn    = {1068-5200},
+  note    = {{Next Generation Access Networks}},
+  doi     = {10.1016/j.yofte.2015.07.008},
+}
+
+@Book{comreg_spectrum,
+  title        = {{Results of the 3.6 GHz Band Spectrum Award}},
+  publisher    = {{Commission for Communications Regulation (ComReg): Dublin, Ireland}},
+  year         = {2017},
+  howpublished = {\url{https://www.comreg.ie/media/dlm_uploads/2017/05/ComReg-1738.pdf}},
+}
+
+@Misc{common-position,
+  author       = {{European Research Group}},
+  title        = {{Bitstream Access, ERG Common Position}},
+  howpublished = {{"\url{https://www.berec.europa.eu/doc/whatsnew/erg_0333rev1_bitstream_access_common_position.pdf}"}},
+  year         = {April 2nd 2004},
+  note         = {{[Online; accessed 5-March-2019]}},
+}
+
+@InProceedings{clegg2014pushing,
+  author       = {{Clegg, Richard G and Spencer, Jason and Landa, Raul and Thakur, Manoj and Mitchell, John and Rio, Miguel}},
+  title        = {{Pushing software defined networking to the access}},
+  booktitle    = {{Software Defined Networks (EWSDN), 2014 Third European Workshop on}},
+  year         = {2014},
+  pages        = {{31--36}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{clegg2014pushing,
+  author       = {{Clegg, Richard G and Spencer, Jason and Landa, Raul and Thakur, Manoj and Mitchell, John and Rio, Miguel}},
+  title        = {{Pushing software defined networking to the access}},
+  booktitle    = {{Software Defined Networks (EWSDN), 2014 Third European Workshop on}},
+  year         = {2014},
+  organization = {{IEEE}},
+}
+
+@Article{Clarke,
+  author  = {{Clarke, Edward}},
+  title   = {{Multipart pricing of public goods}},
+  journal = {{Public Choice}},
+  year    = {1971},
+  volume  = {{11}},
+  number  = {1},
+  pages   = {{17--33}},
+}
+
+@Proceedings{civanlar2010qos,
+  title     = {{A {QoS}-enabled OpenFlow environment for Scalable Video streaming}},
+  year      = {December, 2010},
+  author    = {{Seyhan Civanlar, Murat Parlakisik, A. Murat Tekalp}},
+  booktitle = {{IEEE Globecom Workshops}},
+}
+
+@Proceedings{civanlar2010qos,
+  title     = {{A {QoS}-enabled OpenFlow environment for Scalable Video streaming}},
+  year      = {Dec, 2010},
+  author    = {{Seyhan Civanlar, Murat Parlakisik, A. Murat Tekalp}},
+  booktitle = {{IEEE Globecom Workshops}},
+}
+
+@Misc{cisco2010AironetFAQ,
+  author     = {{Cisco Systems}},
+  title      = {{Cisco Aironet access point {FAQ}}},
+  month      = jan,
+  year       = {2010},
+  bdsk-url-1 = {{http://www.cisco.com/}},
+  url        = {http://www.cisco.com/},
+  urldate    = {{Mar., 2013}},
+}
+
+@Article{cisco,
+  title = {{Cisco Opens up the "Last Mile" for Service Providers to Increase Profits with Virtualization and Programmable Capabilities}},
+}
+
+@Misc{cisco,
+  author = {{Cisco Systems, Inc.}},
+  title  = {{Cisco Opens up the Last Mile for Service Providers to Increase Profits with Virtualization and Programmable Capabilities}},
+  year   = {2014},
+}
+
+@Misc{cisco_2017,
+  title        = {{Cisco Visual Networking Index: Forecast and Methodology, 2016–2021}},
+  howpublished = {\url{https://www.cisco.com/c/en/us/solutions/collateral/service-provider/visual-networking-index-vni/complete-white-paper-c11-481360.html}},
+  month        = sep,
+  year         = {2017},
+  journal      = {{Cisco}},
+}
+
+@InProceedings{ChowYehSungEtAl2014,
+  author    = {{C. W. Chow and C. H. Yeh and J. Y. Sung and S. H. Chen}},
+  title     = {Direct-detection all-optical {OFDM} superchannel for long-reach {PON}},
+  booktitle = {{2014 13th International Conference on Optical Communications and Networks (ICOCN)}},
+  year      = {2014},
+  pages     = {{1--4}},
+  month     = nov,
+  doi       = {10.1109/ICOCN.2014.6987120},
+}
+
+@Proceedings{chowdhury2014payless,
+  title     = {{PayLess: A low cost network monitoring framework for Software Defined Networks}},
+  year      = {2014},
+  author    = {{Shihabur Rahman Chowdhury, Md. Faizul Bari, Reaz Ahmed}},
+  booktitle = {{IEEE Network Operations and Management Symposium (NOMS)}},
+}
+
+@Proceedings{chowdhury2014payless,
+  title     = {{PayLess: A low cost network monitoring framework for Software Defined Networks}},
+  year      = {2014},
+  author    = {{Shihabur Rahman Chowdhury, Md. Faizul Bari, Reaz Ahmed}},
+  booktitle = {{IEEE Network Operations and Management Symposium (NOMS)}},
+}
+
+@Article{Chowdhury:2010:SNV:1749614.1749650,
+  author     = {{Chowdhury, N.M. Mosharaf Kabir and Boutaba, Raouf}},
+  title      = {{A Survey of Network Virtualization}},
+  journal    = {{Comput. Netw.}},
+  year       = {2010},
+  volume     = {{54}},
+  number     = {5},
+  pages      = {{862--876}},
+  month      = apr,
+  issn       = {1389-1286},
+  acmid      = {{1749650}},
+  doi        = {10.1016/j.comnet.2009.10.017},
+  issue_date = {{April, 2010}},
+  numpages   = {{15}},
+  publisher  = {{Elsevier North-Holland, Inc.}},
+}
+
+@Article{CheckoAvramovaBergerEtAl2016,
+  author  = {{A. Checko and A. P. Avramova and M. S. Berger and H. L. Christiansen}},
+  title   = {{Evaluating C-RAN fronthaul functional splits in terms of network level energy and cost savings}},
+  journal = {{Journal of Communications and Networks}},
+  year    = {2016},
+  volume  = {{18}},
+  number  = {2},
+  pages   = {{162--172}},
+  month   = apr,
+  issn    = {1229-2370},
+  doi     = {10.1109/JCN.2016.000025},
+}
+
+@Article{Checko2016,
+  author  = {{A. Checko and A. P. Avramova and M. S. Berger and H. L. Christiansen}},
+  title   = {{Evaluating C-RAN fronthaul functional splits in terms of network level energy and cost savings}},
+  journal = {{Journal of Communications and Networks}},
+  year    = {2016},
+  volume  = {{18}},
+  number  = {2},
+  pages   = {{162--172}},
+  month   = apr,
+  issn    = {1229-2370},
+  doi     = {10.1109/JCN.2016.000025},
+}
+
+@Article{Checko2015,
+  author     = {{A. Checko and H. L. Christiansen and Y. Yan and L. Scolari and G. Kardaras and M. S. Berger and L. Dittmann}},
+  title      = {{Cloud RAN for Mobile Networks ---A Technology Overview}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2015},
+  volume     = {{17}},
+  number     = {1},
+  pages      = {{405--426}},
+  month      = fir,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2014.2355255}},
+  doi        = {10.1109/COMST.2014.2355255},
+}
+
+@Article{CHARILAS20103421,
+  author   = {{Dimitris E. Charilas and Athanasios D. Panagopoulos}},
+  title    = {{A survey on game theory applications in wireless networks}},
+  journal  = {{Computer Networks}},
+  year     = {2010},
+  volume   = {{54}},
+  issn     = {1389-1286},
+  abstract = {{While the Quality of Service (QoS) offered to users may be enhanced through innovativeذ protocols and new technologies, future trends should take into account the efficiency of resource allocation and network/terminal cooperation as well. Game theory techniques have widely been applied to various engineering design problems in which the action of one component has impact on (and perhaps conflicts with) that of any other component. Therefore, game formulations are used, and a stable solution for the players is obtained through the concept of equilibrium. This survey collects applications of game theory in wireless networking and presents them in a layered perspective, emphasizing on which fields game theory could be effectively applied. To this end, several games are modeled and their key features are exposed.}},
+  keywords = {{Wireless Networks, Game theory, Payoff, Coalition, Nash equilibrium, Resource allocation, Power control, Call admission control, Routing, Cooperation incentives}},
+}
+
+@InProceedings{ChangSchiaviNikaeinEtAl2016,
+  author    = {{C. Y. Chang and R. Schiavi and N. Nikaein and T. Spyropoulos and C. Bonnet}},
+  title     = {{Impact of packetization and functional split on C-RAN fronthaul performance}},
+  booktitle = {{2016 IEEE International Conference on Communications (ICC)}},
+  year      = {2016},
+  pages     = {{1--7}},
+  month     = may,
+  doi       = {10.1109/ICC.2016.7511579},
+}
+
+@Article{Chang2016,
+  author     = {{Chang, Zheng and Zhou, Zhenyu and Zhou, Sheng and Ristaniemi, Tapani and Niu, Zhisheng}},
+  title      = {{Towards Service-oriented 5G: Virtualizing the Networks for Everything-as-a-Service}},
+  year       = {2016},
+  month      = apr,
+  arxivid    = {{1604.01739}},
+  eprint     = {{1604.01739}},
+  eprinttype = {{arXiv}},
+}
+
+@InProceedings{Chang13,
+  author    = {{G. K. Chang and C. Liu}},
+  title     = {{1 #x2013;100{GHz} microwave photonics link technologies for next-generation {WiFi} and 5G wireless communications}},
+  booktitle = {{2013 IEEE International Topical Meeting on Microwave Photonics (MWP)}},
+  year      = {2013},
+  pages     = {{5--8}},
+  month     = oct,
+  doi       = {10.1109/MWP.2013.6724005},
+}
+
+@InProceedings{Castro:1999:PBF:296806.296824,
+  author    = {{Castro, Miguel and Liskov, Barbara}},
+  title     = {{Practical Byzantine Fault Tolerance}},
+  booktitle = {{Proceedings of the Third Symposium on Operating Systems Design and Implementation}},
+  year      = {1999},
+  series    = {{OSDI '99}},
+  pages     = {{173--186}},
+  address   = {{Berkeley, CA, USA}},
+  publisher = {{USENIX Association}},
+  acmid     = {{296824}},
+  isbn      = {1-880446-39-1},
+  location  = {{New Orleans, Louisiana, USA}},
+  numpages  = {{14}},
+}
+
+@InProceedings{Cao_2016,
+  author    = {{Zizheng Cao and qing wang and Netsanet Tessema and Xaveer Leijtens and Francisco Soares and Ton Koonen}},
+  title     = {{Beam steered millimeter-wave fiber-wireless system for 5G indoor coverage}},
+  booktitle = {{Optical Fiber Communication Conference}},
+  year      = {2016},
+  publisher = {{The Optical Society}},
+  doi       = {10.1364/ofc.2016.tu2b.1},
+}
+
+@InProceedings{callegati2013live,
+  author       = {{Callegati, Franco and Cerroni, Walter}},
+  title        = {{Live migration of virtualized edge networks: Analytical modeling and performance evaluation}},
+  booktitle    = {{Future Networks and Services (SDN4FNS), 2013 IEEE SDN for}},
+  year         = {2013},
+  pages        = {{1--6}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{callegati2013live,
+  author       = {{Callegati, Franco and Cerroni, Walter}},
+  title        = {{Live migration of virtualized edge networks: Analytical modeling and performance evaluation}},
+  booktitle    = {{Future Networks and Services (SDN4FNS), 2013 IEEE SDN for}},
+  year         = {2013},
+  organization = {{IEEE}},
+}
+
+@Misc{caliper,
+  author       = {{Charles, P.W.D.}},
+  title        = {{A blockchain benchmark framework}},
+  howpublished = {\url{https://github.com/hyperledger/caliper}},
+  year         = {2019},
+  journal      = {{GitHub repository}},
+  publisher    = {{GitHub}},
+}
+
+@Article{Browning:12,
+  author  = {{C. Browning and K. Shi and S. Latkowski and P. M. Anandarajah and F. Smyth and B. Cardiff and L. P. Barry}},
+  title   = {{Increased Bit Rate Direct Modulation AMO-{OFDM} Transmission by Optical Injection Using Monolithically Integrated Lasers}},
+  journal = {{IEEE Photonics Technology Letters}},
+  year    = {2012},
+  volume  = {{24}},
+  number  = {{11}},
+  pages   = {{879--881}},
+  month   = jun,
+  issn    = {1041-1135},
+  doi     = {10.1109/LPT.2012.2190049},
+}
+
+@Article{Browning:11,
+  author    = {{C. Browning and K. Shi and S. Latkowski and P. M. Anandarajah and F. Smyth and B. Cardiff and R. Phelan and L. P. Barry}},
+  title     = {{Performance improvement of 10{Gb}/s direct modulation {OFDM} by optical injection using monolithically integrated discrete mode lasers}},
+  journal   = {{Opt. Express}},
+  year      = {2011},
+  volume    = {{19}},
+  number    = {{26}},
+  pages     = {{B289--B294}},
+  month     = dec,
+  doi       = {10.1364/OE.19.00B289},
+  publisher = {{OSA}},
+}
+
+@TechReport{bristol,
+  title        = {{5G trials kick off in Barcelona and Bristol}},
+  institution  = {{European Commission: Brussels, Belgium}},
+  year         = {2018},
+  howpublished = {\url{https://cordis.europa.eu/article/rcn/123332/en}},
+}
+
+@InProceedings{bozakov2012autoslice,
+  author       = {{Bozakov, Zdravko and Papadimitriou, Panagiotis}},
+  title        = {{Autoslice: automated and scalable slicing for software-defined networks}},
+  booktitle    = {{Proceedings of the 2012 ACM conference on CoNEXT student workshop}},
+  year         = {2012},
+  pages        = {{3--4}},
+  organization = {{ACM}},
+}
+
+@InProceedings{bozakov2012autoslice,
+  author       = {{Bozakov, Zdravko and Papadimitriou, Panagiotis}},
+  title        = {{Autoslice: automated and scalable slicing for software-defined networks}},
+  booktitle    = {{Proceedings of the 2012 ACM conference on CoNEXT student workshop}},
+  year         = {2012},
+  organization = {{ACM}},
+}
+
+@Article{bourreau2005unbundling,
+  author    = {{Bourreau, Marc and Do?an, Pinar}},
+  title     = {{Unbundling the local loop}},
+  journal   = {{European Economic Review}},
+  year      = {2005},
+  volume    = {{49}},
+  number    = {1},
+  pages     = {{173--199}},
+  publisher = {{Elsevier}},
+}
+
+@Article{bourreau2005unbundling,
+  author    = {{Bourreau, Marc and Do?an, Pinar}},
+  title     = {{Unbundling the local loop}},
+  journal   = {{European Economic Review}},
+  year      = {2005},
+  volume    = {{49}},
+  number    = {1},
+  publisher = {{Elsevier}},
+}
+
+@Article{bourreau2004service,
+  author    = {{Bourreau, Marc and Do{\u{g}}an, P{\i}nar}},
+  title     = {{Service-based vs. facility-based competition in local access networks}},
+  journal   = {{Information Economics and Policy}},
+  year      = {2004},
+  volume    = {{16}},
+  number    = {2},
+  pages     = {{287--306}},
+  publisher = {{Elsevier}},
+}
+
+@Article{bourreau2004service,
+  author    = {{Bourreau, Marc and Do{\u{g}}an, P{\i}nar}},
+  title     = {{Service-based vs. facility-based competition in local access networks}},
+  journal   = {{Information Economics and Policy}},
+  year      = {2004},
+  volume    = {{16}},
+  number    = {2},
+  publisher = {{Elsevier}},
+}
+
+@InProceedings{bohn2013elastic,
+  author       = {{Bohn, Marc and Napoli, Antonio and D'Errico, Antonio and Ferraris, Giuseppe and Gunkel, Matthias and Jimenez, Felipe and Fernandez-Palacios, Juan Pedro and Layec, Patricia and Zervas, George and Amaya, Norberto and others}},
+  title        = {{Elastic optical networks: The vision of the {ICT} project IDEALIST}},
+  booktitle    = {{Future Network and Mobile Summit (FutureNetworkSummit), 2013}},
+  year         = {2013},
+  pages        = {{1--9}},
+  organization = {{IEEE}},
+}
+
+@Article{bitar2014interface,
+  author  = {{Bitar, N and Heron, G and Fang, L and Krishnan, R and Leymann, N and Shah, H and Chakrabarti, S and Haddad, W}},
+  title   = {{Interface to the Routing System (I2RS) for Service Chaining: Use Cases and Requirements}},
+  journal = {{Internet Engineering Task Force Internet Draft draft-bitar-i2rs-service-chaining-01}},
+  year    = {2014},
+}
+
+@Article{bitar2014interface,
+  author  = {{Bitar, N and Heron, G and Fang, L and Krishnan, R and Leymann, N and Shah, H and Chakrabarti, S and Haddad, W}},
+  title   = {{Interface to the Routing System (I2RS) for Service Chaining: Use Cases and Requirements}},
+  journal = {{Internet Engineering Task Force (IETF) Internet Draft}},
+  year    = {2013},
+  month   = jul,
+}
+
+@Article{bitar2014interface,
+  author  = {{Bitar, N and Heron, G and Fang, L and Krishnan, R and Leymann, N and Shah, H and Chakrabarti, S and Haddad, W}},
+  title   = {{Interface to the Routing System (I2RS) for Service Chaining: Use Cases and Requirements}},
+  journal = {{Internet Engineering Task Force (IETF) Internet Draft}},
+  year    = {2013},
+  month   = jul,
+}
+
+@Book{binm92,
+  title     = {{Fun and Games: A Text on Game Theory}},
+  publisher = {{D. C. Heath and Company}},
+  year      = {1992},
+  author    = {{Binmore, K.}},
+}
+
+@TechReport{bforum2016,
+  author = {{Broadband Forum WT-370}},
+  title  = {{Fixed Access Network Sharing - Architecture and Nodal Requirements}},
+  year   = {2016},
+}
+
+@TechReport{bforum2015,
+  author      = {{Broadband Forum SD-315}},
+  title       = {{Stage 1 Analysis of Fixed Access Network Sharing}},
+  institution = {{Broadband Forum}},
+  year        = {2015},
+  month       = jun,
+}
+
+@InProceedings{Berec1,
+  author       = {{DotEcon Ltd and Axon Partners Group}},
+  title        = {{Study on Implications of 5G Deployment on Future Business Models}},
+  booktitle    = {{No BEREC/2017/02/NP3}},
+  year         = {2018},
+  organization = {{BEREC}},
+}
+
+@Book{BEREC,
+  title     = {{BEREC Report on the New Forms of Sharing Passive Optical Networks Based on Wavelength Division Multiplexing}},
+  publisher = {{European Commission: Riga, Latvia}},
+  year      = {2017},
+  author    = {{Body of European Regulators for Electronic Communications (BEREC)}},
+}
+
+@InProceedings{berde2014onos,
+  author       = {{Berde, Pankaj and Gerola, Matteo and Hart, Jonathan and Higuchi, Yuta and Kobayashi and others}},
+  title        = {{ONOS: towards an open, distributed SDN OS}},
+  booktitle    = {{Proceedings of the third workshop on Hot topics in software defined networking}},
+  year         = {2014},
+  pages        = {{1--6}},
+  organization = {{ACM}},
+}
+
+@InProceedings{benitez2012network,
+  author    = {{Benitez, J and Bugenhagen, M and Khan, W and Chiosi, M and Clarke, D and Cui, C and Damker, H and Delisle, D and Demaria, E and Deng, H and others}},
+  title     = {{Network functions virtualization}},
+  booktitle = {{Position Paper Presented at SDN and OpenFlow World Congress}},
+  year      = {2012},
+  pages     = {{16}},
+}
+
+@InProceedings{BefekaduStraulluAbrateEtAl2016,
+  author    = {{M. Befekadu and S. Straullu and S. Abrate and R. Gaudino}},
+  title     = {{Experimental Optimization of {DSP}-Aggregated Front-hauling Transmission for up to 4x96 {LTE} radio waveforms}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@InProceedings{Befekadu2016,
+  author    = {{M. Befekadu and S. Straullu and S. Abrate and R. Gaudino}},
+  title     = {{Experimental Optimization of {DSP}-Aggregated Front-hauling Transmission for up to 4x96 {LTE} radio waveforms}},
+  booktitle = {{ECOC 2016; 42nd European Conference on Optical Communication}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = sep,
+}
+
+@Article{Beas2013,
+  author     = {{J. Beas and G. Castanon and I. Aldaya and A. Aragon-Zavala and G. Campuzano}},
+  title      = {{Millimeter-Wave Frequency Radio over Fiber Systems: A Survey}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2013},
+  volume     = {{15}},
+  number     = {4},
+  pages      = {{1593--1619}},
+  month      = fou,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/SURV.2013.013013.00135}},
+  doi        = {10.1109/SURV.2013.013013.00135},
+}
+
+@TechReport{bbfWT386,
+  author = {{Broadband Forum WT-386}},
+  title  = {{FANS Access Network Sharing Interfaces}},
+  year   = {2017},
+}
+
+@TechReport{bbfWT351,
+  author = {{Broadband Forum SD-351}},
+  title  = {{Stage 1 Analysis of Fixed Access Network Sharing}},
+  year   = {2015},
+}
+@TechReport{3gpp_tr_2018,
+  author = {{3GPP}},
+  title  = {{TR} 28.801 {Study} on management and orchestration of network slicing for next generation network},
+  year   = {2018},
+  type   = {{Technical report}},
+  number = {{28.801}},
+  url    = {https://portal.3gpp.org},
+}
+
+@TechReport{bbfTR370,
+  author = {{Broadband Forum TR-370}},
+  title  = {{FANS Architecture and Nodal Requirements}},
+  year   = {2017},
+}
+
+@TechReport{bbf370i2,
+  author      = {{Broadband Forum WT-370i2}},
+  title       = {{Fixed Access Network Sharing - Architecture and Nodal Requirements - revision 2}},
+  institution = {{Broadband Forum}},
+  year        = {2019},
+}
+
+@TechReport{bbf370,
+  author      = {{Broadband Forum TR-370}},
+  title       = {{Fixed Access Network Sharing - Architecture and Nodal Requirements}},
+  institution = {{Broadband Forum}},
+  year        = {2017},
+}
+
+@TechReport{bbf320,
+  author      = {{Broadband Forum TR-320}},
+  title       = {{Techniques to Mitigate Uncancelled Crosstal on Vectored VDSL2 Lines}},
+  institution = {{Broadband Forum}},
+  year        = {2014},
+  url         = {http://www.broadband-forum.org/technical/technicalwip.php},
+}
+
+@Book{bauer2006local,
+  title     = {{Local loop unbundling and bitstream access: regulatory practice in {Europe} and the US}},
+  publisher = {{DIW Berlin}},
+  year      = {2006},
+  author    = {{Bauer, Johannes M}},
+}
+
+@Book{bauer2006local,
+  title     = {{Local loop unbundling and bitstream access: regulatory practice in {Europe} and the US}},
+  publisher = {{German Institute for Economic Research (DIW) Berlin}},
+  year      = {2006},
+  author    = {{Bauer, Johannes M}},
+}
+
+@Article{BasebandUnit2015,
+  author  = {{J. Zhang and Y. Ji and J. Zhang and R. Gu and Y. Zhao and S. Liu and K. Xu and M. Song and H. Li and X. Wang}},
+  title   = {{Baseband unit cloud interconnection enabled by flexible grid optical networks with software defined elasticity}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2015},
+  volume  = {{53}},
+  number  = {9},
+  pages   = {{90--98}},
+  month   = sep,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2015.7263351},
+}
+
+@Article{BarteltRostWubbenEtAl2015,
+  author  = {{J. Bartelt and P. Rost and D. Wubben and J. Lessmann and B. Melis and G. Fettweis}},
+  title   = {{Fronthaul and backhaul requirements of flexibly centralized radio access networks}},
+  journal = {{IEEE Wireless Communications}},
+  year    = {2015},
+  volume  = {{22}},
+  number  = {5},
+  pages   = {{105--111}},
+  month   = oct,
+  issn    = {1536-1284},
+  doi     = {10.1109/MWC.2015.7306544},
+}
+
+@Proceedings{bari2013policycop,
+  title     = {{PolicyCop: An Autonomic QoS Policy Enforcement Framework for Software Defined Networks}},
+  year      = {Nov, 2013},
+  author    = {{Md Faizul Bari, Shihabur Rahman Chowdhury, Reaz Ahmed}},
+  booktitle = {{IEEE SDN for Future Networks and Services (SDN4FNS)}},
+}
+
+@Proceedings{bakshi2013considerations,
+  title     = {{Considerations for Software Defined Networking (SDN): Approaches and use cases}},
+  year      = {2013},
+  author    = {{Bakshi, Kapil}},
+  booktitle = {{IEEE Aerospace Conference}},
+}
+
+@Proceedings{bakshi2013considerations,
+  title     = {{Considerations for Software Defined Networking (SDN): Approaches and use cases}},
+  year      = {2013},
+  author    = {{Bakshi, Kapil}},
+  booktitle = {{IEEE Aerospace Conference}},
+}
+
+@Proceedings{ayadi2013qos,
+  title     = {{QoS}-based network virtualization to future networks: An approach based on network constraints},
+  year      = {October, 2013},
+  author    = {{Ines Ayadi, Gladys Diaz, Noëmie Simoni}},
+  booktitle = {{Fourth International Conference on the Network of the Future (NoF)}},
+}
+
+@Proceedings{ayadi2013qos,
+  title     = {{QoS}-based network virtualization to future networks: An approach based on network constraints},
+  year      = {Oct, 2013},
+  author    = {{Ines Ayadi, Gladys Diaz, Noëmie Simoni}},
+  booktitle = {{Fourth International Conference on the Network of the Future (NoF)}},
+}
+
+@InProceedings{Ausubel06thelovely,
+  author    = {{Lawrence M. Ausubel and Paul Milgrom}},
+  title     = {{The Lovely but Lonely Vickrey Auction}},
+  booktitle = {{Combinatorial Auctions, chapter 1}},
+  year      = {2006},
+  publisher = {{MIT Press}},
+}
+
+@InProceedings{argyropoulos2015control,
+  author       = {{Argyropoulos, Christos and Mastorakis, Spyridon and Giotis, Kostas and Androulidakis, Georgios and Kalogeras, Dimitrios and Maglaris, Vasilis}},
+  title        = {{Control-plane slicing methods in multi-tenant software defined networks}},
+  booktitle    = {{Integrated Network Management (IM), 2015 IFIP/IEEE International Symposium on}},
+  year         = {2015},
+  pages        = {{612--618}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{argyropoulos2015control,
+  author       = {{Argyropoulos, Christos and Mastorakis, Spyridon and Giotis, Kostas and Androulidakis, Georgios and Kalogeras, Dimitrios and Maglaris, Vasilis}},
+  title        = {{Control-plane slicing methods in multi-tenant software defined networks}},
+  booktitle    = {{Integrated Network Management (IM), 2015 IFIP/IEEE International Symposium on}},
+  year         = {2015},
+  organization = {{IEEE}},
+}
+
+@InBook{Angelopoulos2004,
+  pages     = {{890--901}},
+  title     = {{Prioritized Multiplexing of Traffic Accessing an FSAN-Compliant GPON}},
+  publisher = {{Springer Berlin Heidelberg}},
+  year      = {2004},
+  author    = {{Angelopoulos, John D. and Leligou, Helen-C. and Argyriou, Theodore and Zontos, Stelios}},
+  editor    = {{Mitrou, Nikolas and Kontovasilis, Kimon and Rouskas, George N. and Iliadis, Ilias and Merakos, Lazaros}},
+  isbn      = {978-3-540-24693-0},
+  booktitle = {{Networking 2004: Networking Technologies, Services, and Protocols; Performance of Computer and Communication Networks; Mobile and Wireless Communications Third International IFIP-TC6 Networking Conference Athens, Greece, May 9--14, 2004, Proceedings}},
+  doi       = {10.1007/978-3-540-24693-0_73},
+}
+
+@InProceedings{Androulaki:2018:HFD:3190508.3190538,
+  author    = {{Androulaki, Elli and Barger, Artem and Bortnikov, Vita and Cachin, Christian and Christidis, Konstantinos and De Caro, Angelo and Enyeart, David and Ferris, Christopher and Laventman, Gennady and Manevich, Yacov and Muralidharan, Srinivasan and Murthy, Chet and Nguyen, Binh and Sethi, Manish and Singh, Gari and Smith, Keith and Sorniotti, Alessandro and Stathakopoulou, Chrysoula and Vukoli\'{c}, Marko and Cocco, Sharon Weed and Yellick, Jason}},
+  title     = {{Hyperledger Fabric: A Distributed Operating System for Permissioned Blockchains}},
+  booktitle = {{Proceedings of the Thirteenth EuroSys Conference}},
+  year      = {2018},
+  series    = {{EuroSys '18}},
+  pages     = {{30:1--30:15}},
+  address   = {{New York, NY, USA}},
+  publisher = {{ACM}},
+  acmid     = {{3190538}},
+  articleno = {{30}},
+  doi       = {10.1145/3190508.3190538},
+  isbn      = {978-1-4503-5584-1},
+  location  = {{Porto, Portugal}},
+  numpages  = {{15}},
+}
+
+@Article{Alnoman2016,
+  author    = {{Alnoman, Ali and Anpalagan, Alagan}},
+  title     = {{Towards the fulfillment of 5G network requirements: technologies and challenges}},
+  journal   = {{Telecommunication Systems}},
+  year      = {2016},
+  pages     = {{1--16}},
+  month     = aug,
+  issn      = {1018-4864},
+  doi       = {10.1007/s11235-016-0216-9},
+  publisher = {{Springer US}},
+}
+
+@InProceedings{Al-HaresAssimakopoulosHillEtAl2016,
+  author    = {{M. K. Al-Hares and P. Assimakopoulos and S. Hill and N. J. Gomes}},
+  title     = {{The effect of different queuing regimes on a Switched Ethernet fronthaul}},
+  booktitle = {{2016 18th International Conference on Transparent Optical Networks (ICTON)}},
+  year      = {2016},
+  pages     = {{1--4}},
+  month     = jul,
+  doi       = {10.1109/ICTON.2016.7550324},
+}
+
+@Article{Al-Hares2016,
+  author  = {{P. Assimakopoulos and M. K. Al-Hares and N. J. Gomes}},
+  title   = {{Switched ethernet fronthaul architecture for cloud-radio access networks}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2016},
+  volume  = {8},
+  number  = {{12}},
+  pages   = {{B135--B146}},
+  month   = dec,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.8.00B135},
+}
+
+@Whitepaper{AlcatelLucent,
+  title     = {{Dynamic Line Management for Vectoring Scenarios}},
+  publisher = {{Alcatel Lucent}},
+}
+
+@Misc{alcatellucent,
+  author       = {{Alcatel-Lucent}},
+  title        = {{Dynamic Line Management for Vectoring Scenarios}},
+  howpublished = {{"\url{https://www.scribd.com/document/358386970/8630-Alcatel-Lucent-Dynamic-Line-Management-Vectoring-Scenarios}"}},
+  year         = {2017},
+}
+
+@Article{Alavi2016,
+  author    = {{Alavi, S.E. and Anpalagan, Alagan and Soltanian, M. R. K. and Amiri, I. S. and Khalily, M. and Supa’at, A. S. M. and Ahmad, H.}},
+  title     = {{Towards 5G: A Photonic Based Millimeter Wave Signal Generation for Applying in 5G Access Fronthaul}},
+  journal   = {{Scientific Reports}},
+  year      = {2016},
+  pages     = {{1--11}},
+  month     = jan,
+  issn      = {1018-4864},
+  doi       = {10.1038/srep19891},
+  publisher = {{Nature}},
+}
+
+@Book{aikaterini2006security,
+  title     = {{SECURITY OF IEEE 802.16}},
+  publisher = {{Royal Institute of Technology, Stockholm, Sweden}},
+  year      = {2006},
+  author    = {{Arkoudi-Vafea Aikaterini}},
+  journal   = {{Department of Computer and Systems Science}},
+}
+
+@InProceedings{ahmed2014software,
+  author       = {{Ahmed, Mohamed Fekih and Talhi, Chamssedine and Pourzandi, Makan and Cheriet, Mohamed}},
+  title        = {{A software-defined scalable and autonomous architecture for multi-tenancy}},
+  booktitle    = {{Cloud Engineering (IC2E), 2014 IEEE International Conference on}},
+  year         = {2014},
+  pages        = {{568--573}},
+  organization = {{IEEE}},
+}
+
+@InProceedings{ahmed2014software,
+  author       = {{Ahmed, Mohamed Fekih and Talhi, Chamssedine and Pourzandi, Makan and Cheriet, Mohamed}},
+  title        = {{A software-defined scalable and autonomous architecture for multi-tenancy}},
+  booktitle    = {{Cloud Engineering (IC2E), 2014 IEEE International Conference on}},
+  year         = {2014},
+  organization = {{IEEE}},
+}
+
+@Article{aguado2015abno,
+  author  = {{Aguado, Alejandro and L{\'o}pez, V{\'\i}ctor and Marhuenda, Jaume and de Dios, {\'O}scar Gonz{\'a}lez and Fern{\'a}ndez-Palacios, Juan Pedro}},
+  title   = {{ABNO: A feasible SDN approach for multivendor {IP} and optical networks [invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2015},
+  volume  = {7},
+  number  = {2},
+  pages   = {{A356--A362}},
+  month   = feb,
+}
+
+@Article{aguado2015abno,
+  author  = {{Aguado, Alejandro and L{\'o}pez, V{\'\i}ctor and Marhuenda, Jaume and de Dios, {\'O}scar Gonz{\'a}lez and Fern{\'a}ndez-Palacios, Juan Pedro}},
+  title   = {{ABNO: A feasible SDN approach for multivendor {IP} and optical networks [invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2015},
+  volume  = {7},
+  number  = {2},
+  month   = feb,
+}
+
+@Article{AgiwalRoySaxena2016,
+  author     = {{M. Agiwal and A. Roy and N. Saxena}},
+  title      = {{Next Generation 5G Wireless Networks: A Comprehensive Survey}},
+  journal    = {{IEEE Communications Surveys Tutorials}},
+  year       = {2016},
+  volume     = {{18}},
+  number     = {3},
+  pages      = {{1617--1655}},
+  month      = thi,
+  issn       = {1553-877X},
+  bdsk-url-1 = {{http://dx.doi.org/10.1109/COMST.2016.2532458}},
+  doi        = {10.1109/COMST.2016.2532458},
+}
+
+@InProceedings{Afra1912:Distributed,
+  author    = {{Nima Afraz and Marco Ruffini}},
+  title     = {{A Distributed Bilateral Resource Market Mechanism for Future Telecommunications Networks}},
+  booktitle = {{2019 IEEE Globecom Workshops (GC Wkshps): IEEE GLOBECOM 2019 Workshop on Telecommunications and Blockchain (GC 2019 Workshops - TB)}},
+  year      = {2019},
+  address   = {{Waikoloa, USA}},
+  month     = dec,
+  abstract  = {{In this paper, we propose a distributed market mechanism powered by the
+blockchain technology addressing network ownership models in multiple
+telecommunications networks use cases. The proposed model is based on the
+smart contract technology and enables transparent and trusted bilateral
+trades, where trust among the network operators does not exist, and there
+is no impartial third-party entity who is trusted by all of the
+participants. We use an open source permissioned blockchain framework
+called Hyperledger Fabric to investigate the performance of the distributed
+market mechanism in cloud environments. After running experiments on
+Hyperledger Fabric, we discuss the practical feasibility and possible
+design choices of our blockchain approach based on latency, throughput and
+resource consumption analysis.}},
+  days      = {9},
+  keywords  = {{Blockchain; Market; Double Auction; Smart Contract}},
+}
+
+@InProceedings{Afra1710:Inter,
+  author    = {{Nima Afraz and Amr Elrasad and Hamed Ahmadi and Marco Ruffini}},
+  title     = {{Inter-Operator} Dynamic Capacity Sharing for {Multi-Tenant} Virtualized {PON}},
+  booktitle = {{2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC) - Workshop WS-04 on {"}The Economics of Wireless Network Virtualization{"} (IEEE PIMRC 2017 Workshop WS-04)}},
+  year      = {2017},
+  month     = oct,
+  days      = {8},
+}
+
+@Proceedings{afaq2015visualization,
+  title     = {{Visualization of elephant flows and {QoS} provisioning in SDN-based networks}},
+  year      = {2015},
+  author    = {{Muhammad Afaq, Shafqat Ur Rehman, Wang-Cheol Song}},
+  booktitle = {{17th Asia-Pacific Network Operations and Management Symposium (APNOMS)}},
+}
+
+@Proceedings{afaq2015visualization,
+  title     = {{Visualization of elephant flows and {QoS} provisioning in SDN-based networks}},
+  year      = {2015},
+  author    = {{Muhammad Afaq, Shafqat Ur Rehman, Wang-Cheol Song}},
+  booktitle = {{17th Asia-Pacific Network Operations and Management Symposium (APNOMS)}},
+}
+
+@Article{ADVA2009,
+  author  = {{Jim Theodoras}},
+  title   = {{WDM-PON: A New Access Architecture for a New Bandwidth Landscape}},
+  journal = {{BROADBAND PROPERTIES Rosenberg, United States}},
+  year    = {2009},
+  address = {{Rosenberg, TX 77471, United States}},
+}
+
+@Proceedings{adrichem2014opennetmon,
+  title     = {{OpenNetMon: Network monitoring in OpenFlow Software-Defined Networks}},
+  year      = {2014},
+  author    = {{Niels L. M. van Adrichem, Christian Doerr, Fernando A. Kuipers}},
+  booktitle = {{IEEE Network Operations and Management Symposium (NOMS)}},
+}
+
+@Proceedings{adrichem2014opennetmon,
+  title     = {{OpenNetMon: Network monitoring in OpenFlow Software-Defined Networks}},
+  year      = {2014},
+  author    = {{Niels L. M. van Adrichem, Christian Doerr, Fernando A. Kuipers}},
+  booktitle = {{IEEE Network Operations and Management Symposium (NOMS)}},
+}
+
+@Article{abeyratne2016blockchain,
+  author    = {{Abeyratne, Saveen A and Monfared, Radmehr P}},
+  title     = {{Blockchain ready manufacturing supply chain using distributed ledger}},
+  year      = {2016},
+  publisher = {{\copyright} The Authors. Published by eSAT},
+}
+
+@Article{Abbas201653,
+  author  = {{Huda Saleh Abbas and Mark A. Gregory}},
+  title   = {{The next generation of passive optical networks: A review}},
+  journal = {{Journal of Network and Computer Applications}},
+  year    = {2016},
+  volume  = {{67}},
+  pages   = {{53--74}},
+  issn    = {1084-8045},
+  doi     = {10.1016/j.jnca.2016.02.015},
+}
+
+@Article{983911,
+  author  = {{G. Kramer and B. Mukherjee and G. Pesavento}},
+  title   = {{IPACT a dynamic protocol for an Ethernet {PON} (EPON)}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2002},
+  volume  = {{40}},
+  number  = {2},
+  pages   = {{74--80}},
+  month   = feb,
+  issn    = {0163-6804},
+  doi     = {10.1109/35.983911},
+}
+
+@InProceedings{8808114,
+  author    = {G. A. {F. Rebello} and G. F. {Camilo} and L. G. {C. Silva} and L. C. {B. Guimarães} and L. A. {C. de Souza} and I. D. {Alvarenga} and O. C. {M. B. Duarte}},
+  title     = {{Providing a Sliced, Secure, and Isolated Software Infrastructure of Virtual Functions Through Blockchain Technology}},
+  booktitle = {{2019 IEEE 20th International Conference on High Performance Switching and Routing (HPSR)}},
+  year      = {2019},
+  pages     = {{1--6}},
+  month     = may,
+  doi       = {10.1109/HPSR.2019.8808114},
+  keywords  = {{cloud computing;computer network security;software defined networking;virtualisation;sliced isolated software infrastructure;virtual functions;blockchain technology;network slicing;network function virtualization;software defined network;on-demand end-to-end services;faulty virtual function;multitenant competing service providers;network slice creation;secure isolated software infrastructure;secure VNF configuration updates;hyperledger fabric platform;Blockchain;Security;Cloud computing;5G mobile communication;Network function virtualization;Protocols;Conferences}},
+}
+
+@Article{879000,
+  title   = {{Part 3: Carrier Sense Multiple Access With Collision Detect on ({CSMA/CD}) Access Method and Physical Layer Specifications}},
+  journal = {{IEEE Std 802.3, 2000 Edition}},
+  year    = {2000},
+  pages   = {{i-1515}},
+  doi     = {10.1109/IEEESTD.2000.91946},
+}
+
+@InProceedings{8716424,
+  author    = {S. J. {Alsunaidi} and F. A. {Alhaidari}},
+  title     = {{A Survey of Consensus Algorithms for Blockchain Technology}},
+  booktitle = {{ICCIS}},
+  year      = {2019},
+  pages     = {{1--6}},
+  month     = apr,
+  doi       = {10.1109/ICCISci.2019.8716424},
+  keywords  = {{financial data processing;Internet;Blockchain technology;point-to-point connections;comprehensive survey;consensus algorithms;Internet world;Blockchain;Consensus algorithm;Peer-to-peer computing;Classification algorithms;Bitcoin;Databases;Blockchain;consensus algorithm;Proof-based;Vote-based}},
+}
+
+@Article{8707070,
+  author   = {B. {Nour} and A. {Ksentini} and N. {Herbaut} and P. A. {Frangoudis} and H. {Moungla}},
+  title    = {{A Blockchain-Based Network Slice Broker for 5G Services}},
+  journal  = {{IEEE Networking Letters}},
+  year     = {2019},
+  volume   = {1},
+  number   = {3},
+  month    = sep,
+  doi      = {10.1109/LNET.2019.2915117},
+  keywords = {{5G mobile communication;cryptocurrencies;telecommunication network management;telecommunication security;brokering mechanism;blockchain-based network slice broker;network-operator-oriented business;network slice provider;vertical service provider;resource provider;mobile network business model;5G services;Blockchain;5G mobile communication;Contracts;Network slicing;Cloud computing;Bitcoin;Network slicing;5G network;blockchain}},
+}
+
+@Article{8665886,
+  author   = {L. {Jiang} and Q. {Wang} and R. {Song} and B. {Ye} and J. {Dai}},
+  title    = {{A Truthful Double Auction Framework for Promoting Femtocell Access}},
+  journal  = {{IEEE Access}},
+  year     = {2019},
+  volume   = {7},
+  issn     = {2169-3536},
+  doi      = {10.1109/ACCESS.2019.2904548},
+  keywords = {{electronic commerce;femtocellular radio;pricing;quality of service;resource allocation;truthful double auction framework;mobile data traffic;cellular networks;indoor users;poor data services;user quality;market-driven mechanisms;femtocell owners;access permissions;ACP trading;single-sided scenario;multiple femtocells;multiple macrocell users equipments;general market model;truthful auction mechanism;access permission allocation;femtocell access;Ultrafast optics;Resource management;Macrocell networks;Cost accounting;Quality of service;Computational modeling;Economics;Double auction;femtocell network;mechanism design;truthfulness}},
+}
+
+@Article{8664672,
+  author   = {Y. {Liu} and X. {Xu} and J. {Pan} and J. {Zhang} and G. {Zhao}},
+  title    = {{A Truthful Auction Mechanism for Mobile Crowd Sensing With Budget Constraint}},
+  journal  = {{IEEE Access}},
+  year     = {2019},
+  volume   = {7},
+  pages    = {{43933--43947}},
+  issn     = {2169-3536},
+  doi      = {10.1109/ACCESS.2019.2902882},
+  keywords = {{electronic commerce;graph theory;incentive schemes;mobile computing;mobile crowd sensing network;sensing activities;sensing tasks;novel incentive mechanism;auction model;consecutive stages;novel Incentive Method;IMRAL;task-centric method;unique payment determination algorithm;incentive platform;user-interaction incentive model;sensing activity;dynamic double auction framework;task completion rates;location-aware collaborative sensing;mobile crowdsourcing;single-requester single-bid-model;average user utility;tasks coverage ratio;truthful auction mechanism;completion rates;location-aware sensing;user utility;budget constraint;users selfishness;users randomness;novel incentive method;task coverage ratio;UIBIM;user matching algorithm;bipartite graph;Sensors;Task analysis;Games;Heuristic algorithms;Servers;Wireless fidelity;Smart phones;Mobile crowd sensing;incentive mechanism;task coverage;double auction}},
+}
+
+@Article{8606981,
+  author   = {M. {Ruffini} and F. {Slyne}},
+  title    = {{Moving the Network to the Cloud: The Cloud Central Office Revolution and Its Implications for the Optical Layer}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2019},
+  volume   = {{37}},
+  number   = {7},
+  pages    = {{1706--1716}},
+  month    = apr,
+  issn     = {0733-8724},
+  doi      = {10.1109/JLT.2019.2891990},
+  keywords = {{bandwidth allocation;cloud computing;computer centres;optical fibre networks;passive optical networks;software defined networking;virtualisation;wavelength division multiplexing;public telecommunications networks;cloud-CO;metro networks;network operators;CO virtualization concept;operational cost savings;customised network experience;software functionalities;Passive Optical Networks;mobile access networks;optical access networks;Drop Multiplexer networks;cloud central office revolution;optical layer;Software Defined Networking;Network Function Virtualisation;data plane operations;mobile services;residential services;network disaggregation trends;network technologies;virtual dynamic bandwidth allocation mechanisms;virtualization-cloudification;decoupling control plane;network ownership cost reduction;cloud central office;enterprise services;commoditized data centre types;capital cost savings;access-metro network virtualization;PONs;reconfigurable add drop multiplexer networks;Cloud computing;Hardware;Software;Telecommunications;Data centers;Passive optical networks;Cloud central office;disaggregated optical networks;end-to-end;network slicing;network virtualisation;NFV;SDN;virtual DBA}},
+}
+
+@InProceedings{8596221,
+  author    = {N. {Afraz} and M. {Ruffini}},
+  title     = {{A Marketplace for Real-time Virtual PON Sharing}},
+  booktitle = {{2018 Asia Communications and Photonics Conference (ACP)}},
+  year      = {2018},
+  pages     = {{1--3}},
+  month     = oct,
+  doi       = {10.1109/ACP.2018.8596221},
+  keywords  = {{passive optical networks;double auction;excess capacity;passive optical network infrastructure;multiple network operators;real-time virtual PON sharing;marketplace;optical access capacity;Resource management;Passive optical networks;Bandwidth;Economics;Optical network units;Internet;Indium phosphide;Passive Optical Networks;Network sharing;Infrastructure sharing;Auction}},
+}
+
+@InProceedings{8552978,
+  author    = {{J. Golosova and A. Romanovs}},
+  title     = {{Overview of the Blockchain Technology Cases}},
+  booktitle = {{2018 59th International Scientific Conference on Information Technology and Management Science of Riga Technical University (ITMS)}},
+  year      = {2018},
+  pages     = {{1--6}},
+  month     = oct,
+  doi       = {10.1109/ITMS.2018.8552978},
+  keywords  = {{electronic money;blockchain technology cases;scientific portals;scientific researches;blockchain technology solutions;Protocols;Technological innovation;Companies;Economics;Cryptocurrency;Blockchain;data transparency;industial application;use cases}},
+}
+
+@Article{8542782,
+  author   = {W. {Borjigin} and K. {Ota} and M. {Dong}},
+  title    = {{In Broker We Trust: A Double-Auction Approach for Resource Allocation in NFV Markets}},
+  journal  = {{IEEE Transactions on Network and Service Management}},
+  year     = {2018},
+  volume   = {{15}},
+  number   = {4},
+  month    = dec,
+  issn     = {1932-4537},
+  doi      = {10.1109/TNSM.2018.2882535},
+  keywords = {{Bayes methods;game theory;next generation networks;pricing;profitability;resource allocation;telecommunication network routing;virtualisation;double-auction strategy;double-auction game;single-auction mechanism;double-auction approach;resource allocation;NFV markets;network function virtualization;virtualized network function services;next-generation networks;service function chain routing;NFV price adjustment;DARA;performance evaluation;Bayesian Nash equilibrium;Resource management;Routing;Job shop scheduling;Virtualization;Firewalls (computing);Cloud computing;Software defined networking;Network function virtualization;Network function virtualization (NFV);double auction;virtualized network function (VNF);service function chain (SFC);resource allocation}},
+}
+
+@InProceedings{8535109,
+  author    = {F. {Slyne} and R. {Giller} and J. {Singh} and M. {Ruffini}},
+  title     = {{Experimental Demonstration of DPDK Optimised VNF Implementation of Virtual DBA in a Multi-Tenant PON}},
+  booktitle = {{2018 European Conference on Optical Communication (ECOC)}},
+  year      = {2018},
+  pages     = {{1--3}},
+  month     = sep,
+  doi       = {10.1109/ECOC.2018.8535109},
+  keywords  = {{bandwidth allocation;passive optical networks;telecommunication scheduling;Virtual Network Operators;large scale multitenant PON environment;capacity scheduling;DPDK data plane acceleration techniques;sliceable PON architecture;Virtual DBA;DPDK optimised VNF implementation;Acceleration;Bandwidth;Passive optical networks;Merging;Engines;Real-time systems;Cloud computing}},
+}
+
+@InProceedings{8526892,
+  author    = {P. {Thakkar} and S. {Nathan} and B. {Viswanathan}},
+  title     = {{Performance Benchmarking and Optimizing Hyperledger Fabric Blockchain Platform}},
+  booktitle = {{2018 IEEE 26th International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)}},
+  year      = {2018},
+  pages     = {{264--276}},
+  month     = sep,
+  doi       = {10.1109/MASCOTS.2018.00034},
+  issn      = {1526-7539},
+  keywords  = {{cryptography;Linux;optimisation;performance benchmarking;permissioned blockchain platform;potential performance bottlenecks;configuration parameters;simple optimizations;state validation & commit phase;optimizing hyperledger fabric blockchain platform;hyperledger projects;Linux foundation;endorsement policy verification;state validation;hyperledger fabric v1.0;sequential policy validation;aggressive caching;cryptography component;bulk read-write optimization;CouchDB;commit phase;Fabrics;Peer-to-peer computing;Proposals;Organizations;Cryptography;Hyperledger Fabric;Blockchain;Performance}},
+}
+
+@InProceedings{8525394,
+  author    = {A. {Baliga} and N. {Solanki} and S. {Verekar} and A. {Pednekar} and P. {Kamat} and S. {Chatterjee}},
+  title     = {{Performance Characterization of Hyperledger Fabric}},
+  booktitle = {{2018 Crypto Valley Conference on Blockchain Technology (CVCBT)}},
+  year      = {2018},
+  pages     = {{65--74}},
+  month     = jun,
+  doi       = {10.1109/CVCBT.2018.00013},
+  keywords  = {{cryptography;data privacy;electronic money;Internet;transaction processing;performance characterization;Hyperledger Fabric;permissioned ledger platform;enterprise blockchains;Fabric's production grade availability;real-world blockchain applications;scalability features;production release;Fabric's performance characteristics;chaincodes;Fabrics;Peer-to-peer computing;Throughput;Production;Scalability;Organizations;Fabric;performance;scalability;chaincode;hyperledger;benchmarking;gauge;transaction;micro benchmarks;Caliper}},
+}
+
+@InProceedings{8525394,
+  author    = {A. {Baliga} and N. {Solanki} and S. {Verekar} and A. {Pednekar} and P. {Kamat} and S. {Chatterjee}},
+  title     = {{Performance Characterization of Hyperledger Fabric}},
+  booktitle = {{2018 Crypto Valley Conference on Blockchain Technology (CVCBT)}},
+  year      = {2018},
+  pages     = {{65--74}},
+  month     = jun,
+  doi       = {10.1109/CVCBT.2018.00013},
+  keywords  = {{cryptography;data privacy;electronic money;Internet;transaction processing;performance characterization;Hyperledger Fabric;permissioned ledger platform;enterprise blockchains;Fabric's production grade availability;real-world blockchain applications;scalability features;production release;Fabric's performance characteristics;chaincodes;Fabrics;Peer-to-peer computing;Throughput;Production;Scalability;Organizations;Fabric;performance;scalability;chaincode;hyperledger;benchmarking;gauge;transaction;micro benchmarks;Caliper}},
+}
+
+@Article{8488596,
+  author   = {N. {Afraz} and M. {Ruffini}},
+  title    = {{A Sharing Platform for Multi-Tenant PONs}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2018},
+  volume   = {{36}},
+  number   = {{23}},
+  pages    = {{5413--5423}},
+  month    = dec,
+  issn     = {0733-8724},
+  doi      = {10.1109/JLT.2018.2875188},
+  keywords = {{investment;passive optical networks;quality of service;resource allocation;virtual network operators;infrastructure provider;efficient resource allocation;economic robustness;multitenant passive optical networks;economic-robust sharing platform;efficient sharing platform;service providers;network utilization;resource efficiency;incentive compatibility;multitenant PON networks;inter-operator network sharing monetization;quality of service;latency requirements;nitial investment reduction;utility functions;double auction mechanism;excess resource trading;weak budget balance;market players;extensive market simulations;reference baseline mechanism;Resource management;Optical network units;Bandwidth;Cost accounting;Passive optical networks;Indium phosphide;III-V semiconductor materials;Auction;infrastructure sharing;network sharing;PON}},
+}
+
+@Article{8480631,
+  author   = {N. C. {Luong} and P. {Wang} and D. {Niyato} and Y. {Liang} and Z. {Han} and F. {Hou}},
+  title    = {{Applications of Economic and Pricing Models for Resource Management in 5G Wireless Networks: A Survey}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2018},
+  pages    = {{1--1}},
+  doi      = {10.1109/COMST.2018.2870996},
+  keywords = {{Economics;Pricing;5G mobile communication;Biological system modeling;Resource management;MIMO communication;Wireless communication;5G wireless networks;massive MIMO;mmWave communications;C-RAN;HetNets;resource management;pricing models;economic theories.}},
+}
+
+@Article{8424815,
+  author   = {J. {Moura} and D. {Hutchison}},
+  title    = {{Game Theory for Multi-Access Edge Computing: Survey, Use Cases, and Future Trends}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2019},
+  volume   = {{21}},
+  number   = {1},
+  pages    = {{260--288}},
+  month    = {Firstquarter},
+  issn     = {1553-877X},
+  doi      = {10.1109/COMST.2018.2863030},
+  keywords = {{cloud computing;evolutionary computation;game theory;multi-access systems;radio networks;diverse players;representative communications;game theory;usage scenarios;network design issues;edge networking scenarios;optimizing resource-constrained resources;available game information;evolutionary games;classical games;wireless resources;MEC services;GT;network periphery;cloud services;multiaccess edge computing;wireless networks;theoretical games;conflicting goals;Games;Game theory;Edge computing;Wireless sensor networks;Wireless networks;Cloud computing;Wireless networks;resource management;model games;fog environment;multi-access edge computing}},
+}
+
+@Article{8424815,
+  author   = {J. {Moura} and D. {Hutchison}},
+  title    = {{Game Theory for Multi-Access Edge Computing: Survey, Use Cases, and Future Trends}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2019},
+  volume   = {{21}},
+  number   = {1},
+  pages    = {{260--288}},
+  month    = {Firstquarter},
+  issn     = {1553-877X},
+  doi      = {10.1109/COMST.2018.2863030},
+  keywords = {{cloud computing;evolutionary computation;game theory;multi-access systems;radio networks;diverse players;representative communications;game theory;usage scenarios;network design issues;edge networking scenarios;optimizing resource-constrained resources;available game information;evolutionary games;classical games;wireless resources;MEC services;GT;network periphery;cloud services;multiaccess edge computing;wireless networks;theoretical games;conflicting goals;Games;Game theory;Edge computing;Wireless sensor networks;Wireless networks;Cloud computing;Wireless networks;resource management;model games;fog environment;multi-access edge computing}},
+}
+
+@Article{8412589,
+  author   = {J. S. {Wey} and J. {Zhang}},
+  title    = {{Passive Optical Networks for 5G Transport: Technology and Standards}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2019},
+  volume   = {{37}},
+  number   = {{12}},
+  pages    = {{2830--2837}},
+  month    = jun,
+  issn     = {1558-2213},
+  doi      = {10.1109/JLT.2018.2856828},
+  keywords = {{5G mobile communication;passive optical networks;telecommunication network topology;passive optical networks;5G New Radio standards;transport network layer;contending technologies;point-to-multipoint topology;wide deployments;optical access technologies;PON technologies;5G deployments;fiber resources;key 5G wireless transport standards;standards development activities;5G mobile communication;Bandwidth;Optical fibers;Passive optical networks;5G;passive optical networks;time-division multiple access;wavelength-division multiple access}},
+}
+
+@Article{8395445,
+  author   = {Q. {Wang} and J. {Huang} and Y. {Chen} and C. {Wang} and F. {Xiao} and X. {Luo}},
+  title    = {{$PROST$ : Privacy-Preserving and Truthful Online Double Auction for Spectrum Allocation}},
+  journal  = {{IEEE Transactions on Information Forensics and Security}},
+  year     = {2019},
+  volume   = {{14}},
+  number   = {2},
+  pages    = {{374--386}},
+  month    = feb,
+  issn     = {1556-6013},
+  doi      = {10.1109/TIFS.2018.2850330},
+  keywords = {{cryptographic protocols;data privacy;radio spectrum management;PROST;secure spectrum auction mechanisms;adequate security;spectrum request arrival;location privacy;spectrum reuse;nice spectrum allocation efficiency;privacy leakage problem;privacy-preserving buyer grouping protocol;privacy-preserving-and-truthful online double auction mechanism for spectrum allocation;wireless networks;encrypted real numbers;semihonest adversaries;Privacy;Resource management;Cryptography;Protocols;Economics;Wireless sensor networks;Spectrum allocation;online auction;privacy preservation;truthfulness}},
+}
+
+@Article{8386958,
+  author   = {{P. K. Sharma and S. Rathore and J. H. Park}},
+  title    = {{DistArch-SCNet: Blockchain-Based Distributed Architecture with Li-Fi Communication for a Scalable Smart City Network}},
+  journal  = {{IEEE Consumer Electronics Magazine}},
+  year     = {2018},
+  volume   = {7},
+  number   = {4},
+  pages    = {{55--64}},
+  month    = jul,
+  issn     = {2162-2248},
+  doi      = {10.1109/MCE.2018.2816745},
+  keywords = {{consumer electronics;home automation;mobile communication;wireless LAN;health-care systems;multibillion dollar global consumer electronics industry;scalable smart city network;Li-Fi Communication;light-fidelity communication technique;smart-city network architecture;DistArch-SCNet;smart devices;smart industry;Modulation;Light fidelity;Smart cities;Smart devices;Light emitting diodes;Computer architecture}},
+}
+
+@Article{8386955,
+  author   = {{J. Lee}},
+  title    = {{Blockchain Technologies: Blockchain Use Cases for Consumer Electronics}},
+  journal  = {{IEEE Consumer Electronics Magazine}},
+  year     = {2018},
+  volume   = {7},
+  number   = {4},
+  pages    = {{53--54}},
+  month    = jul,
+  issn     = {2162-2248},
+  doi      = {10.1109/MCE.2018.2816278},
+  keywords = {{consumer electronics;electronic money;financial data processing;Internet;blockchain technologies;consumer electronics;bitcoin;cryptocurrency;digital assets;specific management entities;market capitalization;functional technology;Special issues and sections;Consumer electronics;Cryptocurrency;Smart cities;Computer architecture;Bitcoin}},
+}
+
+@Article{8386918,
+  author   = {{H. Wu and C. Tsai}},
+  title    = {{Toward Blockchains for Health-Care Systems: Applying the Bilinear Pairing Technology to Ensure Privacy Protection and Accuracy in Data Sharing}},
+  journal  = {{IEEE Consumer Electronics Magazine}},
+  year     = {2018},
+  volume   = {7},
+  number   = {4},
+  pages    = {{65--71}},
+  month    = jul,
+  issn     = {2162-2248},
+  doi      = {10.1109/MCE.2018.2816306},
+  keywords = {{data privacy;diseases;health care;medical information systems;medical center;National Health Insurance Research Database;bilinear pairing technology;data sharing;health-care system;comprehensive physiological information;medical records;National Health Insurance Administration-of-Taiwan;Taiwan;privacy protection;Public key;Peer-to-peer computing;Authentication;Hospitals;Electronic healthcare;Medical services}},
+}
+
+@Article{8386868,
+  author   = {{F. Lamberti and V. Gatteschi and C. Demartini and M. Pelissier and A. Gomez and V. Santamaria}},
+  title    = {{Blockchains Can Work for Car Insurance: Using Smart Contracts and Sensors to Provide On-Demand Coverage}},
+  journal  = {{IEEE Consumer Electronics Magazine}},
+  year     = {2018},
+  volume   = {7},
+  number   = {4},
+  pages    = {{72--81}},
+  month    = jul,
+  issn     = {2162-2248},
+  doi      = {10.1109/MCE.2018.2816247},
+  keywords = {{automobiles;cryptography;fraud;insurance data processing;mobile computing;traffic engineering computing;embedded sensors;fixed-length alphanumeric data;portable electronic device;mobile application;on-demand insurance scenario;smart contract;blockchain;picture hash;insurance fraud;car insurance;Blockchain;Intelligent vehicles;Meteorology;Intelligent sensors;Peer-to-peer computing}},
+}
+
+@InProceedings{8386208,
+  author    = {N. {Afraz} and A. {Elrasad} and M. {Ruffini}},
+  title     = {{DBA Capacity Auctions to Enhance Resource Sharing across Virtual Network Operators in Multi-Tenant PONs}},
+  booktitle = {{OFC Conference}},
+  year      = {2018},
+  pages     = {{1--3}},
+  month     = mar,
+  keywords  = {{passive optical networks;resource allocation;virtualisation;resource sharing;DBA capacity auctions;economic sharing incentives;PON utilization;DBA process;multitenant PON's capacity;economic-robust auction mechanism;virtual network operators;Indium phosphide;III-V semiconductor materials;Economics;Passive optical networks;Resource management;Optical network units;Bandwidth}},
+}
+
+@InProceedings{8385950,
+  author    = {F. {Slyne} and A. {Elrasad} and C. {Bluemm} and M. {Ruffini}},
+  title     = {{Demonstration of Real Time VNF Implementation of OLT with Virtual DBA for Sliceable Multi-Tenant PONs}},
+  booktitle = {{2018 Optical Fiber Communications Conference and Exposition (OFC)}},
+  year      = {2018},
+  pages     = {{1--3}},
+  month     = mar,
+  keywords  = {{passive optical networks;resource allocation;telecommunication scheduling;virtualisation;virtual network operators;sliceable multitenant PON;resource sharing efficiency;latency performance;NFV colocation scenarios;real time VNF implementation;OLT;capacity scheduling;multitenancy;sliceable PON architecture;Virtual DBA;Real-time systems;Software;Resource management;Optical fibers;Passive optical networks;Hardware;Merging}},
+}
+
+@InProceedings{8368983,
+  author    = {K. {Valtanen} and J. {Backman} and S. {Yrjölä}},
+  title     = {{Creating value through blockchain powered resource configurations: Analysis of 5G network slice brokering case}},
+  booktitle = {{WCNCW}},
+  year      = {2018},
+  pages     = {{185--190}},
+  month     = apr,
+  doi       = {10.1109/WCNCW.2018.8368983},
+  keywords  = {{5G mobile communication;factory automation;production equipment;resource allocation;5G network slice brokering case;wireless services;blockchain technology;industrial automation application;blockchain network slice brokering;blockchain powered resource configuration;Conferences;5G mobile communication;Automation;Contracts;Manufacturing;Blockchain;edge computing;industrial automation;network function virtualization;network slicing;resource configuration;system model;5G}},
+}
+
+@InProceedings{8368442,
+  author    = {{X. Wu and B. Duan and Y. Yan and Y. Zhong}},
+  title     = {{M2M Blockchain: The Case of Demand Side Management of Smart Grid}},
+  booktitle = {{2017 IEEE 23rd International Conference on Parallel and Distributed Systems (ICPADS)}},
+  year      = {2017},
+  pages     = {{810--813}},
+  month     = dec,
+  doi       = {10.1109/ICPADS.2017.00113},
+  issn      = {1521-9097},
+  keywords  = {{demand side management;distributed power generation;load flow;power engineering computing;power generation economics;power markets;pricing;smart power grids;smart grid;blockchain technology;demand side management;demand request;record data;power flow calculation model;electricity price customization;smart contract;transaction data;transfer assets;microgrid operation system;M2M blockchain;electricity market;machine-to-machine interaction;power generation trading;power management system;priced demand response;optimal generator work adjustment;34 node master-slave control island;Contracts;Load flow;Generators;Smart grids;Microgrids;blockchain technology;smart contract;smart grid;flow calculation;demand response;electricity market}},
+}
+
+@Article{8306104,
+  author   = {U. {Habiba} and E. {Hossain}},
+  title    = {{Auction Mechanisms for Virtualization in 5G Cellular Networks: Basics, Trends, and Open Challenges}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2018},
+  volume   = {{20}},
+  number   = {3},
+  pages    = {{2264--2293}},
+  month    = {thirdquarter},
+  doi      = {10.1109/COMST.2018.2811395},
+  keywords = {{5G mobile communication;cellular radio;quality of service;telecommunication traffic;virtualisation;WNV;auction theory;resource utilization;5G cellular wireless networks;network resources;mobile network operators;resource allocation;Virtualization;Wireless networks;5G mobile communication;Biological system modeling;Indium phosphide;III-V semiconductor materials;5G cellular;wireless network virtualization (WNV);software-defined network (SDN);network function virtualization (NFV);auction;network slicing;resource allocation}},
+}
+
+@Article{8306104,
+  author   = {U. {Habiba} and E. {Hossain}},
+  title    = {{Auction Mechanisms for Virtualization in 5G Cellular Networks: Basics, Trends, and Open Challenges}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2018},
+  volume   = {{20}},
+  number   = {3},
+  pages    = {{2264--2293}},
+  month    = {thirdquarter},
+  doi      = {10.1109/COMST.2018.2811395},
+  keywords = {{5G mobile communication;cellular radio;quality of service;telecommunication traffic;virtualisation;WNV;auction theory;resource utilization;5G cellular wireless networks;network resources;mobile network operators;resource allocation;Virtualization;Wireless networks;5G mobile communication;Biological system modeling;Indium phosphide;III-V semiconductor materials;5G cellular;wireless network virtualization (WNV);software-defined network (SDN);network function virtualization (NFV);auction;network slicing;resource allocation}},
+}
+
+@InProceedings{8289443,
+  author    = {{K. Nishimoto and M. Tadokoro and T. Fujiwara and others}},
+  title     = {{Predictive dynamic bandwidth allocation based on the correlation of the bi-directional traffic for cloud-based virtual {PON}-OLT}},
+  booktitle = {{2017 IEEE International Workshop Technical Committee on Communications Quality and Reliability (CQR)}},
+  year      = {2017},
+  pages     = {{1--6}},
+  month     = may,
+  doi       = {10.1109/CQR.2017.8289443},
+}
+
+@InProceedings{8260929,
+  author    = {J. {Backman} and S. {Yrjölä} and K. {Valtanen} and O. {Mämmelä}},
+  title     = {{Blockchain network slice broker in 5G: Slice leasing in factory of the future use case}},
+  booktitle = {{2017 Internet of Things Business Models, Users, and Networks}},
+  year      = {2017},
+  pages     = {{1--8}},
+  month     = nov,
+  doi       = {10.1109/CTTE.2017.8260929},
+  keywords  = {{5G mobile communication;telecommunication industry;Blockchain network slice broker;mobile virtual network operators;5G Network;blockchain slice leasing ledger concept;5G mobile communication;Production facilities;Reliability;Manufacturing;Peer-to-peer computing;blockchain;manufacturing;network management;network slicing;5G;IIoT}},
+}
+
+
+@article{kashima__virt,
+	title = {Virtualization {Technology} of {Optical} {Access} {Networks} for {Efficient} 5G/{IoT} {Services}},
+	volume = {85},
+	number = {232},
+	journal = {OKI Technical Review},
+	author = {Kashima , Masayuki  and Nakahira, Yoshihiro},
+	year = {2018}
+}
+
+@Article{8242359,
+  author  = {{J. i. Kani and M. Yoshino and K. Asaka and H. Ujikawa and T. Yamada and K. Nishimoto and K. I. Suzuki and A. Otaka}},
+  title   = {{Flexible Access System Architecture (FASA) to Support Diverse Requirements and Agile Service Creation}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2018},
+  volume  = {{36}},
+  number  = {8},
+  pages   = {{1510--1515}},
+  month   = apr,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2017.2787644},
+}
+
+@Article{8070367,
+  author   = {D. {Zhang} and Z. {Chang} and T. {Hämäläinen} and F. R. {Yu}},
+  title    = {{Double Auction Based Multi-Flow Transmission in Software-Defined and Virtualized Wireless Networks}},
+  journal  = {{IEEE Transactions on Wireless Communications}},
+  year     = {2017},
+  volume   = {{16}},
+  number   = {{12}},
+  pages    = {{8390--8404}},
+  month    = dec,
+  doi      = {10.1109/TWC.2017.2762300},
+  keywords = {{5G mobile communication;cellular radio;iterative methods;pricing;quality of service;resource allocation;software defined networking;telecommunication traffic;virtualisation;virtualized wireless networks;mobile traffic services;wireless network virtualization;multiple infrastructure providers;multiple mobile virtual network operators;virtual resource allocation problem;social welfare maximization problem;iterative double auction mechanism;fifth generation cellular networks;InP;MVNO;double auction based multiflow transmission;software-defined networks;diverse QoS requirements;distance-related transaction cost;economic properties;energy efficiency performance;Indium phosphide;III-V semiconductor materials;Virtualization;Resource management;Quality of service;Wireless networks;SDN;wireless virtualization;multi-flow transmission;double auction;diverse QoS requirements;energy efficiency;switching-off BSs}},
+}
+
+@InProceedings{8001639,
+  author    = {J. {Lianghai} and M. {Liu} and A. {Weinand} and H. D. {Schotten}},
+  title     = {{Direct vehicle-to-vehicle communication with infrastructure assistance in 5G network}},
+  booktitle = {{2017 16th Annual Mediterranean Ad Hoc Networking Workshop (Med-Hoc-Net)}},
+  year      = {2017},
+  pages     = {{1--5}},
+  month     = jun,
+  doi       = {10.1109/MedHocNet.2017.8001639},
+  keywords  = {{5G mobile communication;cellular radio;quality of service;telecommunication traffic;vehicular ad hoc networks;direct vehicle-to-vehicle communication;infrastructure assistance;5G network;4G wireless communication network;wireless system;QoS requirements;cooperative driving;traffic efficiency;V2V communication;key performance indicators;KPI;cellular networks;packet transmission;network architecture;resource allocation scheme;Interference;Resource management;Radio transmitters;Reliability;Receivers;Signal to noise ratio;Servers}},
+}
+
+@InProceedings{7987376,
+  author    = {{T. Bocek and B. B. Rodrigues and T. Strasser and B. Stiller}},
+  title     = {{Blockchains everywhere - a use-case of blockchains in the pharma supply-chain}},
+  booktitle = {{2017 IFIP/IEEE Symposium on Integrated Network and Service Management (IM)}},
+  year      = {2017},
+  pages     = {{772--777}},
+  month     = may,
+  doi       = {10.23919/INM.2017.7987376},
+  keywords  = {{contracts;cost reduction;Internet of Things;pharmaceutical industry;production engineering computing;quality control;sensors;supply chains;blockchain use-case;Gartner Hype Cycle 2016;technology portfolio;modum.io;IoT sensor devices;Internet of Things;blockchain technology;data immutability;temperature record public accessibility;operational cost reduction;pharmaceutical supply-chain;medical industry;environmental control process;quality control;regulatory compliance;medical product transportation;temperature monitoring;GDP regulations;smart contract;product attributes;Contracts;Temperature sensors;Bitcoin;Pharmaceuticals;Supply chains;Temperature distribution;Diamond}},
+}
+
+@InProceedings{7980666,
+  author    = {A. {Sgambelluri} and F. {Tusa} and M. {Gharbaoui} and E. {Maini} and others},
+  title     = {{Orchestration of Network Services across multiple operators: The 5G Exchange prototype}},
+  booktitle = {{EUCNC}},
+  year      = {2017},
+  month     = jun,
+  doi       = {10.1109/EuCNC.2017.7980666},
+  keywords  = {{5G mobile communication;cloud computing;software defined networking;virtualisation;5G networks;network infrastructure;5G service provisioning paradigm;unified infrastructure service market;5G Exchange project;5GEx project;software-defined network;SDN;network function virtualization;NFV functionalities;multi-domain orchestrator prototype;MdO prototype;network service provisioning;open source software tools;5GEx partners;Slice as a Service use-case;SlaaS use-case;running validation tests;5GEx sandbox;NS deployment;Prototypes;5G mobile communication;Electronic mail;Topology;Resource management;Network function virtualization;Computer architecture;5G;Multi Domain Orchestrator;Multi Operator;Slice as a Service (SaaS);Network Service Orchestration}},
+}
+
+@InProceedings{7958548,
+  author    = {{I. Szcześniak and A. R. Pach and B. Woźna-Szcześniak}},
+  title     = {{Performance of interoperator fixed-mobile network sharing}},
+  booktitle = {{2017 International Conference on Optical Network Design and Modeling (ONDM)}},
+  year      = {2017},
+  pages     = {{1--5}},
+  month     = may,
+}
+
+@InProceedings{7958528,
+  author    = {A. {Elrasad} and M. {Ruffini}},
+  title     = {{Frame Level Sharing for DBA virtualization in multi-tenant PONs}},
+  booktitle = {{2017 International Conference on Optical Network Design and Modeling (ONDM)}},
+  year      = {2017},
+  pages     = {{1--6}},
+  month     = may,
+  doi       = {10.23919/ONDM.2017.7958528},
+  keywords  = {{channel capacity;passive optical networks;frame level sharing;DBA virtualization;PON;fiber-to-the-premises access network;ubiquitous fiber infrastructure;passive optical networks;point-to-point solutions;virtual network operators;capacity scheduling;virtual dynamic bandwidth assignment;Passive optical networks;Bandwidth;Delays;Engines;Switches;Business;Scheduling algorithms}},
+}
+
+@Article{7947089,
+  author   = {M. {Ruffini} and M. {Achouche} and A. {Arbelaez} and R. {Bonk} and A. {Di Giglio} and N. J. {Doran} and M. {Furdek} and R. {Jensen} and J. {Montalvo} and N. {Parsons} and T. {Pfeiffer} and L. {Quesada} and C. {Raack} and H. {Rohde} and M. {Schiano} and G. {Talli} and P. {Townsend} and R. {Wessaly} and L. {Wosinska} and X. {Yin} and D. B. {Payne}},
+  title    = {{Access and metro network convergence for flexible end-to-end network design [invited]}},
+  journal  = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year     = {2017},
+  volume   = {9},
+  number   = {6},
+  pages    = {{524--535}},
+  month    = jun,
+  doi      = {10.1364/JOCN.9.000524},
+  keywords = {{energy conservation;optical fibre subscriber loops;passive optical networks;next-generation multiwavelength PON;low-latency 5G services;node consolidation;cost saving;power saving;access-metro network convergence;DISCUS FP7 consortium;flexible end-to-end network design;Passive optical networks;Optical fiber cables;Optical fibers;Optical amplifiers;Power cables}},
+}
+
+@InProceedings{7936877,
+  author    = {{A. Elrasad and N. Afraz and M. Ruffini}},
+  title     = {{Virtual dynamic bandwidth allocation enabling true {PON} multi-tenancy}},
+  booktitle = {{2017 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2017},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@InProceedings{7936876,
+  author    = {{S. Hatta and N. Tanaka and T. Sakamoto}},
+  title     = {Feasibility demonstration of low latency DBA method with high bandwidth-efficiency for {TDM-PON}},
+  booktitle = {{2017 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2017},
+  pages     = {{1--3}},
+}
+
+@InProceedings{7936823,
+  author    = {I. {Macaluso} and B. {Cornaglia} and M. {Ruffini}},
+  title     = {{Antenna, spectrum and capacity trade-off for cloud-RAN Massive distributed MIMO over next generation PONs}},
+  booktitle = {{2017 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2017},
+  pages     = {{1--3}},
+  month     = mar,
+  keywords  = {{5G mobile communication;antennas;MIMO communication;next generation networks;passive optical networks;radio access networks;resource allocation;cost-optimal antenna;spectrum resource allocation;capacity trade-off;cloud-RAN massive distributed MIMO;next generation PON;mobile 5G MD-MIMO;passive optical networks;wavelength overlay;shared wavelength approaches;split-PHY;mobile capacity;fronthaul;radio access network;massive distributed multiple input multiple output system;Antennas;Passive optical networks;Bandwidth;Mobile communication;Wireless communication;Mobile computing;Dynamic scheduling}},
+}
+
+@Article{7933203,
+  author  = {{Q. Wu and M. Zhou and Q. Zhu and Y. Xia}},
+  title   = {{VCG Auction-Based Dynamic Pricing for Multigranularity Service Composition}},
+  journal = {{IEEE Transactions on Automation Science and Engineering}},
+  year    = {2017},
+  volume  = {{PP}},
+  number  = {{99}},
+  pages   = {{1--10}},
+  issn    = {1545-5955},
+  doi     = {10.1109/TASE.2017.2695123},
+}
+
+@Article{7929272,
+  author  = {{J. van de Belt and H. ahmadi and L. Doyle}},
+  title   = {{Defining and Surveying Wireless Link and Network Virtualization}},
+  journal = {{IEEE Communications Surveys Tutorials}},
+  year    = {2017},
+  volume  = {{PP}},
+  number  = {{99}},
+  pages   = {{1--1}},
+  issn    = {1553-877X},
+  doi     = {10.1109/COMST.2017.2704899},
+}
+
+@InProceedings{7876161,
+  author    = {{Chengjun Li and Wei Guo and Wei Wang and Weisheng Hu and Ming Xia}},
+  title     = {{PON} bandwidth resource sharing schemes in a multi-operator scenario},
+  booktitle = {{2017 International Conference on Computing, Networking and Communications (ICNC)}},
+  year      = {2017},
+  month     = jan,
+  doi       = {10.1109/ICCNC.2017.7876161},
+}
+
+@InProceedings{7842378,
+  author    = {H. {Ahmadi} and I. {Macaluso} and I. {Gomez} and L. {DaSilva} and L. {Doyle}},
+  title     = {{Virtualization of Spatial Streams for Enhanced Spectrum Sharing}},
+  booktitle = {{GLOBECOM}},
+  year      = {2016},
+  pages     = {{1--6}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2016.7842378},
+  keywords  = {{MIMO communication;radio spectrum management;resource allocation;space division multiplexing;telecommunication scheduling;spatial stream virtualization;spectrum sharing enhancement;massive MIMO cell;virtual network operators;spatial multiplexing;scheduling policy;auction-based spatial stream allocation approach;resource allocation;MIMO;Computer architecture;Wireless networks;Antennas;Schedules;Virtualization;Microprocessors}},
+}
+
+@InProceedings{7841840,
+  author    = {A. H. {Fazlollahi} and X. {Wang} and Y. {Zeng}},
+  title     = {{FEXT Exploitation in Next Generation DSL Systems}},
+  booktitle = {{2016 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2016},
+  pages     = {{1--6}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2016.7841840},
+  keywords  = {{digital subscriber lines;MIMO communication;FEXT exploitation;next generation DSL system;vectoring technique;multiuser multiple-input-multiple-output system;MU-MIMO system;digital subscriber line;MIMO;DSL;Matrix decomposition;Receivers;Transmitters;Wires;Complexity theory}},
+}
+
+@Article{7807328,
+  author  = {{N. C. Luong and P. Wang and D. Niyato and Y. Wen and Z. Han}},
+  title   = {{Resource Management in Cloud Networking Using Economic Analysis and Pricing Models: A Survey}},
+  journal = {{IEEE Communications Surveys Tutorials}},
+  year    = {2017},
+  volume  = {{19}},
+  number  = {2},
+  pages   = {{954--1001}},
+  doi     = {10.1109/COMST.2017.2647981},
+}
+
+@InProceedings{7794896,
+  author    = {D. {Zhang} and Z. {Chang} and F. R. {Yu} and X. {Chen} and T. {Hämäläinen}},
+  title     = {{A double auction mechanism for virtual resource allocation in SDN-based cellular network}},
+  booktitle = {{2016 PIMRC}},
+  year      = {2016},
+  pages     = {{1--6}},
+  month     = sep,
+  doi       = {10.1109/PIMRC.2016.7794896},
+  keywords  = {{5G mobile communication;cellular radio;computational complexity;optimisation;quality of service;software defined networking;telecommunication traffic;virtualisation;double auction mechanism;virtual resource allocation;SDN-based cellular network;mobile traffic service;software defined network based wireless network virtualization architecture;multiflow transmission;capital expense;operation expense;CapEx;OpEx;multiple infrastructure provider;InP;MVNO;multiple mobile virtual network operator;diverse QoS requirement;social welfare maximization problem;transaction cost;computational complexity;Indium phosphide;III-V semiconductor materials;Virtualization;Resource management;Wireless networks;Mobile computing}},
+}
+
+@Article{7744444,
+  author  = {{C. Li and W. Guo and W. Wang and W. Hu and M. Xia}},
+  title   = {{Bandwidth resource sharing on the XGPON transmission convergence layer in a multi-operator scenario}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2016},
+  volume  = {8},
+  number  = {{11}},
+  month   = nov,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.8.000835},
+}
+
+@InProceedings{7725428,
+  author    = {{Y. A. Mahmud and N. A. M. Radzi and F. Abdullah and N. M. Din}},
+  title     = {{Fuzzy-logic based NSR DBA for upstream GPON}},
+  booktitle = {{2015 IEEE 12th Malaysia International Conference on Communications (MICC)}},
+  year      = {2015},
+  pages     = {{169--174}},
+  month     = nov,
+  doi       = {10.1109/MICC.2015.7725428},
+}
+
+@InProceedings{7600959,
+  author    = {J. {McMenamy} and A. {Farhang} and N. {Marchetti} and I. {Macaluso}},
+  title     = {{Enhanced auction-assisted LSA}},
+  booktitle = {{ISWCS Conference}},
+  year      = {2016},
+  pages     = {{517--522}},
+  month     = sep,
+  doi       = {10.1109/ISWCS.2016.7600959},
+  keywords  = {{antenna arrays;MIMO communication;mobile radio;quality of service;radio spectrum management;virtualisation;auction-assisted LSA;virtual network operator;VNO;licensed shared access;European spectrum sharing framework;mobile network operator;primary spectrum user;quality of service;QoS;auction-based approach;massive MIMO system;virtualisation;average user rate;spectrum fixed allocation;antenna allocation;auction-based resource allocation;frequency 5 MHz;Antennas;Cloud computing;Resource management;Baseband;Dynamic scheduling;Context;MIMO;Licensed Shared Access;dynamic spectrum access;auction-based resource allocation;infrastructure sharing}},
+}
+
+@Article{7592399,
+  author   = {M. {Ruffini}},
+  title    = {{Multidimensional Convergence in Future 5G Networks}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2017},
+  volume   = {{35}},
+  number   = {3},
+  pages    = {{535--549}},
+  month    = feb,
+  issn     = {0733-8724},
+  doi      = {10.1109/JLT.2016.2617896},
+  keywords = {{5G mobile communication;computer centres;integrated optoelectronics;metropolitan area networks;optical fibre subscriber loops;software defined networking;multidimensional convergence;5G network;5G services;end-to-end approach;network design;architectural framework;coherent network ecosystem;node consolidation;converged network architectures;optical-wireless integration;optical data centre;optical access-metro network;SDN;5G mobile communication;Convergence;Biological system modeling;Broadband communication;Next generation networking;Quality of service;Reliability;Access-metro;convergence;consolidation;datacentre;end-to-end;multiservice;multitenancy;next-generation 5G;sharing}},
+}
+
+@Article{7588276,
+  author  = {{L. Peterson and A. Al-Shabibi and T. Anshutz and S. Baker and A. Bavier and S. Das and J. Hart and G. Palukar and W. Snow}},
+  title   = {{Central office re-architected as a data center}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2016},
+  volume  = {{54}},
+  number  = {{10}},
+  pages   = {{96--101}},
+  month   = oct,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2016.7588276},
+}
+
+@InProceedings{7561040,
+  author    = {{M. C. Parker and G. Koczian and F. Adeyemi-Ejeye and T. Quinlan and S. D. Walker and A. Legarrea and M. S. Siddiqui and E. Escalona and S. Spirou and D. Kritharidis and K. Habel and V. Jungnickel and E. Trouva and A. Kourtis and Y. Liu and M. S. Frigau and J. C. Point and G. Lyberopoulos and E. Theodoropoulou and K. Filis and T. Rokkas and I. Neokosmidis and D. Levi and E. Zetserov and A. Foglar and M. Ulbricht and B. Peternel and D. Gustincic}},
+  title     = {{CHARISMA: Converged heterogeneous advanced 5G cloud-RAN architecture for intelligent and secure media access}},
+  booktitle = {{2016 European Conference on Networks and Communications (EuCNC)}},
+  year      = {2016},
+  pages     = {{240--244}},
+  month     = jun,
+  doi       = {10.1109/EuCNC.2016.7561040},
+}
+
+@InProceedings{7550661,
+  author    = {{E. Weis and D. Breuer and S. Krauß}},
+  title     = {{Assessment of fixed mobile converged backhaul and fronthaul networks}},
+  booktitle = {{2016 18th International Conference on Transparent Optical Networks (ICTON)}},
+  year      = {2016},
+  pages     = {{1--4}},
+  month     = jul,
+  doi       = {10.1109/ICTON.2016.7550661},
+}
+
+@InProceedings{7550661,
+  author    = {{E. Weis and D. Breuer and S. Krauß}},
+  title     = {{Assessment of fixed mobile converged backhaul and fronthaul networks}},
+  booktitle = {{2016 18th International Conference on Transparent Optical Networks (ICTON)}},
+  year      = {2016},
+  month     = jul,
+  doi       = {10.1109/ICTON.2016.7550661},
+}
+
+@InProceedings{7537775,
+  author    = {{K. Nishimoto and M. Tadokoro and T. Mochida and A. Takeda and T. Tanaka and T. Inoue}},
+  title     = {{Virtualization of EPON OLT functions and collision suppression techniques for Multi-Point {MAC} control}},
+  booktitle = {{2016 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2016},
+  pages     = {{1--3}},
+  month     = mar,
+}
+
+@article{ONETS,
+  title={ONETS: Online Network Slice Broker From Theory to Practice},
+  author={Vincenzo Sciancalepore and Lanfranco Zanzi and Xavier P{\'e}rez Costa and Antonio Capone},
+  journal={ArXiv},
+  year={2018},
+  volume={abs/1801.03484}
+}
+@Article{7514161,
+  author   = {K. {Samdanis} and X. {Costa-Perez} and V. {Sciancalepore}},
+  title    = {{From network sharing to multi-tenancy: The 5G network slice broker}},
+  journal  = {{IEEE Communications Magazine}},
+  year     = {2016},
+  volume   = {{54}},
+  number   = {7},
+  pages    = {{32--39}},
+  month    = jul,
+  issn     = {0163-6804},
+  doi      = {10.1109/MCOM.2016.7514161},
+  keywords = {{3G mobile communication;5G mobile communication;telecommunication industry;telecommunication traffic;network sharing-multitenancy;5G network slice broker;traffic demand;5G mobile networks deployment;advanced mobile network multitenancy;capital expenditure;CAPEX costs;operational expenditure;OPEX costs;3GPP standard evolution;on-demand multitenant systems;mobile virtual network operators;over-the-top providers;industry vertical market;ETSI NFV;Mobile computing;3GPP;Business;5G mobile communication;Industries;Indium phosphide}},
+}
+
+@InProceedings{7513699,
+  author    = {{P. Sarigiannidis and G. Papadimitriou and P. Nicopolitidis and E. Varvarigos and K. Yiannopoulos}},
+  title     = {{HYRA: An efficient hybrid reporting method for XG-{PON} upstream resource allocation}},
+  booktitle = {{2014 5th International Conference on Optical Communication Systems (OPTICS)}},
+  year      = {2014},
+  pages     = {{1--10}},
+  month     = aug,
+}
+
+@InProceedings{7511482,
+  author    = {{H. Ou and T. Kobayashi and T. Shimada and D. Hisano and J. Terada and A. Otaka}},
+  title     = {{Passive optical network range applicable to cost-effective mobile fronthaul}},
+  booktitle = {{2016 IEEE International Conference on Communications (ICC)}},
+  year      = {2016},
+  month     = may,
+  doi       = {10.1109/ICC.2016.7511482},
+}
+
+@InProceedings{7502846,
+  author    = {{M. Artuso and C. Caba and H. L. Christiansen and J. Soler}},
+  title     = {{Towards flexbile SDN-based management for cloud-based mobile networks}},
+  booktitle = {{NOMS 2016 - 2016 IEEE/IFIP Network Operations and Management Symposium}},
+  year      = {2016},
+  pages     = {{474--480}},
+  month     = apr,
+  doi       = {10.1109/NOMS.2016.7502846},
+}
+
+@InProceedings{7495169,
+  author    = {{P. Sarigiannidis and D. Pliatsios and T. Zygiridis and N. Kantartzis}},
+  title     = {{DAMA: A data mining forecasting DBA scheme for XG-PONs}},
+  booktitle = {{2016 5th International Conference on Modern Circuits and Systems Technologies (MOCAST)}},
+  year      = {2016},
+  pages     = {{1--4}},
+  month     = may,
+  doi       = {10.1109/MOCAST.2016.7495169},
+}
+
+@InProceedings{7494070,
+  author    = {{P. Alvarez and A. Hill and N. Marchetti and D. Payne and M. Ruffini}},
+  title     = {{Analysis of the maximum balanced load in Long-Reach PONs}},
+  booktitle = {{2016 International Conference on Optical Network Design and Modeling (ONDM)}},
+  year      = {2016},
+  month     = may,
+  doi       = {10.1109/ONDM.2016.7494070},
+}
+
+@Article{7490382,
+  author   = {F. {Vatalaro} and F. {Mazzenga} and R. {Giuliano}},
+  title    = {{The Sub-Band Vectoring Technique for Multi-Operator Environments}},
+  journal  = {{IEEE Access}},
+  year     = {2016},
+  volume   = {4},
+  pages    = {{3310--3321}},
+  issn     = {2169-3536},
+  doi      = {10.1109/ACCESS.2016.2580198},
+  keywords = {{crosstalk;digital subscriber lines;sub-band vectoring technique;multioperator environments;alien-far end crosstalk disturbances;self-crosstalk disturbances;FEXT disturbances;VDSL2 17a standard profile;multioperator vectoring technique;MOV technique;e-VDSL;SBV technique;data rate;National Regulatory Authority;sub-loop unbundling regulations;frequency division multiplexing approach;G.fast standard;frequency 0 MHz to 17.6 MHz;bit rate 100 Mbit/s;Cable servers;Loop unbundling;Frequency division multiplexing;Telecommunication services;Data processing;Bandwidth allocation;e-VDSL;FEXT;multi-operator vectoring;SBV;sub loop unbundling;VDSL2;vectoring}},
+}
+
+@Article{7467408,
+  author   = {K. {Christidis} and M. {Devetsikiotis}},
+  title    = {{Blockchains and Smart Contracts for the Internet of Things}},
+  journal  = {{IEEE Access}},
+  year     = {2016},
+  volume   = {4},
+  pages    = {{2292--2303}},
+  issn     = {2169-3536},
+  doi      = {10.1109/ACCESS.2016.2566339},
+  keywords = {{contracts;cryptography;Internet of Things;peer-to-peer computing;trusted computing;transactional privacy;blockchain network;cryptographically verifiable manner;multistep process automation;trusted intermediary;distributed peer-to-peer network;IoT;Internet of Things;smart contracts;Distributed processing;Internet of things;Cryptography;Privacy;Blockchains;Automation;Peer-to-peer computing;blockchain;distributed systems;Internet of Things;Blockchain;distributed systems;internet of things}},
+}
+
+@Article{7456186,
+  author  = {{M. Jaber and M. A. Imran and R. Tafazolli and A. Tukmanov}},
+  title   = {{5G Backhaul Challenges and Emerging Research Directions: A Survey}},
+  journal = {{IEEE Access}},
+  year    = {2016},
+  volume  = {4},
+  pages   = {{1743--1766}},
+  issn    = {2169-3536},
+  doi     = {10.1109/ACCESS.2016.2556011},
+}
+
+@InProceedings{7444851,
+  author    = {{A. Gopalasingham and L. Roullet and N. Trabelsi and C. S. Chen and A. Hebbar and E. Bizouarn}},
+  title     = {{Generalized software defined network platform for Radio Access Networks}},
+  booktitle = {{2016 13th IEEE Annual Consumer Communications Networking Conference (CCNC)}},
+  year      = {2016},
+  pages     = {{626--629}},
+  month     = jan,
+  doi       = {10.1109/CCNC.2016.7444851},
+}
+
+@Article{7444558,
+  author   = {P. {Alvarez} and N. {Marchetti} and M. {Ruffini}},
+  title    = {{Evaluating dynamic bandwidth allocation of virtualized passive optical networks over mobile traffic traces}},
+  journal  = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year     = {2016},
+  volume   = {8},
+  number   = {3},
+  pages    = {{129--136}},
+  month    = mar,
+  issn     = {1943-0620},
+  doi      = {10.1364/JOCN.8.000129},
+  keywords = {{bandwidth allocation;passive optical networks;quality of service;statistical multiplexing;telecommunication traffic;dynamic bandwidth allocation;virtualized passive optical networks;mobile traffic traces;group-assured dynamic bandwidth assignment algorithm;statistical multiplexing;PON;mobile system backhauling multiple base stations;quality of service;backhaul capacity;Bandwidth;Passive optical networks;Mobile communication;Heuristic algorithms;Optical network units;Radiation detectors;Optical fibers;DBA;Group-assured bandwidth;PON virtualization;XG-PON}},
+}
+
+@InProceedings{7417473,
+  author    = {{B. Guan and X. Huang and G. Wu and C. Chan and M. Udayan and C. Neelam}},
+  title     = {{A Pooling Prototype for the {LTE MAC} Layer Based on a GPP Platform}},
+  booktitle = {{2015 IEEE Global Communications Conference (GLOBECOM)}},
+  year      = {2015},
+  pages     = {{1--7}},
+  month     = dec,
+  doi       = {10.1109/GLOCOM.2015.7417473},
+}
+
+@Article{7390161,
+  author  = {{G. Chen and J. H. Cox and A. S. Uluagac and J. A. Copeland}},
+  title   = {{In-Depth Survey of Digital Advertising Technologies}},
+  journal = {{IEEE Communications Surveys Tutorials}},
+  year    = {2016},
+  volume  = {{18}},
+  number  = {3},
+  pages   = {{2124--2148}},
+  issn    = {1553-877X},
+  doi     = {10.1109/COMST.2016.2519912},
+}
+
+@ARTICLE{7947156,
+author={R. {Alvizu} and G. {Maier} and N. {Kukreja} and A. {Pattavina} and R. {Morro} and A. {Capello} and C. {Cavazzoni}},
+journal={IEEE Communications Surveys Tutorials},
+title={Comprehensive Survey on T-SDN: Software-Defined Networking for Transport Networks},
+year={2017},
+volume={19},
+number={4},
+pages={2232-2283},
+keywords={software defined networking;telecommunication traffic;transport SDN;Software-Defined Networking;transport-network operators;dynamic transport network;fully programmable transport network;networking industry;network innovation facilities;operational expenses;progressive erosion;traffic demand;T-SDN;Optical fiber networks;Hardware;Technological innovation;Operating systems;Optical sensors;Tutorials;Software defined networking;optical transport network;transport SDN;software defined optical networking;network programmability;orchestration;transport API;network controller;network virtualization;network function virtualization;OpenFlow;GMPLS},
+doi={10.1109/COMST.2017.2715220},
+ISSN={2373-745X},
+month={Fourthquarter},}
+
+@InProceedings{7367345,
+  author    = {{T. Sato and S. Ata and I. Oka and Y. Sato}},
+  title     = {{Abstract model of SDN architectures enabling comprehensive performance comparisons}},
+  booktitle = {{2015 11th International Conference on Network and Service Management (CNSM)}},
+  year      = {2015},
+  pages     = {{99--107}},
+  month     = nov,
+  doi       = {10.1109/CNSM.2015.7367345},
+}
+
+@Article{7350109,
+  author  = {{M. Morant and A. Macho and R. Llorente}},
+  title   = {{On the Suitability of Multicore Fiber for {LTE}-Advanced {MIMO} Optical Fronthaul Systems}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2016},
+  volume  = {{34}},
+  number  = {2},
+  pages   = {{676--682}},
+  month   = jan,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2015.2507137},
+}
+
+@InProceedings{7333289,
+  author    = {{M. Feknous and A. Gravey and B. Le Guyader and S. Gosselin}},
+  title     = {{Status reporting versus non status reporting dynamic bandwidth allocation}},
+  booktitle = {{2015 6th International Conference on the Network of the Future (NOF)}},
+  year      = {2015},
+  pages     = {{1--7}},
+  month     = sep,
+  doi       = {10.1109/NOF.2015.7333289},
+}
+
+@Article{7296648,
+  author    = {{A. Jin and W. Song and W. Zhuang}},
+  title     = {{Auction-Based Resource Allocation for Sharing Cloudlets in Mobile Cloud Computing}},
+  journal   = {{IEEE Transactions on Emerging Topics in Computing}},
+  year      = {2018},
+  volume    = {6},
+  number    = {{01}},
+  pages     = {{45--57}},
+  month     = jan,
+  issn      = {2168-6750},
+  address   = {{Los Alamitos, CA, USA}},
+  doi       = {10.1109/TETC.2015.2487865},
+  keywords  = {{mobile handsets;mobile communication;cloud computing;cost accounting;resource management;mechanical factors;pricing}},
+  publisher = {{IEEE Computer Society}},
+}
+
+@Article{7286856,
+  author  = {{H. Kebriaei and B. Maham and D. Niyato}},
+  title   = {{Double-Sided Bandwidth-Auction Game for Cognitive Device-to-Device Communication in Cellular Networks}},
+  journal = {{IEEE Transactions on Vehicular Technology}},
+  year    = {2016},
+  volume  = {{65}},
+  number  = {9},
+  pages   = {{7476--7487}},
+  month   = sep,
+  issn    = {0018-9545},
+  doi     = {10.1109/TVT.2015.2485304},
+}
+
+@InProceedings{7248454,
+  author    = {{J. A. Arokkiam and K. N. Brown and C. J. Sreenan}},
+  title     = {Refining the GIANT dynamic bandwidth allocation mechanism for XG-{PON}},
+  booktitle = {{2015 IEEE International Conference on Communications (ICC)}},
+  year      = {2015},
+  pages     = {{1006--1011}},
+  month     = jun,
+  doi       = {10.1109/ICC.2015.7248454},
+  issn      = {1550-3607},
+}
+
+@Article{7243304,
+  author   = {R. {Mijumbi} and J. {Serrat} and J. {Gorricho} and N. {Bouten} and F. {De Turck} and R. {Boutaba}},
+  title    = {{Network Function Virtualization: State-of-the-Art and Research Challenges}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2016},
+  volume   = {{18}},
+  number   = {1},
+  pages    = {{236--262}},
+  month    = {Firstquarter},
+  issn     = {1553-877X},
+  doi      = {10.1109/COMST.2015.2477041},
+  keywords = {{software defined networking;telecommunication services;network function virtualization;telecommunication service provisioning;decoupling network functions;operating expenses;capital expenses;NFV paradigm;software defined networking;SDN;cloud computing;standardization;Software;Indium phosphide;III-V semiconductor materials;Virtualization;Servers;Tutorials;Hardware;Network function virtualization;virtual network functions;future Internet;software defined networking;cloud computing;Network function virtualization;virtual network functions;future Internet;software defined networking;cloud computing}},
+}
+
+@Article{7243304,
+  author   = {R. {Mijumbi} and J. {Serrat} and J. {Gorricho} and N. {Bouten} and F. {De Turck} and R. {Boutaba}},
+  title    = {{Network Function Virtualization: State-of-the-Art and Research Challenges}},
+  journal  = {{IEEE Communications Surveys Tutorials}},
+  year     = {2016},
+  volume   = {{18}},
+  number   = {1},
+  pages    = {{236--262}},
+  month    = {Firstquarter},
+  issn     = {1553-877X},
+  doi      = {10.1109/COMST.2015.2477041},
+  keywords = {{software defined networking;telecommunication services;network function virtualization;telecommunication service provisioning;decoupling network functions;operating expenses;capital expenses;NFV paradigm;software defined networking;SDN;cloud computing;standardization;Software;Indium phosphide;III-V semiconductor materials;Virtualization;Servers;Tutorials;Hardware;Network function virtualization;virtual network functions;future Internet;software defined networking;cloud computing;Network function virtualization;virtual network functions;future Internet;software defined networking;cloud computing}},
+}
+
+@InProceedings{7218382,
+  author    = {{M. Canini and P. Kuznetsov and D. Levin and S. Schmid}},
+  title     = {{A distributed and robust SDN control plane for transactional network updates}},
+  booktitle = {{2015 IEEE Conference on Computer Communications (INFOCOM)}},
+  year      = {2015},
+  pages     = {{190--198}},
+  month     = apr,
+  doi       = {10.1109/INFOCOM.2015.7218382},
+  issn      = {0743-166X},
+}
+
+@Article{7194843,
+  author   = {D. S. {Palguna} and D. J. {Love} and I. {Pollak}},
+  title    = {{Secondary Spectrum Auctions for Markets With Communication Constraints}},
+  journal  = {{IEEE Transactions on Wireless Communications}},
+  year     = {2016},
+  volume   = {{15}},
+  number   = {1},
+  pages    = {{116--130}},
+  month    = jan,
+  doi      = {10.1109/TWC.2015.2468219},
+  keywords = {{quantisation (signal);radio spectrum management;telecommunication channels;secondary spectrum auctions;communication constraints;wireless spectrum sharing techniques;wireless networks;real-time auctions;economically incentivizing users;real-time secondary spectrum auctions;quantization;error prone bid revelation;wireless standards;channel output feedback;strategic users;Wireless communication;Standards;Transmitters;Receivers;Resource management;Base stations;Noise;Secondary spectrum markets;auctions;posterior matching;Secondary spectrum markets;auctions;posterior matching}},
+}
+
+@InProceedings{7121687,
+  author    = {{T. Yoshida and T. Taniguchi and A. Otaka}},
+  title     = {{Application drivers and trends for future broadband access}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2015.Th3B.1},
+}
+
+@InProceedings{7121508,
+  author    = {{N. Shibata and T. Tashiro and S. Kuwano and N. Yuki and J. Terada and A. Otaka}},
+  title     = {{Mobile front-haul employing ethernet-based {TDM-PON} system for small cells}},
+  booktitle = {{2015 Optical Fiber Communications Conference and Exhibition (OFC)}},
+  year      = {2015},
+  month     = mar,
+  doi       = {10.1364/OFC.2015.M2J.1},
+}
+
+@Article{7069180,
+  title   = {{IEEE} Standard for Ethernet - Amendment 3: Physical Layer Specifications and Management Parameters for 40~{Gb}/s and 100~{Gb}/s Operation over Fiber Optic Cables},
+  journal = {{IEEE Standard for Ethernet Amendment 3: Physical Layer Specifications and Management Parameters for 40 Gb/s and 100 Gb/s Operation over Fiber Optic Cables}},
+  year    = {2015},
+  pages   = {{1--172}},
+  month   = mar,
+  doi     = {10.1109/IEEESTD.2015.7069180},
+}
+
+@InProceedings{7029357,
+  author    = {F. {Usmani} and S. M. H. {Zaidi} and A. {Awais} and M. Y. A. {Raja}},
+  title     = {{Efficient dynamic bandwidth allocation schemes in Long-Reach Passive Optical Networks- A survey}},
+  booktitle = {{2014 11th Annual High Capacity Optical Networks and Emerging/Enabling Technologies (Photonics for Energy)}},
+  year      = {2014},
+  pages     = {{36--40}},
+  month     = dec,
+  doi       = {10.1109/HONET.2014.7029357},
+  keywords  = {{bandwidth allocation;optical fibre LAN;passive optical networks;power consumption;quality of service;telecommunication power management;dynamic bandwidth allocation schemes;long-reach passive optical networks;cost-efficient solution;fiber to the home;optical amplifiers;central offices;capital expenditure;operational expenditure;network power consumption;transmission messages;optical line terminals;optical network units;round trip time;long reach EPON;Ethernet PON;quality of service;QoS;Passive optical networks;Optical network units;Message systems;Bandwidth;Quality of service;Logic gates;Algorithm design and analysis;Long reach-passive optical networks;dynamic bandwidth allocation;quality of service}},
+}
+
+@Article{7010528,
+  author  = {{M. Y. Arslan and K. Sundaresan and S. Rangarajan}},
+  title   = {{Software-defined networking in cellular radio access networks: potential and challenges}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2015},
+  volume  = {{53}},
+  number  = {1},
+  pages   = {{150--156}},
+  month   = jan,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2015.7010528},
+}
+
+@InProceedings{6996834,
+  author    = {P. {Alvarez} and N. {Marchetti} and D. {Payne} and M. {Ruffini}},
+  title     = {{Backhauling mobile systems with XG-PON using grouped assured bandwidth}},
+  booktitle = {{2014 19th European Conference on Networks and Optical Communications - (NOC)}},
+  year      = {2014},
+  pages     = {{91--96}},
+  month     = jun,
+  doi       = {10.1109/NOC.2014.6996834},
+  keywords  = {{mobile radio;multiplexing;passive optical networks;telecommunication traffic;backhauling mobile systems;XG-PON;grouped assured bandwidth;backhauling base stations;PON operator;mobile operators;statistical multiplexing;traffic;group-GIANT;gGIANT scheduler;10-gigabit-capable passive optical network;Bandwidth;Passive optical networks;Optical network units;Base stations;Mobile communication;Delays;Radiation detectors}},
+}
+
+@InProceedings{6958533,
+  author    = {{A. Buttaboni and M. De Andrade and M. Tornatore}},
+  title     = {{Dynamic bandwidth and wavelength allocation with coexistence of transmission technologies in TWDM PONs}},
+  booktitle = {{2014 16th International Telecommunications Network Strategy and Planning Symposium (Networks)}},
+  year      = {2014},
+  pages     = {{1--6}},
+  month     = sep,
+  doi       = {10.1109/NETWKS.2014.6958533},
+}
+
+@InProceedings{6950589,
+  author    = {{T. Taniguchi and T. Kobayashi and S. Kuwano and J. i. Kani and J. Terada and H. Kimura}},
+  title     = {{Mobile optical network for future radio access}},
+  booktitle = {{2014 12th International Conference on Optical Internet 2014 (COIN)}},
+  year      = {2014},
+  month     = aug,
+  doi       = {10.1109/COIN.2014.6950589},
+  issn      = {2159-6395},
+}
+
+@Article{6895241,
+  author  = {{H. H. Cho and C. F. Lai and T. K. Shih and H. C. Chao}},
+  title   = {{Integration of {SDR} and SDN for 5G}},
+  journal = {{IEEE Access}},
+  year    = {2014},
+  volume  = {2},
+  pages   = {{1196--1204}},
+  issn    = {2169-3536},
+  doi     = {10.1109/ACCESS.2014.2357435},
+}
+
+@Article{6894640,
+  author  = {{G. Iosifidis and L. Gao and J. Huang and L. Tassiulas}},
+  title   = {{A Double-Auction Mechanism for Mobile Data-Offloading Markets}},
+  journal = {{IEEE/ACM Transactions on Networking}},
+  year    = {2015},
+  volume  = {{23}},
+  number  = {5},
+  pages   = {{1634--1647}},
+  month   = oct,
+  issn    = {1063-6692},
+  doi     = {10.1109/TNET.2014.2345875},
+}
+
+@Article{6894452,
+  author  = {{M. Elkashlan and T. Q. Duong and H. H. Chen}},
+  title   = {{Millimeter-wave communications for 5G: fundamentals: Part I [Guest Editorial]}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2014},
+  volume  = {{52}},
+  number  = {9},
+  pages   = {{52--54}},
+  month   = sep,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2014.6894452},
+}
+
+@ARTICLE{7006678,
+author={R. {Vilalta} and R. {Muñoz} and A. {Mayoral} and R. {Casellas} and R. {Martínez} and V. {López} and D. {López}},
+journal={Journal of Lightwave Technology},
+title={Transport Network Function Virtualization},
+year={2015},
+volume={33},
+number={8},
+pages={1557-1564},
+keywords={optical fibre networks;virtualisation;transport network function virtualization architecture;NFV concepts;VNF;virtualized network functions;optical transport network;path computation element architecture;PCE architecture;Computer architecture;Virtualization;Optical switches;Virtual machining;IP networks;Protocols;Network Function Virtualization;NFV Orchestration and Management;Cloud and Network Orchestration;Path Computation Element;GMPLS;OpenDaylight;OpenStack;Cloud and network orchestration;GMPLS;network function virtualization;NFV orchestration and management;openDaylight;openStack;path computation element},
+doi={10.1109/JLT.2015.2390655},
+ISSN={1558-2213},
+month={April},}
+
+@unpublished{nfv_wp,
+  added-at = {2016-04-12T12:08:34.000+0200},
+  author = {Paper, NFV White},
+  biburl = {https://www.bibsonomy.org/bibtex/2af88fcf004d54bbcc23d951d64b3f82d/bazza030},
+  comment = {SDN and OpenFlow World Congress},
+  institution = {ETSI},
+  interhash = {982d06a0d6565611f4a56b6a194d5de8},
+  intrahash = {af88fcf004d54bbcc23d951d64b3f82d},
+  keywords = {nfv},
+  month = oct,
+  timestamp = {2016-04-12T12:08:34.000+0200},
+  title = {Network Functions Virtualisation: An Introduction, Benefits, Enablers, Challenges \& Call for Action. Issue 1},
+  year = 2012
+}
+
+
+@InProceedings{6886953,
+  author    = {{T. Tashiro and S. Kuwano and J. Terada and T. Kawamura and N. Tanaka and S. Shigematsu and N. Yoshimoto}},
+  title     = {{A novel DBA scheme for {TDM-PON} based mobile fronthaul}},
+  booktitle = {{OFC 2014}},
+  year      = {2014},
+  pages     = {{1--3}},
+  month     = mar,
+  doi       = {10.1364/OFC.2014.Tu3F.3},
+}
+
+@Article{6871680,
+  author   = {J. {Rendon Schneir} and Y. {Xiong}},
+  title    = {{Cost analysis of network sharing in FTTH/PONs}},
+  journal  = {{IEEE Communications Magazine}},
+  year     = {2014},
+  volume   = {{52}},
+  number   = {8},
+  pages    = {{126--134}},
+  month    = aug,
+  issn     = {0163-6804},
+  doi      = {10.1109/MCOM.2014.6871680},
+  keywords = {{cost reduction;passive optical networks;network sharing scheme;fiber to the home connection;payback period;passive infrastructure reuse;PON architecture;cost reduction;passive optical networks;FTTH deployment;FTTH/PON cost analysis;Passive optical networks;Wavelength division multiplexing;Ports (Computers);Optical fiber cables;Optical fiber subscriber loops}},
+}
+
+@InProceedings{6779186,
+  author    = {{M. S. Han}},
+  title     = {{Simple and feasible dynamic bandwidth and polling allocation for XGPON}},
+  booktitle = {{16th International Conference on Advanced Communication Technology}},
+  year      = {2014},
+  pages     = {{298--304}},
+  month     = feb,
+  doi       = {10.1109/ICACT.2014.6779186},
+  issn      = {1738-9445},
+}
+
+@InProceedings{6779107,
+  author    = {{M. S. Han}},
+  title     = {Dynamic bandwidth allocation with high utilization for XG-{PON}},
+  booktitle = {{16th International Conference on Advanced Communication Technology}},
+  year      = {2014},
+  pages     = {{994--997}},
+  month     = feb,
+  doi       = {10.1109/ICACT.2014.6779107},
+  issn      = {1738-9445},
+}
+
+@Article{6762907,
+  author  = {{H. T. Huang and P. T. Shih and C. T. Lin and Y. H. Cheng and W. L. Liang and C. H. Ho and C. C. Wei and A. Ng'oma}},
+  title   = {2x2 {MIMO OFDM}-RoF System Employing {LMS}-Based Equalizer With {I/Q} Imbalance Compensation at 60~{GHz}},
+  journal = {{IEEE Photonics Journal}},
+  year    = {2014},
+  volume  = {6},
+  number  = {3},
+  pages   = {{1--7}},
+  month   = jun,
+  issn    = {1943-0655},
+  doi     = {10.1109/JPHOT.2014.2310222},
+}
+
+@Article{6678153,
+  author  = {{J. Y. Lee and I. S. Hwang and A. Nikoukar and A. T. Liem}},
+  title   = {{Comprehensive performance assessment of bipartition upstream bandwidth assignment schemes in GPON}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2013},
+  volume  = {5},
+  number  = {{11}},
+  pages   = {{1285--1295}},
+  month   = nov,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.5.001285},
+}
+
+@Article{6657815,
+  author  = {{M. Al-Ayyoub and H. Gupta}},
+  title   = {{Truthful Spectrum Auctions With Approximate Social-Welfare or Revenue}},
+  journal = {{IEEE/ACM Transactions on Networking}},
+  year    = {2014},
+  volume  = {{22}},
+  number  = {6},
+  pages   = {{1873--1885}},
+  month   = dec,
+  issn    = {1063-6692},
+  doi     = {10.1109/TNET.2013.2288317},
+}
+
+@InProceedings{6647859,
+  author    = {{A. Dixit and B. Lannoo and D. Colle and M. Pickavet and P. Demeester}},
+  title     = {{Novel DBA algorithm for energy efficiency in TWDM-PONs}},
+  booktitle = {{39th European Conference and Exhibition on Optical Communication (ECOC 2013)}},
+  year      = {2013},
+  pages     = {{1--3}},
+  month     = sep,
+  doi       = {10.1049/cp.2013.1666},
+}
+
+@InProceedings{6647627,
+  author    = {{T. Yoshida and S. Kaneko and S. Kimura and N. Yoshimoto}},
+  title     = {An automatic load-balancing DWBA algorithm considering long-time tuning devices for tunable {WDM/{TDM}-PON}},
+  booktitle = {{39th European Conference and Exhibition on Optical Communication (ECOC 2013)}},
+  year      = {2013},
+  pages     = {{1--3}},
+  month     = sep,
+  doi       = {10.1049/cp.2013.1434},
+}
+
+@Article{6515602,
+  author  = {{A. Mercian and M. P. McGarry and M. Reisslein}},
+  title   = {{Offline and Online Multi-Thread Polling in Long-Reach PONs: A Critical Evaluation}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2013},
+  volume  = {{31}},
+  number  = {{12}},
+  pages   = {{2018--2028}},
+  month   = jun,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2013.2262766},
+}
+
+@InProceedings{6488201,
+  author    = {{M. S. Han}},
+  title     = {{Simple and feasible dynamic bandwidth allocation for XGPON}},
+  booktitle = {{2013 15th International Conference on Advanced Communications Technology (ICACT)}},
+  year      = {2013},
+  pages     = {{341--344}},
+  month     = jan,
+  issn      = {1738-9445},
+}
+
+@Article{6461198,
+  author  = {{S. H. Yeganeh and A. Tootoonchian and Y. Ganjali}},
+  title   = {{On scalability of software-defined networking}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2013},
+  volume  = {{51}},
+  number  = {2},
+  pages   = {{136--141}},
+  month   = feb,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2013.6461198},
+}
+
+@Article{6461186,
+  author  = {{T. Orphanoudakis and E. Kosmatos and J. Angelopoulos and A. Stavdas}},
+  title   = {{Exploiting PONs for mobile backhaul}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2013},
+  volume  = {{51}},
+  number  = {2},
+  pages   = {{S27-S34}},
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2013.6461186},
+}
+
+@Article{6419735,
+  title   = {{IEEE} Standard for Ethernet},
+  journal = {{IEEE Std 802.3-2012 (Revision to IEEE Std 802.3-2008)}},
+  year    = {2012},
+  pages   = {{1--3747}},
+  month   = dec,
+  doi     = {10.1109/IEEESTD.2012.6419735},
+}
+
+@InProceedings{6381701,
+  author    = {{D. Carmona and J. Prat and I. Tomkos and Ma Pilar Sánchez Marco}},
+  title     = {{GPON unbundling for multioperator access}},
+  booktitle = {{2012 15th International Telecommunications Network Strategy and Planning Symposium (NETWORKS)}},
+  year      = {2012},
+  pages     = {{1--6}},
+  month     = oct,
+  doi       = {10.1109/NETWKS.2012.6381701},
+}
+
+@Article{6365159,
+  author  = {{Y. Zhang and C. Lee and D. Niyato and P. Wang}},
+  title   = {{Auction Approaches for Resource Allocation in Wireless Systems: A Survey}},
+  journal = {{IEEE Communications Surveys Tutorials}},
+  year    = {2013},
+  volume  = {{15}},
+  number  = {3},
+  pages   = {{1020--1041}},
+  issn    = {1553-877X},
+  doi     = {10.1109/SURV.2012.110112.00125},
+}
+
+@Article{6289432,
+  author   = {Y. {Luo} and X. {Zhou} and F. {Effenberger} and X. {Yan} and G. {Peng} and Y. {Qian} and Y. {Ma}},
+  title    = {{Time- and Wavelength-Division Multiplexed Passive Optical Network (TWDM-PON) for Next-Generation PON Stage 2 (NG-PON2)}},
+  journal  = {{Journal of Lightwave Technology}},
+  year     = {2013},
+  volume   = {{31}},
+  number   = {4},
+  pages    = {{587--593}},
+  month    = feb,
+  issn     = {0733-8724},
+  doi      = {10.1109/JLT.2012.2215841},
+  keywords = {{bandwidth allocation;next generation networks;passive optical networks;time division multiplexing;wavelength division multiplexing;time- and wavelength-division multiplexed passive optical network;next-generation PON stage 2;next-generation passive optical network stage 2;full service access network;bandwidth increase;optical access network;FSAN meeting;time-division multiplexed passive optical network;TWDM-PON prototype;TWDM-PON architecture;TWDM-PON wavelength plan options;NG-PON2 requirements;TWDM-PON key technology;upstream bandwidth;prototype system;power budget;commercially deployed Gigabit PON;XG-PON systems;operator-vendor joint test results;commercial devices;commercial components;Passive optical networks;Optical network units;Optical transmitters;Prototypes;Optical receivers;Next-generation passive optical network stage 2 (NG-PON2);time- and wavelength-division multiplexed passive optical network (TWDM-PON);tunable receiver;tunable transmitter}},
+}
+
+@INPROCEEDINGS{Afra2006:5G,
+AUTHOR="Nima Afraz and Marco Ruffini",
+TITLE="{5G} Network Slice Brokering: A Distributed Blockchain-based Market",
+BOOKTITLE="2020 European Conference on Networks and Communications (EuCNC): Network
+Softwarisation (NET) (EuCNC2020 - NET)",
+ADDRESS="Dubrovnik, Croatia",
+DAYS=14,
+MONTH=jun,
+YEAR=2020,
+KEYWORDS="Blockchain; Slice Brokering; Smart Contract; Telecommunications Operators;
+Virtual Network Operators",
+ABSTRACT="In this paper, we study the business ecosystem around 5G network slice
+brokering, where a dynamic mechanism conducts multiple trades among
+resource providers and the network operators, to dynamically provision
+slices (e.g., in the order of minutes). Then we address a significant and
+realistic scenario, where there is a lack of trust between market players.
+This typically occurs when the central slice broker has conflicting
+interests (e.g., being simultaneously infrastructure provider and virtual
+operator). We propose a distributed market design, leveraging smart
+contracts technology, where the brokering mechanism is operated and
+validated by all of the parties involved. In addition, we use blockchain
+technology to enable a manipulation-proof record-keeping system, where a
+record is accepted into the ledger only when all the parties have reached a
+consensus to do so. We deploy a realistic blockchain application/network
+hosted on the cloud-based Hyperledger Fabric framework. Finally, we
+investigate the performance of the blockchain-based slice brokering market
+in terms of transaction latency, throughput and computing intensity. Our
+results show that the proposed market could support 100 auction
+transactions per second with a latency below one second, which would add no
+considerable delay even to a highly dynamic slicing market mechanism."
+}
+
+
+@INPROCEEDINGS{Haji2007:Collaborative,
+AUTHOR="Mehrdad Hajizadeh and Nima Afraz and Marco Ruffini and Thomas Bauschert",
+TITLE="Collaborative Cyber Attack Defense in {SDN} Networks using Blockchain
+Technology",
+BOOKTITLE="2020 2nd International Workshop on Cyber-Security Threats, Trust and
+Privacy management in Software-defined and Virtualized Infrastructures
+(SecSoft 2020)",
+ADDRESS="Ghent, Belgium",
+DAYS=2,
+MONTH=jul,
+YEAR=2020,
+KEYWORDS="Cyber Threat Intelligence; Blockchain; Proactive Defense; SDN;
+Collaborative DDoS Mitigation",
+ABSTRACT="The legacy security defense mechanisms cannot resist where emerging
+sophisticated threats such as zero-day and malware campaigns have
+profoundly changed the dimensions of cyber-attacks. Recent studies indicate
+that cyber threat intelligence plays a crucial role in implementing
+proactive defense operations. It provides a knowledge-sharing platform that
+not only increases security awareness and readiness but also enables the
+collaborative defense to diminish the effectiveness of potential attacks.
+In this paper, we propose a secure distributed model to facilitate cyber
+threat intelligence sharing among diverse participants. The proposed model
+uses blockchain technology to assure tamper-proof record-keeping and smart
+contracts to guarantee immutable logic. We use an open-source permissioned
+blockchain platform, Hyperledger Fabric, to implement the blockchain
+application. We also utilize the flexibility and management capacities of
+Software-Defined Networking to be integrated with the proposed sharing
+platform to enhance defense perspectives against threats in the system. In
+the end, collaborative DDoS mitigation is taken as a case study to
+demonstrate our approach."
+}
+
+
+@InProceedings{6261710,
+  author    = {{F. Rawshan and M. Ju and Y. Park}},
+  title     = {{Application of a multi-OLT {PON} system and its dynamic bandwidth allocation algorithm}},
+  booktitle = {{2012 Fourth International Conference on Ubiquitous and Future Networks (ICUFN)}},
+  year      = {2012},
+  month     = jul,
+  doi       = {10.1109/ICUFN.2012.6261710},
+  issn      = {2165-8528},
+}
+
+@InProceedings{6234355,
+  author    = {{Z. Qi-yu and L. Bin and W. Run-ze}},
+  title     = {{A Dynamic Bandwidth Allocation Scheme for GPON Based on Traffic Prediction}},
+  booktitle = {{2012 9th International Conference on Fuzzy Systems and Knowledge Discovery}},
+  year      = {2012},
+  pages     = {{2043--2046}},
+  month     = may,
+  doi       = {10.1109/FSKD.2012.6234355},
+}
+
+@InProceedings{6214017,
+  author    = {{Q. Wang and B. Ye and T. Xu and S. Lu and S. Guo}},
+  title     = {{DOTA: A Double Truthful Auction for spectrum allocation in dynamic spectrum access}},
+  booktitle = {{2012 IEEE Wireless Communications and Networking Conference (WCNC)}},
+  year      = {2012},
+  pages     = {{1490--1495}},
+  month     = apr,
+  doi       = {10.1109/WCNC.2012.6214017},
+  issn      = {1525-3511},
+}
+
+@InProceedings{6174844,
+  author    = {{M. S. Han}},
+  title     = {{Iterative dynamic bandwidth allocation for XGPON}},
+  booktitle = {{2012 14th International Conference on Advanced Communication Technology (ICACT)}},
+  year      = {2012},
+  pages     = {{1035--1040}},
+  month     = feb,
+  issn      = {1738-9445},
+}
+
+@Article{6069633,
+  author  = {{A. R. Hedayati and M. N. Fesharaki and K. Badie and V. Aghazarian}},
+  title   = {{Arishtat: auction-based dynamic bandwidth allocation method in Ethernet passive optical networks}},
+  journal = {{IET Communications}},
+  year    = {2011},
+  volume  = {5},
+  number  = {{15}},
+  pages   = {{2116--2124}},
+  month   = oct,
+  issn    = {1751-8628},
+  doi     = {10.1049/iet-com.2010.0931},
+}
+
+
+@misc{bc_cloud,
+	title = {Solution {Comparison} for {Blockchain} {Cloud} {Services} {From} {Leading} {Public} {Cloud} {Providers}},
+	howpublished = {\url{https://www.gartner.com/en/documents/3906862/solution-comparison-for-blockchain-cloud-services-from-l}},
+	language = {en},
+	urldate = {2020-02-22},
+	journal = {Gartner}
+}
+
+@misc{telecom_sig,
+	title = {Telecom {SIG} - {Hyperledger} {Telecom} {SIG} - {Hyperledger} {Confluence}},
+	howpublished = {\url{https://wiki.hyperledger.org/display/TCSIG/Telecom+SIG}},
+	urldate = {2020-02-23}
+}
+
+@misc{scientific_linux,
+	title = {Scientific {Linux}},
+	howpublished = {\url{https://www.scientificlinux.org/}},
+	language = {en-US},
+	urldate = {2020-02-19},
+	note = {publisher: Fermi National Accelerator Laboratory, and the European Organization for Nuclear Research - CERN}
+}
+
+@book{van1995python, 
+  title={Python tutorial}, 
+  author={Van Rossum, Guido and Drake Jr, Fred L}, 
+  year={1995}, 
+  publisher={Centrum voor Wiskunde en Informatica Amsterdam, The Netherlands} 
+}
+
+
+@Article{6035827,
+  author   = {A. {Khan} and W. {Kellerer} and K. {Kozu} and M. {Yabusaki}},
+  title    = {{Network sharing in the next mobile network: TCO reduction, management flexibility, and operational independence}},
+  journal  = {{IEEE Communications Magazine}},
+  year     = {2011},
+  volume   = {{49}},
+  number   = {{10}},
+  pages    = {{134--142}},
+  month    = oct,
+  issn     = {1558-1896},
+  doi      = {10.1109/MCOM.2011.6035827},
+  keywords = {{3G mobile communication;decision making;mobility management (mobile radio);quality of service;telecommunication industry;network sharing;next mobile network;TCO reduction;management flexibility;operational independence;3GPP;market-driven network service quality standard;decision making;virtualization-based isolation network technique;physical network infrastructure;management complexity reduction;total cost of ownership reduction;Telecommunication network management;Mobile computing;Radio access networks;Optical switches;Passive optical networks;Ultrafast optics;Optical network units}},
+}
+
+@InProceedings{5gpp,
+  author    = {{Werner Mohr}},
+  title     = {{The 5G Infrastructure Public Private Partnership: the next generation of communication networks and services.}},
+  year      = {2015},
+  publisher = {{5G-PPP Heidelberg, Germany}},
+  location  = {{Heidelberg, Germany}},
+}
+
+@TechReport{5G_observatory,
+  title        = {{Europe leads the way in 5G trials}},
+  institution  = {{European 5G observatory: Brussels, Belgium}},
+  year         = {2019},
+  howpublished = {{"\url{https://www.digitallytransformyourregion.eu/europe-leads-way-5g-trials}"}},
+}
+
+@InProceedings{5970770,
+  author    = {{H. Mickelsson}},
+  title     = {{WDM-PON} in mobile backhaul},
+  booktitle = {{2011 13th International Conference on Transparent Optical Networks}},
+  year      = {2011},
+  pages     = {{1--1}},
+  month     = jun,
+  doi       = {10.1109/ICTON.2011.5970770},
+  issn      = {2162-7339},
+}
+
+@InProceedings{5970770,
+  author    = {{H. Mickelsson}},
+  title     = {{WDM-PON} in mobile backhaul},
+  booktitle = {{2011 13th International Conference on Transparent Optical Networks}},
+  year      = {2011},
+  month     = jun,
+  doi       = {10.1109/ICTON.2011.5970770},
+  issn      = {2162-7339},
+}
+
+@InProceedings{5616347,
+  author    = {J. P. {Davim} and A. N. {Pinto}},
+  title     = {{CAPEX Model for PON Technology}},
+  booktitle = {{2010 2nd International Conference on Evolving Internet}},
+  year      = {2010},
+  pages     = {{192--196}},
+  month     = sep,
+  doi       = {10.1109/INTERNET.2010.41},
+  issn      = {2156-7190},
+  keywords  = {{optical fibre networks;CAPEX model;PON technology;Cost-model;PON}},
+}
+
+@InProceedings{5549032,
+  author    = {{J. Segarra and V. Sales and J. Prat}},
+  title     = {{GPON scheduling disciplines under multi-service bursty traffic and long-reach approach}},
+  booktitle = {{2010 12th International Conference on Transparent Optical Networks}},
+  year      = {2010},
+  pages     = {{1--6}},
+  month     = jun,
+  doi       = {10.1109/ICTON.2010.5549032},
+  issn      = {2162-7339},
+}
+
+@InProceedings{5520348,
+  author    = {{I. Koutsopoulos and G. Iosifidis}},
+  title     = {{Auction mechanisms for network resource allocation}},
+  booktitle = {{8th International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks}},
+  year      = {2010},
+  pages     = {{554--563}},
+  month     = may,
+}
+
+@Article{5496876,
+  author  = {{C. F. Lam and H. Liu and B. Koley and X. Zhao and V. Kamalov and V. Gill}},
+  title   = {{Fiber optic communication technologies: What's needed for datacenter network operations}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2010},
+  volume  = {{48}},
+  number  = {7},
+  pages   = {{32--39}},
+  month   = jul,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2010.5496876},
+}
+
+@Article{5496876,
+  author  = {{C. F. Lam and H. Liu and B. Koley and X. Zhao and V. Kamalov and V. Gill}},
+  title   = {{Fiber optic communication technologies: What's needed for datacenter network operations}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2010},
+  volume  = {{48}},
+  number  = {7},
+  month   = jul,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2010.5496876},
+}
+
+@Article{5462981,
+  author  = {{T. Ulversoy}},
+  title   = {{Software Defined Radio: Challenges and Opportunities}},
+  journal = {{IEEE Communications Surveys Tutorials}},
+  year    = {2010},
+  volume  = {{12}},
+  number  = {4},
+  pages   = {{531--550}},
+  issn    = {1553-877X},
+  doi     = {10.1109/SURV.2010.032910.00019},
+}
+
+@InProceedings{5462277,
+  author    = {{H. Xu and J. Jin and B. Li}},
+  title     = {{A Secondary Market for Spectrum}},
+  booktitle = {{2010 Proceedings IEEE INFOCOM}},
+  year      = {2010},
+  pages     = {{1--5}},
+  month     = mar,
+  doi       = {10.1109/INFCOM.2010.5462277},
+  issn      = {0743-166X},
+}
+
+@InProceedings{5440137,
+  author    = {{Hakjeon Bang and Sungchang Kim and Dong-Soo Lee and Chang-Soo Park}},
+  title     = {{Dynamic bandwidth allocation method for high link utilization to support NSR ONUs in GPON}},
+  booktitle = {{2010 The 12th International Conference on Advanced Communication Technology (ICACT)}},
+  year      = {2010},
+  volume    = {1},
+  pages     = {{884--889}},
+  month     = feb,
+  issn      = {1738-9445},
+}
+
+@InProceedings{5405430,
+  author    = {{B. Skubic and B. Chen and Jiajia Chen and J. Ahmed and L. Wosinska}},
+  title     = {Improved scheme for estimating T-CONT bandwidth demand in status reporting DBA for NG-{PON}},
+  booktitle = {{2009 Asia Communications and Photonics conference and Exhibition (ACP)}},
+  year      = {2009},
+  volume    = {{2009-Supplement}},
+  pages     = {{1--6}},
+  month     = nov,
+  issn      = {2162-108X},
+}
+
+@Article{5378619,
+  author   = {M. {Guenach} and J. {Louveaux} and L. {Vandendorpe} and P. {Whiting} and J. {Maes} and M. {Peeters}},
+  title    = {{On Signal-to-Noise Ratio-Assisted Crosstalk Channel Estimation in Downstream DSL Systems}},
+  journal  = {{IEEE Transactions on Signal Processing}},
+  year     = {2010},
+  volume   = {{58}},
+  number   = {4},
+  pages    = {{2327--2338}},
+  month    = apr,
+  issn     = {1053-587X},
+  doi      = {10.1109/TSP.2010.2040408},
+  keywords = {{channel estimation;crosstalk;digital subscriber lines;signal-to-noise ratio;crosstalk;channel estimation;downstream DSL systems;digital subscriber line systems;SNR;victim line;disturber line;very high speed digital subscriber lines;channel acquisition;G.vector;Signal to noise ratio;Crosstalk;Channel estimation;DSL;Feedback;Algorithm design and analysis;Interference;Multiplexing;Standardization;Probes;Channel estimation;digital subscriber lines (DSLs);vectoring}},
+}
+
+@InProceedings{5303321,
+  author    = {{M. Li and H. Ji and X. Li}},
+  title     = {{VCG Auction Based Hierarchical Bandwidth Sharing Scheme for Integrated Heterogeneous Networks}},
+  booktitle = {{2009 5th International Conference on Wireless Communications, Networking and Mobile Computing}},
+  year      = {2009},
+  pages     = {{1--4}},
+  month     = sep,
+  doi       = {10.1109/WICOM.2009.5303321},
+  issn      = {2161-9646},
+}
+
+@Article{5210723,
+  author  = {{K. Iwatsuki and J. i. Kani}},
+  title   = {{Applications and Technical Issues of Wavelength-Division Multiplexing Passive Optical Networks With Colorless Optical Network Units [Invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2009},
+  volume  = {1},
+  number  = {4},
+  pages   = {{C17-C24}},
+  month   = sep,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.1.000C17},
+}
+
+@Article{5210723,
+  author  = {{K. Iwatsuki and J. i. Kani}},
+  title   = {{Applications and Technical Issues of Wavelength-Division Multiplexing Passive Optical Networks With Colorless Optical Network Units [Invited]}},
+  journal = {{IEEE/OSA Journal of Optical Communications and Networking}},
+  year    = {2009},
+  volume  = {1},
+  number  = {4},
+  month   = sep,
+  issn    = {1943-0620},
+  doi     = {10.1364/JOCN.1.000C17},
+}
+
+@InProceedings{5185100,
+  author    = {C. {Lange} and D. {Breuer} and R. {Huelsermann}},
+  title     = {{Cost effectiveness of site reduction in optical access network: A CapEx based comparison of different technologies}},
+  booktitle = {{2009 11th International Conference on Transparent Optical Networks}},
+  year      = {2009},
+  pages     = {{1--4}},
+  month     = jun,
+  doi       = {10.1109/ICTON.2009.5185100},
+  issn      = {2162-7339},
+  keywords  = {{cost reduction;optical fibre networks;telecommunication network topology;site reduction;optical access network;CapEx based comparison;fibre deployment;bit rates;copper cables;network terminal;line port;access node;optical fibres;network operator;service areas;simplified network structure;network node consolidation;optical reach;installation costs;feeder fibres;central network node;multiplexing factor;passive optical network;techno-economic analysis;capital expenditures;Costs;Optical fiber networks;Passive optical networks;Optical attenuators;Optical fiber devices;Bit rate;Copper;Optical fibers;Optical fiber subscriber loops;Central office;optical access networks;passive optical networks (PON);techno-economic analysis;capital expenditures (CapEx)}},
+}
+
+@InProceedings{5062011,
+  author    = {{X. Zhou and H. Zheng}},
+  title     = {{TRUST: A General Framework for Truthful Double Spectrum Auctions}},
+  booktitle = {{IEEE INFOCOM 2009}},
+  year      = {2009},
+  pages     = {{999--1007}},
+  month     = apr,
+  doi       = {10.1109/INFCOM.2009.5062011},
+  issn      = {0743-166X},
+}
+
+@Article{4838943,
+  author  = {{K. Kanonakis and I. Tomkos}},
+  title   = {{Offset-Based Scheduling With Flexible Intervals for Evolving GPON Networks}},
+  journal = {{Journal of Lightwave Technology}},
+  year    = {2009},
+  volume  = {{27}},
+  number  = {{15}},
+  pages   = {{3259--3268}},
+  month   = aug,
+  issn    = {0733-8724},
+  doi     = {10.1109/JLT.2009.2021412},
+}
+
+@Article{4804388,
+  author   = {B. {Skubic} and J. {Chen} and J. {Ahmed} and L. {Wosinska} and B. {Mukherjee}},
+  title    = {{A comparison of dynamic bandwidth allocation for EPON, GPON, and next-generation TDM PON}},
+  journal  = {{IEEE Communications Magazine}},
+  year     = {2009},
+  volume   = {{47}},
+  number   = {3},
+  pages    = {{S40-S48}},
+  month    = mar,
+  doi      = {10.1109/MCOM.2009.4804388},
+  keywords = {{optical fibre LAN;telecommunication traffic;time division multiplexing;dynamic bandwidth allocation;EPON;GPON;next-generation TDM PON;optical networks;bandwidth utilization;Channel allocation;EPON;Time division multiplexing;Passive optical networks;Bandwidth;Telecommunication traffic;Delay;Jitter;Ethernet networks;Bit rate}},
+}
+
+@Article{4769389,
+  author  = {{H. Song and B. W. Kim and B. Mukherjee}},
+  title   = {Multi-thread polling: a dynamic bandwidth distribution scheme in long-reach {PON}},
+  journal = {{IEEE Journal on Selected Areas in Communications}},
+  year    = {2009},
+  volume  = {{27}},
+  number  = {2},
+  pages   = {{134--142}},
+  month   = feb,
+  issn    = {0733-8716},
+  doi     = {10.1109/JSAC.2009.090205},
+}
+
+@Article{4726971,
+  title   = {{IEEE} Standard for Information technology--Telecommunications and information exchange between systems--Local and metropolitan area networks--Specific requirements Part 3: Carrier Sense Multiple Access with Collision Detection ({CSMA/CD}) Access Method and Physical Layer Specifications},
+  journal = {{IEEE Std 802.3-2008 (Revision of IEEE Std 802.3-2005)}},
+  year    = {2008},
+  pages   = {{1--2977}},
+  month   = dec,
+  doi     = {10.1109/IEEESTD.2008.4726971},
+}
+
+@InProceedings{4598753,
+  author    = {{K. Kanonakis and I. Tomkos}},
+  title     = {{Efficient scheduling disciplines for next generation {QoS}-aware GPON networks}},
+  booktitle = {{2008 10th Anniversary International Conference on Transparent Optical Networks}},
+  year      = {2008},
+  volume    = {4},
+  pages     = {{135--138}},
+  month     = jun,
+  doi       = {10.1109/ICTON.2008.4598753},
+  issn      = {2162-7339},
+}
+
+@Article{4547456,
+  author   = {P. {Tsiaflakis} and M. {Diehl} and M. {Moonen}},
+  title    = {{Distributed Spectrum Management Algorithms for Multiuser DSL Networks}},
+  journal  = {{IEEE Transactions on Signal Processing}},
+  year     = {2008},
+  volume   = {{56}},
+  number   = {{10}},
+  pages    = {{4825--4843}},
+  month    = oct,
+  issn     = {1053-587X},
+  doi      = {10.1109/TSP.2008.927460},
+  keywords = {{digital subscriber lines;spread spectrum communication;telecommunication network management;distributed spectrum management algorithms;multiuser DSL networks;digital subscriber line;cable bundles;crosstalk impact;Karush-Kuhn-Tucker conditions;Radio spectrum management;DSL;Crosstalk;Distributed algorithms;Signal processing;Modems;Frequency;Design optimization;Signal processing algorithms;Degradation;Digital subscriber line (DSL);distributed algorithm;interference channel;Karush–Kuhn–Tucker (KKT);multicarrier;power allocation;spectrum management;Digital subscriber line (DSL);Karush-Kuhn-Tucker (KKT);distributed algorithm;interference channel;multicarrier;power allocation;spectrum management}},
+}
+
+@Article{4481338,
+  author   = {A. {Ghasemi} and E. S. {Sousa}},
+  title    = {{Spectrum sensing in cognitive radio networks: requirements, challenges and design trade-offs}},
+  journal  = {{IEEE Communications Magazine}},
+  year     = {2008},
+  volume   = {{46}},
+  number   = {4},
+  pages    = {{32--39}},
+  month    = apr,
+  issn     = {0163-6804},
+  doi      = {10.1109/MCOM.2008.4481338},
+  keywords = {{cognitive radio;spectrum sensing;cognitive radio networks;opportunistic unlicensed access;design trade-offs;Cognitive radio;TV;Costs;White spaces;Radar detection;Radar measurements;Spaceborne radar;Extraterrestrial measurements;Global Positioning System;Military standards}},
+}
+
+@InProceedings{4350203,
+  author    = {T. {Orphanoudakis} and H. -. {Leligou} and E. {Kosmatos} and G. {Prezerakos}},
+  title     = {{Dynamic Traffic Multiplexing over EPONs Achieving Guaranteed QoS and Optimal Bandwidth Utilization}},
+  booktitle = {{2006 International Conference on Photonics in Switching}},
+  year      = {2006},
+  pages     = {{1--3}},
+  month     = oct,
+  doi       = {10.1109/PS.2006.4350203},
+  keywords  = {{bandwidth allocation;channel allocation;delays;jitter;optical fibre LAN;quality of service;telecommunication traffic;dynamic traffic multiplexing;EPON;QoS;optimal bandwidth utilization;Ethernet PON;upstream channel arbitration;resource utilization;dynamic bandwidth allocation;channel utilization;strict delay;jitter bounds;Bandwidth;Traffic control;Optical network units;Quality of service;Channel allocation;Delay;Ethernet networks;EPON;Passive optical networks;Jitter;EPON;MAC;DBA;QoS}},
+}
+
+@Article{4150568,
+  author  = {{F. Effenberger and D. Cleary and O. Haran and G. Kramer and R. D. Li and M. Oron and T. Pfeiffer}},
+  title   = {{An introduction to {PON} technologies [Topics in Optical Communications]}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2007},
+  volume  = {{45}},
+  number  = {3},
+  pages   = {{S17-S25}},
+  month   = mar,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2007.344582},
+}
+
+@InProceedings{3-stage_downstream,
+  author    = {F. {Slyne} and B. {Cornaglia} and M. {Boselli} and M. {Ruffini}},
+  title     = {{3-stage Hierarchical Quality of Service for Multi-tenant Passive Optical Network}},
+  booktitle = {{2019, 23rd Conference on Optical Network Design and Modeling - (ONDM)}},
+  year      = {2019},
+  month     = may,
+}
+
+@Article{323d2dc8bd804be2ad0887b4f1440384,
+  author    = {{J. Ozimkiewicz and Ruepp, {Sarah Renée} and Lars Dittmann and Henrik Wessing and S. Smolorz}},
+  title     = {{Evaluation of dynamic bandwidth allocation algorithms in GPON networks}},
+  journal   = {{W S E A S Transactions on Circuits and Systems}},
+  year      = {2010},
+  volume    = {9},
+  number    = {2},
+  pages     = {{111--120}},
+  issn      = {1109-2734},
+  publisher = {{World Scientific and Engineering Academy and Society}},
+}
+
+@InProceedings{267870,
+  author    = {{J. Mitola}},
+  title     = {{Software radios-survey, critical evaluation and future directions}},
+  booktitle = {{[Proceedings] NTC-92: National Telesystems Conference}},
+  year      = {1992},
+  pages     = {{1315--1323}},
+  month     = may,
+  doi       = {10.1109/NTC.1992.267870},
+}
+
+@Misc{2017,
+  author  = {{CIR}},
+  title   = {{Optical Networking Opportunities in 5G Wireless Networks: 2017-2026}},
+  year    = {2017},
+  journal = {{CIR}},
+  url     = {https://www.cir-inc.com/reports/optical-networking-opportunities-in-5g-wireless-networks-2017-2026},
+}
+
+@Misc{2014openflow5,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2014},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.5.0}},
+}
+
+@Misc{2014openflow5,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2014},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.5.0}},
+}
+
+@Misc{2013openflow4,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2013},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.4.0}},
+}
+
+@Misc{2013openflow4,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2013},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.4.0}},
+}
+
+@Misc{2012openflow3,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2012},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.3.0}},
+}
+
+@Misc{2012openflow3,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2012},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.3.0}},
+}
+
+@Misc{2011openflow2,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2011},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.2.0}},
+}
+
+@Misc{2011openflow2,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2011},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.2.0}},
+}
+
+@Misc{2011openflow1,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2011},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.1.0}},
+}
+
+@Misc{2011openflow1,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2011},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.1.0}},
+}
+
+@Misc{2009openflow1,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2009},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.0.0}},
+}
+
+@Misc{2009openflow1,
+  title     = {{OpenFlow Switch Specification}},
+  year      = {2009},
+  publisher = {{Open Networking Foundation}},
+  version   = {{1.0.0}},
+}
+
+@Article{2009figures,
+  title     = {{Figures and Estimates for {Japan}'s Broadband Subscription Numbers and Network Traffic}},
+  year      = {2009},
+  volume    = {{19}},
+  booktitle = {{Ministry of Internal Affairs and Communications (MIC)}},
+}
+
+@Misc{2009figures,
+  title     = {{Figures and Estimates for {Japan}'s Broadband Subscription Numbers and Network Traffic}},
+  year      = {2009},
+  booktitle = {{Ministry of Internal Affairs and Communications (MIC)}},
+  volume    = {{19}},
+}
+
+@Article{1706042,
+  author  = {{C. H. Chang and P. Kourtessis and J. M. Senior}},
+  title   = {{GPON service level agreement based dynamic bandwidth assignment protocol}},
+  journal = {{Electronics Letters}},
+  year    = {2006},
+  volume  = {{42}},
+  number  = {{20}},
+  pages   = {{1173--1174}},
+  month   = sep,
+  issn    = {0013-5194},
+  doi     = {10.1049/el:20062326},
+}
+
+@Article{1677253,
+  author  = {{A. Banerjee and G. Kramer and B. Mukherjee}},
+  title   = {{Fair sharing using dual service-level agreements to achieve open access in a passive optical network}},
+  journal = {{IEEE Journal on Selected Areas in Communications}},
+  year    = {2006},
+  volume  = {{24}},
+  number  = {8},
+  pages   = {{32--44}},
+  month   = aug,
+  issn    = {0733-8716},
+  doi     = {10.1109/JSAC.2006.1677253},
+}
+
+@InProceedings{1543745,
+  author    = {M. {Ruffini} and H. -. {Reumerman}},
+  title     = {{Power-rate adaptation in high-mobility distributed ad-hoc wireless networks}},
+  booktitle = {{2005 IEEE 61st Vehicular Technology Conference}},
+  year      = {2005},
+  volume    = {4},
+  pages     = {{2299-2303 Vol. 4}},
+  month     = may,
+  doi       = {10.1109/VETECS.2005.1543745},
+  keywords  = {{ad hoc networks;mobile radio;radiofrequency interference;road vehicles;power-rate adaptation;high-mobility distributed ad-hoc wireless networks;power-modulation;interference;packet length;power-rate control algorithm;pricing function;intervehicle communication;packet delivery ratio;Wireless networks;Interference;Power generation;Ad hoc networks;Algorithm design and analysis;Size control;Pricing;Testing;Robustness;Protocols;power rate adaptation;inter-vehicle communication;ad-hoc networks;high mobility}},
+}
+
+@Article{1337489,
+  title   = {{IEEE} Standard for Information technology-- Local and metropolitan area networks-- Part 3: {CSMA/CD} Access Method and Physical Layer Specifications Amendment: Media Access Control Parameters, Physical Layers, and Management Parameters for Subscriber Access Networks},
+  journal = {{IEEE Std 802.3ah-2004}},
+  year    = {2004},
+  pages   = {{1--640}},
+  month   = sep,
+  doi     = {10.1109/IEEESTD.2004.94617},
+}
+
+@Article{1267106,
+  author  = {{J. D. Angelopoulos and H. C. Leligou and T. Argyriou and S. Zontos and E. Ringoot and T. Van Caenegem}},
+  title   = {{Efficient transport of packets with {QoS} in an FSAN-aligned GPON}},
+  journal = {{IEEE Communications Magazine}},
+  year    = {2004},
+  volume  = {{42}},
+  number  = {2},
+  pages   = {{92--98}},
+  month   = feb,
+  issn    = {0163-6804},
+  doi     = {10.1109/MCOM.2003.1267106},
+}
+
+@InProceedings{100g-epon,
+  author = {{IEEE}},
+  title  = {{P802.3ca 100G-EPON Task Force}},
+  url    = {http://www.ieee802.org/3/ca/},
+}
+
+@InProceedings{10.1007/978-3-662-58820-8_18,
+  author    = {{Galal, Hisham S. and Youssef, Amr M.}},
+  title     = {{Verifiable Sealed-Bid Auction on the Ethereum Blockchain}},
+  booktitle = {{Financial Cryptography and Data Security}},
+  year      = {2019},
+  editor    = {{Zohar, Aviv and Eyal, Ittay and Teague, Vanessa and Clark, Jeremy and Bracciali, Andrea and Pintore, Federico and Sala, Massimiliano}},
+  pages     = {{265--278}},
+  address   = {{Berlin, Heidelberg}},
+  publisher = {{Springer Berlin Heidelberg}},
+  abstract  = {{The success of the Ethereum blockchain as a decentralized application platform with a distributed consensus protocol has made many organizations start to invest into running their business on top of it. Technically, the most impressive feature behind the success of Ethereum is its support for a Turing complete language. On the other hand, the inherent transparency and, consequently, the lack of privacy poses a great challenge for many financial applications. In this paper, we tackle this challenge and present a smart contract for a verifiable sealed-bid auction on the Ethereum blockchain. In a nutshell, initially, the bidders submit homomorphic commitments to their sealed-bids on the contract. Subsequently, they reveal their commitments secretly to the auctioneer via a public key encryption scheme. Then, according to the auction rules, the auctioneer determines and claims the winner of the auction. Finally, we utilize interactive zero-knowledge proof protocols between the smart contract and the auctioneer to verify the correctness of such a claim. The underlying protocol of the proposed smart contract is partially privacy-preserving. To be precise, no information about the losing bids is leaked to the bidders. We provide an analysis of the proposed protocol and the smart contract design, in addition to the estimated gas costs associated with the different transactions.}},
+  isbn      = {978-3-662-58820-8},
+}
+
+@InProceedings{10.1007/978-3-030-16946-6_5,
+  author    = {{Braghin, Chiara and Cimato, Stelvio and Damiani, Ernesto and Baronchelli, Michael}},
+  title     = {{Designing Smart-Contract Based Auctions}},
+  booktitle = {{Security with Intelligent Computing and Big-data Services}},
+  year      = {2020},
+  editor    = {{Yang, Ching-Nung and Peng, Sheng-Lung and Jain, Lakhmi C.}},
+  pages     = {{54--64}},
+  address   = {{Cham}},
+  publisher = {{Springer International Publishing}},
+  abstract  = {{In this paper, we developed an online auction system based on Ethereum smart contracts. A smart contract is executable code that runs on top of the blockchain to facilitate, execute and enforce an agreement between untrusted parties without the involvement of a trusted third party. A decentralised auction guarantees greater transparency and avoids cheating auctioneers. Since in Ethereum computation is expensive as transactions are executed and verified by all the nodes on Ethereum network, we analysed our implementation in terms of cost and time efficiency, obtaining promising results.}},
+  isbn      = {978-3-030-16946-6},
+}

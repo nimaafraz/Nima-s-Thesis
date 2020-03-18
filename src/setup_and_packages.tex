@@ -9,6 +9,7 @@
 \usepackage{soul,color} %for using hl to highlight thing in the thesis
 % \usepackage{subfig}
 \usepackage{booktabs}
+\usepackage{dirtytalk}
 \usepackage{ragged2e}
 %%% LISTS AND TABLES
 \usepackage{paralist}         % to have more compact lists
@@ -16,7 +17,7 @@
 %\usepackage{array}           % for enhancing tables
 %\usepackage{multirow}        % for centering over rows in tables
 \usepackage{colortbl}         % for colored rows or columns in tables
-\usepackage[table]{xcolor}
+\usepackage[table,dvipsnames]{xcolor}
 
 \definecolor{LightCyan}{rgb}{0.88,1,1}
 \definecolor{Red}{rgb}{1,0,0}
@@ -58,6 +59,8 @@
 %\usepackage{palatino}        % Palatino Font
 \usepackage[T1]{fontenc}      % two use only nice Type 1 fonts (vector fonts)
 % \usepackage[latin1]{inputenc} % use non-ASCII characters in text directly
+% \usepackage{emerald}% for signature font
+
 \usepackage[utf8]{inputenc}
 \usepackage{color}			  % for coloured text
 \usepackage{eurosym}					% For euro symbols
@@ -70,6 +73,11 @@ plainpages=false,
 pdfstartview=FitH,
 hyperfootnotes=false,
 hidelinks]{hyperref}         % best with pdf output (links, bookmarks)
+\hypersetup{
+    colorlinks=true,
+    linkcolor=NavyBlue,
+    citecolor=Maroon,
+}
 % \usepackage{breakurl}         % for nice URLs with hyperref
 \usepackage{url}             % for nice URLs without hyperref
 
@@ -96,7 +104,7 @@ hidelinks]{hyperref}         % best with pdf output (links, bookmarks)
 \usepackage[titletoc,page,header]{appendix}   % for a nicer appendix
 \usepackage{makeidx}         									% for creating indexes
 \usepackage{fancyhdr}            							% for nice headers and footers
-\usepackage[sf,bf]{titlesec}         % formating headings
+\usepackage[rm,bf]{titlesec}         % formating headings
 %\usepackage{titletoc}             % formating table of contents
 \usepackage{tocloft}      %% Control the formatting for TOC
 
@@ -162,9 +170,9 @@ includeheadfoot]{geometry}
 \definecolor{darkgreen}{rgb}{0,0.5,0}
 \definecolor{darkred}{rgb}{0.5,0,0}
 \hypersetup{
-   pdftitle={Nima-Afraz-PhD-Thesis},
+   pdftitle={Nima-Afraz-PhD-Dissertation},
    pdfauthor={Nima~Afraz, Supervisor: Prof. Marco Ruffini},
-   pdfsubject={PhD Thesis},
+   pdfsubject={Ph.D. Dissertation},
    pdfkeywords={},
    pdfview=FitH,
    pdfstartview=FitH,
@@ -330,7 +338,7 @@ includeheadfoot]{geometry}
 \fancyhead[LO]{\textsf{\nouppercase{\rightmark}}}%
 \fancyhead[LE,RO]{\thepage}%
 \fancyfoot[RE,LO]{\scriptsize Nima Afraz}%
-\fancyfoot[LE,RO]{\scriptsize PhD Thesis}
+\fancyfoot[LE,RO]{\scriptsize Ph.D. Dissertation}
 \renewcommand{\headrulewidth}{0.4pt} %
 \renewcommand{\footrulewidth}{0.4pt} %
 }
@@ -339,7 +347,7 @@ includeheadfoot]{geometry}
 \fancyhead[LO,RE]{\textsf{\uppercase{BIBLIOGRAPHY}}}%
 \fancyhead[LE,RO]{\thepage}%
 \fancyfoot[RE,LO]{\scriptsize Nima Afraz}%
-\fancyfoot[LE,RO]{\scriptsize PhD Thesis}
+\fancyfoot[LE,RO]{\scriptsize Ph.D. Dissertation}
 \renewcommand{\headrulewidth}{0.4pt} %
 \renewcommand{\footrulewidth}{0.4pt} %
 }
@@ -349,10 +357,29 @@ includeheadfoot]{geometry}
 \renewcommand{\footrulewidth}{0pt} %
 }
 
+
+
+
+%Nima Black page 
+% \newcommand*{\blankpage}{%
+% \vspace*{\fill}
+% {\centering This page would be intentionally left blank if we would not wish to inform about that.\par}
+% \vspace{\fill}}
+% \makeatletter
+% \renewcommand*{\cleardoublepage}{\clearpage\if@twoside \ifodd\c@page\else
+% \blankpage
+% \thispagestyle{empty}
+% \newpage
+% \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+% \makeatother
+
 % Clear Header Style on the Last Empty Odd pages (for two-sided printing}
 \makeatletter
 \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else%
-   \hbox{}%
+\vspace*{\fill}
+   \begin{center}
+       {\scriptsize This page is intentionally left blank.}%
+   \end{center} 
    \thispagestyle{blank}%              % Empty header styles
    \newpage%
    \pagestyle{mine}
@@ -448,19 +475,21 @@ includeheadfoot]{geometry}
 \hfuzz2pt % Don't report over-full h-boxes if over-edge is small
 
 \titleformat{\chapter}
-{\sffamily\huge\bfseries}{\thechapter}{1em}{}
+{\rmfamily \huge\bfseries}{\thechapter}{1em}{}
 
 %% Aesthetic spacing redefines that look nicer to me than the defaults.
 \setlength{\cftbeforechapskip}{2ex}
 \setlength{\cftbeforesecskip}{0.5ex}
 
 %% Use Helvetica-Narrow Bold for Chapter entries
-\renewcommand{\cftchapfont}{\sffamily\bfseries}
-\renewcommand{\cftsecfont}{\sffamily}
-\renewcommand{\cftsubsecfont}{\sffamily}
-\renewcommand{\cftchappagefont}{\sffamily\bfseries}
-\renewcommand{\cftsecpagefont}{\sffamily}
-\renewcommand{\cftsubsecpagefont}{\sffamily}
+\renewcommand{\cftchapfont}{\rmfamily \bfseries}
+\renewcommand{\cftsecfont}{\rmfamily}
+\renewcommand{\cftsubsecfont}{\rmfamily}
+\renewcommand{\cftsubsubsecfont}{\rmfamily}
+\renewcommand{\cftchappagefont}{\rmfamily \bfseries}
+\renewcommand{\cftsecpagefont}{\rmfamily}
+\renewcommand{\cftsubsecpagefont}{\rmfamily}
+\renewcommand{\cftsubsubsecpagefont}{\rmfamily}
 
 %% Because of the font change, the page number becomes too large for the
 %% horizontal space LaTeX reserves for it by default. Without the following
